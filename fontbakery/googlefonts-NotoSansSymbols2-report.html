@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✔️ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>8</td>
+                <td>6</td>
+                <td>116</td>
+                <td>8</td>
+                <td>97</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>4%</td>
+                <td>3%</td>
+                <td>65%</td>
+                <td>4%</td>
+                <td>54%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
+<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥🔥🔥🔥🔥🔥⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Does font file include unacceptable control character glyphs?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/control_chars&gt;</div>
+
+<details><summary>🔥 <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following unacceptable control characters were identified:
+fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf: uni0001, uni0002, uni0003, uni0004, uni0005, uni0006, uni0007, uni0008, uni0009, uni000A, uni000B, uni000C, uni000E, uni000F, uni0010, uni0011, uni0012, uni0013, uni0014, uni0015, uni0016, uni0017, uni0018, uni0019, uni001A, uni001B, uni001C, uni001D, uni001E, uni001F
+[code: unacceptable]</p>
+</span></li></ul></div></details>
+<h3>Check Google Fonts glyph coverage.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<h3>Check copyright namerecords match license file.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/license&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<h3>Copyright notices match canonical pattern in fonts</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/font_copyright&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2017 Google Inc. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<h3>Version number has increased since previous release on Google Fonts?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/version_bump&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Version number 2.0030059814453125 is equal to version on Google Fonts.</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Version number 2.0030059814453125 is equal to version on Google Fonts GitHub repo.</p>
+</span></li></ul></div></details>
+<h3>Check name table: FONT_FAMILY_NAME entries.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/familyname&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the &quot;name&quot; table: Expected &quot;Noto Sans Symbols 2&quot; but got &quot;Noto Sans Symbols2&quot;. [code: mismatch]</p>
+</span></li></ul></div></details>
+<h3>Check name table: FULL_FONT_NAME entries.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/fullfontname&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>[FULL_FONT_NAME(4):WINDOWS(3)]
+Expected: &quot;Noto Sans Symbols 2 Regular&quot;
+But got:  &quot;Noto Sans Symbols2 Regular&quot; [code: bad-entry]</p>
+</span></li></ul></div></details>
+<h3>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/os2/use_typo_metrics&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; ⚠️⏩⏩⏩⏩ℹ️ℹ️</h2>
+<h3>Check if each glyph has the recommended amount of contours.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/contour_count&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni2611	Contours detected: 3	Expected: 2
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: uni2611	Contours detected: 3	Expected: 2 
+
+- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.gdef&gt; ⚠️⚠️</h2>
+<h3>Check glyphs in mark glyph class are non-spacing.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_spacing_marks&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+commaaccent2 (unencoded), sp_gobliquestrphaistosDisc (unencoded), space_20E3 (unencoded), space_u102E0 (unencoded) and uni20E3 (U+20E3) [code: spacing-mark-glyphs]</p>
+</span></li></ul></div></details>
+<h3>Check mark characters are in GDEF mark glyph class.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_mark_chars&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+uni20E2 (U+20E2) [code: mark-chars]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️</h2>
+<h3>Do outlines contain any jaggy segments?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* u101D1 (U+101D1): L&lt;&lt;158.0,655.0&gt;--&lt;202.0,553.0&gt;&gt;/L&lt;&lt;202.0,553.0&gt;--&lt;167.0,658.0&gt;&gt; = 4.8990924537876985
+
+* u101D1 (U+101D1): L&lt;&lt;196.0,669.0&gt;--&lt;231.0,563.0&gt;&gt;/L&lt;&lt;231.0,563.0&gt;--&lt;221.0,676.0&gt;&gt; = 13.21538973442621
+
+* u101D1 (U+101D1): L&lt;&lt;290.0,688.0&gt;--&lt;289.0,558.0&gt;&gt;/L&lt;&lt;289.0,558.0&gt;--&lt;300.0,680.0&gt;&gt; = 4.71135362944517
+
+* u101D1 (U+101D1): L&lt;&lt;408.0,660.0&gt;--&lt;382.0,547.0&gt;&gt;/L&lt;&lt;382.0,547.0&gt;--&lt;424.0,635.0&gt;&gt; = 12.55629033344111
+
+* u101D1 (U+101D1): L&lt;&lt;451.0,623.0&gt;--&lt;410.0,538.0&gt;&gt;/L&lt;&lt;410.0,538.0&gt;--&lt;466.0,619.0&gt;&gt; = 8.907880578202827
+
+* u101D1 (U+101D1): L&lt;&lt;490.0,602.0&gt;--&lt;441.0,532.0&gt;&gt;/L&lt;&lt;441.0,532.0&gt;--&lt;501.0,590.0&gt;&gt; = 10.979001732520492
+
+* u101D3 (U+101D3): B&lt;&lt;230.0,133.5&gt;-&lt;227.0,152.0&gt;-&lt;225.0,180.0&gt;&gt;/B&lt;&lt;225.0,180.0&gt;-&lt;225.0,153.0&gt;-&lt;211.0,120.0&gt;&gt; = 4.085616779974798
+
+* u101D4 (U+101D4): B&lt;&lt;127.0,331.0&gt;-&lt;127.0,364.0&gt;-&lt;133.0,388.0&gt;&gt;/B&lt;&lt;133.0,388.0&gt;-&lt;125.0,373.0&gt;-&lt;120.0,326.0&gt;&gt; = 14.036243467926484
+
+* u101D5 (U+101D5): B&lt;&lt;262.0,599.0&gt;-&lt;295.0,599.0&gt;-&lt;341.0,560.0&gt;&gt;/B&lt;&lt;341.0,560.0&gt;-&lt;317.0,588.0&gt;-&lt;287.0,604.5&gt;&gt; = 9.106557599367749
+
+* u101D9 (U+101D9): B&lt;&lt;140.0,253.0&gt;-&lt;140.0,110.0&gt;-&lt;146.0,-22.0&gt;&gt;/B&lt;&lt;146.0,-22.0&gt;-&lt;154.0,23.0&gt;-&lt;158.5,91.5&gt;&gt; = 12.683160190042093 
+
+* And 212 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]</p>
+</span></li></ul></div></details>
+<h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* exclam (U+0021): L&lt;&lt;100.0,174.0&gt;--&lt;98.0,714.0&gt;&gt;
+
+* exclam (U+0021): L&lt;&lt;127.0,714.0&gt;--&lt;125.0,174.0&gt;&gt;
+
+* exclamdown (U+00A1): L&lt;&lt;122.0,354.0&gt;--&lt;124.0,-186.0&gt;&gt;
+
+* exclamdown (U+00A1): L&lt;&lt;96.0,-186.0&gt;--&lt;98.0,354.0&gt;&gt;
+
+* u101D1 (U+101D1): L&lt;&lt;290.0,688.0&gt;--&lt;289.0,558.0&gt;&gt;
+
+* u101DD (U+101DD): L&lt;&lt;50.0,22.0&gt;--&lt;54.0,655.0&gt;&gt;
+
+* u101DD (U+101DD): L&lt;&lt;80.0,285.0&gt;--&lt;78.0,29.0&gt;&gt;
+
+* u101DD (U+101DD): L&lt;&lt;83.0,657.0&gt;--&lt;81.0,394.0&gt;&gt;
+
+* u102F5 (U+102F5): L&lt;&lt;373.0,188.0&gt;--&lt;764.0,190.0&gt;&gt;
+
+* u102F5 (U+102F5): L&lt;&lt;765.0,100.0&gt;--&lt;201.0,97.0&gt;&gt; 
+
+* And 28 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]</p>
+</span></li></ul></div></details>
+                    </body>
+                </html>
