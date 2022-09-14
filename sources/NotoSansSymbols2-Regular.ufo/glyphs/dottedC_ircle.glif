@@ -6,6 +6,7 @@
 uni25CC
 </note>
   <anchor x="447" y="0" name="bottom"/>
+  <anchor x="442" y="725" name="top"/>
   <outline>
     <contour>
       <point x="773" y="454" type="curve" smooth="yes"/>
