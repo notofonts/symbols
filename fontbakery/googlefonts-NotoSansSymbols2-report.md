@@ -2,13 +2,7 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[1] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Does font file include unacceptable control character glyphs? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/family/control_chars">com.google.fonts/check/family/control_chars</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following unacceptable control characters were identified:
- fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf: uni0001, uni0002, uni0003, uni0004, uni0005, uni0006, uni0007, uni0008, uni0009, uni000A, uni000B, uni000C, uni000E, uni000F, uni0010, uni0011, uni0012, uni0013, uni0014, uni0015, uni0016, uni0017, uni0018, uni0019, uni001A, uni001B, uni001C, uni001D, uni001E, uni001F
- [code: unacceptable]
-</div></details><br></div></details><details><summary><b>[7] NotoSansSymbols2-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+<details><summary><b>[7] NotoSansSymbols2-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
@@ -129,8 +123,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 2 | 6 | 111 | 7 | 101 | 0 |
-| 0% | 1% | 3% | 49% | 3% | 44% | 0% |
+| 0 | 1 | 6 | 111 | 7 | 102 | 0 |
+| 0% | 0% | 3% | 49% | 3% | 45% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
