@@ -14,21 +14,40 @@
     <integer>20</integer>
     <key>angle</key>
     <integer>0</integer>
-    <key>com.schriftgestaltung.appVersion</key>
-    <string>1342</string>
-    <key>com.schriftgestaltung.customParameter.GSFont.Disable Subroutines</key>
-    <true/>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
+    <key>com.github.googlei18n.ufo2ft.filters</key>
     <array>
-      <string>/enclosingkeycapcomb</string>
-      <string>/positionIndicator</string>
-      <string>/upArrow.blackCircled</string>
-      <string>/worldMap</string>
-      <string>/enclosingscreencomb</string>
-      <string>/u102E0</string>
+      <dict>
+        <key>name</key>
+        <string>eraseOpenCorners</string>
+        <key>namespace</key>
+        <string>glyphsLib.filters</string>
+        <key>pre</key>
+        <true/>
+      </dict>
     </array>
+    <key>com.schriftgestaltung.appVersion</key>
+    <string>3109</string>
+    <key>com.schriftgestaltung.customParameter.GSFont.Axes</key>
+    <array>
+      <dict>
+        <key>Name</key>
+        <string>Width</string>
+        <key>Tag</key>
+        <string>wdth</string>
+      </dict>
+    </array>
+    <key>com.schriftgestaltung.customParameter.GSFont.Axis Mappings</key>
+    <dict>
+      <key>wdth</key>
+      <dict>
+        <key>100</key>
+        <integer>5</integer>
+      </dict>
+    </dict>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
-    <false/>
+    <true/>
+    <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
+    <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
     <integer>1</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
@@ -42,9 +61,9 @@
     <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
     <string></string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
-    <integer>400</integer>
-    <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
     <integer>5</integer>
+    <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
+    <integer>100</integer>
     <key>com.schriftgestaltung.fontMasterID</key>
     <string>6E183CFB-E55F-4C96-8804-AC4D4AF4B24B</string>
     <key>com.schriftgestaltung.fontMasterOrder</key>
@@ -54,11 +73,11 @@
     <key>com.schriftgestaltung.weight</key>
     <string>Regular</string>
     <key>com.schriftgestaltung.weightValue</key>
-    <integer>400</integer>
+    <integer>5</integer>
     <key>com.schriftgestaltung.width</key>
     <string>Regular</string>
     <key>com.schriftgestaltung.widthValue</key>
-    <integer>5</integer>
+    <integer>100</integer>
     <key>height</key>
     <integer>70</integer>
     <key>noodleExtremesAndInflections</key>
@@ -1552,25 +1571,6 @@
       <string>sunWithRays</string>
       <string>positionIndicator</string>
       <string>enclosingkeycapcomb</string>
-      <string>uni0001</string>
-      <string>uni0002</string>
-      <string>uni0003</string>
-      <string>uni0004</string>
-      <string>uni0005</string>
-      <string>uni0006</string>
-      <string>uni0007</string>
-      <string>uni0008</string>
-      <string>uni0009</string>
-      <string>uni0010</string>
-      <string>uni0011</string>
-      <string>uni0012</string>
-      <string>uni0013</string>
-      <string>uni0014</string>
-      <string>uni0015</string>
-      <string>uni0016</string>
-      <string>uni0017</string>
-      <string>uni0018</string>
-      <string>uni0019</string>
       <string>uni0080</string>
       <string>uni0081</string>
       <string>uni0082</string>
@@ -1928,17 +1928,6 @@
       <string>interlinearannotationanchor</string>
       <string>interlinearannotationseparator</string>
       <string>interlinearannotationterminator</string>
-      <string>uni000A</string>
-      <string>uni000B</string>
-      <string>uni000C</string>
-      <string>uni000E</string>
-      <string>uni000F</string>
-      <string>uni001A</string>
-      <string>uni001B</string>
-      <string>uni001C</string>
-      <string>uni001D</string>
-      <string>uni001E</string>
-      <string>uni001F</string>
       <string>uni008A</string>
       <string>uni008B</string>
       <string>uni008C</string>

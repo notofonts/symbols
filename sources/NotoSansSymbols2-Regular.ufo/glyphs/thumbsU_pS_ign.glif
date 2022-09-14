@@ -286,8 +286,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2020/09/08 14:41:22</string>
       <key>de.kutilek.scrawl.data</key>
       <data>
       iVBORw0KGgoAAAANSUhEUgAAAkQAAAJYCAAAAACmn6ZmAAAK3UlEQVR4Ae3UMU5DQRQEQ
@@ -357,6 +355,8 @@
       <integer>2</integer>
       <key>de.kutilek.scrawl.unit</key>
       <integer>2</integer>
+      <key>public.verticalOrigin</key>
+      <integer>1069</integer>
     </dict>
   </lib>
 </glyph>

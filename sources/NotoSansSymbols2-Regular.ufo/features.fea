@@ -44,5 +44,4 @@ lookup ccmp2 {
 	sub dottedCircle enclosingscreencomb by dottedCircle_enclosingscreencomb;
 	sub enclosingscreencomb dottedCircle by dottedCircle_enclosingscreencomb;
 } ccmp2;
-
 } ccmp;

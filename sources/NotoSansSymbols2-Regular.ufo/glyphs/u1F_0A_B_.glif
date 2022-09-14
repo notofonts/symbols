@@ -1603,8 +1603,8 @@ uni1F0AB
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2020/09/08 14:39:43</string>
+      <key>public.verticalOrigin</key>
+      <integer>1069</integer>
     </dict>
   </lib>
 </glyph>

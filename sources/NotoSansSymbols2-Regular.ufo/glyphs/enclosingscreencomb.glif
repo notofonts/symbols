@@ -58,8 +58,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2020/10/31 21:23:52</string>
+      <key>public.verticalOrigin</key>
+      <integer>1069</integer>
     </dict>
   </lib>
 </glyph>

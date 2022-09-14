@@ -164,8 +164,8 @@ cid02549
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2020/10/31 06:47:21</string>
+      <key>public.verticalOrigin</key>
+      <integer>1069</integer>
     </dict>
   </lib>
 </glyph>

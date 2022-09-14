@@ -15,12 +15,12 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2020/10/31 21:24:50</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
       <integer>559</integer>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
+      <key>public.verticalOrigin</key>
+      <integer>1069</integer>
     </dict>
   </lib>
 </glyph>

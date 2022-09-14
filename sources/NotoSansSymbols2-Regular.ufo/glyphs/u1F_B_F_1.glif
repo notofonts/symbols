@@ -26,8 +26,8 @@
       <string>=140</string>
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>=900</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2020/09/08 14:39:44</string>
+      <key>public.verticalOrigin</key>
+      <integer>1069</integer>
     </dict>
   </lib>
 </glyph>
