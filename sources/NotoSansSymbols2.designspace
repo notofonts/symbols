@@ -6,7 +6,7 @@
     </axis>
   </axes>
   <sources>
-    <source filename="NotoSansSymbols2-Regular.ufo" name="Noto Sans Symbols2 Regular" familyname="Noto Sans Symbols2" stylename="Regular">
+    <source filename="NotoSansSymbols2-Regular.ufo" name="Noto Sans Symbols 2 Regular" familyname="Noto Sans Symbols 2" stylename="Regular">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -17,7 +17,7 @@
     </source>
   </sources>
   <instances>
-    <instance name="Noto Sans Symbols2 Regular" familyname="Noto Sans Symbols2" stylename="Regular" filename="instance_ufos/NotoSansSymbols2-Regular.ufo">
+    <instance name="Noto Sans Symbols 2 Regular" familyname="Noto Sans Symbols 2" stylename="Regular" filename="instance_ufos/NotoSansSymbols2-Regular.ufo">
       <location>
         <dimension name="Width" xvalue="5"/>
       </location>
