@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1D2C1" format="2">
+	<advance width="594"/>
+	<outline>
+		<contour>
+			<point x="423" y="-240" type="line"/>
+			<point x="519" y="-240" type="line"/>
+			<point x="201" y="536" type="line"/>
+			<point x="105" y="536" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2023-01-05 15:37:16 +0000</string>
+		</dict>
+	</lib>
+</glyph>

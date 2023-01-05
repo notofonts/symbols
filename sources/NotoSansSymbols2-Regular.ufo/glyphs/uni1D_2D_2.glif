@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1D2D2" format="2">
+	<advance width="842"/>
+	<outline>
+		<contour>
+			<point x="219" y="778" type="line"/>
+			<point x="218" y="755" type="line"/>
+			<point x="733" y="867" type="line"/>
+			<point x="733" y="962" type="line"/>
+			<point x="105" y="808" type="line"/>
+			<point x="105" y="720" type="line"/>
+			<point x="623" y="601" type="line"/>
+			<point x="624" y="623" type="line"/>
+			<point x="105" y="507" type="line"/>
+			<point x="105" y="428" type="line"/>
+			<point x="141" y="426" type="line"/>
+			<point x="733" y="566" type="line"/>
+			<point x="733" y="654" type="line"/>
+		</contour>
+		<contour>
+			<point x="311" y="-240" type="line"/>
+			<point x="399" y="-240" type="line"/>
+			<point x="553" y="300" type="line"/>
+			<point x="519" y="302" type="line"/>
+			<point x="670" y="-240" type="line"/>
+			<point x="767" y="-240" type="line"/>
+			<point x="579" y="406" type="line"/>
+			<point x="491" y="406" type="line"/>
+			<point x="338" y="-126" type="line"/>
+			<point x="372" y="-136" type="line"/>
+			<point x="177" y="508" type="line"/>
+			<point x="105" y="429" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2023-01-05 15:37:16 +0000</string>
+		</dict>
+	</lib>
+</glyph>
