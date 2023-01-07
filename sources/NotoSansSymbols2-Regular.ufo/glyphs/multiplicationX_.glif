@@ -1,30 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="multiplicationX" format="2">
-  <advance width="864"/>
-  <unicode hex="2715"/>
-  <note>
+	<unicode hex="2715"/>
+	<advance width="864"/>
+	<outline>
+		<contour>
+			<point x="105" y="-76" type="line"/>
+			<point x="433" y="252" type="line"/>
+			<point x="759" y="-76" type="line"/>
+			<point x="813" y="-22" type="line"/>
+			<point x="485" y="308" type="line"/>
+			<point x="813" y="638" type="line"/>
+			<point x="759" y="692" type="line"/>
+			<point x="433" y="362" type="line"/>
+			<point x="105" y="692" type="line"/>
+			<point x="51" y="638" type="line"/>
+			<point x="379" y="308" type="line"/>
+			<point x="51" y="-22" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1069</integer>
+		</dict>
+	</lib>
+	<note>
 uni2715
 </note>
-  <outline>
-    <contour>
-      <point x="105" y="-76" type="line"/>
-      <point x="433" y="252" type="line"/>
-      <point x="759" y="-76" type="line"/>
-      <point x="813" y="-22" type="line"/>
-      <point x="485" y="308" type="line"/>
-      <point x="813" y="638" type="line"/>
-      <point x="759" y="692" type="line"/>
-      <point x="433" y="362" type="line"/>
-      <point x="105" y="692" type="line"/>
-      <point x="51" y="638" type="line"/>
-      <point x="379" y="308" type="line"/>
-      <point x="51" y="-22" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1069</integer>
-    </dict>
-  </lib>
 </glyph>

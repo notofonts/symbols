@@ -1,21 +1,21 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="upperRightBlackTriangle" format="2">
-  <advance width="700"/>
-  <unicode hex="25E5"/>
-  <note>
+	<unicode hex="25E5"/>
+	<advance width="700"/>
+	<outline>
+		<contour>
+			<point x="649" y="117" type="line"/>
+			<point x="649" y="715" type="line"/>
+			<point x="51" y="715" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1069</integer>
+		</dict>
+	</lib>
+	<note>
 uni25E5
 </note>
-  <outline>
-    <contour>
-      <point x="649" y="117" type="line"/>
-      <point x="649" y="715" type="line"/>
-      <point x="51" y="715" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1069</integer>
-    </dict>
-  </lib>
 </glyph>

@@ -1,23 +1,23 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1D2E5" format="2">
-  <advance width="958"/>
-  <unicode hex="1D2E5"/>
-  <outline>
-    <contour>
-      <point x="45" y="103" type="line"/>
-      <point x="45" y="0" type="line"/>
-      <point x="913" y="0" type="line"/>
-      <point x="913" y="103" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Other</string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Other</string>
-      <key>public.verticalOrigin</key>
-      <integer>1069</integer>
-    </dict>
-  </lib>
+	<unicode hex="1D2E5"/>
+	<advance width="958"/>
+	<outline>
+		<contour>
+			<point x="45" y="103" type="line"/>
+			<point x="45" y="0" type="line"/>
+			<point x="913" y="0" type="line"/>
+			<point x="913" y="103" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Other</string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Other</string>
+			<key>public.verticalOrigin</key>
+			<integer>1069</integer>
+		</dict>
+	</lib>
 </glyph>

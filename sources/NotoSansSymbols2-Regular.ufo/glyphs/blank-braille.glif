@@ -1,16 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="blank-braille" format="2">
-  <advance width="700"/>
-  <unicode hex="2800"/>
-  <note>
+	<unicode hex="2800"/>
+	<advance width="700"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1069</integer>
+		</dict>
+	</lib>
+	<note>
 uni2800
 </note>
-  <outline>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1069</integer>
-    </dict>
-  </lib>
 </glyph>

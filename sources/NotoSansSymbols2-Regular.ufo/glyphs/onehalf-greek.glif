@@ -1,24 +1,24 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="onehalf-greek" format="2">
-  <advance width="583"/>
-  <unicode hex="10175"/>
-  <note>
+	<unicode hex="10175"/>
+	<advance width="583"/>
+	<outline>
+		<contour>
+			<point x="0" y="0" type="line"/>
+			<point x="559" y="0" type="line"/>
+			<point x="559" y="79" type="line"/>
+			<point x="164" y="79" type="line"/>
+			<point x="472" y="451" type="line"/>
+			<point x="373" y="451" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1069</integer>
+		</dict>
+	</lib>
+	<note>
 u10175
 </note>
-  <outline>
-    <contour>
-      <point x="0" y="0" type="line"/>
-      <point x="559" y="0" type="line"/>
-      <point x="559" y="79" type="line"/>
-      <point x="164" y="79" type="line"/>
-      <point x="472" y="451" type="line"/>
-      <point x="373" y="451" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1069</integer>
-    </dict>
-  </lib>
 </glyph>

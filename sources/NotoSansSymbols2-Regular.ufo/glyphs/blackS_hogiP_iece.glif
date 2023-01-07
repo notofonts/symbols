@@ -1,23 +1,23 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="blackShogiPiece" format="2">
-  <advance width="628"/>
-  <unicode hex="2617"/>
-  <note>
+	<unicode hex="2617"/>
+	<advance width="628"/>
+	<outline>
+		<contour>
+			<point x="51" y="0" type="line"/>
+			<point x="577" y="0" type="line"/>
+			<point x="532" y="409" type="line"/>
+			<point x="314" y="533" type="line"/>
+			<point x="96" y="409" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1069</integer>
+		</dict>
+	</lib>
+	<note>
 uni2617
 </note>
-  <outline>
-    <contour>
-      <point x="51" y="0" type="line"/>
-      <point x="577" y="0" type="line"/>
-      <point x="532" y="409" type="line"/>
-      <point x="314" y="533" type="line"/>
-      <point x="96" y="409" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1069</integer>
-    </dict>
-  </lib>
 </glyph>
