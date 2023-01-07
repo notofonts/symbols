@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="faxIcon" format="2">
-	<advance width="944"/>
 	<unicode hex="1F5B7"/>
+	<advance width="944"/>
 	<outline>
 		<contour>
 			<point x="373" y="-78" type="curve" smooth="yes"/>

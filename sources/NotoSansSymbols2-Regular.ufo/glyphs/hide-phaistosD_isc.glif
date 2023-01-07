@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hide-phaistosDisc" format="2">
-	<advance width="601"/>
 	<unicode hex="101EA"/>
-	<anchor x="471" y="30" name="bottom"/>
-	<note>
-		uni101EA
-	</note>
+	<advance width="601"/>
 	<outline>
 		<contour>
 			<point x="434" y="-2" type="curve" smooth="yes"/>
@@ -167,6 +163,7 @@
 			<point x="451" y="31"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="471" y="30"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -177,4 +174,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101EA
+	</note>
 </glyph>

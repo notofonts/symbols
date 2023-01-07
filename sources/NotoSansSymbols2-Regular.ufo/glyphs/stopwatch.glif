@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="stopwatch" format="2">
-	<advance width="1015"/>
 	<unicode hex="23F1"/>
-	<note>
-		uni23F1
-	</note>
+	<advance width="1015"/>
 	<outline>
 		<contour>
 			<point x="508" y="-110" type="curve" smooth="yes"/>
@@ -227,4 +224,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni23F1
+	</note>
 </glyph>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="upBetweenTwoHorizontalBarsArrowHead" format="2">
-	<advance width="888"/>
 	<unicode hex="2324"/>
-	<note>
-		uni2324
-	</note>
+	<advance width="888"/>
 	<outline>
 		<contour>
 			<point x="224" y="140" type="line"/>
@@ -34,4 +31,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2324
+	</note>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="northEastLeaf" format="2">
-	<advance width="940"/>
 	<unicode hex="1F652"/>
+	<advance width="940"/>
 	<outline>
 		<contour>
 			<point x="310" y="-43" type="curve" smooth="yes"/>

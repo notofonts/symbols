@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u102EE" format="2">
-	<advance width="855"/>
 	<unicode hex="102EE"/>
-	<anchor x="428" y="0" name="bottom"/>
+	<advance width="855"/>
 	<outline>
 		<contour>
 			<point x="45" y="31" type="line"/>
@@ -34,6 +33,7 @@
 			<point x="16" y="87" type="curve"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="428" y="0"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>

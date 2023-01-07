@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="groupSeparatorControl" format="2">
-	<advance width="600"/>
 	<unicode hex="241D"/>
-	<note>
-		uni241D
-	</note>
+	<advance width="600"/>
 	<outline>
 		<contour>
 			<point x="219" y="346" type="curve" smooth="yes"/>
@@ -85,4 +82,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni241D
+	</note>
 </glyph>

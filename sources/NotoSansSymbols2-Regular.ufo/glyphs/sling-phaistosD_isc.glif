@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sling-phaistosDisc" format="2">
-	<advance width="467"/>
 	<unicode hex="101E5"/>
-	<anchor x="374" y="-20" name="bottom"/>
-	<note>
-		uni101E5
-	</note>
+	<advance width="467"/>
 	<outline>
 		<contour>
 			<point x="352" y="0" type="curve" smooth="yes"/>
@@ -145,6 +141,7 @@
 			<point x="378" y="28" type="line"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="374" y="-20"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -155,4 +152,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101E5
+	</note>
 </glyph>

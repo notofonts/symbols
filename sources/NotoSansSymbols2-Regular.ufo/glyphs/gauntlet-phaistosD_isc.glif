@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gauntlet-phaistosDisc" format="2">
-	<advance width="558"/>
 	<unicode hex="101D7"/>
-	<anchor x="359" y="20" name="bottom"/>
-	<note>
-		uni101D7
-	</note>
+	<advance width="558"/>
 	<outline>
 		<contour>
 			<point x="176" y="-2" type="curve"/>
@@ -172,6 +168,7 @@
 			<point x="390" y="237"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="359" y="20"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -182,4 +179,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101D7
+	</note>
 </glyph>

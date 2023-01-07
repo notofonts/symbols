@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oncomingAutomobile" format="2">
-	<advance width="889"/>
 	<unicode hex="1F698"/>
+	<advance width="889"/>
 	<outline>
 		<contour>
 			<point x="194" y="-14" type="curve" smooth="yes"/>

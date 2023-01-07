@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="blackTinySquare" format="2">
-	<advance width="234"/>
 	<unicode hex="1F78C"/>
+	<advance width="234"/>
 	<outline>
 		<contour>
 			<point x="51" y="296" type="line"/>

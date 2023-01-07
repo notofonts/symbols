@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="southEastTriangleArrowToBar" format="2">
-	<advance width="622"/>
 	<unicode hex="2B78"/>
+	<advance width="622"/>
 	<outline>
 		<contour>
 			<point x="549" y="85" type="line"/>

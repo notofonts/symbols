@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="whiteBullet" format="2">
-	<advance width="344"/>
 	<unicode hex="25E6"/>
-	<note>
-		openbullet
-	</note>
+	<advance width="344"/>
 	<outline>
 		<contour>
 			<point x="172" y="241" type="curve" smooth="yes"/>
@@ -41,4 +38,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		openbullet
+	</note>
 </glyph>

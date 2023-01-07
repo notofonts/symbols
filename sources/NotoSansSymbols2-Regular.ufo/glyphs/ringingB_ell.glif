@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ringingBell" format="2">
-	<advance width="895"/>
 	<unicode hex="1F56D"/>
+	<advance width="895"/>
 	<outline>
 		<contour>
 			<point x="407" y="-53" type="curve" smooth="yes"/>

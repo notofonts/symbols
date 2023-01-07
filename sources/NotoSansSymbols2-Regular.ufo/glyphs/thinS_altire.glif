@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="thinSaltire" format="2">
-	<advance width="672"/>
 	<unicode hex="1F7A8"/>
+	<advance width="672"/>
 	<outline>
 		<contour>
 			<point x="90" y="74" type="line"/>

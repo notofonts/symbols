@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dottedCircle_enclosingscreencomb" format="2">
 	<advance width="1842"/>
-	<anchor x="921" y="0" name="bottom"/>
 	<outline>
 		<contour>
 			<point x="1247" y="454" type="curve" smooth="yes"/>
@@ -280,6 +279,7 @@
 			<point x="1185" y="-90"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="921" y="0"/>
 	<lib>
 		<dict>
 			<key>public.verticalOrigin</key>

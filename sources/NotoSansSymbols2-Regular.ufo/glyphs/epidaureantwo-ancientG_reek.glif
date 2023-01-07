@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="epidaureantwo-ancientGreek" format="2">
-	<advance width="236"/>
 	<unicode hex="1015B"/>
-	<note>
-		u1015B
-	</note>
+	<advance width="236"/>
 	<outline>
 		<contour>
 			<point x="118" y="598" type="curve" smooth="yes"/>
@@ -41,4 +38,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		u1015B
+	</note>
 </glyph>

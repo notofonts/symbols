@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="books" format="2">
-	<advance width="1051"/>
 	<unicode hex="1F4DA"/>
+	<advance width="1051"/>
 	<outline>
 		<contour>
 			<point x="480" y="-111" type="curve" smooth="yes"/>

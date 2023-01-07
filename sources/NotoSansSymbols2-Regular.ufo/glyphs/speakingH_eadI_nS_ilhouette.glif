@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="speakingHeadInSilhouette" format="2">
-	<advance width="1077"/>
 	<unicode hex="1F5E3"/>
+	<advance width="1077"/>
 	<outline>
 		<contour>
 			<point x="552" y="-28" type="curve" smooth="yes"/>

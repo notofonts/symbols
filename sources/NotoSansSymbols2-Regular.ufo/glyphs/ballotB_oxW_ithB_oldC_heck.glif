@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ballotBoxWithBoldCheck" format="2">
-	<advance width="892"/>
 	<unicode hex="1F5F9"/>
+	<advance width="892"/>
 	<outline>
 		<contour>
 			<point x="51" y="0" type="line"/>

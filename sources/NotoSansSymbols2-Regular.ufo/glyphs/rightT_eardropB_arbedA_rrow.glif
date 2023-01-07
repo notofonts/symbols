@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rightTeardropBarbedArrow" format="2">
-	<advance width="908"/>
 	<unicode hex="27BA"/>
-	<note>
-		uni27BA
-	</note>
+	<advance width="908"/>
 	<outline>
 		<contour>
 			<point x="590" y="61" type="curve" smooth="yes"/>
@@ -75,4 +72,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni27BA
+	</note>
 </glyph>

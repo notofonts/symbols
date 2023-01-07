@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ocrAmountOfCheck" format="2">
-	<advance width="500"/>
 	<unicode hex="2447"/>
-	<note>
-		uni2447
-	</note>
+	<advance width="500"/>
 	<outline>
 		<contour>
 			<point x="401" y="396" type="curve" smooth="yes"/>
@@ -61,4 +58,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2447
+	</note>
 </glyph>

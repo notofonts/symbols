@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="moneyBag" format="2">
-	<advance width="957"/>
 	<unicode hex="1F4B0"/>
+	<advance width="957"/>
 	<outline>
 		<contour>
 			<point x="505" y="-99" type="curve" smooth="yes"/>

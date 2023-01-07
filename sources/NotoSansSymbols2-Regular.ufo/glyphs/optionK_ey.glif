@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="optionKey" format="2">
-	<advance width="888"/>
 	<unicode hex="2325"/>
-	<note>
-		uni2325
-	</note>
+	<advance width="888"/>
 	<outline>
 		<contour>
 			<point x="590" y="129" type="line"/>
@@ -29,4 +26,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2325
+	</note>
 </glyph>

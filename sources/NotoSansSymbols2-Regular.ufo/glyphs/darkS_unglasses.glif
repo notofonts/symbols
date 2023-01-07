@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="darkSunglasses" format="2">
-	<advance width="1066"/>
 	<unicode hex="1F576"/>
+	<advance width="1066"/>
 	<outline>
 		<contour>
 			<point x="265" y="164" type="curve" smooth="yes"/>

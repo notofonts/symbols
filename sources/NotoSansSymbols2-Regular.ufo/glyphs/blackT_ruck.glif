@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="blackTruck" format="2">
-	<advance width="1381"/>
 	<unicode hex="26DF"/>
+	<advance width="1381"/>
 	<outline>
 		<contour>
 			<point x="402" y="-1" type="curve" smooth="yes"/>

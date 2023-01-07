@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="diamondTarget" format="2">
-	<advance width="1109"/>
 	<unicode hex="1F79C"/>
+	<advance width="1109"/>
 	<outline>
 		<contour>
 			<point x="555" y="-141" type="line"/>

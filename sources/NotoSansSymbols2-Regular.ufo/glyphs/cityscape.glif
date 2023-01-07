@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cityscape" format="2">
-	<advance width="1140"/>
 	<unicode hex="1F3D9"/>
+	<advance width="1140"/>
 	<outline>
 		<contour>
 			<point x="398" y="-61" type="line"/>

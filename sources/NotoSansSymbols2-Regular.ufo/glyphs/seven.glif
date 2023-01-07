@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seven" format="2">
-	<advance width="1102"/>
 	<unicode hex="0037"/>
-	<anchor x="551" y="715" name="top"/>
+	<advance width="1102"/>
 	<outline>
 		<contour>
 			<point x="424" y="82" type="line"/>
@@ -14,6 +13,7 @@
 			<point x="630" y="536" type="line"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="551" y="715"/>
 	<lib>
 		<dict>
 			<key>public.verticalOrigin</key>

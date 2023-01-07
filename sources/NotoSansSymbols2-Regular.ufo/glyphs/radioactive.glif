@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="radioactive" format="2">
-	<advance width="860"/>
 	<unicode hex="2622"/>
-	<note>
-		uni2622
-	</note>
+	<advance width="860"/>
 	<outline>
 		<contour>
 			<point x="430" y="1" type="curve" smooth="yes"/>
@@ -91,4 +88,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2622
+	</note>
 </glyph>

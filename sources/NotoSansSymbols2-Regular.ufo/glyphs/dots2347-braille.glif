@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dots2347-braille" format="2">
-	<advance width="700"/>
 	<unicode hex="284E"/>
-	<note>
-		uni284E
-	</note>
+	<advance width="700"/>
 	<outline>
 		<contour>
 			<point x="484" y="559" type="curve" smooth="yes"/>
@@ -69,4 +66,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni284E
+	</note>
 </glyph>

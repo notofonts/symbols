@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="spiralNotePad" format="2">
-	<advance width="825"/>
 	<unicode hex="1F5D2"/>
+	<advance width="825"/>
 	<outline>
 		<contour>
 			<point x="125" y="-83" type="curve" smooth="yes"/>

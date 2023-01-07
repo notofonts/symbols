@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="threePointedBlackStar" format="2">
-	<advance width="755"/>
 	<unicode hex="1F7C2"/>
+	<advance width="755"/>
 	<outline>
 		<contour>
 			<point x="704" y="163" type="line"/>

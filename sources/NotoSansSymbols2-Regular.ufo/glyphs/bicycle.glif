@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bicycle" format="2">
-	<advance width="1157"/>
 	<unicode hex="1F6B2"/>
+	<advance width="1157"/>
 	<outline>
 		<contour>
 			<point x="264" y="51" type="curve" smooth="yes"/>

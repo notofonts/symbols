@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="thespianfivethousand-ancientGreek" format="2">
-	<advance width="830"/>
 	<unicode hex="10172"/>
-	<note>
-		u10172
-	</note>
+	<advance width="830"/>
 	<outline>
 		<contour>
 			<point x="240" y="0" type="line"/>
@@ -31,4 +28,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		u10172
+	</note>
 </glyph>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="northEastFeatheredHeavyBlackArrow" format="2">
-	<advance width="926"/>
 	<unicode hex="27B9"/>
-	<note>
-		uni27B9
-	</note>
+	<advance width="926"/>
 	<outline>
 		<contour>
 			<point x="267" y="4" type="curve"/>
@@ -58,4 +55,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni27B9
+	</note>
 </glyph>

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bee-phaistosDisc" format="2">
-	<advance width="587"/>
 	<unicode hex="101F1"/>
-	<anchor x="464" y="90" name="bottom"/>
-	<note>
-		uni101F1
-	</note>
+	<advance width="587"/>
 	<outline>
 		<contour>
 			<point x="292" y="72" type="curve" smooth="yes"/>
@@ -200,6 +196,7 @@
 			<point x="437" y="493"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="464" y="90"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -210,4 +207,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101F1
+	</note>
 </glyph>

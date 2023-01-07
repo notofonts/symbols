@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="blackDraughtsMan" format="2">
-	<advance width="948"/>
 	<unicode hex="26C2"/>
-	<note>
-		uni26C2
-	</note>
+	<advance width="948"/>
 	<outline>
 		<contour>
 			<point x="474" y="0" type="curve" smooth="yes"/>
@@ -209,4 +206,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni26C2
+	</note>
 </glyph>

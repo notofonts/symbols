@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cloudRain" format="2">
-	<advance width="1105"/>
 	<unicode hex="1F327"/>
+	<advance width="1105"/>
 	<outline>
 		<contour>
 			<point x="229" y="124" type="curve" smooth="yes"/>

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dolium-phaistosDisc" format="2">
-	<advance width="470"/>
 	<unicode hex="101E3"/>
-	<anchor x="245" y="-10" name="bottom"/>
-	<note>
-		uni101E3
-	</note>
+	<advance width="470"/>
 	<outline>
 		<contour>
 			<point x="138" y="7" type="line"/>
@@ -171,6 +167,7 @@
 			<point x="158" y="640"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="245" y="-10"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -181,4 +178,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101E3
+	</note>
 </glyph>

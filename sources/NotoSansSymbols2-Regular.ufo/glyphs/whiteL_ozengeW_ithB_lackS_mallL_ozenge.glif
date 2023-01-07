@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="whiteLozengeWithBlackSmallLozenge" format="2">
-	<advance width="720"/>
 	<unicode hex="1F7A0"/>
+	<advance width="720"/>
 	<outline>
 		<contour>
 			<point x="360" y="-157" type="line"/>

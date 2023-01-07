@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="snowman" format="2">
-	<advance width="916"/>
 	<unicode hex="2603"/>
-	<note>
-		uni2603
-	</note>
+	<advance width="916"/>
 	<outline>
 		<contour>
 			<point x="458" y="-36" type="curve" smooth="yes"/>
@@ -303,4 +300,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2603
+	</note>
 </glyph>

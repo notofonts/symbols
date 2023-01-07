@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="creditCard" format="2">
-	<advance width="1081"/>
 	<unicode hex="1F4B3"/>
+	<advance width="1081"/>
 	<outline>
 		<contour>
 			<point x="328" y="-50" type="curve" smooth="yes"/>

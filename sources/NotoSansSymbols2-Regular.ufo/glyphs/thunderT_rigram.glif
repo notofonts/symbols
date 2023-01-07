@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="thunderTrigram" format="2">
-	<advance width="940"/>
 	<unicode hex="2633"/>
-	<note>
-		uni2633
-	</note>
+	<advance width="940"/>
 	<outline>
 		<contour>
 			<point x="98" y="67" type="line"/>
@@ -43,4 +40,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2633
+	</note>
 </glyph>

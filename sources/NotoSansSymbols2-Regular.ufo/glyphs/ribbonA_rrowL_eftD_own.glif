@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ribbonArrowLeftDown" format="2">
-	<advance width="903"/>
 	<unicode hex="2BB6"/>
+	<advance width="903"/>
 	<outline>
 		<contour>
 			<point x="322" y="56" type="line"/>

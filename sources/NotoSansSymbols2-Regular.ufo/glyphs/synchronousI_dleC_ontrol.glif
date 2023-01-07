@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="synchronousIdleControl" format="2">
-	<advance width="600"/>
 	<unicode hex="2416"/>
-	<note>
-		uni2416
-	</note>
+	<advance width="600"/>
 	<outline>
 		<contour>
 			<point x="293" y="231" type="line"/>
@@ -78,4 +75,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2416
+	</note>
 </glyph>

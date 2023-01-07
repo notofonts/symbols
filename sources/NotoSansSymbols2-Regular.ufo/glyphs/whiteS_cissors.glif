@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="whiteScissors" format="2">
-	<advance width="890"/>
 	<unicode hex="2704"/>
-	<note>
-		uni2704
-	</note>
+	<advance width="890"/>
 	<outline>
 		<contour>
 			<point x="183" y="-46" type="curve" smooth="yes"/>
@@ -217,4 +214,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2704
+	</note>
 </glyph>

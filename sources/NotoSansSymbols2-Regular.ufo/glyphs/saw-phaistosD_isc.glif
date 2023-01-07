@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="saw-phaistosDisc" format="2">
-	<advance width="342"/>
 	<unicode hex="101DF"/>
-	<anchor x="161" y="50" name="bottom"/>
-	<note>
-		uni101DF
-	</note>
+	<advance width="342"/>
 	<outline>
 		<contour>
 			<point x="136" y="0" type="curve"/>
@@ -103,6 +99,7 @@
 			<point x="205" y="532" type="line"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="161" y="50"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -113,4 +110,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101DF
+	</note>
 </glyph>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="negativeAcknowledgeControl" format="2">
-	<advance width="600"/>
 	<unicode hex="2415"/>
-	<note>
-		uni2415
-	</note>
+	<advance width="600"/>
 	<outline>
 		<contour>
 			<point x="186" y="231" type="line"/>
@@ -56,4 +53,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2415
+	</note>
 </glyph>

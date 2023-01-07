@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="siliqua-roman" format="2">
-	<advance width="572"/>
 	<unicode hex="10195"/>
-	<note>
-		uni10195
-	</note>
+	<advance width="572"/>
 	<outline>
 		<contour>
 			<point x="364" y="37" type="line"/>
@@ -45,4 +42,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni10195
+	</note>
 </glyph>

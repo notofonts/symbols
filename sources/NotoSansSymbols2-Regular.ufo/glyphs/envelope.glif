@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="envelope" format="2">
-	<advance width="1170"/>
 	<unicode hex="2709"/>
-	<note>
-		uni2709
-	</note>
+	<advance width="1170"/>
 	<outline>
 		<contour>
 			<point x="95" y="-40" type="line"/>
@@ -63,4 +60,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2709
+	</note>
 </glyph>

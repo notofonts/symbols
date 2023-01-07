@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="womensSymbol" format="2">
-	<advance width="638"/>
 	<unicode hex="1F6BA"/>
+	<advance width="638"/>
 	<outline>
 		<contour>
 			<point x="126" y="69" type="line"/>

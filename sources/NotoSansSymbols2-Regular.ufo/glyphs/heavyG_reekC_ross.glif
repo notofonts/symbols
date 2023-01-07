@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heavyGreekCross" format="2">
-	<advance width="836"/>
 	<unicode hex="271A"/>
-	<note>
-		uni271A
-	</note>
+	<advance width="836"/>
 	<outline>
 		<contour>
 			<point x="299" y="-9" type="line"/>
@@ -27,4 +24,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni271A
+	</note>
 </glyph>

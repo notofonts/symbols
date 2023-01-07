@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oncomingBus" format="2">
-	<advance width="841"/>
 	<unicode hex="1F68D"/>
+	<advance width="841"/>
 	<outline>
 		<contour>
 			<point x="168" y="-35" type="curve" smooth="yes"/>

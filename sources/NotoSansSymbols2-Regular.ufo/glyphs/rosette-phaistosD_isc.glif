@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rosette-phaistosDisc" format="2">
-	<advance width="627"/>
 	<unicode hex="101F5"/>
-	<anchor x="444" y="50" name="bottom"/>
-	<note>
-		uni101F5
-	</note>
+	<advance width="627"/>
 	<outline>
 		<contour>
 			<point x="341" y="-7" type="curve" smooth="yes"/>
@@ -263,6 +259,7 @@
 			<point x="421" y="312"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="444" y="50"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -273,4 +270,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101F5
+	</note>
 </glyph>

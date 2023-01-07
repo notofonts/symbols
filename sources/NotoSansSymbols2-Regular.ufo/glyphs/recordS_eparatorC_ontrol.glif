@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="recordSeparatorControl" format="2">
-	<advance width="600"/>
 	<unicode hex="241E"/>
-	<note>
-		uni241E
-	</note>
+	<advance width="600"/>
 	<outline>
 		<contour>
 			<point x="115" y="351" type="line"/>
@@ -80,4 +77,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni241E
+	</note>
 </glyph>

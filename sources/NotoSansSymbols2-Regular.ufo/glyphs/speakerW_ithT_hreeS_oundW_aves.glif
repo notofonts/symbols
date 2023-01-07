@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="speakerWithThreeSoundWaves" format="2">
-	<advance width="1080"/>
 	<unicode hex="1F50A"/>
+	<advance width="1080"/>
 	<outline>
 		<contour>
 			<point x="548" y="-6" type="curve" smooth="yes"/>

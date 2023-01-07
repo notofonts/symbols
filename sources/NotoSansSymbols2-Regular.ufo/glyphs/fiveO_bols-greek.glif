@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fiveObols-greek" format="2">
-	<advance width="571"/>
 	<unicode hex="10180"/>
-	<note>
-		u10180
-	</note>
+	<advance width="571"/>
 	<outline>
 		<contour>
 			<point x="87" y="-85" type="line"/>
@@ -38,4 +35,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		u10180
+	</note>
 </glyph>

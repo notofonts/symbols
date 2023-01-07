@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="escapeControl" format="2">
-	<advance width="600"/>
 	<unicode hex="241B"/>
-	<note>
-		uni241B
-	</note>
+	<advance width="600"/>
 	<outline>
 		<contour>
 			<point x="517" y="-5" type="curve" smooth="yes"/>
@@ -95,4 +92,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni241B
+	</note>
 </glyph>

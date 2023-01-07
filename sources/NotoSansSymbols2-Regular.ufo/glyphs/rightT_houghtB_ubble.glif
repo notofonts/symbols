@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rightThoughtBubble" format="2">
-	<advance width="1060"/>
 	<unicode hex="1F5ED"/>
+	<advance width="1060"/>
 	<outline>
 		<contour>
 			<point x="197" y="-86" type="curve" smooth="yes"/>

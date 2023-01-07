@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="openLock" format="2">
-	<advance width="866"/>
 	<unicode hex="1F513"/>
+	<advance width="866"/>
 	<outline>
 		<contour>
 			<point x="256" y="-50" type="curve" smooth="yes"/>

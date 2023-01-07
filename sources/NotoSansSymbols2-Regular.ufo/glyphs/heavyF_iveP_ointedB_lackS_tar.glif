@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heavyFivePointedBlackStar" format="2">
-	<advance width="815"/>
 	<unicode hex="1F7CA"/>
+	<advance width="815"/>
 	<outline>
 		<contour>
 			<point x="187" y="47" type="line"/>

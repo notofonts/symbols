@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="militaryMedal" format="2">
-	<advance width="615"/>
 	<unicode hex="1F396"/>
+	<advance width="615"/>
 	<outline>
 		<contour>
 			<point x="308" y="-111" type="curve" smooth="yes"/>

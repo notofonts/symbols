@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="soccerBall" format="2">
-	<advance width="867"/>
 	<unicode hex="26BD"/>
-	<note>
-		uni26BD
-	</note>
+	<advance width="867"/>
 	<outline>
 		<contour>
 			<point x="433" y="0" type="curve" smooth="yes"/>
@@ -229,4 +226,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni26BD
+	</note>
 </glyph>

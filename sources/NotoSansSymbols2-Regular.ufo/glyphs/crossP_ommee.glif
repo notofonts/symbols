@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="crossPommee" format="2">
-	<advance width="904"/>
 	<unicode hex="1F542"/>
+	<advance width="904"/>
 	<outline>
 		<contour>
 			<point x="416" y="31" type="line"/>

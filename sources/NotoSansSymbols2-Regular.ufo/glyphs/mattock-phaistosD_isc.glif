@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mattock-phaistosDisc" format="2">
-	<advance width="582"/>
 	<unicode hex="101DE"/>
-	<anchor x="471" y="10" name="bottom"/>
-	<note>
-		uni101DE
-	</note>
+	<advance width="582"/>
 	<outline>
 		<contour>
 			<point x="395" y="0" type="curve" smooth="yes"/>
@@ -139,6 +135,7 @@
 			<point x="476" y="280"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="471" y="10"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -149,4 +146,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101DE
+	</note>
 </glyph>

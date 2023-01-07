@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lid-phaistosDisc" format="2">
-	<advance width="353"/>
 	<unicode hex="101E0"/>
-	<anchor x="237" y="50" name="bottom"/>
-	<note>
-		uni101E0
-	</note>
+	<advance width="353"/>
 	<outline>
 		<contour>
 			<point x="210" y="0" type="curve" smooth="yes"/>
@@ -84,6 +80,7 @@
 			<point x="247" y="127"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="237" y="50"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -94,4 +91,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101E0
+	</note>
 </glyph>

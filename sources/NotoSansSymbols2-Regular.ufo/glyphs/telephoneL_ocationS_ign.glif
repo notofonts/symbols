@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="telephoneLocationSign" format="2">
-	<advance width="982"/>
 	<unicode hex="2706"/>
-	<note>
-		uni2706
-	</note>
+	<advance width="982"/>
 	<outline>
 		<contour>
 			<point x="492" y="-83" type="curve" smooth="yes"/>
@@ -139,4 +136,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2706
+	</note>
 </glyph>

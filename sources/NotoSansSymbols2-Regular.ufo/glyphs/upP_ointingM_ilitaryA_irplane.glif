@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="upPointingMilitaryAirplane" format="2">
-	<advance width="698"/>
 	<unicode hex="1F6E6"/>
+	<advance width="698"/>
 	<outline>
 		<contour>
 			<point x="511" y="-76" type="line"/>

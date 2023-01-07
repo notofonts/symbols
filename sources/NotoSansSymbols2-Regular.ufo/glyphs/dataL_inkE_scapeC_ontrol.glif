@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dataLinkEscapeControl" format="2">
-	<advance width="600"/>
 	<unicode hex="2410"/>
-	<note>
-		uni2410
-	</note>
+	<advance width="600"/>
 	<outline>
 		<contour>
 			<point x="38" y="463" type="line"/>
@@ -57,4 +54,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2410
+	</note>
 </glyph>

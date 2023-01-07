@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="horn-phaistosDisc" format="2">
-	<advance width="315"/>
 	<unicode hex="101E9"/>
-	<anchor x="198" y="0" name="bottom"/>
-	<note>
-		uni101E9
-	</note>
+	<advance width="315"/>
 	<outline>
 		<contour>
 			<point x="162" y="5" type="curve" smooth="yes"/>
@@ -112,6 +108,7 @@
 			<point x="164" y="33" type="curve" smooth="yes"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="198" y="0"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -122,4 +119,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101E9
+	</note>
 </glyph>

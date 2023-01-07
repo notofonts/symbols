@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="noSmokingSymbol" format="2">
-	<advance width="1063"/>
 	<unicode hex="1F6AD"/>
+	<advance width="1063"/>
 	<outline>
 		<contour>
 			<point x="531" y="-127" type="curve" smooth="yes"/>

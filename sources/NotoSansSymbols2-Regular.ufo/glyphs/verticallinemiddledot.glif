@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="verticallinemiddledot" format="2">
-	<advance width="320"/>
 	<unicode hex="237F"/>
+	<advance width="320"/>
 	<outline>
 		<contour>
 			<point x="124" y="0" type="line"/>

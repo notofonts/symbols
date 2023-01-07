@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pick" format="2">
-	<advance width="848"/>
 	<unicode hex="26CF"/>
+	<advance width="848"/>
 	<outline>
 		<contour>
 			<point x="733" y="-5" type="line"/>

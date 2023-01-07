@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="crossingLanes" format="2">
-	<advance width="631"/>
 	<unicode hex="26CC"/>
+	<advance width="631"/>
 	<outline>
 		<contour>
 			<point x="527" y="0" type="line"/>

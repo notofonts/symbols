@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="swashAmpersandOrnament" format="2">
-	<advance width="1270"/>
 	<unicode hex="1F675"/>
+	<advance width="1270"/>
 	<outline>
 		<contour>
 			<point x="896" y="-64" type="curve" smooth="yes"/>

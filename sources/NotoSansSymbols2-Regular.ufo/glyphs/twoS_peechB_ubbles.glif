@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="twoSpeechBubbles" format="2">
-	<advance width="1245"/>
 	<unicode hex="1F5EA"/>
+	<advance width="1245"/>
 	<outline>
 		<contour>
 			<point x="72" y="21" type="curve"/>

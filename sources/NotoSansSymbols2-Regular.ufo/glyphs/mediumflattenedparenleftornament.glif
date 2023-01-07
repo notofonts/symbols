@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mediumflattenedparenleftornament" format="2">
-	<advance width="402"/>
 	<unicode hex="276A"/>
-	<note>
-		uni276A
-	</note>
+	<advance width="402"/>
 	<outline>
 		<contour>
 			<point x="221" y="-74" type="curve"/>
@@ -29,4 +26,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni276A
+	</note>
 </glyph>

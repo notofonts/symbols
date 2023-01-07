@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cat-phaistosDisc" format="2">
-	<advance width="542"/>
 	<unicode hex="101EC"/>
-	<anchor x="368" y="130" name="bottom"/>
-	<note>
-		uni101EC
-	</note>
+	<advance width="542"/>
 	<outline>
 		<contour>
 			<point x="347" y="100" type="curve" smooth="yes"/>
@@ -165,6 +161,7 @@
 			<point x="350" y="127"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="368" y="130"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -175,4 +172,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101EC
+	</note>
 </glyph>

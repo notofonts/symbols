@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="notchedRightSemicircleWithThreeDots" format="2">
-	<advance width="901"/>
 	<unicode hex="1F544"/>
+	<advance width="901"/>
 	<outline>
 		<contour>
 			<point x="556" y="-164" type="curve" smooth="yes"/>

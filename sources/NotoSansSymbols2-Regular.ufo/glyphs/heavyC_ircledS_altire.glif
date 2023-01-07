@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heavyCircledSaltire" format="2">
-	<advance width="590"/>
 	<unicode hex="2B59"/>
-	<note>
-		uni2B59
-	</note>
+	<advance width="590"/>
 	<outline>
 		<contour>
 			<point x="294" y="55" type="curve" smooth="yes"/>
@@ -67,4 +64,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2B59
+	</note>
 </glyph>

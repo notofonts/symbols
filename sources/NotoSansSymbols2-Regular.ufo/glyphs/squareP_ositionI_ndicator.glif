@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="squarePositionIndicator" format="2">
-	<advance width="750"/>
 	<unicode hex="2BD0"/>
+	<advance width="750"/>
 	<outline>
 		<contour>
 			<point x="143" y="123" type="line"/>

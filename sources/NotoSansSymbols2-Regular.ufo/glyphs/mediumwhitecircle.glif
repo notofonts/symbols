@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mediumwhitecircle" format="2">
-	<advance width="528"/>
 	<unicode hex="26AC"/>
-	<note>
-		uni26AC
-	</note>
+	<advance width="528"/>
 	<outline>
 		<contour>
 			<point x="264" y="149" type="curve" smooth="yes"/>
@@ -41,4 +38,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni26AC
+	</note>
 </glyph>

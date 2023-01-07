@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="blackHardShellFloppyDisk" format="2">
-	<advance width="851"/>
 	<unicode hex="1F5AA"/>
+	<advance width="851"/>
 	<outline>
 		<contour>
 			<point x="51" y="-21" type="line"/>

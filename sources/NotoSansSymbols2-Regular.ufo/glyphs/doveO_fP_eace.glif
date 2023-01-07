@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="doveOfPeace" format="2">
-	<advance width="1000"/>
 	<unicode hex="1F54A"/>
+	<advance width="1000"/>
 	<outline>
 		<contour>
 			<point x="808" y="-9" type="curve"/>

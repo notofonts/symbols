@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mediumrightpointinganglebracketornament" format="2">
-	<advance width="370"/>
 	<unicode hex="276D"/>
-	<note>
-		uni276D
-	</note>
+	<advance width="370"/>
 	<outline>
 		<contour>
 			<point x="51" y="-74" type="line"/>
@@ -21,4 +18,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni276D
+	</note>
 </glyph>

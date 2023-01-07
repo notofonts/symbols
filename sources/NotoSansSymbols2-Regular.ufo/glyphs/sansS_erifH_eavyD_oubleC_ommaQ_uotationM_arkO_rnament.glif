@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sansSerifHeavyDoubleCommaQuotationMarkOrnament" format="2">
-	<advance width="663"/>
 	<unicode hex="1F677"/>
+	<advance width="663"/>
 	<outline>
 		<contour>
 			<point x="370" y="327" type="line"/>

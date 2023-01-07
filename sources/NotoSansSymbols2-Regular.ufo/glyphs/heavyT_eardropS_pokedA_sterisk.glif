@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heavyTeardropSpokedAsterisk" format="2">
-	<advance width="742"/>
 	<unicode hex="273D"/>
-	<note>
-		uni273D
-	</note>
+	<advance width="742"/>
 	<outline>
 		<contour>
 			<point x="370" y="-46" type="curve" smooth="yes"/>
@@ -128,4 +125,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni273D
+	</note>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="beamedDescendingMusicalNotes" format="2">
-	<advance width="945"/>
 	<unicode hex="1F39D"/>
+	<advance width="945"/>
 	<outline>
 		<contour>
 			<point x="638" y="-143" type="curve" smooth="yes"/>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eightPointedRectilinearBlackStar" format="2">
-	<advance width="860"/>
 	<unicode hex="2737"/>
-	<note>
-		uni2737
-	</note>
+	<advance width="860"/>
 	<outline>
 		<contour>
 			<point x="277" y="-17" type="line"/>
@@ -39,4 +36,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2737
+	</note>
 </glyph>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="spadeWhiteSuit" format="2">
-	<advance width="728"/>
 	<unicode hex="2664"/>
-	<note>
-		uni2664
-	</note>
+	<advance width="728"/>
 	<outline>
 		<contour>
 			<point x="134" y="0" type="line"/>
@@ -87,4 +84,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2664
+	</note>
 </glyph>

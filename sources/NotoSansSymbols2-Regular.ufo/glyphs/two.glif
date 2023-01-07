@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="two" format="2">
-	<advance width="1102"/>
 	<unicode hex="0032"/>
-	<anchor x="551" y="715" name="top"/>
+	<advance width="1102"/>
 	<outline>
 		<contour>
 			<point x="360" y="84" type="line"/>
@@ -33,6 +32,7 @@
 			<point x="360" y="164" type="line"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="551" y="715"/>
 	<lib>
 		<dict>
 			<key>public.verticalOrigin</key>

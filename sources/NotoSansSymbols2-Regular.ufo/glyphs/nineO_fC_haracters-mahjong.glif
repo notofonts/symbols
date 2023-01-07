@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nineOfCharacters-mahjong" format="2">
-	<advance width="603"/>
 	<unicode hex="1F00F"/>
-	<note>
-		uni1F00F
-	</note>
+	<advance width="603"/>
 	<outline>
 		<contour>
 			<point x="92" y="-26" type="curve" smooth="yes"/>
@@ -342,4 +339,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni1F00F
+	</note>
 </glyph>

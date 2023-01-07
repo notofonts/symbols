@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="victoryHand" format="2">
-	<advance width="800"/>
 	<unicode hex="270C"/>
-	<note>
-		uni270C
-	</note>
+	<advance width="800"/>
 	<outline>
 		<contour>
 			<point x="397" y="-129" type="curve" smooth="yes"/>
@@ -324,4 +321,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni270C
+	</note>
 </glyph>

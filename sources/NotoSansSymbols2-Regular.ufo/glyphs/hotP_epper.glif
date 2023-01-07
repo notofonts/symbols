@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hotPepper" format="2">
-	<advance width="758"/>
 	<unicode hex="1F336"/>
+	<advance width="758"/>
 	<outline>
 		<contour>
 			<point x="108" y="-99" type="curve" smooth="yes"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="outboxTray" format="2">
-	<advance width="1025"/>
 	<unicode hex="1F4E4"/>
+	<advance width="1025"/>
 	<outline>
 		<contour>
 			<point x="675" y="-87" type="curve" smooth="yes"/>

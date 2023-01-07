@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="multiplicationX" format="2">
-	<advance width="864"/>
 	<unicode hex="2715"/>
-	<note>
-		uni2715
-	</note>
+	<advance width="864"/>
 	<outline>
 		<contour>
 			<point x="105" y="-76" type="line"/>
@@ -27,4 +24,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2715
+	</note>
 </glyph>

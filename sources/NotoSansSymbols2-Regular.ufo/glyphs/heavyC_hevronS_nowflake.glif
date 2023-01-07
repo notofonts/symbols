@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heavyChevronSnowflake" format="2">
-	<advance width="724"/>
 	<unicode hex="2746"/>
-	<note>
-		uni2746
-	</note>
+	<advance width="724"/>
 	<outline>
 		<contour>
 			<point x="363" y="-38" type="curve" smooth="yes"/>
@@ -347,4 +344,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2746
+	</note>
 </glyph>

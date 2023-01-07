@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tapeCartridge" format="2">
-	<advance width="1172"/>
 	<unicode hex="1F5AD"/>
+	<advance width="1172"/>
 	<outline>
 		<contour>
 			<point x="51" y="-41" type="line"/>

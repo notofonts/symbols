@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eightSpokedAsterisk" format="2">
-	<advance width="842"/>
 	<unicode hex="2733"/>
-	<note>
-		uni2733
-	</note>
+	<advance width="842"/>
 	<outline>
 		<contour>
 			<point x="393" y="-27" type="line"/>
@@ -39,4 +36,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2733
+	</note>
 </glyph>

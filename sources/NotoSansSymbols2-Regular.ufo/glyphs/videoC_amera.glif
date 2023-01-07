@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="videoCamera" format="2">
-	<advance width="985"/>
 	<unicode hex="1F4F9"/>
+	<advance width="985"/>
 	<outline>
 		<contour>
 			<point x="396" y="-118" type="curve" smooth="yes"/>

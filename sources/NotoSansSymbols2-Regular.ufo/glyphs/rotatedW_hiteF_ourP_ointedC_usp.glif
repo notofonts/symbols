@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rotatedWhiteFourPointedCusp" format="2">
-	<advance width="895"/>
 	<unicode hex="2BCF"/>
+	<advance width="895"/>
 	<outline>
 		<contour>
 			<point x="177" y="16" type="line"/>

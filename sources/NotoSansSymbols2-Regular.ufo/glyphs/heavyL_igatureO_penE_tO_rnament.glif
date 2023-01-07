@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heavyLigatureOpenEtOrnament" format="2">
-	<advance width="766"/>
 	<unicode hex="1F673"/>
+	<advance width="766"/>
 	<outline>
 		<contour>
 			<point x="268" y="-10" type="curve" smooth="yes"/>

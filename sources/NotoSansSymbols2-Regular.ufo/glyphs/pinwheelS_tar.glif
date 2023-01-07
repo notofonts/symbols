@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pinwheelStar" format="2">
-	<advance width="894"/>
 	<unicode hex="272F"/>
-	<note>
-		uni272F
-	</note>
+	<advance width="894"/>
 	<outline>
 		<contour>
 			<point x="191" y="41" type="line"/>
@@ -50,4 +47,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni272F
+	</note>
 </glyph>

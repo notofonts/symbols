@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="threeLinesConvergingLeft" format="2">
-	<advance width="731"/>
 	<unicode hex="269F"/>
-	<note>
-		uni269F
-	</note>
+	<advance width="731"/>
 	<outline>
 		<contour>
 			<point x="73" y="432" type="line"/>
@@ -31,4 +28,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni269F
+	</note>
 </glyph>

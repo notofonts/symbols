@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sestertius-roman" format="2">
-	<advance width="1142"/>
 	<unicode hex="10198"/>
-	<note>
-		uni10198
-	</note>
+	<advance width="1142"/>
 	<outline>
 		<contour>
 			<point x="830" y="-10" type="curve" smooth="yes"/>
@@ -75,4 +72,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni10198
+	</note>
 </glyph>

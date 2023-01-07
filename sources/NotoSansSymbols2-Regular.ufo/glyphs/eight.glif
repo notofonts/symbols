@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eight" format="2">
-	<advance width="1102"/>
 	<unicode hex="0038"/>
-	<anchor x="551" y="715" name="top"/>
+	<advance width="1102"/>
 	<outline>
 		<contour>
 			<point x="551" y="75" type="curve" smooth="yes"/>
@@ -59,6 +58,7 @@
 			<point x="595" y="444"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="551" y="715"/>
 	<lib>
 		<dict>
 			<key>public.verticalOrigin</key>

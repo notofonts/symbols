@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heavyAsterisk" format="2">
-	<advance width="774"/>
 	<unicode hex="2731"/>
-	<note>
-		uni2731
-	</note>
+	<advance width="774"/>
 	<outline>
 		<contour>
 			<point x="315" y="-4" type="line"/>
@@ -33,4 +30,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2731
+	</note>
 </glyph>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mediumleftcurlybracketornament" format="2">
-	<advance width="414"/>
 	<unicode hex="2774"/>
-	<note>
-		uni2774
-	</note>
+	<advance width="414"/>
 	<outline>
 		<contour>
 			<point x="234" y="-74" type="curve" smooth="yes"/>
@@ -50,4 +47,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2774
+	</note>
 </glyph>

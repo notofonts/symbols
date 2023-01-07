@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="whiteHorizontalEllipse" format="2">
-	<advance width="878"/>
 	<unicode hex="2B2D"/>
-	<note>
-		uni2B2D
-	</note>
+	<advance width="878"/>
 	<outline>
 		<contour>
 			<point x="439" y="129" type="curve" smooth="yes"/>
@@ -41,4 +38,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2B2D
+	</note>
 </glyph>

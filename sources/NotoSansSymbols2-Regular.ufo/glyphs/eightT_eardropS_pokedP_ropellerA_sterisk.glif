@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eightTeardropSpokedPropellerAsterisk" format="2">
-	<advance width="872"/>
 	<unicode hex="274A"/>
-	<note>
-		uni274A
-	</note>
+	<advance width="872"/>
 	<outline>
 		<contour>
 			<point x="529" y="399" type="line"/>
@@ -189,4 +186,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni274A
+	</note>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bellhopBell" format="2">
-	<advance width="827"/>
 	<unicode hex="1F6CE"/>
+	<advance width="827"/>
 	<outline>
 		<contour>
 			<point x="411" y="182" type="curve" smooth="yes"/>

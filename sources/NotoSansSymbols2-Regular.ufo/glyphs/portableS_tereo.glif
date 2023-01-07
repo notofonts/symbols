@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="portableStereo" format="2">
-	<advance width="1114"/>
 	<unicode hex="1F4FE"/>
+	<advance width="1114"/>
 	<outline>
 		<contour>
 			<point x="106" y="16" type="curve" smooth="yes"/>

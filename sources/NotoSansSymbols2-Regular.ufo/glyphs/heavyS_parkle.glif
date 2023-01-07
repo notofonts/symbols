@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heavySparkle" format="2">
-	<advance width="798"/>
 	<unicode hex="2748"/>
-	<note>
-		uni2748
-	</note>
+	<advance width="798"/>
 	<outline>
 		<contour>
 			<point x="496" y="392" type="line"/>
@@ -199,4 +196,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2748
+	</note>
 </glyph>

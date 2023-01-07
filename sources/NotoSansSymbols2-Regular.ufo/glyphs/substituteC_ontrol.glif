@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="substituteControl" format="2">
-	<advance width="600"/>
 	<unicode hex="241A"/>
-	<note>
-		uni241A
-	</note>
+	<advance width="600"/>
 	<outline>
 		<contour>
 			<point x="98" y="458" type="curve" smooth="yes"/>
@@ -112,4 +109,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni241A
+	</note>
 </glyph>

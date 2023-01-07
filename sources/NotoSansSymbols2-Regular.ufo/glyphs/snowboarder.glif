@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="snowboarder" format="2">
-	<advance width="909"/>
 	<unicode hex="1F3C2"/>
+	<advance width="909"/>
 	<outline>
 		<contour>
 			<point x="633" y="-182" type="curve" smooth="yes"/>

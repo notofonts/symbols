@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lightSixSpokedAsterisk" format="2">
-	<advance width="786"/>
 	<unicode hex="1F7B5"/>
+	<advance width="786"/>
 	<outline>
 		<contour>
 			<point x="361" y="295" type="line"/>

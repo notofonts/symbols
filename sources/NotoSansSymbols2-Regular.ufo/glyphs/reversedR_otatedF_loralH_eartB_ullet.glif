@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="reversedRotatedFloralHeartBullet" format="2">
-	<advance width="1321"/>
 	<unicode hex="2619"/>
+	<advance width="1321"/>
 	<outline>
 		<contour>
 			<point x="573" y="2" type="curve" smooth="yes"/>

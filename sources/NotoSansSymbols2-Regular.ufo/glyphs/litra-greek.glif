@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="litra-greek" format="2">
-	<advance width="843"/>
 	<unicode hex="10183"/>
-	<note>
-		u10183
-	</note>
+	<advance width="843"/>
 	<outline>
 		<contour>
 			<point x="367" y="-203" type="line"/>
@@ -53,4 +50,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		u10183
+	</note>
 </glyph>

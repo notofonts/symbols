@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="racingMotorcycle" format="2">
-	<advance width="1095"/>
 	<unicode hex="1F3CD"/>
+	<advance width="1095"/>
 	<outline>
 		<contour>
 			<point x="860" y="2" type="curve" smooth="yes"/>

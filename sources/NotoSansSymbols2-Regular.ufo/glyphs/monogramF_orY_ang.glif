@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="monogramForYang" format="2">
-	<advance width="940"/>
 	<unicode hex="268A"/>
-	<note>
-		uni268A
-	</note>
+	<advance width="940"/>
 	<outline>
 		<contour>
 			<point x="98" y="295" type="line"/>
@@ -19,4 +16,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni268A
+	</note>
 </glyph>

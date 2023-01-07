@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="whiteNib" format="2">
-	<advance width="1028"/>
 	<unicode hex="2711"/>
-	<note>
-		uni2711
-	</note>
+	<advance width="1028"/>
 	<outline>
 		<contour>
 			<point x="633" y="44" type="curve" smooth="yes"/>
@@ -107,4 +104,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2711
+	</note>
 </glyph>

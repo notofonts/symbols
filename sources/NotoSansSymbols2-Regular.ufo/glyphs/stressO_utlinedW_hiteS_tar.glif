@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="stressOutlinedWhiteStar" format="2">
-	<advance width="1018"/>
 	<unicode hex="2729"/>
-	<note>
-		uni2729
-	</note>
+	<advance width="1018"/>
 	<outline>
 		<contour>
 			<point x="210" y="-40" type="line"/>
@@ -37,4 +34,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2729
+	</note>
 </glyph>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rain" format="2">
-	<advance width="953"/>
 	<unicode hex="26C6"/>
-	<note>
-		uni26C6
-	</note>
+	<advance width="953"/>
 	<outline>
 		<contour>
 			<point x="794" y="573" type="curve"/>
@@ -561,4 +558,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni26C6
+	</note>
 </glyph>

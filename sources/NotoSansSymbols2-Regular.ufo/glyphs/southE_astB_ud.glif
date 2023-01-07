@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="southEastBud" format="2">
-	<advance width="975"/>
 	<unicode hex="1F663"/>
+	<advance width="975"/>
 	<outline>
 		<contour>
 			<point x="832" y="53" type="curve" smooth="yes"/>

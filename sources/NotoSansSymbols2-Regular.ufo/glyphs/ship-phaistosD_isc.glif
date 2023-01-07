@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ship-phaistosDisc" format="2">
-	<advance width="530"/>
 	<unicode hex="101E8"/>
-	<anchor x="385" y="-160" name="bottom"/>
-	<note>
-		uni101E8
-	</note>
+	<advance width="530"/>
 	<outline>
 		<contour>
 			<point x="345" y="-171" type="curve" smooth="yes"/>
@@ -271,6 +267,7 @@
 			<point x="390" y="507" type="line"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="385" y="-160"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -281,4 +278,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101E8
+	</note>
 </glyph>

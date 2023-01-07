@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="strainer-phaistosDisc" format="2">
-	<advance width="761"/>
 	<unicode hex="101FA"/>
-	<anchor x="351" y="20" name="bottom"/>
-	<note>
-		uni101FA
-	</note>
+	<advance width="761"/>
 	<outline>
 		<contour>
 			<point x="380" y="38" type="curve" smooth="yes"/>
@@ -493,6 +489,7 @@
 			<point x="584" y="476"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="351" y="20"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -503,4 +500,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101FA
+	</note>
 </glyph>

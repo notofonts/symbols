@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="doubleVerticalBar" format="2">
-	<advance width="910"/>
 	<unicode hex="23F8"/>
+	<advance width="910"/>
 	<outline>
 		<contour>
 			<point x="517" y="10" type="line"/>

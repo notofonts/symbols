@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sp_gobliquestr-phaistosDisc" format="2">
 	<advance width="232"/>
-	<anchor x="116" y="0" name="_bottom"/>
-	<anchor x="116" y="-257" name="bottom"/>
 	<outline>
 		<contour>
 			<point x="64" y="-257" type="curve" smooth="yes"/>
@@ -27,6 +25,8 @@
 			<point x="55" y="-257"/>
 		</contour>
 	</outline>
+	<anchor name="_bottom" x="116" y="0"/>
+	<anchor name="bottom" x="116" y="-257"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>

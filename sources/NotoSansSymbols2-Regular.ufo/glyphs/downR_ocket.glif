@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="downRocket" format="2">
-	<advance width="767"/>
 	<unicode hex="1F66F"/>
+	<advance width="767"/>
 	<outline>
 		<contour>
 			<point x="465" y="99" type="curve"/>

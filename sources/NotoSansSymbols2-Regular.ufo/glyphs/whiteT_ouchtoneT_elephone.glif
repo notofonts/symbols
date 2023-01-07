@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="whiteTouchtoneTelephone" format="2">
-	<advance width="970"/>
 	<unicode hex="1F57E"/>
+	<advance width="970"/>
 	<outline>
 		<contour>
 			<point x="179" y="0" type="curve" smooth="yes"/>

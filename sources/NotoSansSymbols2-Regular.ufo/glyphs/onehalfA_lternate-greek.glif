@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="onehalfAlternate-greek" format="2">
-	<advance width="604"/>
 	<unicode hex="10176"/>
-	<note>
-		u10176
-	</note>
+	<advance width="604"/>
 	<outline>
 		<contour>
 			<point x="541" y="48" type="line"/>
@@ -55,4 +52,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		u10176
+	</note>
 </glyph>

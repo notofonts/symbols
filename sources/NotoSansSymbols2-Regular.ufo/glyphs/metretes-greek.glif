@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="metretes-greek" format="2">
-	<advance width="509"/>
 	<unicode hex="10181"/>
-	<note>
-		u10181
-	</note>
+	<advance width="509"/>
 	<outline>
 		<contour>
 			<point x="87" y="-290" type="line"/>
@@ -25,4 +22,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		u10181
+	</note>
 </glyph>

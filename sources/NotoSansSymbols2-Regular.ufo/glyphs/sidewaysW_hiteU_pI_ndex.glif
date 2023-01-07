@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sidewaysWhiteUpIndex" format="2">
-	<advance width="800"/>
 	<unicode hex="1F59E"/>
+	<advance width="800"/>
 	<outline>
 		<contour>
 			<point x="409" y="-39" type="curve" smooth="yes"/>

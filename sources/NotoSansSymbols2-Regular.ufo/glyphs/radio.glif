@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="radio" format="2">
-	<advance width="1022"/>
 	<unicode hex="1F4FB"/>
+	<advance width="1022"/>
 	<outline>
 		<contour>
 			<point x="217" y="-24" type="curve" smooth="yes"/>

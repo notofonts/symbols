@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="openCentreBlackStar" format="2">
-	<advance width="910"/>
 	<unicode hex="272B"/>
-	<note>
-		uni272B
-	</note>
+	<advance width="910"/>
 	<outline>
 		<contour>
 			<point x="193" y="15" type="line"/>
@@ -39,4 +36,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni272B
+	</note>
 </glyph>

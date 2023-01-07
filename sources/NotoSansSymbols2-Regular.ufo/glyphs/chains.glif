@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="chains" format="2">
-	<advance width="711"/>
 	<unicode hex="26D3"/>
+	<advance width="711"/>
 	<outline>
 		<contour>
 			<point x="517" y="0" type="line"/>

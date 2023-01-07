@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lightrighttortoiseshellbracketornament" format="2">
-	<advance width="304"/>
 	<unicode hex="2773"/>
-	<note>
-		uni2773
-	</note>
+	<advance width="304"/>
 	<outline>
 		<contour>
 			<point x="51" y="-103" type="line"/>
@@ -23,4 +20,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2773
+	</note>
 </glyph>

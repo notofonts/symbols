@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="delphicfivemnas-ancientGreek" format="2">
-	<advance width="734"/>
 	<unicode hex="10173"/>
-	<note>
-		u10173
-	</note>
+	<advance width="734"/>
 	<outline>
 		<contour>
 			<point x="97" y="0" type="line"/>
@@ -39,4 +36,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		u10173
+	</note>
 </glyph>

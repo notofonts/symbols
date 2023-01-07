@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="openMailboxLoweredFlag" format="2">
-	<advance width="1077"/>
 	<unicode hex="1F4ED"/>
+	<advance width="1077"/>
 	<outline>
 		<contour>
 			<point x="597" y="-137" type="curve" smooth="yes"/>

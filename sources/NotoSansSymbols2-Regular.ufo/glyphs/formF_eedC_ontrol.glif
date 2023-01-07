@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="formFeedControl" format="2">
-	<advance width="600"/>
 	<unicode hex="240C"/>
-	<note>
-		uni240C
-	</note>
+	<advance width="600"/>
 	<outline>
 		<contour>
 			<point x="143" y="351" type="line"/>
@@ -37,4 +34,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni240C
+	</note>
 </glyph>

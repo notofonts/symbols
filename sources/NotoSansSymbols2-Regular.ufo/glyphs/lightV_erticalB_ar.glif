@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lightVerticalBar" format="2">
-	<advance width="210"/>
 	<unicode hex="2758"/>
-	<note>
-		uni2758
-	</note>
+	<advance width="210"/>
 	<outline>
 		<contour>
 			<point x="51" y="-92" type="line"/>
@@ -19,4 +16,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2758
+	</note>
 </glyph>

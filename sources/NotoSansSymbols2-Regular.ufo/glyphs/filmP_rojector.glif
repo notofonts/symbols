@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="filmProjector" format="2">
-	<advance width="999"/>
 	<unicode hex="1F4FD"/>
+	<advance width="999"/>
 	<outline>
 		<contour>
 			<point x="302" y="-15" type="curve"/>

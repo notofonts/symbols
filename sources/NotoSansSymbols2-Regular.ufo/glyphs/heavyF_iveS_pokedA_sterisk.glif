@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heavyFiveSpokedAsterisk" format="2">
-	<advance width="857"/>
 	<unicode hex="1F7B2"/>
+	<advance width="857"/>
 	<outline>
 		<contour>
 			<point x="263" y="7" type="line"/>

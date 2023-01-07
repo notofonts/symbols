@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="emptyNotePad" format="2">
-	<advance width="926"/>
 	<unicode hex="1F5C7"/>
+	<advance width="926"/>
 	<outline>
 		<contour>
 			<point x="761" y="131" type="line"/>

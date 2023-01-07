@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shamrock" format="2">
-	<advance width="900"/>
 	<unicode hex="2618"/>
+	<advance width="900"/>
 	<outline>
 		<contour>
 			<point x="321" y="-13" type="line"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fog" format="2">
-	<advance width="1134"/>
 	<unicode hex="1F32B"/>
+	<advance width="1134"/>
 	<outline>
 		<contour>
 			<point x="881" y="106" type="curve" smooth="yes"/>

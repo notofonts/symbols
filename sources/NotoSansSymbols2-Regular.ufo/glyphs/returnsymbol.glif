@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="returnsymbol" format="2">
-	<advance width="749"/>
 	<unicode hex="23CE"/>
-	<note>
-		uni23CE
-	</note>
+	<advance width="749"/>
 	<outline>
 		<contour>
 			<point x="296" y="-21" type="line"/>
@@ -41,4 +38,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni23CE
+	</note>
 </glyph>

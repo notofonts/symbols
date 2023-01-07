@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="blackDroplet" format="2">
-	<advance width="681"/>
 	<unicode hex="1F322"/>
+	<advance width="681"/>
 	<outline>
 		<contour>
 			<point x="341" y="-43" type="curve" smooth="yes"/>

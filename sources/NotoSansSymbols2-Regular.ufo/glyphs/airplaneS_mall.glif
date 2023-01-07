@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="airplaneSmall" format="2">
-	<advance width="1097"/>
 	<unicode hex="1F6E9"/>
+	<advance width="1097"/>
 	<outline>
 		<contour>
 			<point x="195" y="17" type="curve" smooth="yes"/>

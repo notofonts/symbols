@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hole" format="2">
-	<advance width="1038"/>
 	<unicode hex="1F573"/>
+	<advance width="1038"/>
 	<outline>
 		<contour>
 			<point x="519" y="-89" type="curve" smooth="yes"/>

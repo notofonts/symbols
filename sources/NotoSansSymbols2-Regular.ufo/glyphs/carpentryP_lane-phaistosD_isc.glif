@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="carpentryPlane-phaistosDisc" format="2">
-	<advance width="583"/>
 	<unicode hex="101E2"/>
-	<anchor x="350" y="40" name="bottom"/>
-	<note>
-		uni101E2
-	</note>
+	<advance width="583"/>
 	<outline>
 		<contour>
 			<point x="331" y="24" type="line"/>
@@ -51,6 +47,7 @@
 			<point x="381" y="77" type="curve"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="350" y="40"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -61,4 +58,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101E2
+	</note>
 </glyph>

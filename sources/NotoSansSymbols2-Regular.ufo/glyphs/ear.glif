@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ear" format="2">
-	<advance width="800"/>
 	<unicode hex="1F442"/>
+	<advance width="800"/>
 	<outline>
 		<contour>
 			<point x="309" y="-175" type="curve" smooth="yes"/>

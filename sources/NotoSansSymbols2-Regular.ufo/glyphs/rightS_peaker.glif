@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rightSpeaker" format="2">
-	<advance width="1080"/>
 	<unicode hex="1F568"/>
+	<advance width="1080"/>
 	<outline>
 		<contour>
 			<point x="315" y="-7" type="curve" smooth="yes"/>

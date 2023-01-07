@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tenmnas-atticGreek" format="2">
-	<advance width="446"/>
 	<unicode hex="10157"/>
-	<note>
-		u10157
-	</note>
+	<advance width="446"/>
 	<outline>
 		<contour>
 			<point x="24" y="0" type="line"/>
@@ -38,4 +35,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		u10157
+	</note>
 </glyph>

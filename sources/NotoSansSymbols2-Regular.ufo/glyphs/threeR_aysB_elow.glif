@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="threeRaysBelow" format="2">
-	<advance width="1000"/>
 	<unicode hex="1F5E5"/>
+	<advance width="1000"/>
 	<outline>
 		<contour>
 			<point x="889" y="378" type="curve" smooth="yes"/>

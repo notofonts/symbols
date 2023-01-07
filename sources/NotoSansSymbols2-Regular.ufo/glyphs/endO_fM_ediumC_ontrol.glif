@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="endOfMediumControl" format="2">
-	<advance width="600"/>
 	<unicode hex="2419"/>
-	<note>
-		uni2419
-	</note>
+	<advance width="600"/>
 	<outline>
 		<contour>
 			<point x="320" y="124" type="line"/>
@@ -44,4 +41,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2419
+	</note>
 </glyph>

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lily-phaistosDisc" format="2">
-	<advance width="423"/>
 	<unicode hex="101F6"/>
-	<anchor x="212" y="10" name="bottom"/>
-	<note>
-		uni101F6
-	</note>
+	<advance width="423"/>
 	<outline>
 		<contour>
 			<point x="181" y="0" type="curve" smooth="yes"/>
@@ -102,6 +98,7 @@
 			<point x="205" y="29" type="curve"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="212" y="10"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -112,4 +109,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101F6
+	</note>
 </glyph>

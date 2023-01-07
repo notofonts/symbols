@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="keyboardAndMouse" format="2">
-	<advance width="1000"/>
 	<unicode hex="1F5A6"/>
+	<advance width="1000"/>
 	<outline>
 		<contour>
 			<point x="59" y="74" type="curve" smooth="yes"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nomisma" format="2">
-	<advance width="760"/>
 	<unicode hex="1018E"/>
+	<advance width="760"/>
 	<outline>
 		<contour>
 			<point x="97" y="0" type="line"/>

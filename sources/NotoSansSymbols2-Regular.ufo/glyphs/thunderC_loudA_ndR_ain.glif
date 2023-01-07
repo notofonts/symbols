@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="thunderCloudAndRain" format="2">
-	<advance width="1040"/>
 	<unicode hex="26C8"/>
-	<note>
-		uni26C8
-	</note>
+	<advance width="1040"/>
 	<outline>
 		<contour>
 			<point x="442" y="43" type="line"/>
@@ -307,4 +304,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni26C8
+	</note>
 </glyph>

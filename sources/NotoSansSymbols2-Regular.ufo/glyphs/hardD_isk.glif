@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hardDisk" format="2">
-	<advance width="1010"/>
 	<unicode hex="1F5B4"/>
+	<advance width="1010"/>
 	<outline>
 		<contour>
 			<point x="103" y="0" type="curve" smooth="yes"/>

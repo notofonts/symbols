@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="five_20E3" format="2">
 	<advance width="1102"/>
-	<anchor x="551" y="715" name="top"/>
 	<outline>
 		<contour>
 			<point x="514" y="74" type="curve" smooth="yes"/>
@@ -87,6 +86,7 @@
 			<point x="1023" y="732" type="curve" smooth="yes"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="551" y="715"/>
 	<lib>
 		<dict>
 			<key>public.verticalOrigin</key>

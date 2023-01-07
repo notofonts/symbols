@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="reminderRibbon" format="2">
-	<advance width="774"/>
 	<unicode hex="1F397"/>
+	<advance width="774"/>
 	<outline>
 		<contour>
 			<point x="168" y="-47" type="line"/>

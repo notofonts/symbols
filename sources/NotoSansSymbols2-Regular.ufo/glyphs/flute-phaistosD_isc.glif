@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="flute-phaistosDisc" format="2">
-	<advance width="370"/>
 	<unicode hex="101F8"/>
-	<anchor x="215" y="0" name="bottom"/>
-	<note>
-		uni101F8
-	</note>
+	<advance width="370"/>
 	<outline>
 		<contour>
 			<point x="211" y="0" type="curve" smooth="yes"/>
@@ -123,6 +119,7 @@
 			<point x="238" y="28"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="215" y="0"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -133,4 +130,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101F8
+	</note>
 </glyph>

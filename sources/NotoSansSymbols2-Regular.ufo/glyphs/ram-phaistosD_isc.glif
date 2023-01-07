@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ram-phaistosDisc" format="2">
-	<advance width="653"/>
 	<unicode hex="101ED"/>
-	<anchor x="487" y="130" name="bottom"/>
-	<note>
-		uni101ED
-	</note>
+	<advance width="653"/>
 	<outline>
 		<contour>
 			<point x="432" y="107" type="curve" smooth="yes"/>
@@ -187,6 +183,7 @@
 			<point x="503" y="351" type="line"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="487" y="130"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -197,4 +194,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101ED
+	</note>
 </glyph>

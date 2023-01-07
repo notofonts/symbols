@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotmath" format="2">
-	<advance width="230"/>
 	<unicode hex="22C5"/>
-	<note>
-		dotmath
-	</note>
+	<advance width="230"/>
 	<outline>
 		<contour>
 			<point x="115" y="298" type="curve" smooth="yes"/>
@@ -27,4 +24,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		dotmath
+	</note>
 </glyph>

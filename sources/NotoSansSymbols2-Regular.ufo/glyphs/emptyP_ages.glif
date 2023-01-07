@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="emptyPages" format="2">
-	<advance width="999"/>
 	<unicode hex="1F5CD"/>
+	<advance width="999"/>
 	<outline>
 		<contour>
 			<point x="837" y="48" type="line"/>

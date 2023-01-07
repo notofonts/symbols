@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="airplane" format="2">
-	<advance width="852"/>
 	<unicode hex="2708"/>
-	<note>
-		uni2708
-	</note>
+	<advance width="852"/>
 	<outline>
 		<contour>
 			<point x="281" y="-76" type="line"/>
@@ -119,4 +116,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2708
+	</note>
 </glyph>

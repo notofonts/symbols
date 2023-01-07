@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="whiteMediumLozenge" format="2">
-	<advance width="510"/>
 	<unicode hex="2B28"/>
-	<note>
-		uni2B28
-	</note>
+	<advance width="510"/>
 	<outline>
 		<contour>
 			<point x="255" y="19" type="line"/>
@@ -25,4 +22,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2B28
+	</note>
 </glyph>

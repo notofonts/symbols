@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heavyBallotX" format="2">
-	<advance width="766"/>
 	<unicode hex="2718"/>
-	<note>
-		uni2718
-	</note>
+	<advance width="766"/>
 	<outline>
 		<contour>
 			<point x="143" y="-137" type="curve"/>
@@ -192,4 +189,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2718
+	</note>
 </glyph>

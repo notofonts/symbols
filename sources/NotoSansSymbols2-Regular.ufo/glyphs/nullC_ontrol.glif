@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nullControl" format="2">
-	<advance width="600"/>
 	<unicode hex="2400"/>
-	<note>
-		uni2400
-	</note>
+	<advance width="600"/>
 	<outline>
 		<contour>
 			<point x="314" y="228" type="curve" smooth="yes"/>
@@ -55,4 +52,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2400
+	</note>
 </glyph>

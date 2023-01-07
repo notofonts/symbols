@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="clubWhiteSuit" format="2">
-	<advance width="876"/>
 	<unicode hex="2667"/>
-	<note>
-		uni2667
-	</note>
+	<advance width="876"/>
 	<outline>
 		<contour>
 			<point x="204" y="0" type="line"/>
@@ -111,4 +108,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2667
+	</note>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="blackMediumSmallDiamond" format="2">
-	<advance width="627"/>
 	<unicode hex="1F799"/>
+	<advance width="627"/>
 	<outline>
 		<contour>
 			<point x="314" y="100" type="line"/>

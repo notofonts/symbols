@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ballotScriptX" format="2">
-	<advance width="778"/>
 	<unicode hex="1F5F4"/>
+	<advance width="778"/>
 	<outline>
 		<contour>
 			<point x="166" y="-70" type="curve" smooth="yes"/>

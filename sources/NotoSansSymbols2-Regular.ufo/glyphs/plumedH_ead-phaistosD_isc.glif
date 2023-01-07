@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="plumedHead-phaistosDisc" format="2">
-	<advance width="655"/>
 	<unicode hex="101D1"/>
-	<anchor x="398" y="60" name="bottom"/>
-	<note>
-		uni101D1
-	</note>
+	<advance width="655"/>
 	<outline>
 		<contour>
 			<point x="334" y="18" type="curve" smooth="yes"/>
@@ -411,6 +407,7 @@
 			<point x="338" y="295"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="398" y="60"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -421,4 +418,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101D1
+	</note>
 </glyph>

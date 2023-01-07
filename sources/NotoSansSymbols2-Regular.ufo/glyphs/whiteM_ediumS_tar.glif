@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="whiteMediumStar" format="2">
-	<advance width="704"/>
 	<unicode hex="2B50"/>
-	<note>
-		uni2B50
-	</note>
+	<advance width="704"/>
 	<outline>
 		<contour>
 			<point x="164" y="77" type="line"/>
@@ -37,4 +34,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2B50
+	</note>
 </glyph>

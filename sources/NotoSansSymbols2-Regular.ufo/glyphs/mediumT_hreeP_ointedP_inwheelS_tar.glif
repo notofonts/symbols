@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mediumThreePointedPinwheelStar" format="2">
-	<advance width="754"/>
 	<unicode hex="1F7C3"/>
+	<advance width="754"/>
 	<outline>
 		<contour>
 			<point x="51" y="163" type="line"/>

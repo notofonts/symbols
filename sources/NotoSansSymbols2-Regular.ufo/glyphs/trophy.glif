@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="trophy" format="2">
-	<advance width="1105"/>
 	<unicode hex="1F3C6"/>
+	<advance width="1105"/>
 	<outline>
 		<contour>
 			<point x="232" y="-103" type="curve" smooth="yes"/>

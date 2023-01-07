@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="backspaceControl" format="2">
-	<advance width="600"/>
 	<unicode hex="2408"/>
-	<note>
-		uni2408
-	</note>
+	<advance width="600"/>
 	<outline>
 		<contour>
 			<point x="394" y="119" type="curve" smooth="yes"/>
@@ -92,4 +89,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2408
+	</note>
 </glyph>

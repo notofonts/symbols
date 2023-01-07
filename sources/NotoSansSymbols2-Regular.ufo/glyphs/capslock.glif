@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="capslock" format="2">
-	<advance width="662"/>
 	<unicode hex="21EA"/>
-	<note>
-		uni21EA
-	</note>
+	<advance width="662"/>
 	<outline>
 		<contour>
 			<point x="204" y="97" type="line"/>
@@ -43,4 +40,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni21EA
+	</note>
 </glyph>

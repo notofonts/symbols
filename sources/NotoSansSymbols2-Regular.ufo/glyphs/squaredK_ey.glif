@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="squaredKey" format="2">
-	<advance width="821"/>
 	<unicode hex="26BF"/>
-	<note>
-		uni26BF
-	</note>
+	<advance width="821"/>
 	<outline>
 		<contour>
 			<point x="51" y="0" type="line"/>
@@ -60,4 +57,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni26BF
+	</note>
 </glyph>

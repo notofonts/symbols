@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dieFace5" format="2">
-	<advance width="778"/>
 	<unicode hex="2684"/>
+	<advance width="778"/>
 	<outline>
 		<contour>
 			<point x="51" y="0" type="line"/>

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dove-phaistosDisc" format="2">
-	<advance width="586"/>
 	<unicode hex="101EF"/>
-	<anchor x="413" y="20" name="bottom"/>
-	<note>
-		uni101EF
-	</note>
+	<advance width="586"/>
 	<outline>
 		<contour>
 			<point x="153" y="15" type="curve" smooth="yes"/>
@@ -209,6 +205,7 @@
 			<point x="122" y="559"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="413" y="20"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -219,4 +216,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101EF
+	</note>
 </glyph>

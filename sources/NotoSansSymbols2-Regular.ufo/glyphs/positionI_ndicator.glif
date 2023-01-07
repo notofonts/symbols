@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="positionIndicator" format="2">
-	<advance width="750"/>
 	<unicode hex="2316"/>
-	<note>
-		uni2316
-	</note>
+	<advance width="750"/>
 	<outline>
 		<contour>
 			<point x="375" y="122" type="curve" smooth="yes"/>
@@ -65,4 +62,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2316
+	</note>
 </glyph>

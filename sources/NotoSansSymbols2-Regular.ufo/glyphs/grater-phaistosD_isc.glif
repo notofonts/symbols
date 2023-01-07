@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="grater-phaistosDisc" format="2">
-	<advance width="459"/>
 	<unicode hex="101F9"/>
-	<anchor x="290" y="50" name="bottom"/>
-	<note>
-		uni101F9
-	</note>
+	<advance width="459"/>
 	<outline>
 		<contour>
 			<point x="183" y="10" type="curve" smooth="yes"/>
@@ -471,6 +467,7 @@
 			<point x="219" y="581"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="290" y="50"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -481,4 +478,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101F9
+	</note>
 </glyph>

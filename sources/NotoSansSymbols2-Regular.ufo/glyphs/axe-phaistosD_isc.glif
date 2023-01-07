@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="axe-phaistosDisc" format="2">
-	<advance width="602"/>
 	<unicode hex="101FB"/>
-	<anchor x="493" y="60" name="bottom"/>
-	<note>
-		uni101FB
-	</note>
+	<advance width="602"/>
 	<outline>
 		<contour>
 			<point x="407" y="-5" type="curve" smooth="yes"/>
@@ -122,6 +118,7 @@
 			<point x="437" y="38"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="493" y="60"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -132,4 +129,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101FB
+	</note>
 </glyph>

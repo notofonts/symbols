@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="onethousandstaters-atticGreek" format="2">
-	<advance width="586"/>
 	<unicode hex="10154"/>
-	<note>
-		u10154
-	</note>
+	<advance width="586"/>
 	<outline>
 		<contour>
 			<point x="4" y="0" type="line"/>
@@ -41,4 +38,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		u10154
+	</note>
 </glyph>

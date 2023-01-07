@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="desert" format="2">
-	<advance width="1140"/>
 	<unicode hex="1F3DC"/>
+	<advance width="1140"/>
 	<outline>
 		<contour>
 			<point x="192" y="0" type="curve" smooth="yes"/>

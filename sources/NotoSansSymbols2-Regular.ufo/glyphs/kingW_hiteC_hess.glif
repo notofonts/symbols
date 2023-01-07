@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kingWhiteChess" format="2">
-	<advance width="1000"/>
 	<unicode hex="2654"/>
-	<note>
-		uni2654
-	</note>
+	<advance width="1000"/>
 	<outline>
 		<contour>
 			<point x="500" y="-34" type="curve" smooth="yes"/>
@@ -164,4 +161,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2654
+	</note>
 </glyph>

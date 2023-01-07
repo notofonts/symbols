@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="watch" format="2">
-	<advance width="800"/>
 	<unicode hex="231A"/>
-	<note>
-		uni231A
-	</note>
+	<advance width="800"/>
 	<outline>
 		<contour>
 			<point x="252" y="-137" type="line"/>
@@ -227,4 +224,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni231A
+	</note>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lightningMood" format="2">
-	<advance width="922"/>
 	<unicode hex="1F5F2"/>
+	<advance width="922"/>
 	<outline>
 		<contour>
 			<point x="71" y="-140" type="curve" smooth="yes"/>

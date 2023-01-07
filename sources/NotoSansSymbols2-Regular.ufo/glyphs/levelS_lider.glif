@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="levelSlider" format="2">
-	<advance width="581"/>
 	<unicode hex="1F39A"/>
+	<advance width="581"/>
 	<outline>
 		<contour>
 			<point x="142" y="-119" type="curve" smooth="yes"/>

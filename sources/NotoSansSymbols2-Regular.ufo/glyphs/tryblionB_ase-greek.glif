@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tryblionBase-greek" format="2">
-	<advance width="861"/>
 	<unicode hex="10189"/>
-	<note>
-		u10189
-	</note>
+	<advance width="861"/>
 	<outline>
 		<contour>
 			<point x="470" y="-257" type="line"/>
@@ -59,4 +56,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		u10189
+	</note>
 </glyph>

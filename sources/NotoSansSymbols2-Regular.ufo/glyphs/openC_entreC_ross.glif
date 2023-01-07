@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="openCentreCross" format="2">
-	<advance width="836"/>
 	<unicode hex="271B"/>
-	<note>
-		uni271B
-	</note>
+	<advance width="836"/>
 	<outline>
 		<contour>
 			<point x="351" y="-9" type="line"/>
@@ -33,4 +30,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni271B
+	</note>
 </glyph>

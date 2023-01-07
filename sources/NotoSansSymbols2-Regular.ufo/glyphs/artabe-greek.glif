@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="artabe-greek" format="2">
-	<advance width="716"/>
 	<unicode hex="10186"/>
-	<note>
-		u10186
-	</note>
+	<advance width="716"/>
 	<outline>
 		<contour>
 			<point x="50" y="290" type="line"/>
@@ -47,4 +44,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		u10186
+	</note>
 </glyph>

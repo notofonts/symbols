@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="blackQuestionOrnament" format="2">
-	<advance width="589"/>
 	<unicode hex="2753"/>
-	<note>
-		uni2753
-	</note>
+	<advance width="589"/>
 	<outline>
 		<contour>
 			<point x="195" y="252" type="line"/>
@@ -57,4 +54,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2753
+	</note>
 </glyph>

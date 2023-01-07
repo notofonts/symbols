@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uncia-roman" format="2">
-	<advance width="572"/>
 	<unicode hex="10191"/>
-	<note>
-		uni10191
-	</note>
+	<advance width="572"/>
 	<outline>
 		<contour>
 			<point x="50" y="317" type="line"/>
@@ -19,4 +16,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni10191
+	</note>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="classicalBuilding" format="2">
-	<advance width="1140"/>
 	<unicode hex="1F3DB"/>
+	<advance width="1140"/>
 	<outline>
 		<contour>
 			<point x="98" y="0" type="line"/>

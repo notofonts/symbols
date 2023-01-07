@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rightWedgeTailedArrow" format="2">
-	<advance width="1018"/>
 	<unicode hex="27BC"/>
-	<note>
-		uni27BC
-	</note>
+	<advance width="1018"/>
 	<outline>
 		<contour>
 			<point x="103" y="70" type="curve" smooth="yes"/>
@@ -82,4 +79,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni27BC
+	</note>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="wideHeadedNorthEastBarbArrow" format="2">
-	<advance width="636"/>
 	<unicode hex="1F86D"/>
+	<advance width="636"/>
 	<outline>
 		<contour>
 			<point x="115" y="53" type="line"/>

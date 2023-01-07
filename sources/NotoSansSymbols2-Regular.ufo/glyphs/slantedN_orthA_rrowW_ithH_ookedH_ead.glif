@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="slantedNorthArrowWithHookedHead" format="2">
-	<advance width="788"/>
 	<unicode hex="2B5A"/>
+	<advance width="788"/>
 	<outline>
 		<contour>
 			<point x="51" y="-146" type="line"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lastQuarterMoonFace" format="2">
-	<advance width="977"/>
 	<unicode hex="1F31C"/>
+	<advance width="977"/>
 	<outline>
 		<contour>
 			<point x="560" y="-125" type="curve" smooth="yes"/>

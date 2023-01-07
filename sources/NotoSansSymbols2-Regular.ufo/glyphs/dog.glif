@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dog" format="2">
-	<advance width="957"/>
 	<unicode hex="1F415"/>
+	<advance width="957"/>
 	<outline>
 		<contour>
 			<point x="298" y="-20" type="curve" smooth="yes"/>

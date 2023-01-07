@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="comb-phaistosDisc" format="2">
-	<advance width="649"/>
 	<unicode hex="101E4"/>
-	<anchor x="475" y="0" name="bottom"/>
-	<note>
-		uni101E4
-	</note>
+	<advance width="649"/>
 	<outline>
 		<contour>
 			<point x="93" y="13" type="curve" smooth="yes"/>
@@ -186,6 +182,7 @@
 			<point x="149" y="42" type="line"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="475" y="0"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -196,4 +193,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101E4
+	</note>
 </glyph>

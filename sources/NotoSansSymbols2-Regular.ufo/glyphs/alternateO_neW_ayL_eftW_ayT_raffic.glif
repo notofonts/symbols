@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alternateOneWayLeftWayTraffic" format="2">
-	<advance width="830"/>
 	<unicode hex="26D5"/>
+	<advance width="830"/>
 	<outline>
 		<contour>
 			<point x="610" y="-15" type="line"/>

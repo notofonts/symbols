@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="downWhiteIndex" format="2">
-	<advance width="800"/>
 	<unicode hex="261F"/>
-	<note>
-		uni261F
-	</note>
+	<advance width="800"/>
 	<outline>
 		<contour>
 			<point x="525" y="-145" type="curve" smooth="yes"/>
@@ -334,4 +331,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni261F
+	</note>
 </glyph>

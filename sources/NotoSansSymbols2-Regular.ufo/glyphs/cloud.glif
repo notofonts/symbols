@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cloud" format="2">
-	<advance width="1040"/>
 	<unicode hex="2601"/>
-	<note>
-		uni2601
-	</note>
+	<advance width="1040"/>
 	<outline>
 		<contour>
 			<point x="306" y="124" type="curve" smooth="yes"/>
@@ -49,4 +46,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2601
+	</note>
 </glyph>

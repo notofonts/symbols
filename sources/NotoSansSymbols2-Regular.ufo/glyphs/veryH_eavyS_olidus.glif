@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="veryHeavySolidus" format="2">
-	<advance width="1270"/>
 	<unicode hex="1F67C"/>
+	<advance width="1270"/>
 	<outline>
 		<contour>
 			<point x="0" y="-293" type="line"/>

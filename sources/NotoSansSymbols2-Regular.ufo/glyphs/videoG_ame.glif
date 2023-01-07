@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="videoGame" format="2">
-	<advance width="1091"/>
 	<unicode hex="1F3AE"/>
+	<advance width="1091"/>
 	<outline>
 		<contour>
 			<point x="142" y="34" type="curve" smooth="yes"/>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ocrDoubleBackslash" format="2">
-	<advance width="500"/>
 	<unicode hex="244A"/>
-	<note>
-		uni244A
-	</note>
+	<advance width="500"/>
 	<outline>
 		<contour>
 			<point x="453" y="-66" type="curve" smooth="yes"/>
@@ -53,4 +50,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni244A
+	</note>
 </glyph>

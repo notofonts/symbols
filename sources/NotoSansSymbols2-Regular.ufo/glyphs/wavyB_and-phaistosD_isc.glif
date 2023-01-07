@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="wavyBand-phaistosDisc" format="2">
-	<advance width="369"/>
 	<unicode hex="101FC"/>
-	<anchor x="245" y="50" name="bottom"/>
-	<note>
-		uni101FC
-	</note>
+	<advance width="369"/>
 	<outline>
 		<contour>
 			<point x="68" y="-5" type="curve" smooth="yes"/>
@@ -108,6 +104,7 @@
 			<point x="217" y="50" type="curve"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="245" y="50"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -118,4 +115,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101FC
+	</note>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="upTriangleArrowWithHeavyShaft" format="2">
-	<advance width="662"/>
 	<unicode hex="1F82D"/>
+	<advance width="662"/>
 	<outline>
 		<contour>
 			<point x="204" y="-30" type="line"/>

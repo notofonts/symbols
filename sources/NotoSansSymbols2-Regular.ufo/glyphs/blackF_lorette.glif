@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="blackFlorette" format="2">
-	<advance width="838"/>
 	<unicode hex="273F"/>
-	<note>
-		uni273F
-	</note>
+	<advance width="838"/>
 	<outline>
 		<contour>
 			<point x="274" y="-20" type="curve" smooth="yes"/>
@@ -94,4 +91,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni273F
+	</note>
 </glyph>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="whiteStar.circled" format="2">
-	<advance width="832"/>
 	<unicode hex="272A"/>
-	<note>
-		uni272A
-	</note>
+	<advance width="832"/>
 	<outline>
 		<contour>
 			<point x="415" y="-3" type="curve" smooth="yes"/>
@@ -39,4 +36,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni272A
+	</note>
 </glyph>

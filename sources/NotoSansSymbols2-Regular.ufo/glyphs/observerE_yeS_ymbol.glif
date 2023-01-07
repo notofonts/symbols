@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="observerEyeSymbol" format="2">
-	<advance width="1000"/>
 	<unicode hex="23FF"/>
+	<advance width="1000"/>
 	<outline>
 		<contour>
 			<point x="902" y="-60" type="line"/>

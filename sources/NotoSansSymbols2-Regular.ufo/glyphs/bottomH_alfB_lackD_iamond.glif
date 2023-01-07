@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bottomHalfBlackDiamond" format="2">
-	<advance width="703"/>
 	<unicode hex="2B19"/>
-	<note>
-		uni2B19
-	</note>
+	<advance width="703"/>
 	<outline>
 		<contour>
 			<point x="353" y="63" type="line"/>
@@ -24,4 +21,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2B19
+	</note>
 </glyph>

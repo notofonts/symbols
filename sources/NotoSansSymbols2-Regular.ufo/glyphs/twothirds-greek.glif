@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="twothirds-greek" format="2">
-	<advance width="1086"/>
 	<unicode hex="10177"/>
-	<note>
-		u10177
-	</note>
+	<advance width="1086"/>
 	<outline>
 		<contour>
 			<point x="285" y="-10" type="curve" smooth="yes"/>
@@ -78,4 +75,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		u10177
+	</note>
 </glyph>

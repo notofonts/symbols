@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="curvedStemParagraphSignOrnament" format="2">
-	<advance width="748"/>
 	<unicode hex="2761"/>
-	<note>
-		uni2761
-	</note>
+	<advance width="748"/>
 	<outline>
 		<contour>
 			<point x="303" y="-144" type="curve" smooth="yes"/>
@@ -80,4 +77,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2761
+	</note>
 </glyph>

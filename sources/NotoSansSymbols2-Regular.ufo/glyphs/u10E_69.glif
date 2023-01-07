@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u10E69" format="2">
-	<advance width="629"/>
 	<unicode hex="10E69"/>
+	<advance width="629"/>
 	<outline>
 		<contour>
 			<point x="277" y="143" type="curve" smooth="yes"/>

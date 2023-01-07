@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="clipboard" format="2">
-	<advance width="1052"/>
 	<unicode hex="1F4CB"/>
+	<advance width="1052"/>
 	<outline>
 		<contour>
 			<point x="513" y="-121" type="curve" smooth="yes"/>

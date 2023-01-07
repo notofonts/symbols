@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="candle" format="2">
-	<advance width="479"/>
 	<unicode hex="1F56F"/>
+	<advance width="479"/>
 	<outline>
 		<contour>
 			<point x="238" y="-15" type="curve" smooth="yes"/>

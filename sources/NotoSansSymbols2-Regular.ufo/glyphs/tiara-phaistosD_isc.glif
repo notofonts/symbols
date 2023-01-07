@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tiara-phaistosDisc" format="2">
-	<advance width="457"/>
 	<unicode hex="101D8"/>
-	<anchor x="321" y="-80" name="bottom"/>
-	<note>
-		uni101D8
-	</note>
+	<advance width="457"/>
 	<outline>
 		<contour>
 			<point x="341" y="-71" type="curve" smooth="yes"/>
@@ -106,6 +102,7 @@
 			<point x="161" y="470" type="curve"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="321" y="-80"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -116,4 +113,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101D8
+	</note>
 </glyph>

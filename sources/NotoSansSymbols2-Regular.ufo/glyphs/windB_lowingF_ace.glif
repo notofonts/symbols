@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="windBlowingFace" format="2">
-	<advance width="1064"/>
 	<unicode hex="1F32C"/>
+	<advance width="1064"/>
 	<outline>
 		<contour>
 			<point x="51" y="-80" type="line"/>

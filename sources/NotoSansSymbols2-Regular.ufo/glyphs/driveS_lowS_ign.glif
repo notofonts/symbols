@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="driveSlowSign" format="2">
-	<advance width="871"/>
 	<unicode hex="26DA"/>
+	<advance width="871"/>
 	<outline>
 		<contour>
 			<point x="781" y="610" type="curve" smooth="yes"/>

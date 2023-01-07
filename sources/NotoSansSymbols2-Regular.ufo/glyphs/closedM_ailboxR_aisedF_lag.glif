@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="closedMailboxRaisedFlag" format="2">
-	<advance width="1077"/>
 	<unicode hex="1F4EB"/>
+	<advance width="1077"/>
 	<outline>
 		<contour>
 			<point x="600" y="-153" type="curve" smooth="yes"/>

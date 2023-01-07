@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heavyrightpointinganglebracketornament" format="2">
-	<advance width="494"/>
 	<unicode hex="2771"/>
-	<note>
-		uni2771
-	</note>
+	<advance width="494"/>
 	<outline>
 		<contour>
 			<point x="51" y="-74" type="line"/>
@@ -21,4 +18,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2771
+	</note>
 </glyph>

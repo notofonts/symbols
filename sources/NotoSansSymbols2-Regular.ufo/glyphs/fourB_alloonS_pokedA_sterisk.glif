@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fourBalloonSpokedAsterisk" format="2">
-	<advance width="870"/>
 	<unicode hex="2723"/>
-	<note>
-		uni2723
-	</note>
+	<advance width="870"/>
 	<outline>
 		<contour>
 			<point x="435" y="-51" type="curve" smooth="yes"/>
@@ -108,4 +105,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2723
+	</note>
 </glyph>

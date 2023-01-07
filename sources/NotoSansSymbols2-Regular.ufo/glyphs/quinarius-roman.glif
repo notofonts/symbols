@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quinarius-roman" format="2">
-	<advance width="600"/>
 	<unicode hex="10197"/>
-	<note>
-		uni10197
-	</note>
+	<advance width="600"/>
 	<outline>
 		<contour>
 			<point x="255" y="0" type="line"/>
@@ -46,4 +43,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni10197
+	</note>
 </glyph>

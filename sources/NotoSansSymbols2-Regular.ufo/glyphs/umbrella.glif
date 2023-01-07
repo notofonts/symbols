@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="umbrella" format="2">
-	<advance width="804"/>
 	<unicode hex="2602"/>
-	<note>
-		uni2602
-	</note>
+	<advance width="804"/>
 	<outline>
 		<contour>
 			<point x="350" y="-17" type="curve" smooth="yes"/>
@@ -68,4 +65,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2602
+	</note>
 </glyph>

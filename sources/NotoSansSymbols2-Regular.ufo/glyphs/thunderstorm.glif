@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="thunderstorm" format="2">
-	<advance width="755"/>
 	<unicode hex="2608"/>
-	<note>
-		uni2608
-	</note>
+	<advance width="755"/>
 	<outline>
 		<contour>
 			<point x="51" y="0" type="line"/>
@@ -46,4 +43,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2608
+	</note>
 </glyph>

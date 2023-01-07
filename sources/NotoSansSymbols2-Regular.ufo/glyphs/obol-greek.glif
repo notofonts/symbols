@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="obol-greek" format="2">
-	<advance width="533"/>
 	<unicode hex="1017C"/>
-	<note>
-		u1017C
-	</note>
+	<advance width="533"/>
 	<outline>
 		<contour>
 			<point x="418" y="242" type="curve"/>
@@ -41,4 +38,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		u1017C
+	</note>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lightFourPointedBlackCusp" format="2">
-	<advance width="895"/>
 	<unicode hex="2BCC"/>
+	<advance width="895"/>
 	<outline>
 		<contour>
 			<point x="447" y="-81" type="curve"/>

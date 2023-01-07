@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oxBack-phaistosDisc" format="2">
-	<advance width="493"/>
 	<unicode hex="101F7"/>
-	<anchor x="327" y="-10" name="bottom"/>
-	<note>
-		uni101F7
-	</note>
+	<advance width="493"/>
 	<outline>
 		<contour>
 			<point x="116" y="0" type="curve" smooth="yes"/>
@@ -91,6 +87,7 @@
 			<point x="355" y="28" type="curve"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="327" y="-10"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -101,4 +98,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101F7
+	</note>
 </glyph>

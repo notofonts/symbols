@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bow-phaistosDisc" format="2">
-	<advance width="307"/>
 	<unicode hex="101DA"/>
-	<anchor x="74" y="50" name="bottom"/>
-	<note>
-		uni101DA
-	</note>
+	<advance width="307"/>
 	<outline>
 		<contour>
 			<point x="73" y="49" type="curve" smooth="yes"/>
@@ -244,6 +240,7 @@
 			<point x="165" y="556" type="curve"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="74" y="50"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -254,4 +251,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101DA
+	</note>
 </glyph>

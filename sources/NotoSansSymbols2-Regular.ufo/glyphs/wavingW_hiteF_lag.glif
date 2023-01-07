@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="wavingWhiteFlag" format="2">
-	<advance width="1102"/>
 	<unicode hex="1F3F3"/>
+	<advance width="1102"/>
 	<outline>
 		<contour>
 			<point x="146" y="-220" type="line"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tabKeyHorizontal" format="2">
-	<advance width="754"/>
 	<unicode hex="2B7E"/>
+	<advance width="754"/>
 	<outline>
 		<contour>
 			<point x="370" y="383" type="line"/>

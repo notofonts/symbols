@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="joystick" format="2">
-	<advance width="1000"/>
 	<unicode hex="1F579"/>
+	<advance width="1000"/>
 	<outline>
 		<contour>
 			<point x="500" y="-97" type="curve" smooth="yes"/>

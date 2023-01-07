@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1FA64" format="2">
-	<advance width="1000"/>
 	<unicode hex="1FA64"/>
-	<note>
-		cid01299
-	</note>
+	<advance width="1000"/>
 	<outline>
 		<contour>
 			<point x="499" y="10" type="curve"/>
@@ -182,4 +179,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		cid01299
+	</note>
 </glyph>

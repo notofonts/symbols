@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pocketCalculator" format="2">
-	<advance width="600"/>
 	<unicode hex="1F5A9"/>
+	<advance width="600"/>
 	<outline>
 		<contour>
 			<point x="101" y="-7" type="curve" smooth="yes"/>

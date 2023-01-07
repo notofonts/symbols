@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pedestrian-phaistosDisc" format="2">
-	<advance width="833"/>
 	<unicode hex="101D0"/>
-	<anchor x="417" y="60" name="bottom"/>
-	<note>
-		uni101D0
-	</note>
+	<advance width="833"/>
 	<outline>
 		<contour>
 			<point x="691" y="-25" type="curve" smooth="yes"/>
@@ -299,6 +295,7 @@
 			<point x="391" y="624"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="417" y="60"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -309,4 +306,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101D0
+	</note>
 </glyph>

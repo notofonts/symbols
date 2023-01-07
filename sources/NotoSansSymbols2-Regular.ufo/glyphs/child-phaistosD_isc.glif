@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="child-phaistosDisc" format="2">
-	<advance width="493"/>
 	<unicode hex="101D4"/>
-	<anchor x="257" y="0" name="bottom"/>
-	<note>
-		uni101D4
-	</note>
+	<advance width="493"/>
 	<outline>
 		<contour>
 			<point x="244" y="4" type="curve" smooth="yes"/>
@@ -314,6 +310,7 @@
 			<point x="194" y="636"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="257" y="0"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -324,4 +321,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101D4
+	</note>
 </glyph>

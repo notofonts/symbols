@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rightUpperRightShadowHeavyWhiteArrow" format="2">
-	<advance width="785"/>
 	<unicode hex="27AE"/>
-	<note>
-		uni27AE
-	</note>
+	<advance width="785"/>
 	<outline>
 		<contour>
 			<point x="317" y="-56" type="line"/>
@@ -33,4 +30,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni27AE
+	</note>
 </glyph>

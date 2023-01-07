@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ambulance" format="2">
-	<advance width="1133"/>
 	<unicode hex="1F691"/>
+	<advance width="1133"/>
 	<outline>
 		<contour>
 			<point x="197" y="36" type="curve" smooth="yes"/>

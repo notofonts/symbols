@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="opticalDiscIcon" format="2">
-	<advance width="924"/>
 	<unicode hex="1F5B8"/>
+	<advance width="924"/>
 	<outline>
 		<contour>
 			<point x="90" y="-53" type="curve" smooth="yes"/>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="comet" format="2">
-	<advance width="875"/>
 	<unicode hex="2604"/>
-	<note>
-		uni2604
-	</note>
+	<advance width="875"/>
 	<outline>
 		<contour>
 			<point x="259" y="-7" type="curve" smooth="yes"/>
@@ -160,4 +157,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2604
+	</note>
 </glyph>

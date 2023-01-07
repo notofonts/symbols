@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1FA90" format="2">
-	<advance width="1000"/>
 	<unicode hex="1FA90"/>
-	<note>
-		Saturn
-	</note>
+	<advance width="1000"/>
 	<outline>
 		<contour>
 			<point x="791" y="-31" type="curve" smooth="yes"/>
@@ -113,4 +110,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		Saturn
+	</note>
 </glyph>

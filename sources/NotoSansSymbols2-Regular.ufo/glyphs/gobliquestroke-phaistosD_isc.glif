@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gobliquestroke-phaistosDisc" format="2">
-	<advance width="0"/>
 	<unicode hex="101FD"/>
-	<anchor x="0" y="0" name="_bottom"/>
-	<anchor x="0" y="-257" name="bottom"/>
 	<outline>
 		<contour>
 			<point x="-52" y="-257" type="curve" smooth="yes"/>
@@ -28,6 +25,8 @@
 			<point x="-61" y="-257"/>
 		</contour>
 	</outline>
+	<anchor name="_bottom" x="0" y="0"/>
+	<anchor name="bottom" x="0" y="-257"/>
 	<lib>
 		<dict>
 			<key>public.verticalOrigin</key>

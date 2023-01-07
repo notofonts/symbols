@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heavyNorthWestVineLeaf" format="2">
-	<advance width="1107"/>
 	<unicode hex="1F65C"/>
+	<advance width="1107"/>
 	<outline>
 		<contour>
 			<point x="658" y="-30" type="curve" smooth="yes"/>

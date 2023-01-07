@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ballotBoxWithLightX" format="2">
-	<advance width="821"/>
 	<unicode hex="2BBD"/>
+	<advance width="821"/>
 	<outline>
 		<contour>
 			<point x="51" y="0" type="line"/>

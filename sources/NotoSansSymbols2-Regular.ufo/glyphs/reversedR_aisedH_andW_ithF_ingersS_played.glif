@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="reversedRaisedHandWithFingersSplayed" format="2">
-	<advance width="1080"/>
 	<unicode hex="1F591"/>
+	<advance width="1080"/>
 	<outline>
 		<contour>
 			<point x="646" y="-116" type="curve" smooth="yes"/>

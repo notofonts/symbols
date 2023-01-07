@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fish" format="2">
-	<advance width="1235"/>
 	<unicode hex="1F41F"/>
+	<advance width="1235"/>
 	<outline>
 		<contour>
 			<point x="487" y="61" type="curve" smooth="yes"/>

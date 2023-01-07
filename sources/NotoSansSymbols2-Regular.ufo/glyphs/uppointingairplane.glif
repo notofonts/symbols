@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uppointingairplane" format="2">
-	<advance width="1029"/>
 	<unicode hex="1F6E8"/>
+	<advance width="1029"/>
 	<outline>
 		<contour>
 			<point x="386" y="-12" type="curve" smooth="yes"/>

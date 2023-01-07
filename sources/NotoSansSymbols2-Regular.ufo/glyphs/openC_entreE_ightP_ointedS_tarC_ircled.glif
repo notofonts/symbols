@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="openCentreEightPointedStarCircled" format="2">
-	<advance width="827"/>
 	<unicode hex="2742"/>
-	<note>
-		uni2742
-	</note>
+	<advance width="827"/>
 	<outline>
 		<contour>
 			<point x="413" y="0" type="curve" smooth="yes"/>
@@ -109,4 +106,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2742
+	</note>
 </glyph>

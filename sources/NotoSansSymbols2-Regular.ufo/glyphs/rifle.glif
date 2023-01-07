@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rifle" format="2">
-	<advance width="1048"/>
 	<unicode hex="1F946"/>
+	<advance width="1048"/>
 	<outline>
 		<contour>
 			<point x="871" y="-19" type="curve" smooth="yes"/>

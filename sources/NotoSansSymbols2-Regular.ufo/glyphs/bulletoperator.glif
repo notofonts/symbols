@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bulletoperator" format="2">
-	<advance width="270"/>
 	<unicode hex="2219"/>
-	<note>
-		uni2219
-	</note>
+	<advance width="270"/>
 	<outline>
 		<contour>
 			<point x="135" y="278" type="curve" smooth="yes"/>
@@ -27,4 +24,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2219
+	</note>
 </glyph>

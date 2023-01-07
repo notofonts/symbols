@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="digramForGreaterYang" format="2">
-	<advance width="940"/>
 	<unicode hex="268C"/>
-	<note>
-		uni268C
-	</note>
+	<advance width="940"/>
 	<outline>
 		<contour>
 			<point x="98" y="409" type="line"/>
@@ -25,4 +22,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni268C
+	</note>
 </glyph>

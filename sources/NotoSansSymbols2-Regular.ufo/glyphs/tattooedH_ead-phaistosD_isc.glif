@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tattooedHead-phaistosDisc" format="2">
-	<advance width="499"/>
 	<unicode hex="101D2"/>
-	<anchor x="308" y="50" name="bottom"/>
-	<note>
-		uni101D2
-	</note>
+	<advance width="499"/>
 	<outline>
 		<contour>
 			<point x="226" y="18" type="curve" smooth="yes"/>
@@ -236,6 +232,7 @@
 			<point x="298" y="234"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="308" y="50"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -246,4 +243,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101D2
+	</note>
 </glyph>

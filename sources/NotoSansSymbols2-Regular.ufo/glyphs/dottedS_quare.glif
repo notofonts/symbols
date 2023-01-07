@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dottedSquare" format="2">
-	<advance width="846"/>
 	<unicode hex="2B1A"/>
-	<note>
-		uni2B1A
-	</note>
+	<advance width="846"/>
 	<outline>
 		<contour>
 			<point x="762" y="392" type="curve"/>
@@ -293,4 +290,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2B1A
+	</note>
 </glyph>

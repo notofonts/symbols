@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="wheelchairSymbol" format="2">
-	<advance width="742"/>
 	<unicode hex="267F"/>
-	<note>
-		uni267F
-	</note>
+	<advance width="742"/>
 	<outline>
 		<contour>
 			<point x="551" y="65" type="line"/>
@@ -65,4 +62,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni267F
+	</note>
 </glyph>

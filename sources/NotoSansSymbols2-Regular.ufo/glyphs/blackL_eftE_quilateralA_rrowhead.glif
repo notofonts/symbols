@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="blackLeftEquilateralArrowhead" format="2">
-	<advance width="745"/>
 	<unicode hex="2B9C"/>
+	<advance width="745"/>
 	<outline>
 		<contour>
 			<point x="694" y="-35" type="line"/>

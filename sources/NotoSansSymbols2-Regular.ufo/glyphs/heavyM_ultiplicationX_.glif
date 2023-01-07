@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heavyMultiplicationX" format="2">
-	<advance width="846"/>
 	<unicode hex="2716"/>
-	<note>
-		uni2716
-	</note>
+	<advance width="846"/>
 	<outline>
 		<contour>
 			<point x="201" y="-108" type="line"/>
@@ -27,4 +24,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2716
+	</note>
 </glyph>

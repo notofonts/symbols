@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="blackSafetyScissors" format="2">
-	<advance width="1043"/>
 	<unicode hex="2700"/>
+	<advance width="1043"/>
 	<outline>
 		<contour>
 			<point x="211" y="-72" type="curve" smooth="yes"/>

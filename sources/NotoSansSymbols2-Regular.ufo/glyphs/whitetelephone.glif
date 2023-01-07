@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="whitetelephone" format="2">
-	<advance width="892"/>
 	<unicode hex="260F"/>
-	<note>
-		uni260F
-	</note>
+	<advance width="892"/>
 	<outline>
 		<contour>
 			<point x="167" y="0" type="curve" smooth="yes"/>
@@ -252,4 +249,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni260F
+	</note>
 </glyph>

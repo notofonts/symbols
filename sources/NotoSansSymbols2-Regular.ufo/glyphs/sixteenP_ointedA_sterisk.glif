@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sixteenPointedAsterisk" format="2">
-	<advance width="830"/>
 	<unicode hex="273A"/>
-	<note>
-		uni273A
-	</note>
+	<advance width="830"/>
 	<outline>
 		<contour>
 			<point x="385" y="-48" type="line"/>
@@ -63,4 +60,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni273A
+	</note>
 </glyph>

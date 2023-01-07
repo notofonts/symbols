@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="blackFourPointedStar" format="2">
-	<advance width="870"/>
 	<unicode hex="2726"/>
-	<note>
-		uni2726
-	</note>
+	<advance width="870"/>
 	<outline>
 		<contour>
 			<point x="415" y="-42" type="curve"/>
@@ -43,4 +40,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2726
+	</note>
 </glyph>

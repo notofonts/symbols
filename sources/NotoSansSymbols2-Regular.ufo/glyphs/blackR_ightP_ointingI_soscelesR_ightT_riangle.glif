@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="blackRightPointingIsoscelesRightTriangle" format="2">
-	<advance width="490"/>
 	<unicode hex="1F782"/>
+	<advance width="490"/>
 	<outline>
 		<contour>
 			<point x="51" y="-32" type="line"/>

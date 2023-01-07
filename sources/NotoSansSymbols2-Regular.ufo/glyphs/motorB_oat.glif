@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="motorBoat" format="2">
-	<advance width="1083"/>
 	<unicode hex="1F6E5"/>
+	<advance width="1083"/>
 	<outline>
 		<contour>
 			<point x="138" y="33" type="curve" smooth="yes"/>

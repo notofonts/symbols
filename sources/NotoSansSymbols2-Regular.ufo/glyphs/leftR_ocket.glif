@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="leftRocket" format="2">
-	<advance width="1065"/>
 	<unicode hex="1F66C"/>
+	<advance width="1065"/>
 	<outline>
 		<contour>
 			<point x="513" y="210" type="curve" smooth="yes"/>

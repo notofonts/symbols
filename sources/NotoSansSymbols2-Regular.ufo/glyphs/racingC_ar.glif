@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="racingCar" format="2">
-	<advance width="1257"/>
 	<unicode hex="1F3CE"/>
+	<advance width="1257"/>
 	<outline>
 		<contour>
 			<point x="280" y="16" type="curve" smooth="yes"/>

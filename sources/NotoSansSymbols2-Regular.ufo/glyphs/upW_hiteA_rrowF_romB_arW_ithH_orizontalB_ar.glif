@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="upWhiteArrowFromBarWithHorizontalBar" format="2">
-	<advance width="643"/>
 	<unicode hex="2BB8"/>
+	<advance width="643"/>
 	<outline>
 		<contour>
 			<point x="186" y="159" type="line"/>

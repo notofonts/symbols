@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="woman-phaistosDisc" format="2">
-	<advance width="486"/>
 	<unicode hex="101D5"/>
-	<anchor x="263" y="0" name="bottom"/>
-	<note>
-		uni101D5
-	</note>
+	<advance width="486"/>
 	<outline>
 		<contour>
 			<point x="155" y="1" type="curve" smooth="yes"/>
@@ -450,6 +446,7 @@
 			<point x="294" y="562"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="263" y="0"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -460,4 +457,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101D5
+	</note>
 </glyph>

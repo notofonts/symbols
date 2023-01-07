@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="couchAndLamp" format="2">
-	<advance width="1102"/>
 	<unicode hex="1F6CB"/>
+	<advance width="1102"/>
 	<outline>
 		<contour>
 			<point x="214" y="11" type="curve" smooth="yes"/>

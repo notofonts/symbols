@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="leftAngerBubble" format="2">
-	<advance width="1220"/>
 	<unicode hex="1F5EE"/>
+	<advance width="1220"/>
 	<outline>
 		<contour>
 			<point x="1176" y="-183" type="line"/>

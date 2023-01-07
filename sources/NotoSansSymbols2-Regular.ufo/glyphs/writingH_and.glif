@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="writingHand" format="2">
-	<advance width="1192"/>
 	<unicode hex="270D"/>
-	<note>
-		uni270D
-	</note>
+	<advance width="1192"/>
 	<outline>
 		<contour>
 			<point x="788" y="50" type="curve" smooth="yes"/>
@@ -218,4 +215,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni270D
+	</note>
 </glyph>

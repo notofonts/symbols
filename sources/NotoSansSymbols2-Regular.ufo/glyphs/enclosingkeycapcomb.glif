@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="enclosingkeycapcomb" format="2">
-	<advance width="1022"/>
 	<unicode hex="20E3"/>
-	<anchor x="511" y="715" name="_top"/>
-	<note>
-		uni20E3
-	</note>
+	<advance width="1022"/>
 	<outline>
 		<contour>
 			<point x="113" y="-142" type="curve" smooth="yes"/>
@@ -58,10 +54,14 @@
 			<point x="983" y="732" type="curve" smooth="yes"/>
 		</contour>
 	</outline>
+	<anchor name="_top" x="511" y="715"/>
 	<lib>
 		<dict>
 			<key>public.verticalOrigin</key>
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni20E3
+	</note>
 </glyph>

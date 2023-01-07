@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uncertaintySign" format="2">
-	<advance width="916"/>
 	<unicode hex="2BD1"/>
+	<advance width="916"/>
 	<outline>
 		<contour>
 			<point x="458" y="-81" type="line"/>

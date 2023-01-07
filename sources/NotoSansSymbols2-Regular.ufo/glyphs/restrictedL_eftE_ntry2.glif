@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="restrictedLeftEntry2" format="2">
-	<advance width="860"/>
 	<unicode hex="26E1"/>
+	<advance width="860"/>
 	<outline>
 		<contour>
 			<point x="51" y="0" type="line"/>

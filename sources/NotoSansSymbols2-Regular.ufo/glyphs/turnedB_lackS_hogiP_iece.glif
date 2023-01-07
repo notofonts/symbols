@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="turnedBlackShogiPiece" format="2">
-	<advance width="628"/>
 	<unicode hex="26CA"/>
-	<note>
-		uni26CA
-	</note>
+	<advance width="628"/>
 	<outline>
 		<contour>
 			<point x="314" y="-4" type="line"/>
@@ -20,4 +17,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni26CA
+	</note>
 </glyph>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ocrInvertedFork" format="2">
-	<advance width="500"/>
 	<unicode hex="2443"/>
-	<note>
-		uni2443
-	</note>
+	<advance width="500"/>
 	<outline>
 		<contour>
 			<point x="86" y="0" type="curve" smooth="yes"/>
@@ -48,4 +45,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2443
+	</note>
 </glyph>

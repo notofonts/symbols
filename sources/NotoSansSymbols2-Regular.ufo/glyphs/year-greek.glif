@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="year-greek" format="2">
-	<advance width="522"/>
 	<unicode hex="10179"/>
-	<note>
-		u10179
-	</note>
+	<advance width="522"/>
 	<outline>
 		<contour>
 			<point x="510" y="-10" type="curve"/>
@@ -23,4 +20,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		u10179
+	</note>
 </glyph>

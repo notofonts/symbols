@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni4DCC" format="2">
-	<advance width="1043"/>
 	<unicode hex="4DCC"/>
-	<note>
-		uni4DCC
-	</note>
+	<advance width="1043"/>
 	<outline>
 		<contour>
 			<point x="98" y="770" type="line"/>
@@ -55,4 +52,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni4DCC
+	</note>
 </glyph>

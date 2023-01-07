@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="keyboard" format="2">
-	<advance width="1024"/>
 	<unicode hex="2328"/>
-	<note>
-		uni2328
-	</note>
+	<advance width="1024"/>
 	<outline>
 		<contour>
 			<point x="51" y="0" type="line"/>
@@ -121,4 +118,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2328
+	</note>
 </glyph>

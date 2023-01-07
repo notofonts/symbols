@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="helmet-phaistosDisc" format="2">
-	<advance width="446"/>
 	<unicode hex="101D6"/>
-	<anchor x="313" y="-10" name="bottom"/>
-	<note>
-		uni101D6
-	</note>
+	<advance width="446"/>
 	<outline>
 		<contour>
 			<point x="141" y="-4" type="curve" smooth="yes"/>
@@ -82,6 +78,7 @@
 			<point x="325" y="24" type="curve" smooth="yes"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="313" y="-10"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -92,4 +89,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101D6
+	</note>
 </glyph>

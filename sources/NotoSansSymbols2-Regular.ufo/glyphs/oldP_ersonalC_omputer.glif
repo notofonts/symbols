@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oldPersonalComputer" format="2">
-	<advance width="1334"/>
 	<unicode hex="1F5B3"/>
+	<advance width="1334"/>
 	<outline>
 		<contour>
 			<point x="435" y="125" type="line"/>

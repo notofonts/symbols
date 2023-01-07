@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="troezenianten-ancientGreek" format="2">
-	<advance width="619"/>
 	<unicode hex="10160"/>
-	<note>
-		u10160
-	</note>
+	<advance width="619"/>
 	<outline>
 		<contour>
 			<point x="48" y="-19" type="line"/>
@@ -25,4 +22,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		u10160
+	</note>
 </glyph>

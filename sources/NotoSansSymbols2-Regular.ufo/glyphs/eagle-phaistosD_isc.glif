@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eagle-phaistosDisc" format="2">
-	<advance width="648"/>
 	<unicode hex="101EE"/>
-	<anchor x="477" y="180" name="bottom"/>
-	<note>
-		uni101EE
-	</note>
+	<advance width="648"/>
 	<outline>
 		<contour>
 			<point x="283" y="48" type="curve" smooth="yes"/>
@@ -278,6 +274,7 @@
 			<point x="435" y="314" type="curve"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="477" y="180"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -288,4 +285,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101EE
+	</note>
 </glyph>

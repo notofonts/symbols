@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="worldMap" format="2">
-	<advance width="1371"/>
 	<unicode hex="1F5FA"/>
+	<advance width="1371"/>
 	<outline>
 		<contour>
 			<point x="141" y="-24" type="curve" smooth="yes"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="clapperBoard" format="2">
-	<advance width="825"/>
 	<unicode hex="1F3AC"/>
+	<advance width="825"/>
 	<outline>
 		<contour>
 			<point x="196" y="-118" type="line"/>

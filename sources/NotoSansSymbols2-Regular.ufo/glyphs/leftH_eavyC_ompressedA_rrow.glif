@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="leftHeavyCompressedArrow" format="2">
-	<advance width="544"/>
 	<unicode hex="1F840"/>
+	<advance width="544"/>
 	<outline>
 		<contour>
 			<point x="339" y="-117" type="line"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bouquetOfFlowers" format="2">
-	<advance width="906"/>
 	<unicode hex="1F395"/>
+	<advance width="906"/>
 	<outline>
 		<contour>
 			<point x="775" y="-52" type="curve" smooth="yes"/>

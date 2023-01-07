@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="modernPentathlon" format="2">
-	<advance width="872"/>
 	<unicode hex="1F93B"/>
+	<advance width="872"/>
 	<outline>
 		<contour>
 			<point x="549" y="-160" type="curve" smooth="yes"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="softwareFunctionsymbol" format="2">
-	<advance width="968"/>
 	<unicode hex="2394"/>
+	<advance width="968"/>
 	<outline>
 		<contour>
 			<point x="51" y="362" type="line"/>

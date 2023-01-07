@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dottedCircle" format="2">
-	<advance width="894"/>
 	<unicode hex="25CC"/>
-	<anchor x="447" y="0" name="bottom"/>
-	<anchor x="442" y="725" name="top"/>
-	<note>
-		uni25CC
-	</note>
+	<advance width="894"/>
 	<outline>
 		<contour>
 			<point x="773" y="454" type="curve" smooth="yes"/>
@@ -233,10 +228,15 @@
 			<point x="670" y="570"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="447" y="0"/>
+	<anchor name="top" x="442" y="725"/>
 	<lib>
 		<dict>
 			<key>public.verticalOrigin</key>
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni25CC
+	</note>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="reverseCheckerBoard" format="2">
-	<advance width="1362"/>
 	<unicode hex="1F67F"/>
+	<advance width="1362"/>
 	<outline>
 		<contour>
 			<point x="681" y="-293" type="line"/>

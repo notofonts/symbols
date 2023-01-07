@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="reversedThumbsUpSign" format="2">
-	<advance width="959"/>
 	<unicode hex="1F592"/>
+	<advance width="959"/>
 	<outline>
 		<contour>
 			<point x="642" y="-24" type="curve" smooth="yes"/>

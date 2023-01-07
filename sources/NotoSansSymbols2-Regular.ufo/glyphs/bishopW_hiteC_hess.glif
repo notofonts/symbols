@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bishopWhiteChess" format="2">
-	<advance width="1000"/>
 	<unicode hex="2657"/>
-	<note>
-		uni2657
-	</note>
+	<advance width="1000"/>
 	<outline>
 		<contour>
 			<point x="153" y="-49" type="line"/>
@@ -205,4 +202,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2657
+	</note>
 </glyph>

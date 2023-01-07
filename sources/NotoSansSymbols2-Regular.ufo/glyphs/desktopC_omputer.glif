@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="desktopComputer" format="2">
-	<advance width="652"/>
 	<unicode hex="1F5A5"/>
+	<advance width="652"/>
 	<outline>
 		<contour>
 			<point x="109" y="-100" type="curve" smooth="yes"/>

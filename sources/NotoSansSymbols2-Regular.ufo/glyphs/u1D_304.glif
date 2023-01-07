@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u1D304" format="2">
-	<advance width="940"/>
 	<unicode hex="1D304"/>
-	<note>
-		uni1D304
-	</note>
+	<advance width="940"/>
 	<outline>
 		<contour>
 			<point x="550" y="143" type="line"/>
@@ -43,4 +40,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni1D304
+	</note>
 </glyph>

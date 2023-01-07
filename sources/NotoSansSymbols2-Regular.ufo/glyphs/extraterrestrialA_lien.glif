@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="extraterrestrialAlien" format="2">
-	<advance width="905"/>
 	<unicode hex="1F47D"/>
+	<advance width="905"/>
 	<outline>
 		<contour>
 			<point x="453" y="-26" type="curve" smooth="yes"/>

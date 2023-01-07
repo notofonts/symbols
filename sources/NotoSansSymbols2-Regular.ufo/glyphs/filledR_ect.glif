@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="filledRect" format="2">
-	<advance width="1000"/>
 	<unicode hex="25AC"/>
-	<note>
-		filledrect
-	</note>
+	<advance width="1000"/>
 	<outline>
 		<contour>
 			<point x="0" y="63" type="line"/>
@@ -19,4 +16,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		filledrect
+	</note>
 </glyph>

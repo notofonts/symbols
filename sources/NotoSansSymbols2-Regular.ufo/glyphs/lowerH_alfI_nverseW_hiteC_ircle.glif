@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lowerHalfInverseWhiteCircle" format="2">
-	<advance width="894"/>
 	<unicode hex="25DB"/>
-	<note>
-		uni25DB
-	</note>
+	<advance width="894"/>
 	<outline>
 		<contour>
 			<point x="51" y="-34" type="line"/>
@@ -35,4 +32,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni25DB
+	</note>
 </glyph>

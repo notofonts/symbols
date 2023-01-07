@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="symbolForMarksChapter" format="2">
-	<advance width="815"/>
 	<unicode hex="1F545"/>
+	<advance width="815"/>
 	<outline>
 		<contour>
 			<point x="51" y="0" type="line"/>

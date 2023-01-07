@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mediumparenrightornament" format="2">
-	<advance width="470"/>
 	<unicode hex="2769"/>
-	<note>
-		uni2769
-	</note>
+	<advance width="470"/>
 	<outline>
 		<contour>
 			<point x="51" y="-62" type="line"/>
@@ -42,4 +39,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2769
+	</note>
 </glyph>

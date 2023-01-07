@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="openFolder" format="2">
-	<advance width="1240"/>
 	<unicode hex="1F5C1"/>
+	<advance width="1240"/>
 	<outline>
 		<contour>
 			<point x="104" y="0" type="curve" smooth="yes"/>

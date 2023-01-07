@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heavyTwelvePointedPinwheelStar" format="2">
-	<advance width="940"/>
 	<unicode hex="1F7D4"/>
+	<advance width="940"/>
 	<outline>
 		<contour>
 			<point x="470" y="-57" type="line"/>

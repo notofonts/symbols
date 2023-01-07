@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="manInBusinessSuitLevitating" format="2">
-	<advance width="398"/>
 	<unicode hex="1F574"/>
+	<advance width="398"/>
 	<outline>
 		<contour>
 			<point x="171" y="63" type="curve" smooth="yes"/>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="thespianthreehundred-ancientGreek" format="2">
-	<advance width="1138"/>
 	<unicode hex="1016B"/>
-	<note>
-		u1016B
-	</note>
+	<advance width="1138"/>
 	<outline>
 		<contour>
 			<point x="233" y="0" type="line"/>
@@ -39,4 +36,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		u1016B
+	</note>
 </glyph>

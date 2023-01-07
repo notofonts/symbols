@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heavySingleTurnedCommaQuotationMarkOrnament" format="2">
-	<advance width="446"/>
 	<unicode hex="275B"/>
-	<note>
-		uni275B
-	</note>
+	<advance width="446"/>
 	<outline>
 		<contour>
 			<point x="227" y="280" type="curve" smooth="yes"/>
@@ -37,4 +34,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni275B
+	</note>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="southWestLeaf" format="2">
-	<advance width="940"/>
 	<unicode hex="1F651"/>
+	<advance width="940"/>
 	<outline>
 		<contour>
 			<point x="141" y="-21" type="curve" smooth="yes"/>

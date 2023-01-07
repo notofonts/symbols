@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heavyleftpointinganglequotationmarkornament" format="2">
-	<advance width="553"/>
 	<unicode hex="276E"/>
-	<note>
-		uni276E
-	</note>
+	<advance width="553"/>
 	<outline>
 		<contour>
 			<point x="304" y="-74" type="line"/>
@@ -21,4 +18,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni276E
+	</note>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="blackPushpin" format="2">
-	<advance width="925"/>
 	<unicode hex="1F588"/>
+	<advance width="925"/>
 	<outline>
 		<contour>
 			<point x="64" y="-124" type="line"/>

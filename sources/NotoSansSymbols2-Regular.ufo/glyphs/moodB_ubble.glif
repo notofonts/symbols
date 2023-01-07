@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="moodBubble" format="2">
-	<advance width="1185"/>
 	<unicode hex="1F5F0"/>
+	<advance width="1185"/>
 	<outline>
 		<contour>
 			<point x="355" y="-111" type="line"/>

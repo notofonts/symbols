@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tentalents-atticGreek" format="2">
-	<advance width="636"/>
 	<unicode hex="10149"/>
-	<note>
-		u10149
-	</note>
+	<advance width="636"/>
 	<outline>
 		<contour>
 			<point x="275" y="-252" type="line"/>
@@ -28,4 +25,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		u10149
+	</note>
 </glyph>

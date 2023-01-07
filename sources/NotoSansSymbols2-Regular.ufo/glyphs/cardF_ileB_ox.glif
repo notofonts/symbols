@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cardFileBox" format="2">
-	<advance width="989"/>
 	<unicode hex="1F5C3"/>
+	<advance width="989"/>
 	<outline>
 		<contour>
 			<point x="68" y="-56" type="curve" smooth="yes"/>

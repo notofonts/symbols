@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="skullAndCrossbones" format="2">
-	<advance width="919"/>
 	<unicode hex="2620"/>
-	<note>
-		uni2620
-	</note>
+	<advance width="919"/>
 	<outline>
 		<contour>
 			<point x="233" y="-61" type="curve" smooth="yes"/>
@@ -926,4 +923,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2620
+	</note>
 </glyph>

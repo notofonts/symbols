@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="staroperator" format="2">
-	<advance width="354"/>
 	<unicode hex="22C6"/>
+	<advance width="354"/>
 	<outline>
 		<contour>
 			<point x="95" y="250" type="line"/>

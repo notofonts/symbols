@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="whiteRightPentagon" format="2">
-	<advance width="877"/>
 	<unicode hex="2B54"/>
-	<note>
-		uni2B54
-	</note>
+	<advance width="877"/>
 	<outline>
 		<contour>
 			<point x="510" y="-23" type="line"/>
@@ -27,4 +24,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2B54
+	</note>
 </glyph>

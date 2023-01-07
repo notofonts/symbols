@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="headphone" format="2">
-	<advance width="1102"/>
 	<unicode hex="1F3A7"/>
+	<advance width="1102"/>
 	<outline>
 		<contour>
 			<point x="590" y="-139" type="curve" smooth="yes"/>

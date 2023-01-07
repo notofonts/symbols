@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tightTrifoliateSnowflake" format="2">
-	<advance width="738"/>
 	<unicode hex="2745"/>
-	<note>
-		uni2745
-	</note>
+	<advance width="738"/>
 	<outline>
 		<contour>
 			<point x="369" y="-45" type="curve" smooth="yes"/>
@@ -217,4 +214,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2745
+	</note>
 </glyph>

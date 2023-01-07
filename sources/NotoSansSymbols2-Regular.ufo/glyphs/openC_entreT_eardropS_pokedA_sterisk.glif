@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="openCentreTeardropSpokedAsterisk" format="2">
-	<advance width="750"/>
 	<unicode hex="273C"/>
-	<note>
-		uni273C
-	</note>
+	<advance width="750"/>
 	<outline>
 		<contour>
 			<point x="376" y="-44" type="curve" smooth="yes"/>
@@ -211,4 +208,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni273C
+	</note>
 </glyph>

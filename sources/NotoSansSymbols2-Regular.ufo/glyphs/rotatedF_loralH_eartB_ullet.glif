@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rotatedFloralHeartBullet" format="2">
-	<advance width="835"/>
 	<unicode hex="2767"/>
-	<note>
-		uni2767
-	</note>
+	<advance width="835"/>
 	<outline>
 		<contour>
 			<point x="205" y="16" type="curve" smooth="yes"/>
@@ -135,4 +132,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2767
+	</note>
 </glyph>

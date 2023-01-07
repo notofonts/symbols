@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="blackCurvedRightAndUpArrow" format="2">
-	<advance width="580"/>
 	<unicode hex="2BAD"/>
+	<advance width="580"/>
 	<outline>
 		<contour>
 			<point x="51" y="-109" type="line"/>

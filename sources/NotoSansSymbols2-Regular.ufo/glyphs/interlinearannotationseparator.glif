@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="interlinearannotationseparator" format="2">
-	<advance width="1030"/>
 	<unicode hex="FFFA"/>
-	<note>
-		uniFFFA
-	</note>
+	<advance width="1030"/>
 	<outline>
 		<contour>
 			<point x="520" y="313" type="line"/>
@@ -178,4 +175,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uniFFFA
+	</note>
 </glyph>

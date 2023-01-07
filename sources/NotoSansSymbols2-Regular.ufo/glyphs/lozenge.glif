@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lozenge" format="2">
-	<advance width="720"/>
 	<unicode hex="25CA"/>
-	<note>
-		lozenge
-	</note>
+	<advance width="720"/>
 	<outline>
 		<contour>
 			<point x="360" y="-157" type="line"/>
@@ -25,4 +22,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		lozenge
+	</note>
 </glyph>

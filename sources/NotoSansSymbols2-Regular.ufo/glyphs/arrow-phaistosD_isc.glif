@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arrow-phaistosDisc" format="2">
-	<advance width="323"/>
 	<unicode hex="101D9"/>
-	<anchor x="122" y="-80" name="bottom"/>
-	<note>
-		uni101D9
-	</note>
+	<advance width="323"/>
 	<outline>
 		<contour>
 			<point x="143" y="-80" type="curve" smooth="yes"/>
@@ -175,6 +171,7 @@
 			<point x="151" y="621"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="122" y="-80"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -185,4 +182,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101D9
+	</note>
 </glyph>

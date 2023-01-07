@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lightGreekCross" format="2">
-	<advance width="853"/>
 	<unicode hex="1F7A2"/>
+	<advance width="853"/>
 	<outline>
 		<contour>
 			<point x="51" y="327" type="line"/>

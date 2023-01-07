@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eightPointedPinwheelStar" format="2">
-	<advance width="880"/>
 	<unicode hex="2735"/>
-	<note>
-		uni2735
-	</note>
+	<advance width="880"/>
 	<outline>
 		<contour>
 			<point x="429" y="-26" type="line"/>
@@ -79,4 +76,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2735
+	</note>
 </glyph>

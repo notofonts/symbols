@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hollowQuiltSquareOrnament" format="2">
-	<advance width="1020"/>
 	<unicode hex="1F668"/>
+	<advance width="1020"/>
 	<outline>
 		<contour>
 			<point x="51" y="-102" type="line"/>

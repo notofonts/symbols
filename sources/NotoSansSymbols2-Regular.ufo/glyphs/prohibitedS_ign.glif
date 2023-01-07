@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="prohibitedSign" format="2">
-	<advance width="1020"/>
 	<unicode hex="1F6C7"/>
+	<advance width="1020"/>
 	<outline>
 		<contour>
 			<point x="510" y="-82" type="curve" smooth="yes"/>

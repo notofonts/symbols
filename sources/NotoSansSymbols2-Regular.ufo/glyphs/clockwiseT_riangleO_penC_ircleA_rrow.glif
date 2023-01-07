@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="clockwiseTriangleOpenCircleArrow" format="2">
-	<advance width="842"/>
 	<unicode hex="2B6E"/>
+	<advance width="842"/>
 	<outline>
 		<contour>
 			<point x="420" y="-71" type="curve" smooth="yes"/>

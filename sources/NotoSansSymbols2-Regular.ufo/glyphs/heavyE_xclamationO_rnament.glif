@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heavyExclamationOrnament" format="2">
-	<advance width="582"/>
 	<unicode hex="2762"/>
-	<note>
-		uni2762
-	</note>
+	<advance width="582"/>
 	<outline>
 		<contour>
 			<point x="291" y="-40" type="curve" smooth="yes"/>
@@ -47,4 +44,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni2762
+	</note>
 </glyph>

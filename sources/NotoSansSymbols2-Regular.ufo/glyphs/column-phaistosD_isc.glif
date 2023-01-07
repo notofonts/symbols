@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="column-phaistosDisc" format="2">
-	<advance width="276"/>
 	<unicode hex="101E6"/>
-	<anchor x="120" y="-20" name="bottom"/>
-	<note>
-		uni101E6
-	</note>
+	<advance width="276"/>
 	<outline>
 		<contour>
 			<point x="105" y="0" type="curve" smooth="yes"/>
@@ -48,6 +44,7 @@
 			<point x="198" y="584" type="line"/>
 		</contour>
 	</outline>
+	<anchor name="bottom" x="120" y="-20"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.category</key>
@@ -58,4 +55,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni101E6
+	</note>
 </glyph>

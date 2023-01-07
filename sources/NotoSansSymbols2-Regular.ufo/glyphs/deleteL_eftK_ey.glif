@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="deleteLeftKey" format="2">
-	<advance width="1197"/>
 	<unicode hex="232B"/>
-	<note>
-		uni232B
-	</note>
+	<advance width="1197"/>
 	<outline>
 		<contour>
 			<point x="353" y="0" type="line"/>
@@ -41,4 +38,7 @@
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+		uni232B
+	</note>
 </glyph>
