@@ -12,6 +12,8 @@
 		<integer>-622</integer>
 		<key>familyName</key>
 		<string>Noto Sans Symbols 2</string>
+		<key>italicAngle</key>
+		<integer>0</integer>
 		<key>openTypeHeadCreated</key>
 		<string>2017/03/16 13:15:55</string>
 		<key>openTypeHheaAscender</key>
@@ -35,7 +37,7 @@
 		<key>openTypeNamePreferredSubfamilyName</key>
 		<string>Regular</string>
 		<key>openTypeNameVersion</key>
-		<string>Version 2.004</string>
+		<string>Version 2.005</string>
 		<key>openTypeOS2CodePageRanges</key>
 		<array>
 			<integer>0</integer>
@@ -106,9 +108,6 @@
 		</array>
 		<key>postscriptFontName</key>
 		<string>NotoSansSymbols2-Regular</string>
-		<key>postscriptOtherBlues</key>
-		<array>
-		</array>
 		<key>postscriptStemSnapH</key>
 		<array>
 			<integer>140</integer>
@@ -132,7 +131,7 @@
 		<key>versionMajor</key>
 		<integer>2</integer>
 		<key>versionMinor</key>
-		<integer>4</integer>
+		<integer>5</integer>
 		<key>xHeight</key>
 		<integer>536</integer>
 	</dict>
