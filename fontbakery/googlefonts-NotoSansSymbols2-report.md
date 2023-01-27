@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.11a9
 
-<details><summary><b>[9] NotoSansSymbols2-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
+<details><summary><b>[10] NotoSansSymbols2-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
 
 
 * 🔥 **FAIL** Version number 2.0050048828125 is equal to version on Google Fonts.
@@ -11,38 +11,30 @@ Fontbakery version: 0.8.11a9
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Check code page character ranges (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/code_pages">com.google.fonts/check/code_pages</a>)</summary><div>
 
 
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- acutecomb
-
-	- gravecomb
-
-	- tildecomb
-
-	- uni0302
-
-	- uni0304
-
-	- uni0306
-
-	- uni0307
-
-	- uni0308
-
-	- uni030A
-
-	- uni030B 
-
-	- 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
+* 🔥 **FAIL** No code pages defined in the OS/2 table ulCodePageRange1 and CodePageRange2 fields. [code: no-code-pages]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
 
 
 * ⚠ **WARN** Font file is 1.2Mb; ideally it should be less than 1.0Mb [code: large-font]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* A
+	* AE
+	* Aacute
+	* Abreve
+	* Acircumflex
+	* Adieresis
+	* Agrave
+	* Amacron
+	* Aogonek
+	* Aring and 307 more.
+
+Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -70,7 +62,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 u101FD (U+101FD), u102E0 (U+102E0), uni20E2 (U+20E2) and uni20E3 (U+20E3) [code: mark-chars]
+	 uni20E2 (U+20E2) and uni20E3 (U+20E3) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -96,21 +88,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* u101D9 (U+101D9): B<<140.0,253.0>-<140.0,110.0>-<146.0,-22.0>>/B<<146.0,-22.0>-<154.0,23.0>-<158.5,91.5>> = 12.683160190042093 
 
-	* 212 more.
+	* 220 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* exclam (U+0021): L<<100.0,174.0>--<98.0,714.0>>
-
-	* exclam (U+0021): L<<127.0,714.0>--<125.0,174.0>>
-
-	* exclamdown (U+00A1): L<<122.0,354.0>--<124.0,-186.0>>
-
-	* exclamdown (U+00A1): L<<96.0,-186.0>--<98.0,354.0>>
 
 	* u101D1 (U+101D1): L<<290.0,688.0>--<289.0,558.0>>
 
@@ -122,9 +106,17 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	* u102F5 (U+102F5): L<<373.0,188.0>--<764.0,190.0>>
 
-	* u102F5 (U+102F5): L<<765.0,100.0>--<201.0,97.0>> 
+	* u102F5 (U+102F5): L<<765.0,100.0>--<201.0,97.0>>
 
-	* 28 more.
+	* u1F5B4 (U+1F5B4): L<<287.0,499.0>--<419.0,498.0>>
+
+	* u1F5DC (U+1F5DC): L<<303.0,859.0>--<753.0,856.0>>
+
+	* u1F6E8 (U+1F6E8): L<<460.0,328.0>--<87.0,325.0>>
+
+	* u1F6E8 (U+1F6E8): L<<943.0,325.0>--<569.0,328.0>> 
+
+	* 24 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details>
@@ -133,7 +125,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 3 | 6 | 114 | 7 | 103 | 0 |
+| 0 | 3 | 7 | 114 | 7 | 102 | 0 |
 | 0% | 1% | 3% | 49% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
