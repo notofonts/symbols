@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1D2C3" format="2">
+	<unicode hex="1D2C3"/>
 	<advance width="864"/>
 	<outline>
 		<contour>
@@ -20,7 +21,7 @@
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2023-01-05 15:37:16 +0000</string>
+			<string>2023-01-27 08:08:49 +0000</string>
 		</dict>
 	</lib>
 </glyph>
