@@ -32,7 +32,7 @@ Fontbakery version: 0.8.11a9
 	* Agrave
 	* Amacron
 	* Aogonek
-	* Aring and 307 more.
+	* Aring and 308 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>

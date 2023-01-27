@@ -1150,7 +1150,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 3 start point differs in glyph 'uni26A2' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa4307c9ed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa42fdf3210> [code: interpolation-issues]
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 3 start point differs in glyph 'uni26A2' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8862322710> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f88623b0a50> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
