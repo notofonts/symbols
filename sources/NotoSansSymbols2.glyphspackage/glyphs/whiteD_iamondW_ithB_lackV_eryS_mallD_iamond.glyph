@@ -1,0 +1,42 @@
+{
+glyphname = whiteDiamondWithBlackVerySmallDiamond;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1058,362,l),
+(555,866,l),
+(51,362,l),
+(555,-141,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(143,362,l),
+(555,775,l),
+(967,362,l),
+(555,-50,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(662,362,l),
+(555,469,l),
+(447,362,l),
+(555,254,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 1109;
+}
+);
+unicode = 128922;
+}

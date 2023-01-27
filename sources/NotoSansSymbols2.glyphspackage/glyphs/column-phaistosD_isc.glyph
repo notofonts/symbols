@@ -1,0 +1,73 @@
+{
+glyphname = "column-phaistosDisc";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (120,-20);
+}
+);
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(171,0,ls),
+(186,0,o),
+(187,2,o),
+(187,18,cs),
+(187,556,l),
+(210,556,ls),
+(225,556,o),
+(226,558,o),
+(226,574,cs),
+(226,700,ls),
+(226,714,o),
+(225,715,o),
+(211,715,cs),
+(60,715,ls),
+(50,715,o),
+(50,713,o),
+(50,701,cs),
+(50,572,ls),
+(50,558,o),
+(50,556,o),
+(66,556,cs),
+(89,556,l),
+(89,16,ls),
+(89,1,o),
+(89,0,o),
+(105,0,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(117,556,l),
+(159,556,l),
+(159,28,l),
+(117,28,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(78,686,l),
+(198,686,l),
+(198,584,l),
+(78,584,l)
+);
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.category = Letter;
+com.schriftgestaltung.Glyphs.script = phaistosDisc;
+public.verticalOrigin = 1069;
+};
+width = 276;
+}
+);
+note = uni101E6;
+unicode = 66022;
+}

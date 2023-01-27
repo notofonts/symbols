@@ -1,0 +1,34 @@
+{
+glyphname = lozenge;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(669,364,l),
+(360,881,l),
+(51,364,l),
+(360,-157,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(115,364,l),
+(360,775,l),
+(605,364,l),
+(360,-51,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 720;
+}
+);
+note = lozenge;
+unicode = 9674;
+}

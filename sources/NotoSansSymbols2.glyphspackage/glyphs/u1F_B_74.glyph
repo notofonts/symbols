@@ -1,0 +1,24 @@
+{
+glyphname = u1FB74;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(750,-161,l),
+(750,839,l),
+(625,839,l),
+(625,-161,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 1000;
+}
+);
+unicode = 129908;
+}

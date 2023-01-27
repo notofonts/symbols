@@ -1,0 +1,33 @@
+{
+glyphname = space_u102E0;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (304,0);
+},
+{
+name = bottom;
+pos = (304,-422);
+}
+);
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(588,-92,l),
+(528,-26,l),
+(51,-357,l),
+(110,-422,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 639;
+}
+);
+}

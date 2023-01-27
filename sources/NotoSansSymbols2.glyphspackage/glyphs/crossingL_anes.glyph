@@ -1,0 +1,48 @@
+{
+glyphname = crossingLanes;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(580,0,l),
+(580,53,l),
+(104,529,l),
+(51,529,l),
+(51,476,l),
+(527,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(104,0,l),
+(280,176,l),
+(280,229,l),
+(227,229,l),
+(51,53,l),
+(51,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(404,300,l),
+(580,476,l),
+(580,529,l),
+(527,529,l),
+(351,353,l),
+(351,300,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 631;
+}
+);
+unicode = 9932;
+}

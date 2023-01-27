@@ -1,0 +1,27 @@
+{
+glyphname = "onehalf-greek";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(559,0,l),
+(559,79,l),
+(164,79,l),
+(472,451,l),
+(373,451,l),
+(0,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 583;
+}
+);
+note = u10175;
+unicode = 65909;
+}

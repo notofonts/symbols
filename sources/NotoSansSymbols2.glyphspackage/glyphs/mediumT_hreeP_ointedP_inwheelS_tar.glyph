@@ -1,0 +1,41 @@
+{
+glyphname = mediumThreePointedPinwheelStar;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(377,279,l),
+(703,163,l),
+(445,398,l),
+(377,728,l),
+(308,398,l),
+(51,163,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(377,351,l),
+(377,300,l),
+(143,217,l),
+(377,351,l),
+(326,388,l),
+(377,631,l),
+(377,351,l),
+(427,388,l),
+(618,214,l),
+(617,214,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 754;
+}
+);
+unicode = 128963;
+}

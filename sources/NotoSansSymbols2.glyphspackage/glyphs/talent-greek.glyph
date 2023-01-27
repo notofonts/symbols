@@ -1,0 +1,32 @@
+{
+glyphname = "talent-greek";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(439,352,l),
+(777,-10,l),
+(834,44,l),
+(514,386,l),
+(772,386,l),
+(772,465,l),
+(107,465,l),
+(107,386,l),
+(364,386,l),
+(45,44,l),
+(102,-10,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 879;
+}
+);
+note = u1017A;
+unicode = 65914;
+}

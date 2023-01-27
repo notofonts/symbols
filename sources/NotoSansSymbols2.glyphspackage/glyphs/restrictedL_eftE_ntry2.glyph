@@ -1,0 +1,32 @@
+{
+glyphname = restrictedLeftEntry2;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(809,0,l),
+(466,344,l),
+(433,314,l),
+(703,40,l),
+(377,40,l),
+(377,260,l),
+(139,40,l),
+(91,40,l),
+(91,346,l),
+(286,527,l),
+(51,764,l),
+(51,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 860;
+}
+);
+unicode = 9953;
+}

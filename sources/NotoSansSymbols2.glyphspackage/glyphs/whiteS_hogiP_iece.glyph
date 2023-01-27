@@ -1,0 +1,36 @@
+{
+glyphname = whiteShogiPiece;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(577,0,l),
+(532,409,l),
+(314,533,l),
+(96,409,l),
+(51,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(141,381,l),
+(314,479,l),
+(487,381,l),
+(525,47,l),
+(103,47,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 628;
+}
+);
+note = uni2616;
+unicode = 9750;
+}

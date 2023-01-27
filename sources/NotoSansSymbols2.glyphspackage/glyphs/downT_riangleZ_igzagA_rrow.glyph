@@ -1,0 +1,36 @@
+{
+glyphname = downTriangleZigzagArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(782,445,l),
+(294,445,l),
+(601,752,l),
+(531,822,l),
+(52,344,l),
+(541,344,l),
+(253,56,l),
+(323,-14,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(387,-55,l),
+(213,119,l),
+(158,-109,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 833;
+}
+);
+unicode = 11085;
+}

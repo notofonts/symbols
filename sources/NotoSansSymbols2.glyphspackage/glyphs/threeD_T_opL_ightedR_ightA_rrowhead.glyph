@@ -1,0 +1,33 @@
+{
+glyphname = threeDTopLightedRightArrowhead;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(961,300,l),
+(51,598,l),
+(329,300,l),
+(51,2,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(155,534,l),
+(871,300,l),
+(375,300,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 1012;
+}
+);
+note = uni27A2;
+unicode = 10146;
+}

@@ -1,0 +1,25 @@
+{
+glyphname = lightVerticalBar;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(159,-92,l),
+(159,792,l),
+(51,792,l),
+(51,-92,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 210;
+}
+);
+note = uni2758;
+unicode = 10072;
+}

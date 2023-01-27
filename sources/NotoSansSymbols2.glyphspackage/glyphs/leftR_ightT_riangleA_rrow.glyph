@@ -1,0 +1,30 @@
+{
+glyphname = leftRightTriangleArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(249,293,l),
+(595,293,l),
+(595,222,l),
+(793,346,l),
+(595,470,l),
+(595,397,l),
+(249,397,l),
+(249,470,l),
+(51,346,l),
+(249,222,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 844;
+}
+);
+unicode = 11108;
+}

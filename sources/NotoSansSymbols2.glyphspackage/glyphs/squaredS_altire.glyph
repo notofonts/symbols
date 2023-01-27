@@ -1,0 +1,56 @@
+{
+glyphname = squaredSaltire;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(808,0,l),
+(808,757,l),
+(51,757,l),
+(51,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(88,658,l),
+(370,376,l),
+(88,94,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(427,319,l),
+(710,37,l),
+(145,37,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(484,376,l),
+(771,662,l),
+(771,90,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(140,720,l),
+(715,720,l),
+(427,433,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 859;
+}
+);
+unicode = 9949;
+}

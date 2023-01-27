@@ -1,0 +1,28 @@
+{
+glyphname = rightHeavyArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(957,300,l),
+(527,524,l),
+(614,336,l),
+(51,402,l),
+(51,198,l),
+(614,264,l),
+(527,76,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 1008;
+}
+);
+note = uni2799;
+unicode = 10137;
+}

@@ -1,0 +1,41 @@
+{
+glyphname = leftBottomShadedWhiteArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(468,49,l),
+(468,87,l),
+(886,87,l),
+(979,181,l),
+(979,532,l),
+(468,532,l),
+(468,667,l),
+(51,304,l),
+(388,-7,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(160,349,l),
+(438,591,l),
+(438,500,l),
+(946,500,l),
+(946,198,l),
+(438,198,l),
+(438,97,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 1030;
+}
+);
+unicode = 129184;
+}

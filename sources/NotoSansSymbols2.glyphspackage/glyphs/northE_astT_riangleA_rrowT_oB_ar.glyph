@@ -1,0 +1,36 @@
+{
+glyphname = northEastTriangleArrowToBar;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(446,407,l),
+(497,356,l),
+(549,583,l),
+(321,531,l),
+(372,480,l),
+(51,159,l),
+(125,85,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(571,613,l),
+(571,709,l),
+(323,709,l),
+(323,613,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 622;
+}
+);
+unicode = 11127;
+}

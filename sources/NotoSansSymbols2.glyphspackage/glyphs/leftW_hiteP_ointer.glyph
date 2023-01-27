@@ -1,0 +1,32 @@
+{
+glyphname = leftWhitePointer;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(682,487,l),
+(51,322,l),
+(682,158,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(182,322,l),
+(645,440,l),
+(645,205,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 733;
+}
+);
+note = uni25C5;
+unicode = 9669;
+}

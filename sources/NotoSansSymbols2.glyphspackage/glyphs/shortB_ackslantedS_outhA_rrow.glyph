@@ -1,0 +1,38 @@
+{
+glyphname = shortBackslantedSouthArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(239,143,l),
+(245,195,o),
+(264,249,o),
+(295,304,c),
+(283,337,l),
+(250,304,o),
+(228,275,o),
+(213,250,c),
+(96,572,l),
+(51,572,l),
+(174,236,l),
+(146,245,o),
+(110,252,o),
+(63,257,c),
+(75,224,l),
+(135,202,o),
+(184,173,o),
+(222,137,c)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 346;
+}
+);
+unicode = 11087;
+}

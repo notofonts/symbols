@@ -1,0 +1,25 @@
+{
+glyphname = diamondBlackSuit;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(555,357,l),
+(303,728,l),
+(51,357,l),
+(303,-14,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 606;
+}
+);
+note = diamond;
+unicode = 9830;
+}

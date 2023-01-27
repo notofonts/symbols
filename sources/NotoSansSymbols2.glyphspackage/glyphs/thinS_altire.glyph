@@ -1,0 +1,33 @@
+{
+glyphname = thinSaltire;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(621,604,l),
+(582,644,l),
+(51,112,l),
+(90,74,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(620,113,l),
+(90,644,l),
+(51,605,l),
+(582,74,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 672;
+}
+);
+unicode = 128936;
+}

@@ -1,0 +1,52 @@
+{
+glyphname = ballotBoxWithX;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(770,0,l),
+(770,719,l),
+(51,719,l),
+(51,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(111,659,l),
+(710,659,l),
+(710,60,l),
+(111,60,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(628,182,l),
+(233,577,l),
+(193,537,l),
+(588,142,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(628,537,l),
+(588,577,l),
+(193,182,l),
+(233,142,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 821;
+}
+);
+note = uni2612;
+unicode = 9746;
+}

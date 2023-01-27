@@ -1,0 +1,35 @@
+{
+glyphname = mediumflattenedparenrightornament;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(290,50,o),
+(351,209,o),
+(351,362,cs),
+(351,520,o),
+(288,682,o),
+(181,798,c),
+(51,786,l),
+(121,674,o),
+(159,525,o),
+(159,362,cs),
+(159,196,o),
+(122,46,o),
+(51,-62,c),
+(181,-74,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 402;
+}
+);
+note = uni276B;
+unicode = 10091;
+}

@@ -1,0 +1,33 @@
+{
+glyphname = doubleVerticalBar;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(670,10,l),
+(670,666,l),
+(517,666,l),
+(517,10,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(392,10,l),
+(392,666,l),
+(240,666,l),
+(240,10,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 910;
+}
+);
+unicode = 9208;
+}

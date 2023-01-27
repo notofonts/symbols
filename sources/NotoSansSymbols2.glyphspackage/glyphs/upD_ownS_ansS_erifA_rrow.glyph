@@ -1,0 +1,34 @@
+{
+glyphname = upDownSansSerifArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(469,52,l),
+(469,119,l),
+(290,-37,l),
+(290,720,l),
+(469,564,l),
+(469,631,l),
+(260,816,l),
+(51,631,l),
+(51,564,l),
+(231,720,l),
+(231,-37,l),
+(51,119,l),
+(51,52,l),
+(260,-133,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 520;
+}
+);
+unicode = 129113;
+}

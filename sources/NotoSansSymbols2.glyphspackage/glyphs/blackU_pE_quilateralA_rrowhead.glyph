@@ -1,0 +1,24 @@
+{
+glyphname = blackUpEquilateralArrowhead;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(428,237,l),
+(805,63,l),
+(428,706,l),
+(51,63,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 856;
+}
+);
+unicode = 11165;
+}

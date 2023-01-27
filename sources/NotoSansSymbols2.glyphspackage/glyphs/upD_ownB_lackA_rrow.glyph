@@ -1,0 +1,41 @@
+{
+glyphname = upDownBlackArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(531,520,l),
+(291,817,l),
+(51,520,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(531,165,l),
+(51,165,l),
+(291,-132,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(408,110,l),
+(408,575,l),
+(174,575,l),
+(174,110,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 582;
+}
+);
+note = uni2B0D;
+unicode = 11021;
+}

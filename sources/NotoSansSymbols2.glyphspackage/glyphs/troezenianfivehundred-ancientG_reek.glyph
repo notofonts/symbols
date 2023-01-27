@@ -1,0 +1,33 @@
+{
+glyphname = "troezenianfivehundred-ancientGreek";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(187,0,l),
+(187,635,l),
+(543,635,l),
+(543,0,l),
+(1079,0,l),
+(1079,714,l),
+(989,714,l),
+(989,79,l),
+(633,79,l),
+(633,714,l),
+(97,714,l),
+(97,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 1176;
+}
+);
+note = u1016D;
+unicode = 65901;
+}

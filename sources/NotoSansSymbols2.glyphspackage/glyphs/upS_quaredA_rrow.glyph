@@ -1,0 +1,27 @@
+{
+glyphname = upSquaredArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(421,143,l),
+(421,288,l),
+(565,288,l),
+(308,545,l),
+(51,288,l),
+(195,288,l),
+(195,143,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 616;
+}
+);
+unicode = 129081;
+}

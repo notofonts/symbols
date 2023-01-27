@@ -1,0 +1,29 @@
+{
+glyphname = lightlefttortoiseshellbracketornament;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(253,-61,l),
+(123,30,l),
+(123,693,l),
+(253,784,l),
+(253,826,l),
+(51,715,l),
+(51,8,l),
+(253,-103,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 304;
+}
+);
+note = uni2772;
+unicode = 10098;
+}

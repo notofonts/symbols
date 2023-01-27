@@ -1,0 +1,24 @@
+{
+glyphname = leftBlackTriangle;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(748,751,l),
+(51,349,l),
+(748,-54,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 799;
+}
+);
+note = uni25C0;
+unicode = 9664;
+}

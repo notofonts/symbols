@@ -1,0 +1,28 @@
+{
+glyphname = upArrowWithNotchedTail;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(263,125,l),
+(370,18,l),
+(370,433,l),
+(475,433,l),
+(263,702,l),
+(51,433,l),
+(156,433,l),
+(156,18,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 526;
+}
+);
+unicode = 129177;
+}

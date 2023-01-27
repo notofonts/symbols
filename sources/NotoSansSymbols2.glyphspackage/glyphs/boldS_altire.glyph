@@ -1,0 +1,33 @@
+{
+glyphname = boldSaltire;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(663,583,l),
+(582,665,l),
+(51,133,l),
+(132,53,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(662,134,l),
+(132,665,l),
+(51,584,l),
+(582,53,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 714;
+}
+);
+unicode = 128939;
+}

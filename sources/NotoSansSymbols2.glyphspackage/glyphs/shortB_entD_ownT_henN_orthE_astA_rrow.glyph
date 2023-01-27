@@ -1,0 +1,34 @@
+{
+glyphname = shortBentDownThenNorthEastArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(527,121,l),
+(512,160,l),
+(115,35,l),
+(217,383,l),
+(173,383,l),
+(51,-28,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(674,200,l),
+(470,252,l),
+(553,25,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 725;
+}
+);
+unicode = 11103;
+}

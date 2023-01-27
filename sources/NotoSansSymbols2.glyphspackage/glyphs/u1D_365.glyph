@@ -1,0 +1,29 @@
+{
+glyphname = u1D365;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(765,0,l),
+(765,78,l),
+(447,78,l),
+(447,718,l),
+(369,718,l),
+(369,78,l),
+(51,78,l),
+(51,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 816;
+}
+);
+note = u1D365;
+unicode = 119653;
+}

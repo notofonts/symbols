@@ -1,0 +1,24 @@
+{
+glyphname = uni23FD;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(499,24,l),
+(499,700,l),
+(395,700,l),
+(395,24,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 894;
+}
+);
+unicode = 9213;
+}

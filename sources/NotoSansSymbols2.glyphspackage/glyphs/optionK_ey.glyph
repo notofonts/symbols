@@ -1,0 +1,38 @@
+{
+glyphname = optionKey;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(837,129,l),
+(837,200,l),
+(617,200,l),
+(298,537,l),
+(51,537,l),
+(51,466,l),
+(271,466,l),
+(590,129,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(837,466,l),
+(837,537,l),
+(590,537,l),
+(590,466,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 888;
+}
+);
+note = uni2325;
+unicode = 8997;
+}

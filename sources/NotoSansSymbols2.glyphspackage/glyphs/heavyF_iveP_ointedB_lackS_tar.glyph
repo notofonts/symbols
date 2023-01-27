@@ -1,0 +1,30 @@
+{
+glyphname = heavyFivePointedBlackStar;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(408,179,l),
+(628,47,l),
+(582,305,l),
+(764,468,l),
+(514,508,l),
+(408,726,l),
+(300,508,l),
+(51,467,l),
+(234,305,l),
+(187,47,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 815;
+}
+);
+unicode = 128970;
+}

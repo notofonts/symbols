@@ -1,0 +1,28 @@
+{
+glyphname = southEastHeavyArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(591,393,l),
+(509,279,l),
+(161,579,l),
+(51,427,l),
+(443,189,l),
+(357,69,l),
+(767,19,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 818;
+}
+);
+note = uni2798;
+unicode = 10136;
+}

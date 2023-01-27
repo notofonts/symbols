@@ -1,0 +1,52 @@
+{
+glyphname = whiteXBlackDiamond;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1057,362,l),
+(836,583,l),
+(615,362,l),
+(836,141,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(493,362,l),
+(272,583,l),
+(51,362,l),
+(272,141,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(775,80,l),
+(554,301,l),
+(333,80,l),
+(554,-141,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(775,644,l),
+(554,865,l),
+(333,644,l),
+(554,423,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 1108;
+}
+);
+note = uni2756;
+unicode = 10070;
+}

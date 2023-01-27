@@ -1,0 +1,33 @@
+{
+glyphname = heavyMultiplicationX;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(423,114,l),
+(645,-108,l),
+(795,42,l),
+(575,264,l),
+(795,486,l),
+(645,636,l),
+(423,414,l),
+(201,636,l),
+(51,486,l),
+(273,264,l),
+(51,42,l),
+(201,-108,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 846;
+}
+);
+note = uni2716;
+unicode = 10006;
+}

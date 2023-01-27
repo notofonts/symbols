@@ -1,0 +1,33 @@
+{
+glyphname = northWestBlackArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(655,171,l),
+(326,499,l),
+(161,334,l),
+(489,5,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(431,569,l),
+(51,609,l),
+(91,229,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 706;
+}
+);
+note = uni2B09;
+unicode = 11017;
+}

@@ -1,0 +1,33 @@
+{
+glyphname = emptyPage;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(753,-50,l),
+(753,833,l),
+(51,833,l),
+(51,-50,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(76,808,l),
+(727,808,l),
+(727,-24,l),
+(76,-24,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 804;
+}
+);
+unicode = 128460;
+}

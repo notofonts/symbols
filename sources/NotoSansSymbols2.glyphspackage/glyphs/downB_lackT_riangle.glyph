@@ -1,0 +1,24 @@
+{
+glyphname = downBlackTriangle;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(856,697,l),
+(51,697,l),
+(454,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 907;
+}
+);
+note = triagdn;
+unicode = 9660;
+}

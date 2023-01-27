@@ -1,0 +1,50 @@
+{
+glyphname = "fiftytalents-atticGreek";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(187,0,l),
+(187,635,l),
+(547,635,l),
+(547,433,l),
+(637,433,l),
+(637,714,l),
+(97,714,l),
+(97,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(396,221,l),
+(396,312,l),
+(499,312,l),
+(400,567,l),
+(348,567,l),
+(249,312,l),
+(352,312,l),
+(352,221,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(374,523,l),
+(440,348,l),
+(308,348,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 687;
+}
+);
+note = u1014A;
+unicode = 65866;
+}

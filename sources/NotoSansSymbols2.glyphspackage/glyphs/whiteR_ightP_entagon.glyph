@@ -1,0 +1,36 @@
+{
+glyphname = whiteRightPentagon;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(826,362,l),
+(510,747,l),
+(51,606,l),
+(51,118,l),
+(510,-23,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(99,155,l),
+(99,569,l),
+(495,690,l),
+(759,362,l),
+(495,34,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 877;
+}
+);
+note = uni2B54;
+unicode = 11092;
+}

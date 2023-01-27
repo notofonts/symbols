@@ -1,0 +1,33 @@
+{
+glyphname = downBlackArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(531,267,l),
+(51,267,l),
+(291,-30,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(408,242,l),
+(408,707,l),
+(174,707,l),
+(174,242,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 582;
+}
+);
+note = uni2B07;
+unicode = 11015;
+}

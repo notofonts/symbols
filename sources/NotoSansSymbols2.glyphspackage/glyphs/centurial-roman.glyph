@@ -1,0 +1,28 @@
+{
+glyphname = "centurial-roman";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(538,480,l),
+(519,554,l),
+(49,711,l),
+(25,639,l),
+(452,496,l),
+(54,39,l),
+(112,-11,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 572;
+}
+);
+note = uni1019B;
+unicode = 65947;
+}

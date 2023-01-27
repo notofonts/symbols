@@ -1,0 +1,28 @@
+{
+glyphname = northEastHeavyArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(509,319,l),
+(591,205,l),
+(767,579,l),
+(357,529,l),
+(443,409,l),
+(51,171,l),
+(161,19,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 818;
+}
+);
+note = uni279A;
+unicode = 10138;
+}

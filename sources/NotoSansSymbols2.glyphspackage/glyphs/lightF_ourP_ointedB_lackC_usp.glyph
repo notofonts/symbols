@@ -1,0 +1,32 @@
+{
+glyphname = lightFourPointedBlackCusp;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(490,159,o),
+(631,299,o),
+(870,342,c),
+(631,385,o),
+(491,526,o),
+(447,765,c),
+(404,526,o),
+(263,385,o),
+(24,342,c),
+(263,299,o),
+(404,158,o),
+(447,-81,c)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 895;
+}
+);
+unicode = 11212;
+}

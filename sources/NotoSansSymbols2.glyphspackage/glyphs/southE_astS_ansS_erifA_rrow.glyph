@@ -1,0 +1,31 @@
+{
+glyphname = southEastSansSerifArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(594,79,l),
+(611,357,l),
+(563,404,l),
+(545,146,l),
+(570,145,l),
+(92,622,l),
+(51,580,l),
+(528,103,l),
+(525,127,l),
+(268,109,l),
+(315,62,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 662;
+}
+);
+unicode = 129110;
+}

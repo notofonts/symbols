@@ -1,0 +1,47 @@
+{
+glyphname = u1FBBD;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(912,839,l),
+(89,839,l),
+(500,428,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(911,-161,l),
+(500,250,l),
+(88,-161,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(411,339,l),
+(0,751,l),
+(0,-72,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1000,750,l),
+(589,339,l),
+(1000,-73,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 1000;
+}
+);
+unicode = 129981;
+}

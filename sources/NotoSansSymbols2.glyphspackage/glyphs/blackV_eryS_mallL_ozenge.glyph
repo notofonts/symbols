@@ -1,0 +1,24 @@
+{
+glyphname = blackVerySmallLozenge;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(195,363,l),
+(123,483,l),
+(51,363,l),
+(123,241,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 246;
+}
+);
+unicode = 128926;
+}

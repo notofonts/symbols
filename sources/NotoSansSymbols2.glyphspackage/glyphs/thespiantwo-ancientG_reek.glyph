@@ -1,0 +1,30 @@
+{
+glyphname = "thespiantwo-ancientGreek";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(484,404,l),
+(219,635,l),
+(558,635,l),
+(558,714,l),
+(90,714,l),
+(90,630,l),
+(364,391,l),
+(35,0,l),
+(102,-52,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 584;
+}
+);
+note = u1015C;
+unicode = 65884;
+}

@@ -1,0 +1,36 @@
+{
+glyphname = heavyEightPointedBlackStar;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(471,179,l),
+(639,118,l),
+(578,287,l),
+(741,362,l),
+(579,438,l),
+(639,605,l),
+(471,545,l),
+(396,707,l),
+(320,544,l),
+(152,605,l),
+(213,438,l),
+(51,362,l),
+(212,286,l),
+(152,118,l),
+(320,179,l),
+(396,17,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 792;
+}
+);
+unicode = 128975;
+}

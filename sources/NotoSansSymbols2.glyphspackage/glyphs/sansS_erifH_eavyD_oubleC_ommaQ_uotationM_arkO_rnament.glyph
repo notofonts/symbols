@@ -1,0 +1,49 @@
+{
+glyphname = sansSerifHeavyDoubleCommaQuotationMarkOrnament;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(547,327,o),
+(612,411,o),
+(612,641,cs),
+(612,758,l),
+(604,774,l),
+(370,774,l),
+(370,550,l),
+(492,550,l),
+(492,477,o),
+(479,427,o),
+(370,427,c),
+(370,327,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(229,327,o),
+(293,411,o),
+(293,641,cs),
+(293,758,l),
+(285,774,l),
+(51,774,l),
+(51,550,l),
+(173,550,l),
+(173,477,o),
+(160,427,o),
+(51,427,c),
+(51,327,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 663;
+}
+);
+unicode = 128631;
+}

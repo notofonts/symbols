@@ -1,0 +1,39 @@
+{
+glyphname = one;
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (551,715);
+}
+);
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(631,82,l),
+(631,632,l),
+(540,632,l),
+(379,545,l),
+(429,455,l),
+(481,484,l),
+(493,491,o),
+(507,499,o),
+(523,509,c),
+(520,473,o),
+(520,440,o),
+(520,400,c),
+(520,82,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 1102;
+}
+);
+unicode = 49;
+}

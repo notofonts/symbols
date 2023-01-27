@@ -1,0 +1,33 @@
+{
+glyphname = "thespianonethousand-ancientGreek";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(405,0,l),
+(405,339,l),
+(720,666,l),
+(628,666,l),
+(405,447,l),
+(405,714,l),
+(315,714,l),
+(315,447,l),
+(92,666,l),
+(0,666,l),
+(315,339,l),
+(315,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 720;
+}
+);
+note = u10171;
+unicode = 65905;
+}

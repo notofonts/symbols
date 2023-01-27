@@ -1,0 +1,50 @@
+{
+glyphname = "tenmnas-atticGreek";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(79,0,l),
+(87,287,l),
+(223,0,l),
+(359,287,l),
+(367,0,l),
+(422,0,l),
+(408,358,l),
+(341,358,l),
+(223,108,l),
+(105,358,l),
+(38,358,l),
+(24,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(223,651,l),
+(300,443,l),
+(146,443,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(375,395,l),
+(249,714,l),
+(197,714,l),
+(71,395,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 446;
+}
+);
+note = u10157;
+unicode = 65879;
+}

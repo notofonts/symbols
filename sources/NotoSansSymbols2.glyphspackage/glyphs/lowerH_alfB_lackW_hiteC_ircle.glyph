@@ -1,0 +1,45 @@
+{
+glyphname = lowerHalfBlackWhiteCircle;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(667,-34,o),
+(843,142,o),
+(843,362,cs),
+(843,582,o),
+(667,758,o),
+(447,758,cs),
+(227,758,o),
+(51,582,o),
+(51,362,cs),
+(51,142,o),
+(227,-34,o),
+(447,-34,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(93,559,o),
+(250,716,o),
+(447,716,cs),
+(644,716,o),
+(801,559,o),
+(801,362,c),
+(93,362,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 894;
+}
+);
+note = uni25D2;
+unicode = 9682;
+}

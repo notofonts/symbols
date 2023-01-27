@@ -1,0 +1,29 @@
+{
+glyphname = wideHeadedNorthEastMediumBarbArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(468,370,l),
+(490,41,l),
+(617,168,l),
+(594,579,l),
+(182,603,l),
+(55,476,l),
+(384,453,l),
+(51,120,l),
+(134,37,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 668;
+}
+);
+unicode = 129141;
+}

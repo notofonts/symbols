@@ -1,0 +1,33 @@
+{
+glyphname = dotmath;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,298,o),
+(179,327,o),
+(179,362,cs),
+(179,397,o),
+(150,426,o),
+(115,426,cs),
+(80,426,o),
+(51,397,o),
+(51,362,cs),
+(51,327,o),
+(80,298,o),
+(115,298,cs)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 230;
+}
+);
+note = dotmath;
+unicode = 8901;
+}

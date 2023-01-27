@@ -1,0 +1,37 @@
+{
+glyphname = "onehundredtalents-atticGreek";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(187,0,l),
+(187,333,l),
+(335,333,l),
+(335,0,l),
+(425,0,l),
+(425,333,l),
+(573,333,l),
+(573,0,l),
+(663,0,l),
+(663,714,l),
+(573,714,l),
+(573,412,l),
+(187,412,l),
+(187,714,l),
+(97,714,l),
+(97,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 760;
+}
+);
+note = u1014B;
+unicode = 65867;
+}

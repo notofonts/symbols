@@ -1,0 +1,34 @@
+{
+glyphname = "epidaureantwodrachmas-ancientGreek";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(557,635,l),
+(557,714,l),
+(50,714,l),
+(50,635,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(557,0,l),
+(557,79,l),
+(50,79,l),
+(50,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 607;
+}
+);
+note = u1015E;
+unicode = 65886;
+}

@@ -1,0 +1,25 @@
+{
+glyphname = "uncia-roman";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(521,317,l),
+(521,388,l),
+(50,388,l),
+(50,317,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 572;
+}
+);
+note = uni10191;
+unicode = 65937;
+}

@@ -1,0 +1,43 @@
+{
+glyphname = ocrBowTie;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(258,297,l),
+(464,189,l),
+(464,459,l),
+(258,350,l),
+(51,459,l),
+(51,189,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(98,382,l),
+(207,324,l),
+(98,266,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(308,324,l),
+(417,382,l),
+(417,266,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 500;
+}
+);
+note = uni2445;
+unicode = 9285;
+}

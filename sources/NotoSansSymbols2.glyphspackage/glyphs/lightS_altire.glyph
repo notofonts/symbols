@@ -1,0 +1,33 @@
+{
+glyphname = lightSaltire;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(627,601,l),
+(582,647,l),
+(51,116,l),
+(97,70,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(627,116,l),
+(96,647,l),
+(51,602,l),
+(581,71,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 678;
+}
+);
+unicode = 128937;
+}

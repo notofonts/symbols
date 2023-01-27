@@ -1,0 +1,27 @@
+{
+glyphname = mediumleftpointinganglebracketornament;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(319,-74,l),
+(187,362,l),
+(317,798,l),
+(181,798,l),
+(51,362,l),
+(181,-74,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 370;
+}
+);
+note = uni276C;
+unicode = 10092;
+}

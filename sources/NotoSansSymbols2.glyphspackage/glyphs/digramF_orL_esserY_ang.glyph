@@ -1,0 +1,43 @@
+{
+glyphname = digramForLesserYang;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(842,409,l),
+(842,520,l),
+(98,520,l),
+(98,409,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(394,181,l),
+(394,292,l),
+(98,292,l),
+(98,181,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(842,181,l),
+(842,292,l),
+(546,292,l),
+(546,181,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 940;
+}
+);
+note = uni268E;
+unicode = 9870;
+}

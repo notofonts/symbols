@@ -1,0 +1,61 @@
+{
+glyphname = u1FBF4;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(615,295,l),
+(675,355,l),
+(615,415,l),
+(285,415,l),
+(225,355,l),
+(285,295,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(260,440,l),
+(260,640,l),
+(200,700,l),
+(140,640,l),
+(140,440,l),
+(200,380,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(760,70,l),
+(760,270,l),
+(700,330,l),
+(640,270,l),
+(640,70,l),
+(700,10,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(760,440,l),
+(760,640,l),
+(700,700,l),
+(640,640,l),
+(640,440,l),
+(700,380,l)
+);
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = "=140";
+com.schriftgestaltung.Glyphs.glyph.widthMetricsKey = "=900";
+public.verticalOrigin = 1069;
+};
+width = 900;
+}
+);
+unicode = 130036;
+}

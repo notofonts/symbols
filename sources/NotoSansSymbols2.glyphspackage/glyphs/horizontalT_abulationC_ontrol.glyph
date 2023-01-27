@@ -1,0 +1,46 @@
+{
+glyphname = horizontalTabulationControl;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(440,124,l),
+(440,321,l),
+(501,321,l),
+(501,351,l),
+(342,351,l),
+(342,321,l),
+(403,321,l),
+(403,124,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(151,351,l),
+(151,454,l),
+(232,454,l),
+(232,351,l),
+(269,351,l),
+(269,578,l),
+(232,578,l),
+(232,484,l),
+(151,484,l),
+(151,578,l),
+(114,578,l),
+(114,351,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 600;
+}
+);
+note = uni2409;
+unicode = 9225;
+}

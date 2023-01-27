@@ -1,0 +1,32 @@
+{
+glyphname = rightBlackArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(788,342,l),
+(491,582,l),
+(491,102,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(516,225,l),
+(516,459,l),
+(51,459,l),
+(51,225,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 839;
+}
+);
+unicode = 11157;
+}

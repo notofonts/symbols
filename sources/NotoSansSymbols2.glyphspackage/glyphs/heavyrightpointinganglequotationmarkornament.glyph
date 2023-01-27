@@ -1,0 +1,27 @@
+{
+glyphname = heavyrightpointinganglequotationmarkornament;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(249,-74,l),
+(502,362,l),
+(250,798,l),
+(51,798,l),
+(310,362,l),
+(51,-74,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 553;
+}
+);
+note = uni276F;
+unicode = 10095;
+}

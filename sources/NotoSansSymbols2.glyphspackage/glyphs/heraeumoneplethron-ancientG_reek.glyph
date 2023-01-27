@@ -1,0 +1,46 @@
+{
+glyphname = "heraeumoneplethron-ancientGreek";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(187,0,l),
+(187,635,l),
+(547,635,l),
+(547,433,l),
+(637,433,l),
+(637,714,l),
+(97,714,l),
+(97,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(400,435,o),
+(426,461,o),
+(426,494,cs),
+(426,527,o),
+(400,553,o),
+(367,553,cs),
+(333,553,o),
+(308,527,o),
+(308,494,cs),
+(308,461,o),
+(333,435,o),
+(367,435,cs)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 687;
+}
+);
+note = u10158;
+unicode = 65880;
+}

@@ -1,0 +1,32 @@
+{
+glyphname = leftArrowWithEquilateralArrowhead;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(332,509,l),
+(51,346,l),
+(332,182,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(824,306,l),
+(824,385,l),
+(314,385,l),
+(314,306,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 875;
+}
+);
+unicode = 129044;
+}

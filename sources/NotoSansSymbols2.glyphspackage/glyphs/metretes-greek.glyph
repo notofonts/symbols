@@ -1,0 +1,31 @@
+{
+glyphname = "metretes-greek";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(509,-290,l),
+(477,-211,l),
+(177,-211,l),
+(177,-6,l),
+(427,-6,l),
+(395,73,l),
+(177,73,l),
+(177,435,l),
+(87,465,l),
+(87,-290,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 509;
+}
+);
+note = u10181;
+unicode = 65921;
+}

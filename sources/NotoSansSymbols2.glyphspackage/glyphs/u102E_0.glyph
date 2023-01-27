@@ -1,0 +1,37 @@
+{
+glyphname = u102E0;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (264,0);
+},
+{
+name = bottom;
+pos = (264,-422);
+}
+);
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(548,-92,l),
+(488,-26,l),
+(11,-357,l),
+(70,-422,l)
+);
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.category = Mark;
+com.schriftgestaltung.Glyphs.originalWidth = 559;
+com.schriftgestaltung.Glyphs.subCategory = Nonspacing;
+public.verticalOrigin = 1069;
+};
+width = 0;
+}
+);
+unicode = 66272;
+}

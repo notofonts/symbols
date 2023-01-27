@@ -1,0 +1,24 @@
+{
+glyphname = veryHeavyReverseSolidus;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1270,-293,l),
+(597,1069,l),
+(0,1069,l),
+(673,-293,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 1270;
+}
+);
+unicode = 128637;
+}

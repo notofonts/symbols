@@ -1,0 +1,34 @@
+{
+glyphname = whiteSmallLozenge;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(265,363,l),
+(158,542,l),
+(51,363,l),
+(158,182,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(95,363,l),
+(158,469,l),
+(221,363,l),
+(158,256,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 316;
+}
+);
+note = uni2B2B;
+unicode = 11051;
+}

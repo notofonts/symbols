@@ -1,0 +1,46 @@
+{
+glyphname = upBetweenTwoHorizontalBarsArrowHead;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(305,140,l),
+(444,406,l),
+(583,140,l),
+(664,140,l),
+(454,536,l),
+(434,536,l),
+(224,140,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(298,465,l),
+(298,536,l),
+(51,536,l),
+(51,465,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(837,465,l),
+(837,536,l),
+(590,536,l),
+(590,465,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 888;
+}
+);
+note = uni2324;
+unicode = 8996;
+}

@@ -1,0 +1,24 @@
+{
+glyphname = blackSquareCentred;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(724,63,l),
+(724,661,l),
+(126,661,l),
+(126,63,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 850;
+}
+);
+unicode = 11200;
+}

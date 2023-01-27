@@ -1,0 +1,33 @@
+{
+glyphname = checkerBoard;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1362,388,l),
+(1362,1069,l),
+(681,1069,l),
+(681,388,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(681,-293,l),
+(681,388,l),
+(0,388,l),
+(0,-293,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 1362;
+}
+);
+unicode = 128638;
+}

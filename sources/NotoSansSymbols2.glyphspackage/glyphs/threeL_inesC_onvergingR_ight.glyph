@@ -1,0 +1,43 @@
+{
+glyphname = threeLinesConvergingRight;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(680,481,l),
+(123,716,l),
+(101,666,l),
+(658,432,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(680,227,l),
+(658,276,l),
+(101,42,l),
+(123,-8,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(656,327,l),
+(656,381,l),
+(51,381,l),
+(51,327,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 731;
+}
+);
+note = uni269E;
+unicode = 9886;
+}

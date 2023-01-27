@@ -1,0 +1,34 @@
+{
+glyphname = ballotBox;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(770,0,l),
+(770,719,l),
+(51,719,l),
+(51,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(111,659,l),
+(710,659,l),
+(710,60,l),
+(111,60,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 821;
+}
+);
+note = uni2610;
+unicode = 9744;
+}

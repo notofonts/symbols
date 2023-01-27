@@ -1,0 +1,40 @@
+{
+glyphname = slantedNorthArrowWithHorizontalTail;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(255,-49,l),
+(502,633,l),
+(517,608,o),
+(540,580,o),
+(573,546,c),
+(585,579,l),
+(554,634,o),
+(535,688,o),
+(529,740,c),
+(512,746,l),
+(474,710,o),
+(425,681,o),
+(365,659,c),
+(353,626,l),
+(399,631,o),
+(436,638,o),
+(463,647,c),
+(226,-7,l),
+(51,-7,l),
+(51,-49,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 636;
+}
+);
+unicode = 11100;
+}

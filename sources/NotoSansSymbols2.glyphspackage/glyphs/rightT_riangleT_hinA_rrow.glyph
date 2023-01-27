@@ -1,0 +1,28 @@
+{
+glyphname = rightTriangleThinArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(953,300,l),
+(695,541,l),
+(695,321,l),
+(51,321,l),
+(51,279,l),
+(695,279,l),
+(695,59,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 1004;
+}
+);
+note = uni279D;
+unicode = 10141;
+}

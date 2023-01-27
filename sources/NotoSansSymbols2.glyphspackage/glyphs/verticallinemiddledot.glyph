@@ -1,0 +1,38 @@
+{
+glyphname = verticallinemiddledot;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(195,0,l),
+(195,240,l),
+(220,252,o),
+(237,278,o),
+(237,309,cs),
+(237,339,o),
+(220,365,o),
+(195,378,c),
+(195,617,l),
+(124,617,l),
+(124,377,l),
+(99,365,o),
+(83,339,o),
+(83,309,cs),
+(83,278,o),
+(99,253,o),
+(124,240,c),
+(124,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 320;
+}
+);
+unicode = 9087;
+}

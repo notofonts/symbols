@@ -1,0 +1,33 @@
+{
+glyphname = thinGreekCross;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(455,-17,l),
+(455,734,l),
+(400,734,l),
+(400,-17,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(802,332,l),
+(802,386,l),
+(51,386,l),
+(51,332,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 853;
+}
+);
+unicode = 128929;
+}

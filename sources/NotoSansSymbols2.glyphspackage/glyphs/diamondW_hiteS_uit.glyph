@@ -1,0 +1,34 @@
+{
+glyphname = diamondWhiteSuit;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(555,357,l),
+(303,728,l),
+(51,357,l),
+(303,-14,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(118,357,l),
+(303,627,l),
+(487,357,l),
+(303,87,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 605;
+}
+);
+note = uni2662;
+unicode = 9826;
+}

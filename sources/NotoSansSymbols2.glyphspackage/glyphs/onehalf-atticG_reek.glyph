@@ -1,0 +1,35 @@
+{
+glyphname = "onehalf-atticGreek";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(440,72,l),
+(287,72,o),
+(157,205,o),
+(157,361,cs),
+(157,516,o),
+(287,650,o),
+(440,650,c),
+(440,740,l),
+(232,740,o),
+(61,569,o),
+(61,361,cs),
+(61,153,o),
+(232,-18,o),
+(440,-18,c)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 510;
+}
+);
+note = u10141;
+unicode = 65857;
+}

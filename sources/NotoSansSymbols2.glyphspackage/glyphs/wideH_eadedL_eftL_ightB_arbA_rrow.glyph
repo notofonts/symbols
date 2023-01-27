@@ -1,0 +1,31 @@
+{
+glyphname = wideHeadedLeftLightBarbArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(402,12,l),
+(151,300,l),
+(124,289,l),
+(759,291,l),
+(759,349,l),
+(124,349,l),
+(152,340,l),
+(402,627,l),
+(325,627,l),
+(51,319,l),
+(325,12,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 810;
+}
+);
+unicode = 129120;
+}

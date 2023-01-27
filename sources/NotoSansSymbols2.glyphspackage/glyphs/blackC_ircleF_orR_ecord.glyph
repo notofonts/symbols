@@ -1,0 +1,32 @@
+{
+glyphname = blackCircleForRecord;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(626,38,o),
+(765,177,o),
+(765,348,cs),
+(765,519,o),
+(626,658,o),
+(455,658,cs),
+(284,658,o),
+(145,519,o),
+(145,348,cs),
+(145,177,o),
+(284,38,o),
+(455,38,cs)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 910;
+}
+);
+unicode = 9210;
+}

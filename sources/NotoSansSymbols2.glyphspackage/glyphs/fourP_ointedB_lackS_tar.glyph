@@ -1,0 +1,32 @@
+{
+glyphname = fourPointedBlackStar;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(431,-33,l),
+(558,218,l),
+(802,340,l),
+(802,345,l),
+(558,467,l),
+(431,718,l),
+(423,718,l),
+(296,467,l),
+(51,345,l),
+(51,340,l),
+(296,218,l),
+(423,-33,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 853;
+}
+);
+unicode = 128966;
+}

@@ -1,0 +1,26 @@
+{
+glyphname = blackShogiPiece;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(577,0,l),
+(532,409,l),
+(314,533,l),
+(96,409,l),
+(51,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 628;
+}
+);
+note = uni2617;
+unicode = 9751;
+}

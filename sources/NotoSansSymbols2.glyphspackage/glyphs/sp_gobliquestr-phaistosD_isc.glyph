@@ -1,0 +1,51 @@
+{
+glyphname = "sp_gobliquestr-phaistosDisc";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (116,0);
+},
+{
+name = bottom;
+pos = (116,-257);
+}
+);
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(70,-257,o),
+(77,-252,o),
+(81,-244,cs),
+(177,-40,l),
+(178,-35,o),
+(181,-30,o),
+(181,-25,cs),
+(181,-19,o),
+(177,-15,o),
+(169,-15,cs),
+(161,-15,o),
+(155,-20,o),
+(150,-30,cs),
+(57,-228,ls),
+(54,-235,o),
+(51,-242,o),
+(51,-247,cs),
+(51,-253,o),
+(55,-257,o),
+(64,-257,cs)
+);
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.category = Mark;
+com.schriftgestaltung.Glyphs.script = phaistosDisc;
+public.verticalOrigin = 1069;
+};
+width = 232;
+}
+);
+}

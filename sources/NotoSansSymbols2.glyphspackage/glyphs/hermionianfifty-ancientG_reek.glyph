@@ -1,0 +1,31 @@
+{
+glyphname = "hermionianfifty-ancientGreek";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(187,0,l),
+(187,616,l),
+(552,370,l),
+(642,370,l),
+(642,714,l),
+(552,714,l),
+(552,468,l),
+(187,714,l),
+(97,714,l),
+(97,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 692;
+}
+);
+note = u10168;
+unicode = 65896;
+}

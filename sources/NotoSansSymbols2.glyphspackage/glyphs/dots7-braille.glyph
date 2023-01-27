@@ -1,0 +1,33 @@
+{
+glyphname = "dots7-braille";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(256,-191,o),
+(281,-165,o),
+(281,-121,cs),
+(281,-76,o),
+(255,-51,o),
+(217,-51,cs),
+(176,-51,o),
+(152,-78,o),
+(152,-121,cs),
+(152,-166,o),
+(177,-191,o),
+(217,-191,cs)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 700;
+}
+);
+note = uni2840;
+unicode = 10304;
+}

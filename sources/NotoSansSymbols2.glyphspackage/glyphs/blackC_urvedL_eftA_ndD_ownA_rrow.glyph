@@ -1,0 +1,34 @@
+{
+glyphname = blackCurvedLeftAndDownArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(471,176,l),
+(375,176,l),
+(375,577,ls),
+(375,669,o),
+(409,693,o),
+(529,693,c),
+(529,763,l),
+(309,763,ls),
+(191,763,o),
+(147,738,o),
+(147,573,cs),
+(147,176,l),
+(51,176,l),
+(261,-109,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 580;
+}
+);
+unicode = 11182;
+}

@@ -1,0 +1,27 @@
+{
+glyphname = rightHeavyCompressedArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(493,346,l),
+(204,809,l),
+(204,579,l),
+(51,579,l),
+(51,111,l),
+(204,111,l),
+(204,-117,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 544;
+}
+);
+unicode = 129090;
+}

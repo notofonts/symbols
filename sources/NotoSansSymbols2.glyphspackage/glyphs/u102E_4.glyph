@@ -1,0 +1,47 @@
+{
+glyphname = u102E4;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (377,0);
+}
+);
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(507,168,o),
+(653,330,o),
+(653,509,cs),
+(653,603,o),
+(602,668,o),
+(518,668,cs),
+(442,668,o),
+(382,615,o),
+(311,506,c),
+(386,457,l),
+(441,541,o),
+(474,578,o),
+(515,578,cs),
+(542,578,o),
+(563,554,o),
+(563,509,cs),
+(563,370,o),
+(433,228,o),
+(123,37,c),
+(170,-40,l)
+);
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.category = Letter;
+public.verticalOrigin = 1069;
+};
+width = 754;
+}
+);
+unicode = 66276;
+}

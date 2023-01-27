@@ -1,0 +1,32 @@
+{
+glyphname = rightWhiteTriangle;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(748,348,l),
+(51,751,l),
+(51,-54,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(91,682,l),
+(669,348,l),
+(91,15,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 799;
+}
+);
+note = uni25B7;
+unicode = 9655;
+}

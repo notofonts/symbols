@@ -1,0 +1,28 @@
+{
+glyphname = blackOctagon;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(704,73,l),
+(820,351,l),
+(704,628,l),
+(425,745,l),
+(146,628,l),
+(31,350,l),
+(146,72,l),
+(425,-44,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 850;
+}
+);
+unicode = 11204;
+}

@@ -1,0 +1,32 @@
+{
+glyphname = mediumSixPointedBlackStar;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(451,235,l),
+(704,173,l),
+(524,361,l),
+(704,549,l),
+(451,488,l),
+(378,738,l),
+(305,488,l),
+(52,549,l),
+(231,361,l),
+(51,174,l),
+(305,235,l),
+(378,-15,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 755;
+}
+);
+unicode = 128971;
+}

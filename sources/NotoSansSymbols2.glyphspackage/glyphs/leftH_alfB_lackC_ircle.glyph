@@ -1,0 +1,28 @@
+{
+glyphname = leftHalfBlackCircle;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(447,758,l),
+(227,758,o),
+(51,582,o),
+(51,362,cs),
+(51,142,o),
+(227,-34,o),
+(447,-34,c)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 498;
+}
+);
+note = uni25D6;
+unicode = 9686;
+}

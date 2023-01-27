@@ -1,0 +1,30 @@
+{
+glyphname = staroperator;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(177,309,l),
+(259,250,l),
+(228,344,l),
+(303,395,l),
+(210,395,l),
+(177,495,l),
+(144,395,l),
+(51,395,l),
+(126,344,l),
+(95,250,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 354;
+}
+);
+unicode = 8902;
+}

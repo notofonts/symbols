@@ -1,0 +1,28 @@
+{
+glyphname = horizontalBlackOctagon;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(571,-1,l),
+(776,204,l),
+(776,496,l),
+(571,701,l),
+(279,701,l),
+(74,496,l),
+(74,204,l),
+(279,-1,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 850;
+}
+);
+unicode = 11203;
+}

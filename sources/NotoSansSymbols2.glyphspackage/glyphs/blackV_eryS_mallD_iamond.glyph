@@ -1,0 +1,24 @@
+{
+glyphname = blackVerySmallDiamond;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(266,362,l),
+(159,469,l),
+(51,362,l),
+(159,254,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 317;
+}
+);
+unicode = 128920;
+}

@@ -1,0 +1,43 @@
+{
+glyphname = "troezeniantenalternateform-ancientGreek";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(621,0,l),
+(365,357,l),
+(621,714,l),
+(15,714,l),
+(271,357,l),
+(15,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(318,291,l),
+(475,72,l),
+(160,72,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(160,642,l),
+(475,642,l),
+(318,422,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 636;
+}
+);
+note = u10161;
+unicode = 65889;
+}

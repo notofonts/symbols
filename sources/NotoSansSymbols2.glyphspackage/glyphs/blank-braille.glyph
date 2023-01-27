@@ -1,0 +1,14 @@
+{
+glyphname = "blank-braille";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 700;
+}
+);
+note = uni2800;
+unicode = 10240;
+}

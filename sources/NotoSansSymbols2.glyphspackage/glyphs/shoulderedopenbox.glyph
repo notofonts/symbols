@@ -1,0 +1,47 @@
+{
+glyphname = shoulderedopenbox;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(764,-209,l),
+(764,40,l),
+(692,40,l),
+(692,-138,l),
+(243,-138,l),
+(243,40,l),
+(171,40,l),
+(171,-209,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(243,0,l),
+(243,71,l),
+(51,71,l),
+(51,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(884,0,l),
+(884,71,l),
+(692,71,l),
+(692,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 935;
+}
+);
+note = uni237D;
+unicode = 9085;
+}

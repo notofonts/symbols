@@ -1,0 +1,26 @@
+{
+glyphname = lightThreePointedBlackStar;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(377,311,l),
+(703,163,l),
+(414,374,l),
+(377,728,l),
+(340,374,l),
+(51,163,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 754;
+}
+);
+unicode = 128960;
+}

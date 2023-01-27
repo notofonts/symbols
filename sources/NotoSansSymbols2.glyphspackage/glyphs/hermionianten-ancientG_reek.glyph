@@ -1,0 +1,31 @@
+{
+glyphname = "hermionianten-ancientGreek";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(93,0,l),
+(364,503,l),
+(364,0,l),
+(444,0,l),
+(444,503,l),
+(715,0,l),
+(808,0,l),
+(423,714,l),
+(385,714,l),
+(0,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 808;
+}
+);
+note = u10162;
+unicode = 65890;
+}

@@ -1,0 +1,25 @@
+{
+glyphname = heavyVerticalBar;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(435,-92,l),
+(435,792,l),
+(51,792,l),
+(51,-92,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 486;
+}
+);
+note = uni275A;
+unicode = 10074;
+}

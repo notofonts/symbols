@@ -1,0 +1,51 @@
+{
+glyphname = "naxianfivehundred-ancientGreek";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(187,0,l),
+(187,296,l),
+(430,296,l),
+(430,0,l),
+(520,0,l),
+(520,296,l),
+(763,296,l),
+(763,0,l),
+(853,0,l),
+(853,714,l),
+(97,714,l),
+(97,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(187,635,l),
+(430,635,l),
+(430,374,l),
+(187,374,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(520,635,l),
+(763,635,l),
+(763,374,l),
+(520,374,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 950;
+}
+);
+note = u10170;
+unicode = 65904;
+}

@@ -1,0 +1,34 @@
+{
+glyphname = whiteSmallSquare;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(301,237,l),
+(301,487,l),
+(51,487,l),
+(51,237,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(88,450,l),
+(264,450,l),
+(264,274,l),
+(88,274,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 352;
+}
+);
+note = uni25AB;
+unicode = 9643;
+}

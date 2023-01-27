@@ -1,0 +1,33 @@
+{
+glyphname = southWestBlackArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(655,443,l),
+(489,609,l),
+(161,280,l),
+(326,115,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(431,45,l),
+(91,385,l),
+(51,5,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 706;
+}
+);
+note = uni2B0B;
+unicode = 11019;
+}

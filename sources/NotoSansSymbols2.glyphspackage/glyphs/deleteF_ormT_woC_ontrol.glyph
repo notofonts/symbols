@@ -1,0 +1,45 @@
+{
+glyphname = deleteFormTwoControl;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,0,l),
+(766,665,l),
+(766,714,l),
+(717,714,l),
+(51,49,l),
+(51,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(649,714,l),
+(555,714,l),
+(51,211,l),
+(51,117,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(265,0,l),
+(766,501,l),
+(766,594,l),
+(172,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 817;
+}
+);
+note = uni2425;
+unicode = 9253;
+}

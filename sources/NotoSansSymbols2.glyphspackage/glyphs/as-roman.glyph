@@ -1,0 +1,33 @@
+{
+glyphname = "as-roman";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(182,0,l),
+(312,335,l),
+(507,335,l),
+(507,410,l),
+(341,410,l),
+(458,713,l),
+(383,713,l),
+(266,410,l),
+(70,410,l),
+(70,335,l),
+(237,335,l),
+(107,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 572;
+}
+);
+note = uni1019A;
+unicode = 65946;
+}

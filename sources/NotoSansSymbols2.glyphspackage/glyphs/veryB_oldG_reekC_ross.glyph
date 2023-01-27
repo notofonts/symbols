@@ -1,0 +1,33 @@
+{
+glyphname = veryBoldGreekCross;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(496,-17,l),
+(496,734,l),
+(359,734,l),
+(359,-17,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(802,291,l),
+(802,427,l),
+(51,427,l),
+(51,291,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 853;
+}
+);
+unicode = 128933;
+}

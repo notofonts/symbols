@@ -1,0 +1,36 @@
+{
+glyphname = "messenianten-ancientGreek";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(545,0,l),
+(545,589,l),
+(737,371,l),
+(828,371,l),
+(545,693,l),
+(545,714,l),
+(455,714,l),
+(455,693,l),
+(219,425,l),
+(38,622,l),
+(-13,570,l),
+(172,371,l),
+(263,371,l),
+(455,589,l),
+(455,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 828;
+}
+);
+note = u10163;
+unicode = 65891;
+}

@@ -1,0 +1,43 @@
+{
+glyphname = "thespianone-ancientGreek";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(187,0,l),
+(781,339,l),
+(781,375,l),
+(187,714,l),
+(97,714,l),
+(97,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(187,320,l),
+(589,320,l),
+(187,93,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(187,621,l),
+(589,394,l),
+(187,394,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 811;
+}
+);
+note = u10159;
+unicode = 65881;
+}

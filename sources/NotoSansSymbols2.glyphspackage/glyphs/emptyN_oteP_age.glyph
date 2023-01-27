@@ -1,0 +1,33 @@
+{
+glyphname = emptyNotePage;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(680,33,l),
+(680,672,l),
+(51,672,l),
+(51,33,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(77,646,l),
+(655,646,l),
+(655,59,l),
+(77,59,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 731;
+}
+);
+unicode = 128454;
+}

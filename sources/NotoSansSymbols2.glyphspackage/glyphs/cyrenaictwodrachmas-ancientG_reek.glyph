@@ -1,0 +1,29 @@
+{
+glyphname = "cyrenaictwodrachmas-ancientGreek";
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(604,0,l),
+(604,79,l),
+(187,79,l),
+(187,635,l),
+(604,635,l),
+(604,714,l),
+(97,714,l),
+(97,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 654;
+}
+);
+note = u1015D;
+unicode = 65885;
+}

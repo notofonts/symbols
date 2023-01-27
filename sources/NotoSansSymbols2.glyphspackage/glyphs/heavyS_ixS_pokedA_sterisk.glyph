@@ -1,0 +1,55 @@
+{
+glyphname = heavySixSpokedAsterisk;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(772,480,l),
+(704,598,l),
+(480,469,l),
+(480,728,l),
+(343,728,l),
+(343,233,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(446,292,l),
+(378,410,l),
+(51,222,l),
+(120,104,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(446,410,l),
+(120,598,l),
+(51,480,l),
+(378,292,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(480,-25,l),
+(480,233,l),
+(704,104,l),
+(772,222,l),
+(343,469,l),
+(343,-25,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 823;
+}
+);
+unicode = 128952;
+}

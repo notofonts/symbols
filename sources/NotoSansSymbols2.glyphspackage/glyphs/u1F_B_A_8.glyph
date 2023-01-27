@@ -1,0 +1,33 @@
+{
+glyphname = u1FBA8;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1000,339,l),
+(918,421,l),
+(418,-79,l),
+(500,-161,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(582,757,l),
+(500,839,l),
+(0,339,l),
+(82,257,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 1000;
+}
+);
+unicode = 129960;
+}

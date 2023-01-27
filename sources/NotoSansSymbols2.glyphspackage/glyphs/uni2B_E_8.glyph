@@ -1,0 +1,26 @@
+{
+glyphname = uni2BE8;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(479,186,l),
+(479,813,l),
+(367,474,l),
+(51,474,l),
+(309,301,l),
+(202,-17,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 530;
+}
+);
+unicode = 11240;
+}

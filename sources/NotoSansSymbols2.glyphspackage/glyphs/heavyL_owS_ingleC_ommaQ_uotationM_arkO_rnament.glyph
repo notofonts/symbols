@@ -1,0 +1,43 @@
+{
+glyphname = heavyLowSingleCommaQuotationMarkOrnament;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(136,-168,o),
+(201,-158,o),
+(245,-138,cs),
+(332,-99,o),
+(395,-1,o),
+(395,112,cs),
+(395,242,o),
+(317,312,o),
+(219,312,cs),
+(118,312,o),
+(51,243,o),
+(51,146,cs),
+(51,60,o),
+(113,-10,o),
+(199,-10,cs),
+(250,-10,o),
+(285,6,o),
+(295,18,c),
+(295,-84,o),
+(222,-142,o),
+(51,-142,c),
+(51,-168,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 446;
+}
+);
+note = uni275F;
+unicode = 10079;
+}

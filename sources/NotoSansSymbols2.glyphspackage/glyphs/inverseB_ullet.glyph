@@ -1,0 +1,42 @@
+{
+glyphname = inverseBullet;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(521,127,l),
+(521,597,l),
+(51,597,l),
+(51,127,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(187,183,o),
+(106,264,o),
+(106,362,cs),
+(106,461,o),
+(186,541,o),
+(285,541,cs),
+(383,541,o),
+(464,460,o),
+(464,362,cs),
+(464,264,o),
+(383,183,o),
+(285,183,cs)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 572;
+}
+);
+note = invbullet;
+unicode = 9688;
+}

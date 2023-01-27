@@ -1,0 +1,40 @@
+{
+glyphname = northEastWhiteArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(537,312,l),
+(645,204,l),
+(645,600,l),
+(249,600,l),
+(357,492,l),
+(51,186,l),
+(231,6,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(93,186,l),
+(400,492,l),
+(322,570,l),
+(615,570,l),
+(615,277,l),
+(537,355,l),
+(231,48,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 696;
+}
+);
+note = uni2B00;
+unicode = 11008;
+}

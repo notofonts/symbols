@@ -1,0 +1,44 @@
+{
+glyphname = u1D2EF;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(45,0,l),
+(913,0,l),
+(913,103,l),
+(45,103,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(45,346,l),
+(913,346,l),
+(913,449,l),
+(45,449,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(45,173,l),
+(913,173,l),
+(913,276,l),
+(45,276,l)
+);
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.category = Other;
+com.schriftgestaltung.Glyphs.subCategory = Other;
+public.verticalOrigin = 1069;
+};
+width = 958;
+}
+);
+unicode = 119535;
+}

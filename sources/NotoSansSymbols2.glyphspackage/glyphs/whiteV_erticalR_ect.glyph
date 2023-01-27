@@ -1,0 +1,34 @@
+{
+glyphname = whiteVerticalRect;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(650,-287,l),
+(650,713,l),
+(349,713,l),
+(349,-287,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(386,676,l),
+(613,676,l),
+(613,-250,l),
+(386,-250,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 1000;
+}
+);
+note = uni25AF;
+unicode = 9647;
+}

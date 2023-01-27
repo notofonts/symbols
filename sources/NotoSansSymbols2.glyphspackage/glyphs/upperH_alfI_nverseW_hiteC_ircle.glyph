@@ -1,0 +1,44 @@
+{
+glyphname = upperHalfInverseWhiteCircle;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(102,362,l),
+(102,553,o),
+(256,707,o),
+(447,707,cs),
+(638,707,o),
+(792,553,o),
+(792,362,c),
+(843,362,l),
+(843,758,l),
+(51,758,l),
+(51,362,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(736,362,l),
+(736,522,o),
+(607,651,o),
+(447,651,cs),
+(287,651,o),
+(158,522,o),
+(158,362,c)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 894;
+}
+);
+note = uni25DA;
+unicode = 9690;
+}

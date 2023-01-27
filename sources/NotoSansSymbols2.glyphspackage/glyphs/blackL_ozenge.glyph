@@ -1,0 +1,25 @@
+{
+glyphname = blackLozenge;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(669,364,l),
+(360,881,l),
+(51,364,l),
+(360,-157,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 720;
+}
+);
+note = uni29EB;
+unicode = 10731;
+}

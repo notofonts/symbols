@@ -1,0 +1,54 @@
+{
+glyphname = fallingDiagonalInWhiteCircleInBlackSquare;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(808,0,l),
+(808,757,l),
+(51,757,l),
+(51,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(223,8,o),
+(58,175,o),
+(58,379,cs),
+(58,466,o),
+(85,543,o),
+(139,611,c),
+(661,89,l),
+(598,38,o),
+(518,8,o),
+(429,8,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(196,668,l),
+(263,723,o),
+(341,750,o),
+(429,750,cs),
+(635,750,o),
+(800,583,o),
+(800,379,cs),
+(800,292,o),
+(772,215,o),
+(718,146,c)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 859;
+}
+);
+unicode = 9950;
+}

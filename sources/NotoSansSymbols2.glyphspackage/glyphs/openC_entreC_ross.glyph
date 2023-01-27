@@ -1,0 +1,42 @@
+{
+glyphname = openCentreCross;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(487,-9,l),
+(479,299,l),
+(785,291,l),
+(785,427,l),
+(479,417,l),
+(487,725,l),
+(351,725,l),
+(359,417,l),
+(51,427,l),
+(51,291,l),
+(359,299,l),
+(351,-9,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(365,413,l),
+(473,413,l),
+(473,303,l),
+(365,303,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 836;
+}
+);
+note = uni271B;
+unicode = 10011;
+}

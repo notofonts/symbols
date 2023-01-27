@@ -1,0 +1,33 @@
+{
+glyphname = extremelyHeavyGreekCross;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(515,-17,l),
+(515,734,l),
+(340,734,l),
+(340,-17,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(802,271,l),
+(802,446,l),
+(51,446,l),
+(51,271,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 853;
+}
+);
+unicode = 128935;
+}

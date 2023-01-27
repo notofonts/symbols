@@ -1,0 +1,33 @@
+{
+glyphname = extremelyHeavySaltire;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(705,562,l),
+(582,686,l),
+(51,155,l),
+(175,31,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(705,155,l),
+(174,686,l),
+(51,563,l),
+(581,32,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 756;
+}
+);
+unicode = 128942;
+}

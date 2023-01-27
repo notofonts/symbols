@@ -1,0 +1,28 @@
+{
+glyphname = rightSquatBlackArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(487,300,l),
+(189,781,l),
+(189,603,l),
+(51,603,l),
+(51,-3,l),
+(189,-3,l),
+(189,-181,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 538;
+}
+);
+note = uni27A7;
+unicode = 10151;
+}

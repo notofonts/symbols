@@ -1,0 +1,31 @@
+{
+glyphname = wideHeadedSouthWestVeryHeavyBarbArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(669,193,l),
+(317,217,l),
+(358,180,l),
+(645,466,l),
+(506,605,l),
+(220,318,l),
+(257,277,l),
+(233,629,l),
+(51,446,l),
+(75,34,l),
+(486,11,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 720;
+}
+);
+unicode = 129159;
+}

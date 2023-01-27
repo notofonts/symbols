@@ -1,0 +1,27 @@
+{
+glyphname = southWestTriangleArrow;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(279,138,l),
+(228,189,l),
+(549,510,l),
+(476,583,l),
+(154,262,l),
+(104,313,l),
+(51,85,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 600;
+}
+);
+unicode = 11113;
+}

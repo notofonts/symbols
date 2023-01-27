@@ -1,0 +1,33 @@
+{
+glyphname = lowerRightDiagonalHalfBlackSquare;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(649,0,l),
+(649,598,l),
+(51,598,l),
+(51,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(88,561,l),
+(612,561,l),
+(88,37,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 700;
+}
+);
+note = uni25EA;
+unicode = 9706;
+}

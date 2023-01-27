@@ -1,0 +1,29 @@
+{
+glyphname = lowerRightArc;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(667,-34,o),
+(843,142,o),
+(843,362,c),
+(801,362,l),
+(801,165,o),
+(644,8,o),
+(447,8,c),
+(447,-34,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 894;
+}
+);
+note = uni25DE;
+unicode = 9694;
+}

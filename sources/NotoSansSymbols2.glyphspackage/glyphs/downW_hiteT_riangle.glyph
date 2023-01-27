@@ -1,0 +1,32 @@
+{
+glyphname = downWhiteTriangle;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(856,697,l),
+(51,697,l),
+(454,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(120,657,l),
+(787,657,l),
+(454,79,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 907;
+}
+);
+note = uni25BD;
+unicode = 9661;
+}

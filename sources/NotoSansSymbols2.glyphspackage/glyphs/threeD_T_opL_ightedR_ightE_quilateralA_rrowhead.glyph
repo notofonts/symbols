@@ -1,0 +1,32 @@
+{
+glyphname = threeDTopLightedRightEquilateralArrowhead;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(694,342,l),
+(51,718,l),
+(225,342,l),
+(51,-35,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(121,641,l),
+(632,342,l),
+(259,342,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 745;
+}
+);
+unicode = 11162;
+}

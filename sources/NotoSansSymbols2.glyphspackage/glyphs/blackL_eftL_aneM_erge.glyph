@@ -1,0 +1,26 @@
+{
+glyphname = blackLeftLaneMerge;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(739,0,l),
+(739,760,l),
+(191,760,l),
+(191,605,l),
+(51,439,l),
+(51,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 790;
+}
+);
+unicode = 9944;
+}

@@ -1,0 +1,27 @@
+{
+glyphname = heavyrightpointinganglebracketornament;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(313,-74,l),
+(443,364,l),
+(313,798,l),
+(51,798,l),
+(171,364,l),
+(51,-74,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 494;
+}
+);
+note = uni2771;
+unicode = 10097;
+}
