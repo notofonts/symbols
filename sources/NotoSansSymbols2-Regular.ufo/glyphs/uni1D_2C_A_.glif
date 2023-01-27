@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1D2CA" format="2">
+	<unicode hex="1D2CA"/>
+	<advance width="808"/>
+	<outline>
+		<contour>
+			<point x="105" y="737" type="line"/>
+			<point x="654" y="616" type="line"/>
+			<point x="654" y="655" type="line"/>
+			<point x="105" y="531" type="line"/>
+			<point x="105" y="436" type="line"/>
+			<point x="733" y="590" type="line"/>
+			<point x="733" y="678" type="line"/>
+			<point x="105" y="832" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2023-01-27 08:08:49 +0000</string>
+		</dict>
+	</lib>
+</glyph>
