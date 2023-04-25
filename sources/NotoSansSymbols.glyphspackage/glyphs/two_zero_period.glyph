@@ -2,6 +2,12 @@
 glyphname = two_zero_period;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (525,0);
+}
+);
 layerId = "24810176-774E-47FD-8B80-D284CD1191FD";
 shapes = (
 {
@@ -91,6 +97,12 @@ vertWidth = 0;
 width = 1000;
 },
 {
+anchors = (
+{
+name = center;
+pos = (508,0);
+}
+);
 layerId = "F394B0DB-5C84-43F6-ACB2-AE9DD557A8AE";
 shapes = (
 {
@@ -180,6 +192,12 @@ vertWidth = 0;
 width = 1000;
 },
 {
+anchors = (
+{
+name = center;
+pos = (504,0);
+}
+);
 layerId = "6E6EE38D-3D27-4929-8DEE-9F0163F8D5EF";
 shapes = (
 {
