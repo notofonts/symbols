@@ -1,0 +1,83 @@
+{
+glyphname = flatness;
+layers = (
+{
+layerId = "24810176-774E-47FD-8B80-D284CD1191FD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1000,0,l),
+(1315,510,l),
+(368,510,l),
+(51,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(385,484,l),
+(1267,484,l),
+(982,25,l),
+(100,25,l)
+);
+}
+);
+vertWidth = 0;
+width = 1366;
+},
+{
+layerId = "F394B0DB-5C84-43F6-ACB2-AE9DD557A8AE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1000,0,l),
+(1315,510,l),
+(368,510,l),
+(51,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(414,439,l),
+(1180,439,l),
+(954,71,l),
+(186,71,l)
+);
+}
+);
+vertWidth = 0;
+width = 1366;
+},
+{
+layerId = "6E6EE38D-3D27-4929-8DEE-9F0163F8D5EF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(989,0,l),
+(1316,530,l),
+(380,530,l),
+(50,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(461,396,l),
+(1069,396,l),
+(908,134,l),
+(298,134,l)
+);
+}
+);
+vertWidth = 0;
+width = 1366;
+}
+);
+note = uni23E5;
+production = uni23E5;
+unicode = 9189;
+}

@@ -1,0 +1,3810 @@
+{
+.appVersion = "3180";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+}
+);
+customParameters = (
+{
+name = fsType;
+value = (
+);
+},
+{
+name = unicodeRanges;
+value = (
+0,
+1,
+34,
+36,
+37,
+39,
+42,
+45,
+46,
+47,
+57
+);
+},
+{
+name = codePageRanges;
+value = (
+1252
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Has WWS Names";
+value = 1;
+},
+{
+name = glyphOrder;
+value = (
+.notdef,
+A,
+A.001,
+A.001_enccirclebackslashcomb,
+A.001_enclosingcirclecomb,
+A.001_enclosingdiamondcomb,
+A.001_enclosingsquarecomb,
+A.001_encupwardpointingtricomb,
+A.blackCircled,
+A.box,
+A.circled,
+A.paren,
+A.roundBlackBox,
+B,
+B.001,
+B.001_enccirclebackslashcomb,
+B.001_enclosingcirclecomb,
+B.001_enclosingdiamondcomb,
+B.001_enclosingsquarecomb,
+B.001_encupwardpointingtricomb,
+B.blackCircled,
+B.box,
+B.circled,
+B.paren,
+B.roundBlackBox,
+C,
+C.001,
+C.001_enccirclebackslashcomb,
+C.001_enclosingcirclecomb,
+C.001_enclosingdiamondcomb,
+C.001_enclosingsquarecomb,
+C.001_encupwardpointingtricomb,
+C.blackCircled,
+C.box,
+C.circled,
+C.paren,
+C.roundBlackBox,
+CR,
+D,
+D.001,
+D.001_enccirclebackslashcomb,
+D.001_enclosingcirclecomb,
+D.001_enclosingdiamondcomb,
+D.001_enclosingsquarecomb,
+D.001_encupwardpointingtricomb,
+D.blackCircled,
+D.box,
+D.circled,
+D.paren,
+D.roundBlackBox,
+E,
+E.001,
+E.001_enccirclebackslashcomb,
+E.001_enclosingcirclecomb,
+E.001_enclosingdiamondcomb,
+E.001_enclosingsquarecomb,
+E.001_encupwardpointingtricomb,
+E.blackCircled,
+E.box,
+E.circled,
+E.paren,
+E.roundBlackBox,
+"Eight-roman",
+"Eleven-roman",
+F,
+F.001,
+F.001_enccirclebackslashcomb,
+F.001_enclosingcirclecomb,
+F.001_enclosingdiamondcomb,
+F.001_enclosingsquarecomb,
+F.001_encupwardpointingtricomb,
+F.blackCircled,
+F.box,
+F.circled,
+F.paren,
+F.roundBlackBox,
+"Fifty-roman",
+"Five-roman",
+"Fivehundred-roman",
+"Fivethousand-roman",
+"Four-roman",
+G,
+G.001,
+G.001_enccirclebackslashcomb,
+G.001_enclosingcirclecomb,
+G.001_enclosingdiamondcomb,
+G.001_enclosingsquarecomb,
+G.001_encupwardpointingtricomb,
+G.blackCircled,
+G.box,
+G.circled,
+G.paren,
+G.roundBlackBox,
+H,
+H.001,
+H.001_enccirclebackslashcomb,
+H.001_enclosingcirclecomb,
+H.001_enclosingdiamondcomb,
+H.001_enclosingsquarecomb,
+H.001_encupwardpointingtricomb,
+H.blackCircled,
+H.box,
+H.circled,
+H.paren,
+H.roundBlackBox,
+"Hundred-roman",
+Hv.box,
+I,
+I.001,
+I.001_enccirclebackslashcomb,
+I.001_enclosingcirclecomb,
+I.001_enclosingdiamondcomb,
+I.001_enclosingsquarecomb,
+I.001_encupwardpointingtricomb,
+I.blackCircled,
+I.box,
+I.circled,
+I.paren,
+I.roundBlackBox,
+J,
+J.001,
+J.001_enccirclebackslashcomb,
+J.001_enclosingcirclecomb,
+J.001_enclosingdiamondcomb,
+J.001_enclosingsquarecomb,
+J.001_encupwardpointingtricomb,
+J.blackCircled,
+J.box,
+J.circled,
+J.paren,
+J.roundBlackBox,
+K,
+K.001,
+K.001_enccirclebackslashcomb,
+K.001_enclosingcirclecomb,
+K.001_enclosingdiamondcomb,
+K.001_enclosingsquarecomb,
+K.001_encupwardpointingtricomb,
+K.blackCircled,
+K.box,
+K.circled,
+K.paren,
+K.roundBlackBox,
+L,
+L.001,
+L.001_enccirclebackslashcomb,
+L.001_enclosingcirclecomb,
+L.001_enclosingdiamondcomb,
+L.001_enclosingsquarecomb,
+L.001_encupwardpointingtricomb,
+L.blackCircled,
+L.box,
+L.circled,
+L.paren,
+L.roundBlackBox,
+M,
+M.001,
+M.001_enccirclebackslashcomb,
+M.001_enclosingcirclecomb,
+M.001_enclosingdiamondcomb,
+M.001_enclosingsquarecomb,
+M.001_encupwardpointingtricomb,
+M.blackCircled,
+M.box,
+M.circled,
+M.paren,
+M.roundBlackBox,
+Mv.box,
+N,
+N.001,
+N.001_enccirclebackslashcomb,
+N.001_enclosingcirclecomb,
+N.001_enclosingdiamondcomb,
+N.001_enclosingsquarecomb,
+N.001_encupwardpointingtricomb,
+N.blackCircled,
+N.box,
+N.circled,
+N.paren,
+N.roundBlackBox,
+NULL,
+"Nine-roman",
+O,
+O.001,
+O.001_enccirclebackslashcomb,
+O.001_enclosingcirclecomb,
+O.001_enclosingdiamondcomb,
+O.001_enclosingsquarecomb,
+O.001_encupwardpointingtricomb,
+O.blackCircled,
+O.box,
+O.circled,
+O.paren,
+O.roundBlackBox,
+"One-roman",
+"Onehundredreversed-roman",
+"Onehundredthousand-roman",
+"Onethousandcd-roman",
+P,
+P.001,
+P.001_enccirclebackslashcomb,
+P.001_enclosingcirclecomb,
+P.001_enclosingdiamondcomb,
+P.001_enclosingsquarecomb,
+P.001_encupwardpointingtricomb,
+P.blackCircled,
+P.box,
+P.circled,
+P.paren,
+P.roundBlackBox,
+Ppv.box,
+Q,
+Q.001,
+Q.001_enccirclebackslashcomb,
+Q.001_enclosingcirclecomb,
+Q.001_enclosingdiamondcomb,
+Q.001_enclosingsquarecomb,
+Q.001_encupwardpointingtricomb,
+Q.blackCircled,
+Q.box,
+Q.circled,
+Q.paren,
+Q.roundBlackBox,
+R,
+R.001,
+R.001_enccirclebackslashcomb,
+R.001_enclosingcirclecomb,
+R.001_enclosingdiamondcomb,
+R.001_enclosingsquarecomb,
+R.001_encupwardpointingtricomb,
+R.blackCircled,
+R.box,
+R.circled,
+R.paren,
+R.roundBlackBox,
+S,
+S.001,
+S.001_enccirclebackslashcomb,
+S.001_enclosingcirclecomb,
+S.001_enclosingdiamondcomb,
+S.001_enclosingsquarecomb,
+S.001_encupwardpointingtricomb,
+S.blackCircled,
+S.box,
+S.circled,
+S.paren,
+S.roundBlackBox,
+Sd.box,
+"Seven-roman",
+"Six-roman",
+Ss.box,
+T,
+T.001,
+T.001_enccirclebackslashcomb,
+T.001_enclosingcirclecomb,
+T.001_enclosingdiamondcomb,
+T.001_enclosingsquarecomb,
+T.001_encupwardpointingtricomb,
+T.blackCircled,
+T.box,
+T.circled,
+T.paren,
+T.roundBlackBox,
+"Ten-roman",
+"Tenthousand-roman",
+"Thousand-roman",
+"Three-roman",
+"Twelve-roman",
+"Two-roman",
+U,
+U.001,
+U.001_enccirclebackslashcomb,
+U.001_enclosingcirclecomb,
+U.001_enclosingdiamondcomb,
+U.001_enclosingsquarecomb,
+U.001_encupwardpointingtricomb,
+U.blackCircled,
+U.box,
+U.circled,
+U.paren,
+U.roundBlackBox,
+V,
+V.001,
+V.001_enccirclebackslashcomb,
+V.001_enclosingcirclecomb,
+V.001_enclosingdiamondcomb,
+V.001_enclosingsquarecomb,
+V.001_encupwardpointingtricomb,
+V.blackCircled,
+V.box,
+V.circled,
+V.paren,
+V.roundBlackBox,
+W,
+W.001,
+W.001_enccirclebackslashcomb,
+W.001_enclosingcirclecomb,
+W.001_enclosingdiamondcomb,
+W.001_enclosingsquarecomb,
+W.001_encupwardpointingtricomb,
+W.blackCircled,
+W.box,
+W.circled,
+W.paren,
+W.roundBlackBox,
+Wc.box,
+X,
+X.001,
+X.001_enccirclebackslashcomb,
+X.001_enclosingcirclecomb,
+X.001_enclosingdiamondcomb,
+X.001_enclosingsquarecomb,
+X.001_encupwardpointingtricomb,
+X.blackCircled,
+X.box,
+X.circled,
+X.paren,
+X.roundBlackBox,
+Y,
+Y.001,
+Y.001_enccirclebackslashcomb,
+Y.001_enclosingcirclecomb,
+Y.001_enclosingdiamondcomb,
+Y.001_enclosingsquarecomb,
+Y.001_encupwardpointingtricomb,
+Y.blackCircled,
+Y.box,
+Y.circled,
+Y.paren,
+Y.roundBlackBox,
+Z,
+Z.001,
+Z.001_enccirclebackslashcomb,
+Z.001_enclosingcirclecomb,
+Z.001_enclosingdiamondcomb,
+Z.001_enclosingsquarecomb,
+Z.001_encupwardpointingtricomb,
+Z.blackCircled,
+Z.box,
+Z.circled,
+Z.paren,
+Z.roundBlackBox,
+_blackCircledComp,
+_boxComp,
+_circledComp,
+_doubleCircled,
+_parenComp,
+_roundBlackBoxComp,
+a,
+a.001,
+a.001_enccirclebackslashcomb,
+a.001_enclosingcirclecomb,
+a.001_enclosingdiamondcomb,
+a.001_enclosingsquarecomb,
+a.001_encupwardpointingtricomb,
+a.circled,
+a.paren,
+accurrent,
+adiShakti,
+"air-alchemical",
+alembic,
+"alembic-alchemical",
+"alkali-alchemical",
+"alkali2-alchemical",
+allAroundProfile,
+alternativekeysymbol,
+"alum-alchemical",
+"amalgam-alchemical",
+anchorSymbol,
+angleLeft,
+angleRight,
+ankh,
+"antimonyOre-alchemical",
+"aquaRegia-alchemical",
+"aquaRegia2-alchemical",
+"aquaVitae-alchemical",
+"aquaVitae2-alchemical",
+"aquafortis-alchemical",
+aquarius,
+arc,
+aries,
+"arsenic-alchemical",
+ascendingNode,
+"ashes-alchemical",
+astronomicalSymbolForUranus,
+atomSymbol,
+"auripigment-alchemical",
+b,
+b.001,
+b.001_enccirclebackslashcomb,
+b.001_enclosingcirclecomb,
+b.001_enclosingdiamondcomb,
+b.001_enclosingsquarecomb,
+b.001_encupwardpointingtricomb,
+b.circled,
+b.paren,
+"bathOfMary-alchemical",
+"bathOfVapours-alchemical",
+"beamedsixteenthnotes-musical",
+benzenering,
+benzeneringcircle,
+"bismuthOre-alchemical",
+blackCrossOnShield,
+blackFlag,
+blackMoonLilith,
+blackRecycling,
+blackSmilingFace,
+"blackSulfur-alchemical",
+"borax-alchemical",
+"borax2-alchemical",
+"borax3-alchemical",
+bottomLeftCorner,
+bottomLeftCrop,
+bottomRightCorner,
+bottomRightCrop,
+"brick-alchemical",
+brokenCircleNorthWestArrow,
+c,
+c.001,
+c.001_enccirclebackslashcomb,
+c.001_enclosingcirclecomb,
+c.001_enclosingdiamondcomb,
+c.001_enclosingsquarecomb,
+c.001_encupwardpointingtricomb,
+c.circled,
+c.paren,
+caduceus,
+"caduceus-alchemical",
+"calx-alchemical",
+cancer,
+capricorn,
+"caputMortuum-alchemical",
+castle,
+celticCross,
+ceres,
+chiron,
+church,
+"cinnabar-alchemical",
+clearscreensymbol,
+coffin,
+compositionsymbol,
+conicalTaper,
+conjunction,
+constantineCross,
+continuousunderlinesymbol,
+control,
+"copperAntimoniate-alchemical",
+"copperOre-alchemical",
+copyleft,
+counterbore,
+countersink,
+"crocusOfCopper-alchemical",
+"crocusOfCopper2-alchemical",
+"crocusOfIron-alchemical",
+cross,
+crossedSwords,
+"crucible-alchemical",
+"crucible2-alchemical",
+"crucible3-alchemical",
+"crucible4-alchemical",
+"crucible5-alchemical",
+cupOnBlackSquare,
+cylindricity,
+d,
+d.001,
+d.001_enccirclebackslashcomb,
+d.001_enclosingcirclecomb,
+d.001_enclosingdiamondcomb,
+d.001_enclosingsquarecomb,
+d.001_encupwardpointingtricomb,
+d.circled,
+d.paren,
+"dayNight-alchemical",
+decimalExponentSymbol,
+decimalseparatorkeysymbol,
+descendingNode,
+diameterSign,
+dimensionOrigin,
+directcurrentsymbolformtwo,
+discontinuousunderlinesymbol,
+"dissolve-alchemical",
+"dissolve2-alchemical",
+"distill-alchemical",
+divorceSymbol,
+dottedCircle,
+doubledFemaleSign,
+doubledMaleSign,
+downArrow,
+downArrowHead,
+downCircledTriangle,
+"downandhorizontal-dentistry",
+"downandhorizontalcircle-dentistry",
+"downandhorizontaltriangle-dentistry",
+"downandhorizontalwave-dentistry",
+e,
+e.001,
+e.001_enccirclebackslashcomb,
+e.001_enclosingcirclecomb,
+e.001_enclosingdiamondcomb,
+e.001_enclosingsquarecomb,
+e.001_encupwardpointingtricomb,
+e.circled,
+e.paren,
+earth,
+"earth-alchemical",
+earthground,
+eastSyriacCross,
+eight,
+"eight-roman",
+eight.001,
+eight.001_enccircbackslashcomb,
+eight.001_enclosingcirclecomb,
+eight.001_enclosingdiamondcomb,
+eight.001_enclosingsquarecomb,
+eight.001_encuppointingtricomb,
+eight.blackCircled,
+eight.circled,
+eight.doubleCircled,
+eight.paren,
+eight.sansSerifBlackCircled,
+eight.sansSerifCircled,
+eight_comma,
+eight_period,
+electricArrow,
+electricalintersection,
+"eleven-roman",
+emphasissymbol,
+enclosingcircle,
+enclosingcirclebackslash,
+enclosingcirclebackslashcomb,
+enclosingcirclecomb,
+enclosingdiamond,
+enclosingdiamondcomb,
+enclosingkeycapcomb,
+enclosingscreencomb,
+enclosingsquare,
+enclosingsquarecomb,
+enclosingupwardpointingtriangle,
+enclosingupwardpointingtrianglecomb,
+entersymbol,
+f,
+f.001,
+f.001_enccirclebackslashcomb,
+f.001_enclosingcirclecomb,
+f.001_enclosingdiamondcomb,
+f.001_enclosingsquarecomb,
+f.001_encupwardpointingtricomb,
+f.circled,
+f.paren,
+farsiSymbol,
+ferry,
+"fifty-roman",
+"fiftyearlyform-roman",
+"fiftythousand-roman",
+"fire-alchemical",
+firstQuarterMoon,
+five,
+"five-roman",
+five.001,
+five.001_enccirclebackslashcomb,
+five.001_enclosingcirclecomb,
+five.001_enclosingdiamondcomb,
+five.001_enclosingsquarecomb,
+five.001_encuppointingtricomb,
+five.blackCircled,
+five.circled,
+five.doubleCircled,
+five.paren,
+five.sansSerifBlackCircled,
+five.sansSerifCircled,
+five_comma,
+five_period,
+"fivehundred-roman",
+flagInHole,
+"flat-musical",
+flatness,
+fleurDeLis,
+flower,
+fountain,
+four,
+"four-roman",
+four.001,
+four.001_enccirclebackslashcomb,
+four.001_enclosingcirclecomb,
+four.001_enclosingdiamondcomb,
+four.001_enclosingsquarecomb,
+four.001_encuppointingtricomb,
+four.blackCircled,
+four.circled,
+four.doubleCircled,
+four.paren,
+four.sansSerifBlackCircled,
+four.sansSerifCircled,
+four_comma,
+four_period,
+frown,
+fuelPump,
+funeralUrn,
+fuse,
+g,
+g.001,
+g.001_enccirclebackslashcomb,
+g.001_enclosingcirclecomb,
+g.001_enclosingdiamondcomb,
+g.001_enclosingsquarecomb,
+g.001_encupwardpointingtricomb,
+g.circled,
+g.paren,
+gear,
+gearWithHandles,
+gearWithoutHub,
+gemini,
+"gold-alchemical",
+"gum-alchemical",
+h,
+h.001,
+h.001_enccirclebackslashcomb,
+h.001_enclosingcirclecomb,
+h.001_enclosingdiamondcomb,
+h.001_enclosingsquarecomb,
+h.001_encupwardpointingtricomb,
+h.circled,
+h.paren,
+"halfDram-alchemical",
+"halfOunce-alchemical",
+hammerAndPick,
+hammerAndSickle,
+headstoneGraveyardSymbol,
+heavyCircleWithStrokeAndTwoDotsAbove,
+heavyCross,
+helmsymbol,
+historicSite,
+horizontalMaleWithStrokeSign,
+horizontalbarnotchCircled,
+horizontallineextension,
+"horseDung-alchemical",
+"hour-alchemical",
+house,
+"hundred-roman",
+hysteresissymbol,
+i,
+i.001,
+i.001_enccirclebackslashcomb,
+i.001_enclosingcirclecomb,
+i.001_enclosingdiamondcomb,
+i.001_enclosingsquarecomb,
+i.001_encupwardpointingtricomb,
+i.circled,
+i.paren,
+iceSkate,
+insertionsymbol,
+interlockedFemaleAndMaleSign,
+invertedPentagram,
+"ironCopperOre-alchemical",
+"ironOre-alchemical",
+"ironOre2-alchemical",
+j,
+j.001,
+j.001_enccirclebackslashcomb,
+j.001_enclosingcirclecomb,
+j.001_enclosingdiamondcomb,
+j.001_enclosingsquarecomb,
+j.001_encupwardpointingtricomb,
+j.circled,
+j.paren,
+japaneseBankSymbol,
+jerusalemCross,
+juno,
+jupiter,
+k,
+k.001,
+k.001_enccirclebackslashcomb,
+k.001_enclosingcirclecomb,
+k.001_enclosingdiamondcomb,
+k.001_enclosingsquarecomb,
+k.001_encupwardpointingtricomb,
+k.circled,
+k.paren,
+l,
+l.001,
+l.001_enccirclebackslashcomb,
+l.001_enclosingcirclecomb,
+l.001_enclosingdiamondcomb,
+l.001_enclosingsquarecomb,
+l.001_encupwardpointingtricomb,
+l.circled,
+l.paren,
+lastQuarterMoon,
+"leadOre-alchemical",
+leftArrow,
+leftCeiling,
+leftFloor,
+leftHandedInterlacedPentagram,
+leftRightArrow,
+leo,
+libra,
+"lodestone-alchemical",
+lorraineCross,
+m,
+m.001,
+m.001_enccirclebackslashcomb,
+m.001_enclosingcirclecomb,
+m.001_enclosingdiamondcomb,
+m.001_enclosingsquarecomb,
+m.001_encupwardpointingtricomb,
+m.circled,
+m.paren,
+maleAndFemaleSign,
+maleWithStrokeAndMaleAndFemaleSign,
+maleWithStrokeSign,
+malteseCross,
+mapSymbolForLighthouse,
+"marcasite-alchemical",
+marriageSymbol,
+mars,
+mercury,
+"mercurySublimate-alchemical",
+"mercurySublimate2-alchemical",
+"mercurySublimate3-alchemical",
+metricalbreve,
+metricallongovershort,
+metricallongovertwoshorts,
+metricalpentaseme,
+metricalshortoverlong,
+metricaltetraseme,
+metricaltriseme,
+metricaltwoshortsjoined,
+metricaltwoshortsoverlong,
+monostablesymbol,
+"month-alchemical",
+mountain,
+n,
+n.001,
+n.001_enccirclebackslashcomb,
+n.001_enclosingcirclecomb,
+n.001_enclosingdiamondcomb,
+n.001_enclosingsquarecomb,
+n.001_encupwardpointingtricomb,
+n.circled,
+n.paren,
+"natural-musical",
+nbspace,
+neptune,
+neuter,
+neutralFace,
+nextpage,
+"night-alchemical",
+nine,
+"nine-roman",
+nine.001,
+nine.001_enccirclebackslashcomb,
+nine.001_enclosingcirclecomb,
+nine.001_enclosingdiamondcomb,
+nine.001_enclosingsquarecomb,
+nine.001_encuppointingtricomb,
+nine.blackCircled,
+nine.circled,
+nine.doubleCircled,
+nine.paren,
+nine.sansSerifBlackCircled,
+nine.sansSerifCircled,
+nine_comma,
+nine_period,
+"nitre-alchemical",
+northEastAndSouthWestArrow,
+northEastArrow,
+northWestAndSouthEastArrow,
+northWestArrow,
+"note-musical",
+"notedbl-musical",
+o,
+o.001,
+o.001_enccirclebackslashcomb,
+o.001_enclosingcirclecomb,
+o.001_enclosingdiamondcomb,
+o.001_enclosingsquarecomb,
+o.001_encupwardpointingtricomb,
+o.circled,
+o.paren,
+"oil-alchemical",
+omSymbol,
+one,
+"one-roman",
+one.001,
+one.001_enccirclebackslashcomb,
+one.001_enclosingcirclecomb,
+one.001_enclosingdiamondcomb,
+one.001_enclosingsquarecomb,
+one.001_encuppointingtricomb,
+one.blackCircled,
+one.circled,
+one.doubleCircled,
+one.paren,
+one.sansSerifBlackCircled,
+one.sansSerifCircled,
+one_comma,
+one_eight.blackCircled,
+one_eight.circled,
+one_eight.paren,
+one_eight_period,
+one_five.blackCircled,
+one_five.circled,
+one_five.paren,
+one_five_period,
+one_four.blackCircled,
+one_four.circled,
+one_four.paren,
+one_four_period,
+one_nine.blackCircled,
+one_nine.circled,
+one_nine.paren,
+one_nine_period,
+one_one.blackCircled,
+one_one.circled,
+one_one.paren,
+one_one_period,
+one_period,
+one_seven.blackCircled,
+one_seven.circled,
+one_seven.paren,
+one_seven_period,
+one_six.blackCircled,
+one_six.circled,
+one_six.paren,
+one_six_period,
+one_three.blackCircled,
+one_three.circled,
+one_three.paren,
+one_three_period,
+one_two.blackCircled,
+one_two.circled,
+one_two.paren,
+one_two_period,
+one_zero.blackCircled,
+one_zero.circled,
+one_zero.doubleCircled,
+one_zero.paren,
+one_zero.sansSerifBlackCircled,
+one_zero.sansSerifCircled,
+one_zero_period,
+"onethousand-roman",
+openCircuitOutputHType,
+openCircuitOutputLType,
+ophiuchus,
+opposition,
+orthodoxCross,
+outlinedCross,
+outlinedWhiteStar,
+p,
+p.001,
+p.001_enccirclebackslashcomb,
+p.001_enclosingcirclecomb,
+p.001_enclosingdiamondcomb,
+p.001_enclosingsquarecomb,
+p.001_encupwardpointingtricomb,
+p.circled,
+p.paren,
+pallas,
+partiallyRecycledPaperSymbol,
+passivePullDownOutputsymbol,
+passivePullUpOutputsymbol,
+peace,
+pentagram,
+permanentPaperSign,
+personWithBall,
+perspective,
+"philosophersSulfur-alchemical",
+pisces,
+pluto,
+"potAshes-alchemical",
+"powder-alchemical",
+"powderedBrick-alchemical",
+"precipitate-alchemical",
+previouspage,
+printscreensymbol,
+projective,
+"purify-alchemical",
+"putrefaction-alchemical",
+q,
+q.001,
+q.001_enccirclebackslashcomb,
+q.001_enclosingcirclecomb,
+q.001_enclosingdiamondcomb,
+q.001_enclosingsquarecomb,
+q.001_encupwardpointingtricomb,
+q.circled,
+q.paren,
+"quarternote-musical",
+"quickLime-alchemical",
+quincunx,
+"quintessence-alchemical",
+r,
+r.001,
+r.001_enccirclebackslashcomb,
+r.001_enclosingcirclecomb,
+r.001_enclosingdiamondcomb,
+r.001_enclosingsquarecomb,
+r.001_encupwardpointingtricomb,
+r.circled,
+r.paren,
+raisedMcSign,
+raisedMdSign,
+raisedMrSign,
+"realgar-alchemical",
+"realgar2-alchemical",
+recycledPaperSymbol,
+recycling,
+recyclingGenericMaterials,
+recyclingType1Plastics,
+recyclingType2Plastics,
+recyclingType3Plastics,
+recyclingType4Plastics,
+recyclingType5Plastics,
+recyclingType6Plastics,
+recyclingType7Plastics,
+"regulus-alchemical",
+"regulus2-alchemical",
+"regulus3-alchemical",
+"regulus4-alchemical",
+"regulusOfAntimony-alchemical",
+"regulusOfAntimony2-alchemical",
+"regulusOfIron-alchemical",
+"retort-alchemical",
+rightArrow,
+rightCeiling,
+rightFloor,
+rightHandedInterlacedPentagram,
+rightangledownzigzagArrow,
+"rockSalt-alchemical",
+"rockSalt2-alchemical",
+s,
+s.001,
+s.001_enccirclebackslashcomb,
+s.001_enclosingcirclecomb,
+s.001_enclosingdiamondcomb,
+s.001_enclosingsquarecomb,
+s.001_encupwardpointingtricomb,
+s.circled,
+s.paren,
+sagittarius,
+sailboat,
+"salAmmoniac-alchemical",
+"salt-alchemical",
+"saltOfAntimony-alchemical",
+"saltOfCopperAntimoniate-alchemical",
+saltire,
+saturn,
+scales,
+"scepterOfJove-alchemical",
+scorpius,
+sector,
+segment,
+semisextile,
+sesquiquadrate,
+seven,
+"seven-roman",
+seven.001,
+seven.001_enccircbackslashcomb,
+seven.001_enclosingcirclecomb,
+seven.001_enclosingdiamondcomb,
+seven.001_enclosingsquarecomb,
+seven.001_encuppointingtricomb,
+seven.blackCircled,
+seven.circled,
+seven.doubleCircled,
+seven.paren,
+seven.sansSerifBlackCircled,
+seven.sansSerifCircled,
+seven_comma,
+seven_period,
+sextile,
+shadowedWhiteCross,
+"sharp-musical",
+shintoShrine,
+"silver-alchemical",
+six,
+"six-roman",
+six.001,
+six.001_enccirclebackslashcomb,
+six.001_enclosingcirclecomb,
+six.001_enclosingdiamondcomb,
+six.001_enclosingsquarecomb,
+six.001_encuppointingtricomb,
+six.blackCircled,
+six.circled,
+six.doubleCircled,
+six.paren,
+six.sansSerifBlackCircled,
+six.sansSerifCircled,
+six_comma,
+six_period,
+"sixlateform-roman",
+skier,
+slope,
+smile,
+"soap-alchemical",
+softwareFunctionsymbol,
+southEastArrow,
+southWestArrow,
+space,
+"spirit-alchemical",
+squareFourCorners,
+squareLozenge,
+squarefoot,
+staffOfAesculapius,
+staffOfHermes,
+starAndCrescent,
+starOfDavid,
+"starredTrident-alchemical",
+straightness,
+"stratumSuperStratum-alchemical",
+"stratumSuperStratum2-alchemical",
+"sublimateOfAntimony-alchemical",
+"sublimateOfCopper-alchemical",
+"sublimateOfSaltOfAntimony-alchemical",
+"sublimateOfSaltOfCopper-alchemical",
+"sublimation-alchemical",
+"sulfur-alchemical",
+symmetry,
+t,
+t.001,
+t.001_enccirclebackslashcomb,
+t.001_enclosingcirclecomb,
+t.001_enclosingdiamondcomb,
+t.001_enclosingsquarecomb,
+t.001_encupwardpointingtricomb,
+t.circled,
+t.paren,
+"tartar-alchemical",
+"tartar2-alchemical",
+taurus,
+telephoneRecorder,
+"ten-roman",
+tent,
+three,
+"three-roman",
+three.001,
+three.001_enccircbackslashcomb,
+three.001_enclosingcirclecomb,
+three.001_enclosingdiamondcomb,
+three.001_enclosingsquarecomb,
+three.001_encuppointingtricomb,
+three.blackCircled,
+three.circled,
+three.doubleCircled,
+three.paren,
+three.sansSerifBlackCircled,
+three.sansSerifCircled,
+threeTurned,
+three_comma,
+three_period,
+"tinOre-alchemical",
+"tincture-alchemical",
+topLeftCorner,
+topLeftCrop,
+topRightCrop,
+topRightcorner,
+totalRunout,
+"trident-alchemical",
+"tutty-alchemical",
+"twelve-roman",
+two,
+"two-roman",
+two.001,
+two.001_enccirclebackslashcomb,
+two.001_enclosingcirclecomb,
+two.001_enclosingdiamondcomb,
+two.001_enclosingsquarecomb,
+two.001_encuppointingtricomb,
+two.blackCircled,
+two.circled,
+two.doubleCircled,
+two.paren,
+two.sansSerifBlackCircled,
+two.sansSerifCircled,
+twoTurned,
+two_comma,
+two_period,
+two_zero.blackCircled,
+two_zero.circled,
+two_zero.paren,
+two_zero_period,
+u,
+u.001,
+u.001_enccirclebackslashcomb,
+u.001_enclosingcirclecomb,
+u.001_enclosingdiamondcomb,
+u.001_enclosingsquarecomb,
+u.001_encupwardpointingtricomb,
+u.circled,
+u.paren,
+u1F12A,
+u1F12B,
+u1F12C,
+u1F12D,
+u1F12E,
+u1F18A,
+u1F18B,
+u1F18C,
+u1F18D,
+u1F18E,
+u1F18F,
+u1F190,
+u1F19B,
+u1F19C,
+u1F19D,
+u1F19E,
+u1F19F,
+u1F1A0,
+u1F1A1,
+u1F1A2,
+u1F1A3,
+u1F1A4,
+u1F1A5,
+u1F1A6,
+u1F1A7,
+u1F1A8,
+u1F1A9,
+u1F1AA,
+u1F1AB,
+u1F1AC,
+u1F54F,
+umbrellaOnGround,
+undosymbol,
+unmarriedPartnershipSymbol,
+upArrow,
+upDownArrow,
+"upandhorizontal-dentistry",
+"upandhorizontalcircle-dentistry",
+"upandhorizontaltriangle-dentistry",
+"upandhorizontalwave-dentistry",
+uranus,
+"urine-alchemical",
+v,
+v.001,
+v.001_enccirclebackslashcomb,
+v.001_enclosingcirclecomb,
+v.001_enclosingdiamondcomb,
+v.001_enclosingsquarecomb,
+v.001_encupwardpointingtricomb,
+v.circled,
+v.paren,
+venus,
+"verdigris-alchemical",
+verticalMaleWithStrokeSign,
+"verticalandbottomleft-dentistry",
+"verticalandbottomright-dentistry",
+"verticalandtopleft-dentistry",
+"verticalandtopright-dentistry",
+"verticalandwave-dentistry",
+"verticalcircle-dentistry",
+verticallineextension,
+"verticaltriangle-dentistry",
+vesta,
+viewdataSquare,
+"vinegar-alchemical",
+"vinegar2-alchemical",
+"vinegar3-alchemical",
+"vinegarOfAntimony-alchemical",
+virgo,
+"vitriol-alchemical",
+"vitriol2-alchemical",
+w,
+w.001,
+w.001_enccirclebackslashcomb,
+w.001_enclosingcirclecomb,
+w.001_enclosingdiamondcomb,
+w.001_enclosingsquarecomb,
+w.001_encupwardpointingtricomb,
+w.circled,
+w.paren,
+"water-alchemical",
+wavyLine,
+"wax-alchemical",
+westSyriacCross,
+wheelOfDharma,
+whiteCross,
+whiteFlag,
+whiteFlagWithHorizontalMiddleBlackStripe,
+whiteFrowningFace,
+whiteSmilingFace,
+whitesquarecentreverticalline,
+whitetrapezium,
+x,
+x.001,
+x.001_enccirclebackslashcomb,
+x.001_enclosingcirclecomb,
+x.001_enclosingdiamondcomb,
+x.001_enclosingsquarecomb,
+x.001_encupwardpointingtricomb,
+x.circled,
+x.paren,
+y,
+y.001,
+y.001_enccirclebackslashcomb,
+y.001_enclosingcirclecomb,
+y.001_enclosingdiamondcomb,
+y.001_enclosingsquarecomb,
+y.001_encupwardpointingtricomb,
+y.circled,
+y.paren,
+yinyang,
+z,
+z.001,
+z.001_enccirclebackslashcomb,
+z.001_enclosingcirclecomb,
+z.001_enclosingdiamondcomb,
+z.001_enclosingsquarecomb,
+z.001_encupwardpointingtricomb,
+z.circled,
+z.paren,
+zero,
+zero.001,
+zero.001_enccirclebackslashcomb,
+zero.001_enclosingcirclecomb,
+zero.001_enclosingdiamondcomb,
+zero.001_enclosingsquarecomb,
+zero.001_encuppointingtricomb,
+zero.blackCircled,
+zero.circled,
+zero.sansSerifBlackCircled,
+zero.sansSerifCircled,
+zero_comma,
+zero_period
+);
+},
+{
+name = "Enforce Compatibility Check";
+value = 1;
+},
+{
+name = "Write lastChange";
+value = 0;
+}
+);
+date = "2017-03-20 18:50:13 +0000";
+familyName = "Noto Sans Symbols";
+featurePrefixes = (
+{
+code = "# Features for NotoSansSymbols-Regular
+# generated by translating original MTI data
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+";
+name = WARNING;
+}
+);
+features = (
+{
+code = "
+#GSUB
+lookup gsub_0_ligature {
+    sub space enclosingcirclecomb by enclosingcircle ;
+    sub A enclosingcirclecomb by A.001_enclosingcirclecomb ;
+    sub B enclosingcirclecomb by B.001_enclosingcirclecomb ;
+    sub C enclosingcirclecomb by C.001_enclosingcirclecomb ;
+    sub D enclosingcirclecomb by D.001_enclosingcirclecomb ;
+    sub E enclosingcirclecomb by E.001_enclosingcirclecomb ;
+    sub F enclosingcirclecomb by F.001_enclosingcirclecomb ;
+    sub G enclosingcirclecomb by G.001_enclosingcirclecomb ;
+    sub H enclosingcirclecomb by H.001_enclosingcirclecomb ;
+    sub I enclosingcirclecomb by I.001_enclosingcirclecomb ;
+    sub J enclosingcirclecomb by J.001_enclosingcirclecomb ;
+    sub K enclosingcirclecomb by K.001_enclosingcirclecomb ;
+    sub L enclosingcirclecomb by L.001_enclosingcirclecomb ;
+    sub M enclosingcirclecomb by M.001_enclosingcirclecomb ;
+    sub N enclosingcirclecomb by N.001_enclosingcirclecomb ;
+    sub O enclosingcirclecomb by O.001_enclosingcirclecomb ;
+    sub P enclosingcirclecomb by P.001_enclosingcirclecomb ;
+    sub Q enclosingcirclecomb by Q.001_enclosingcirclecomb ;
+    sub R enclosingcirclecomb by R.001_enclosingcirclecomb ;
+    sub S enclosingcirclecomb by S.001_enclosingcirclecomb ;
+    sub T enclosingcirclecomb by T.001_enclosingcirclecomb ;
+    sub U enclosingcirclecomb by U.001_enclosingcirclecomb ;
+    sub V enclosingcirclecomb by V.001_enclosingcirclecomb ;
+    sub W enclosingcirclecomb by W.001_enclosingcirclecomb ;
+    sub X enclosingcirclecomb by X.001_enclosingcirclecomb ;
+    sub Y enclosingcirclecomb by Y.001_enclosingcirclecomb ;
+    sub Z enclosingcirclecomb by Z.001_enclosingcirclecomb ;
+    sub a enclosingcirclecomb by a.001_enclosingcirclecomb ;
+    sub b enclosingcirclecomb by b.001_enclosingcirclecomb ;
+    sub c enclosingcirclecomb by c.001_enclosingcirclecomb ;
+    sub d enclosingcirclecomb by d.001_enclosingcirclecomb ;
+    sub e enclosingcirclecomb by e.001_enclosingcirclecomb ;
+    sub f enclosingcirclecomb by f.001_enclosingcirclecomb ;
+    sub g enclosingcirclecomb by g.001_enclosingcirclecomb ;
+    sub h enclosingcirclecomb by h.001_enclosingcirclecomb ;
+    sub i enclosingcirclecomb by i.001_enclosingcirclecomb ;
+    sub j enclosingcirclecomb by j.001_enclosingcirclecomb ;
+    sub k enclosingcirclecomb by k.001_enclosingcirclecomb ;
+    sub l enclosingcirclecomb by l.001_enclosingcirclecomb ;
+    sub m enclosingcirclecomb by m.001_enclosingcirclecomb ;
+    sub n enclosingcirclecomb by n.001_enclosingcirclecomb ;
+    sub o enclosingcirclecomb by o.001_enclosingcirclecomb ;
+    sub p enclosingcirclecomb by p.001_enclosingcirclecomb ;
+    sub q enclosingcirclecomb by q.001_enclosingcirclecomb ;
+    sub r enclosingcirclecomb by r.001_enclosingcirclecomb ;
+    sub s enclosingcirclecomb by s.001_enclosingcirclecomb ;
+    sub t enclosingcirclecomb by t.001_enclosingcirclecomb ;
+    sub u enclosingcirclecomb by u.001_enclosingcirclecomb ;
+    sub v enclosingcirclecomb by v.001_enclosingcirclecomb ;
+    sub w enclosingcirclecomb by w.001_enclosingcirclecomb ;
+    sub x enclosingcirclecomb by x.001_enclosingcirclecomb ;
+    sub y enclosingcirclecomb by y.001_enclosingcirclecomb ;
+    sub z enclosingcirclecomb by z.001_enclosingcirclecomb ;
+    sub zero enclosingcirclecomb by zero.001_enclosingcirclecomb ;
+    sub one enclosingcirclecomb by one.001_enclosingcirclecomb ;
+    sub two enclosingcirclecomb by two.001_enclosingcirclecomb ;
+    sub three enclosingcirclecomb by three.001_enclosingcirclecomb ;
+    sub four enclosingcirclecomb by four.001_enclosingcirclecomb ;
+    sub five enclosingcirclecomb by five.001_enclosingcirclecomb ;
+    sub six enclosingcirclecomb by six.001_enclosingcirclecomb ;
+    sub seven enclosingcirclecomb by seven.001_enclosingcirclecomb ;
+    sub eight enclosingcirclecomb by eight.001_enclosingcirclecomb ;
+    sub nine enclosingcirclecomb by nine.001_enclosingcirclecomb ;
+    } gsub_0_ligature ;
+
+lookup gsub_1_ligature {
+    sub space enclosingsquarecomb by enclosingsquare ;
+    sub A enclosingsquarecomb by A.001_enclosingsquarecomb ;
+    sub B enclosingsquarecomb by B.001_enclosingsquarecomb ;
+    sub C enclosingsquarecomb by C.001_enclosingsquarecomb ;
+    sub D enclosingsquarecomb by D.001_enclosingsquarecomb ;
+    sub E enclosingsquarecomb by E.001_enclosingsquarecomb ;
+    sub F enclosingsquarecomb by F.001_enclosingsquarecomb ;
+    sub G enclosingsquarecomb by G.001_enclosingsquarecomb ;
+    sub H enclosingsquarecomb by H.001_enclosingsquarecomb ;
+    sub I enclosingsquarecomb by I.001_enclosingsquarecomb ;
+    sub J enclosingsquarecomb by J.001_enclosingsquarecomb ;
+    sub K enclosingsquarecomb by K.001_enclosingsquarecomb ;
+    sub L enclosingsquarecomb by L.001_enclosingsquarecomb ;
+    sub M enclosingsquarecomb by M.001_enclosingsquarecomb ;
+    sub N enclosingsquarecomb by N.001_enclosingsquarecomb ;
+    sub O enclosingsquarecomb by O.001_enclosingsquarecomb ;
+    sub P enclosingsquarecomb by P.001_enclosingsquarecomb ;
+    sub Q enclosingsquarecomb by Q.001_enclosingsquarecomb ;
+    sub R enclosingsquarecomb by R.001_enclosingsquarecomb ;
+    sub S enclosingsquarecomb by S.001_enclosingsquarecomb ;
+    sub T enclosingsquarecomb by T.001_enclosingsquarecomb ;
+    sub U enclosingsquarecomb by U.001_enclosingsquarecomb ;
+    sub V enclosingsquarecomb by V.001_enclosingsquarecomb ;
+    sub W enclosingsquarecomb by W.001_enclosingsquarecomb ;
+    sub X enclosingsquarecomb by X.001_enclosingsquarecomb ;
+    sub Y enclosingsquarecomb by Y.001_enclosingsquarecomb ;
+    sub Z enclosingsquarecomb by Z.001_enclosingsquarecomb ;
+    sub a enclosingsquarecomb by a.001_enclosingsquarecomb ;
+    sub b enclosingsquarecomb by b.001_enclosingsquarecomb ;
+    sub c enclosingsquarecomb by c.001_enclosingsquarecomb ;
+    sub d enclosingsquarecomb by d.001_enclosingsquarecomb ;
+    sub e enclosingsquarecomb by e.001_enclosingsquarecomb ;
+    sub f enclosingsquarecomb by f.001_enclosingsquarecomb ;
+    sub g enclosingsquarecomb by g.001_enclosingsquarecomb ;
+    sub h enclosingsquarecomb by h.001_enclosingsquarecomb ;
+    sub i enclosingsquarecomb by i.001_enclosingsquarecomb ;
+    sub j enclosingsquarecomb by j.001_enclosingsquarecomb ;
+    sub k enclosingsquarecomb by k.001_enclosingsquarecomb ;
+    sub l enclosingsquarecomb by l.001_enclosingsquarecomb ;
+    sub m enclosingsquarecomb by m.001_enclosingsquarecomb ;
+    sub n enclosingsquarecomb by n.001_enclosingsquarecomb ;
+    sub o enclosingsquarecomb by o.001_enclosingsquarecomb ;
+    sub p enclosingsquarecomb by p.001_enclosingsquarecomb ;
+    sub q enclosingsquarecomb by q.001_enclosingsquarecomb ;
+    sub r enclosingsquarecomb by r.001_enclosingsquarecomb ;
+    sub s enclosingsquarecomb by s.001_enclosingsquarecomb ;
+    sub t enclosingsquarecomb by t.001_enclosingsquarecomb ;
+    sub u enclosingsquarecomb by u.001_enclosingsquarecomb ;
+    sub v enclosingsquarecomb by v.001_enclosingsquarecomb ;
+    sub w enclosingsquarecomb by w.001_enclosingsquarecomb ;
+    sub x enclosingsquarecomb by x.001_enclosingsquarecomb ;
+    sub y enclosingsquarecomb by y.001_enclosingsquarecomb ;
+    sub z enclosingsquarecomb by z.001_enclosingsquarecomb ;
+    sub zero enclosingsquarecomb by zero.001_enclosingsquarecomb ;
+    sub one enclosingsquarecomb by one.001_enclosingsquarecomb ;
+    sub two enclosingsquarecomb by two.001_enclosingsquarecomb ;
+    sub three enclosingsquarecomb by three.001_enclosingsquarecomb ;
+    sub four enclosingsquarecomb by four.001_enclosingsquarecomb ;
+    sub five enclosingsquarecomb by five.001_enclosingsquarecomb ;
+    sub six enclosingsquarecomb by six.001_enclosingsquarecomb ;
+    sub seven enclosingsquarecomb by seven.001_enclosingsquarecomb ;
+    sub eight enclosingsquarecomb by eight.001_enclosingsquarecomb ;
+    sub nine enclosingsquarecomb by nine.001_enclosingsquarecomb ;
+    } gsub_1_ligature ;
+
+lookup gsub_2_ligature {
+    sub space enclosingdiamondcomb by enclosingdiamond ;
+    sub A enclosingdiamondcomb by A.001_enclosingdiamondcomb ;
+    sub B enclosingdiamondcomb by B.001_enclosingdiamondcomb ;
+    sub C enclosingdiamondcomb by C.001_enclosingdiamondcomb ;
+    sub D enclosingdiamondcomb by D.001_enclosingdiamondcomb ;
+    sub E enclosingdiamondcomb by E.001_enclosingdiamondcomb ;
+    sub F enclosingdiamondcomb by F.001_enclosingdiamondcomb ;
+    sub G enclosingdiamondcomb by G.001_enclosingdiamondcomb ;
+    sub H enclosingdiamondcomb by H.001_enclosingdiamondcomb ;
+    sub I enclosingdiamondcomb by I.001_enclosingdiamondcomb ;
+    sub J enclosingdiamondcomb by J.001_enclosingdiamondcomb ;
+    sub K enclosingdiamondcomb by K.001_enclosingdiamondcomb ;
+    sub L enclosingdiamondcomb by L.001_enclosingdiamondcomb ;
+    sub M enclosingdiamondcomb by M.001_enclosingdiamondcomb ;
+    sub N enclosingdiamondcomb by N.001_enclosingdiamondcomb ;
+    sub O enclosingdiamondcomb by O.001_enclosingdiamondcomb ;
+    sub P enclosingdiamondcomb by P.001_enclosingdiamondcomb ;
+    sub Q enclosingdiamondcomb by Q.001_enclosingdiamondcomb ;
+    sub R enclosingdiamondcomb by R.001_enclosingdiamondcomb ;
+    sub S enclosingdiamondcomb by S.001_enclosingdiamondcomb ;
+    sub T enclosingdiamondcomb by T.001_enclosingdiamondcomb ;
+    sub U enclosingdiamondcomb by U.001_enclosingdiamondcomb ;
+    sub V enclosingdiamondcomb by V.001_enclosingdiamondcomb ;
+    sub W enclosingdiamondcomb by W.001_enclosingdiamondcomb ;
+    sub X enclosingdiamondcomb by X.001_enclosingdiamondcomb ;
+    sub Y enclosingdiamondcomb by Y.001_enclosingdiamondcomb ;
+    sub Z enclosingdiamondcomb by Z.001_enclosingdiamondcomb ;
+    sub a enclosingdiamondcomb by a.001_enclosingdiamondcomb ;
+    sub b enclosingdiamondcomb by b.001_enclosingdiamondcomb ;
+    sub c enclosingdiamondcomb by c.001_enclosingdiamondcomb ;
+    sub d enclosingdiamondcomb by d.001_enclosingdiamondcomb ;
+    sub e enclosingdiamondcomb by e.001_enclosingdiamondcomb ;
+    sub f enclosingdiamondcomb by f.001_enclosingdiamondcomb ;
+    sub g enclosingdiamondcomb by g.001_enclosingdiamondcomb ;
+    sub h enclosingdiamondcomb by h.001_enclosingdiamondcomb ;
+    sub i enclosingdiamondcomb by i.001_enclosingdiamondcomb ;
+    sub j enclosingdiamondcomb by j.001_enclosingdiamondcomb ;
+    sub k enclosingdiamondcomb by k.001_enclosingdiamondcomb ;
+    sub l enclosingdiamondcomb by l.001_enclosingdiamondcomb ;
+    sub m enclosingdiamondcomb by m.001_enclosingdiamondcomb ;
+    sub n enclosingdiamondcomb by n.001_enclosingdiamondcomb ;
+    sub o enclosingdiamondcomb by o.001_enclosingdiamondcomb ;
+    sub p enclosingdiamondcomb by p.001_enclosingdiamondcomb ;
+    sub q enclosingdiamondcomb by q.001_enclosingdiamondcomb ;
+    sub r enclosingdiamondcomb by r.001_enclosingdiamondcomb ;
+    sub s enclosingdiamondcomb by s.001_enclosingdiamondcomb ;
+    sub t enclosingdiamondcomb by t.001_enclosingdiamondcomb ;
+    sub u enclosingdiamondcomb by u.001_enclosingdiamondcomb ;
+    sub v enclosingdiamondcomb by v.001_enclosingdiamondcomb ;
+    sub w enclosingdiamondcomb by w.001_enclosingdiamondcomb ;
+    sub x enclosingdiamondcomb by x.001_enclosingdiamondcomb ;
+    sub y enclosingdiamondcomb by y.001_enclosingdiamondcomb ;
+    sub z enclosingdiamondcomb by z.001_enclosingdiamondcomb ;
+    sub zero enclosingdiamondcomb by zero.001_enclosingdiamondcomb ;
+    sub one enclosingdiamondcomb by one.001_enclosingdiamondcomb ;
+    sub two enclosingdiamondcomb by two.001_enclosingdiamondcomb ;
+    sub three enclosingdiamondcomb by three.001_enclosingdiamondcomb ;
+    sub four enclosingdiamondcomb by four.001_enclosingdiamondcomb ;
+    sub five enclosingdiamondcomb by five.001_enclosingdiamondcomb ;
+    sub six enclosingdiamondcomb by six.001_enclosingdiamondcomb ;
+    sub seven enclosingdiamondcomb by seven.001_enclosingdiamondcomb ;
+    sub eight enclosingdiamondcomb by eight.001_enclosingdiamondcomb ;
+    sub nine enclosingdiamondcomb by nine.001_enclosingdiamondcomb ;
+    } gsub_2_ligature ;
+
+lookup gsub_3_ligature {
+    sub space enclosingcirclebackslashcomb by enclosingcirclebackslash ;
+    sub A enclosingcirclebackslashcomb by A.001_enccirclebackslashcomb ;
+    sub B enclosingcirclebackslashcomb by B.001_enccirclebackslashcomb ;
+    sub C enclosingcirclebackslashcomb by C.001_enccirclebackslashcomb ;
+    sub D enclosingcirclebackslashcomb by D.001_enccirclebackslashcomb ;
+    sub E enclosingcirclebackslashcomb by E.001_enccirclebackslashcomb ;
+    sub F enclosingcirclebackslashcomb by F.001_enccirclebackslashcomb ;
+    sub G enclosingcirclebackslashcomb by G.001_enccirclebackslashcomb ;
+    sub H enclosingcirclebackslashcomb by H.001_enccirclebackslashcomb ;
+    sub I enclosingcirclebackslashcomb by I.001_enccirclebackslashcomb ;
+    sub J enclosingcirclebackslashcomb by J.001_enccirclebackslashcomb ;
+    sub K enclosingcirclebackslashcomb by K.001_enccirclebackslashcomb ;
+    sub L enclosingcirclebackslashcomb by L.001_enccirclebackslashcomb ;
+    sub M enclosingcirclebackslashcomb by M.001_enccirclebackslashcomb ;
+    sub N enclosingcirclebackslashcomb by N.001_enccirclebackslashcomb ;
+    sub O enclosingcirclebackslashcomb by O.001_enccirclebackslashcomb ;
+    sub P enclosingcirclebackslashcomb by P.001_enccirclebackslashcomb ;
+    sub Q enclosingcirclebackslashcomb by Q.001_enccirclebackslashcomb ;
+    sub R enclosingcirclebackslashcomb by R.001_enccirclebackslashcomb ;
+    sub S enclosingcirclebackslashcomb by S.001_enccirclebackslashcomb ;
+    sub T enclosingcirclebackslashcomb by T.001_enccirclebackslashcomb ;
+    sub U enclosingcirclebackslashcomb by U.001_enccirclebackslashcomb ;
+    sub V enclosingcirclebackslashcomb by V.001_enccirclebackslashcomb ;
+    sub W enclosingcirclebackslashcomb by W.001_enccirclebackslashcomb ;
+    sub X enclosingcirclebackslashcomb by X.001_enccirclebackslashcomb ;
+    sub Y enclosingcirclebackslashcomb by Y.001_enccirclebackslashcomb ;
+    sub Z enclosingcirclebackslashcomb by Z.001_enccirclebackslashcomb ;
+    sub a enclosingcirclebackslashcomb by a.001_enccirclebackslashcomb ;
+    sub b enclosingcirclebackslashcomb by b.001_enccirclebackslashcomb ;
+    sub c enclosingcirclebackslashcomb by c.001_enccirclebackslashcomb ;
+    sub d enclosingcirclebackslashcomb by d.001_enccirclebackslashcomb ;
+    sub e enclosingcirclebackslashcomb by e.001_enccirclebackslashcomb ;
+    sub f enclosingcirclebackslashcomb by f.001_enccirclebackslashcomb ;
+    sub g enclosingcirclebackslashcomb by g.001_enccirclebackslashcomb ;
+    sub h enclosingcirclebackslashcomb by h.001_enccirclebackslashcomb ;
+    sub i enclosingcirclebackslashcomb by i.001_enccirclebackslashcomb ;
+    sub j enclosingcirclebackslashcomb by j.001_enccirclebackslashcomb ;
+    sub k enclosingcirclebackslashcomb by k.001_enccirclebackslashcomb ;
+    sub l enclosingcirclebackslashcomb by l.001_enccirclebackslashcomb ;
+    sub m enclosingcirclebackslashcomb by m.001_enccirclebackslashcomb ;
+    sub n enclosingcirclebackslashcomb by n.001_enccirclebackslashcomb ;
+    sub o enclosingcirclebackslashcomb by o.001_enccirclebackslashcomb ;
+    sub p enclosingcirclebackslashcomb by p.001_enccirclebackslashcomb ;
+    sub q enclosingcirclebackslashcomb by q.001_enccirclebackslashcomb ;
+    sub r enclosingcirclebackslashcomb by r.001_enccirclebackslashcomb ;
+    sub s enclosingcirclebackslashcomb by s.001_enccirclebackslashcomb ;
+    sub t enclosingcirclebackslashcomb by t.001_enccirclebackslashcomb ;
+    sub u enclosingcirclebackslashcomb by u.001_enccirclebackslashcomb ;
+    sub v enclosingcirclebackslashcomb by v.001_enccirclebackslashcomb ;
+    sub w enclosingcirclebackslashcomb by w.001_enccirclebackslashcomb ;
+    sub x enclosingcirclebackslashcomb by x.001_enccirclebackslashcomb ;
+    sub y enclosingcirclebackslashcomb by y.001_enccirclebackslashcomb ;
+    sub z enclosingcirclebackslashcomb by z.001_enccirclebackslashcomb ;
+    sub zero enclosingcirclebackslashcomb by zero.001_enccirclebackslashcomb ;
+    sub one enclosingcirclebackslashcomb by one.001_enccirclebackslashcomb ;
+    sub two enclosingcirclebackslashcomb by two.001_enccirclebackslashcomb ;
+    sub three enclosingcirclebackslashcomb by three.001_enccircbackslashcomb ;
+    sub four enclosingcirclebackslashcomb by four.001_enccirclebackslashcomb ;
+    sub five enclosingcirclebackslashcomb by five.001_enccirclebackslashcomb ;
+    sub six enclosingcirclebackslashcomb by six.001_enccirclebackslashcomb ;
+    sub seven enclosingcirclebackslashcomb by seven.001_enccircbackslashcomb ;
+    sub eight enclosingcirclebackslashcomb by eight.001_enccircbackslashcomb ;
+    sub nine enclosingcirclebackslashcomb by nine.001_enccirclebackslashcomb ;
+    } gsub_3_ligature ;
+
+lookup gsub_4_ligature {
+    sub space enclosingupwardpointingtrianglecomb by enclosingupwardpointingtriangle ;
+    sub A enclosingupwardpointingtrianglecomb by A.001_encupwardpointingtricomb ;
+    sub B enclosingupwardpointingtrianglecomb by B.001_encupwardpointingtricomb ;
+    sub C enclosingupwardpointingtrianglecomb by C.001_encupwardpointingtricomb ;
+    sub D enclosingupwardpointingtrianglecomb by D.001_encupwardpointingtricomb ;
+    sub E enclosingupwardpointingtrianglecomb by E.001_encupwardpointingtricomb ;
+    sub F enclosingupwardpointingtrianglecomb by F.001_encupwardpointingtricomb ;
+    sub G enclosingupwardpointingtrianglecomb by G.001_encupwardpointingtricomb ;
+    sub H enclosingupwardpointingtrianglecomb by H.001_encupwardpointingtricomb ;
+    sub I enclosingupwardpointingtrianglecomb by I.001_encupwardpointingtricomb ;
+    sub J enclosingupwardpointingtrianglecomb by J.001_encupwardpointingtricomb ;
+    sub K enclosingupwardpointingtrianglecomb by K.001_encupwardpointingtricomb ;
+    sub L enclosingupwardpointingtrianglecomb by L.001_encupwardpointingtricomb ;
+    sub M enclosingupwardpointingtrianglecomb by M.001_encupwardpointingtricomb ;
+    sub N enclosingupwardpointingtrianglecomb by N.001_encupwardpointingtricomb ;
+    sub O enclosingupwardpointingtrianglecomb by O.001_encupwardpointingtricomb ;
+    sub P enclosingupwardpointingtrianglecomb by P.001_encupwardpointingtricomb ;
+    sub Q enclosingupwardpointingtrianglecomb by Q.001_encupwardpointingtricomb ;
+    sub R enclosingupwardpointingtrianglecomb by R.001_encupwardpointingtricomb ;
+    sub S enclosingupwardpointingtrianglecomb by S.001_encupwardpointingtricomb ;
+    sub T enclosingupwardpointingtrianglecomb by T.001_encupwardpointingtricomb ;
+    sub U enclosingupwardpointingtrianglecomb by U.001_encupwardpointingtricomb ;
+    sub V enclosingupwardpointingtrianglecomb by V.001_encupwardpointingtricomb ;
+    sub W enclosingupwardpointingtrianglecomb by W.001_encupwardpointingtricomb ;
+    sub X enclosingupwardpointingtrianglecomb by X.001_encupwardpointingtricomb ;
+    sub Y enclosingupwardpointingtrianglecomb by Y.001_encupwardpointingtricomb ;
+    sub Z enclosingupwardpointingtrianglecomb by Z.001_encupwardpointingtricomb ;
+    sub a enclosingupwardpointingtrianglecomb by a.001_encupwardpointingtricomb ;
+    sub b enclosingupwardpointingtrianglecomb by b.001_encupwardpointingtricomb ;
+    sub c enclosingupwardpointingtrianglecomb by c.001_encupwardpointingtricomb ;
+    sub d enclosingupwardpointingtrianglecomb by d.001_encupwardpointingtricomb ;
+    sub e enclosingupwardpointingtrianglecomb by e.001_encupwardpointingtricomb ;
+    sub f enclosingupwardpointingtrianglecomb by f.001_encupwardpointingtricomb ;
+    sub g enclosingupwardpointingtrianglecomb by g.001_encupwardpointingtricomb ;
+    sub h enclosingupwardpointingtrianglecomb by h.001_encupwardpointingtricomb ;
+    sub i enclosingupwardpointingtrianglecomb by i.001_encupwardpointingtricomb ;
+    sub j enclosingupwardpointingtrianglecomb by j.001_encupwardpointingtricomb ;
+    sub k enclosingupwardpointingtrianglecomb by k.001_encupwardpointingtricomb ;
+    sub l enclosingupwardpointingtrianglecomb by l.001_encupwardpointingtricomb ;
+    sub m enclosingupwardpointingtrianglecomb by m.001_encupwardpointingtricomb ;
+    sub n enclosingupwardpointingtrianglecomb by n.001_encupwardpointingtricomb ;
+    sub o enclosingupwardpointingtrianglecomb by o.001_encupwardpointingtricomb ;
+    sub p enclosingupwardpointingtrianglecomb by p.001_encupwardpointingtricomb ;
+    sub q enclosingupwardpointingtrianglecomb by q.001_encupwardpointingtricomb ;
+    sub r enclosingupwardpointingtrianglecomb by r.001_encupwardpointingtricomb ;
+    sub s enclosingupwardpointingtrianglecomb by s.001_encupwardpointingtricomb ;
+    sub t enclosingupwardpointingtrianglecomb by t.001_encupwardpointingtricomb ;
+    sub u enclosingupwardpointingtrianglecomb by u.001_encupwardpointingtricomb ;
+    sub v enclosingupwardpointingtrianglecomb by v.001_encupwardpointingtricomb ;
+    sub w enclosingupwardpointingtrianglecomb by w.001_encupwardpointingtricomb ;
+    sub x enclosingupwardpointingtrianglecomb by x.001_encupwardpointingtricomb ;
+    sub y enclosingupwardpointingtrianglecomb by y.001_encupwardpointingtricomb ;
+    sub z enclosingupwardpointingtrianglecomb by z.001_encupwardpointingtricomb ;
+    sub zero enclosingupwardpointingtrianglecomb by zero.001_encuppointingtricomb ;
+    sub one enclosingupwardpointingtrianglecomb by one.001_encuppointingtricomb ;
+    sub two enclosingupwardpointingtrianglecomb by two.001_encuppointingtricomb ;
+    sub three enclosingupwardpointingtrianglecomb by three.001_encuppointingtricomb ;
+    sub four enclosingupwardpointingtrianglecomb by four.001_encuppointingtricomb ;
+    sub five enclosingupwardpointingtrianglecomb by five.001_encuppointingtricomb ;
+    sub six enclosingupwardpointingtrianglecomb by six.001_encuppointingtricomb ;
+    sub seven enclosingupwardpointingtrianglecomb by seven.001_encuppointingtricomb ;
+    sub eight enclosingupwardpointingtrianglecomb by eight.001_encuppointingtricomb ;
+    sub nine enclosingupwardpointingtrianglecomb by nine.001_encuppointingtricomb ;
+    } gsub_4_ligature ;
+
+";
+tag = ccmp;
+}
+);
+fontMaster = (
+{
+axesValues = (
+26
+);
+customParameters = (
+{
+name = "UFO Filename";
+value = "NotoSansSymbols-Light.ufo";
+},
+{
+name = hheaAscender;
+value = 1480;
+},
+{
+name = hheaDescender;
+value = -570;
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = typoAscender;
+value = 1480;
+},
+{
+name = typoDescender;
+value = -570;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = unicodeRanges;
+value = (
+0,
+1,
+34,
+36,
+37,
+39,
+42,
+45,
+46,
+47,
+57
+);
+},
+{
+name = versionString;
+value = "Version 2.002";
+},
+{
+name = vendorID;
+value = GOOG;
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+name = trademark;
+value = "Noto is a trademark of Google LLC.";
+},
+{
+name = description;
+value = "Designed by Monotype design team.";
+},
+{
+name = openTypeNameVersion;
+value = "Version 2.002";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Symbols Light";
+},
+{
+name = styleMapStyleName;
+value = regular;
+},
+{
+name = codePageRanges;
+value = (
+1252
+);
+},
+{
+name = winAscent;
+value = 1480;
+},
+{
+name = winDescent;
+value = 570;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Has WWS Names";
+value = 1;
+},
+{
+name = openTypeOS2SelectionUnsupportedBits;
+value = (
+);
+}
+);
+iconName = Light;
+id = "24810176-774E-47FD-8B80-D284CD1191FD";
+metricValues = (
+{
+over = 16;
+pos = 1471;
+},
+{
+over = 12;
+pos = 714;
+},
+{
+over = 11;
+pos = 528;
+},
+{
+over = -11;
+},
+{
+over = -16;
+pos = -565;
+},
+{
+over = -11;
+},
+{
+over = 10;
+pos = 559;
+}
+);
+name = Light;
+stemValues = (
+27,
+27
+);
+userData = {
+GSCornerRadius = 5;
+GSOffsetHorizontal = -27;
+GSOffsetVertical = -25;
+angle = 20;
+com.schriftgestaltung.Glyphs.originalFeatureCode = "# Features for NotoSansSymbols-Light
+# generated by translating original MTI data
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+@GDEF_base = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z zero one two three four five six seven eight nine ];
+
+#GSUB
+lookup gsub_0_ligature {
+    sub space enclosingcirclecomb by enclosingcircle ;
+    sub A enclosingcirclecomb by A.001_enclosingcirclecomb ;
+    sub B enclosingcirclecomb by B.001_enclosingcirclecomb ;
+    sub C enclosingcirclecomb by C.001_enclosingcirclecomb ;
+    sub D enclosingcirclecomb by D.001_enclosingcirclecomb ;
+    sub E enclosingcirclecomb by E.001_enclosingcirclecomb ;
+    sub F enclosingcirclecomb by F.001_enclosingcirclecomb ;
+    sub G enclosingcirclecomb by G.001_enclosingcirclecomb ;
+    sub H enclosingcirclecomb by H.001_enclosingcirclecomb ;
+    sub I enclosingcirclecomb by I.001_enclosingcirclecomb ;
+    sub J enclosingcirclecomb by J.001_enclosingcirclecomb ;
+    sub K enclosingcirclecomb by K.001_enclosingcirclecomb ;
+    sub L enclosingcirclecomb by L.001_enclosingcirclecomb ;
+    sub M enclosingcirclecomb by M.001_enclosingcirclecomb ;
+    sub N enclosingcirclecomb by N.001_enclosingcirclecomb ;
+    sub O enclosingcirclecomb by O.001_enclosingcirclecomb ;
+    sub P enclosingcirclecomb by P.001_enclosingcirclecomb ;
+    sub Q enclosingcirclecomb by Q.001_enclosingcirclecomb ;
+    sub R enclosingcirclecomb by R.001_enclosingcirclecomb ;
+    sub S enclosingcirclecomb by S.001_enclosingcirclecomb ;
+    sub T enclosingcirclecomb by T.001_enclosingcirclecomb ;
+    sub U enclosingcirclecomb by U.001_enclosingcirclecomb ;
+    sub V enclosingcirclecomb by V.001_enclosingcirclecomb ;
+    sub W enclosingcirclecomb by W.001_enclosingcirclecomb ;
+    sub X enclosingcirclecomb by X.001_enclosingcirclecomb ;
+    sub Y enclosingcirclecomb by Y.001_enclosingcirclecomb ;
+    sub Z enclosingcirclecomb by Z.001_enclosingcirclecomb ;
+    sub a enclosingcirclecomb by a.001_enclosingcirclecomb ;
+    sub b enclosingcirclecomb by b.001_enclosingcirclecomb ;
+    sub c enclosingcirclecomb by c.001_enclosingcirclecomb ;
+    sub d enclosingcirclecomb by d.001_enclosingcirclecomb ;
+    sub e enclosingcirclecomb by e.001_enclosingcirclecomb ;
+    sub f enclosingcirclecomb by f.001_enclosingcirclecomb ;
+    sub g enclosingcirclecomb by g.001_enclosingcirclecomb ;
+    sub h enclosingcirclecomb by h.001_enclosingcirclecomb ;
+    sub i enclosingcirclecomb by i.001_enclosingcirclecomb ;
+    sub j enclosingcirclecomb by j.001_enclosingcirclecomb ;
+    sub k enclosingcirclecomb by k.001_enclosingcirclecomb ;
+    sub l enclosingcirclecomb by l.001_enclosingcirclecomb ;
+    sub m enclosingcirclecomb by m.001_enclosingcirclecomb ;
+    sub n enclosingcirclecomb by n.001_enclosingcirclecomb ;
+    sub o enclosingcirclecomb by o.001_enclosingcirclecomb ;
+    sub p enclosingcirclecomb by p.001_enclosingcirclecomb ;
+    sub q enclosingcirclecomb by q.001_enclosingcirclecomb ;
+    sub r enclosingcirclecomb by r.001_enclosingcirclecomb ;
+    sub s enclosingcirclecomb by s.001_enclosingcirclecomb ;
+    sub t enclosingcirclecomb by t.001_enclosingcirclecomb ;
+    sub u enclosingcirclecomb by u.001_enclosingcirclecomb ;
+    sub v enclosingcirclecomb by v.001_enclosingcirclecomb ;
+    sub w enclosingcirclecomb by w.001_enclosingcirclecomb ;
+    sub x enclosingcirclecomb by x.001_enclosingcirclecomb ;
+    sub y enclosingcirclecomb by y.001_enclosingcirclecomb ;
+    sub z enclosingcirclecomb by z.001_enclosingcirclecomb ;
+    sub zero enclosingcirclecomb by zero.001_enclosingcirclecomb ;
+    sub one enclosingcirclecomb by one.001_enclosingcirclecomb ;
+    sub two enclosingcirclecomb by two.001_enclosingcirclecomb ;
+    sub three enclosingcirclecomb by three.001_enclosingcirclecomb ;
+    sub four enclosingcirclecomb by four.001_enclosingcirclecomb ;
+    sub five enclosingcirclecomb by five.001_enclosingcirclecomb ;
+    sub six enclosingcirclecomb by six.001_enclosingcirclecomb ;
+    sub seven enclosingcirclecomb by seven.001_enclosingcirclecomb ;
+    sub eight enclosingcirclecomb by eight.001_enclosingcirclecomb ;
+    sub nine enclosingcirclecomb by nine.001_enclosingcirclecomb ;
+    } gsub_0_ligature ;
+
+lookup gsub_1_ligature {
+    sub space enclosingsquarecomb by enclosingsquare ;
+    sub A enclosingsquarecomb by A.001_enclosingsquarecomb ;
+    sub B enclosingsquarecomb by B.001_enclosingsquarecomb ;
+    sub C enclosingsquarecomb by C.001_enclosingsquarecomb ;
+    sub D enclosingsquarecomb by D.001_enclosingsquarecomb ;
+    sub E enclosingsquarecomb by E.001_enclosingsquarecomb ;
+    sub F enclosingsquarecomb by F.001_enclosingsquarecomb ;
+    sub G enclosingsquarecomb by G.001_enclosingsquarecomb ;
+    sub H enclosingsquarecomb by H.001_enclosingsquarecomb ;
+    sub I enclosingsquarecomb by I.001_enclosingsquarecomb ;
+    sub J enclosingsquarecomb by J.001_enclosingsquarecomb ;
+    sub K enclosingsquarecomb by K.001_enclosingsquarecomb ;
+    sub L enclosingsquarecomb by L.001_enclosingsquarecomb ;
+    sub M enclosingsquarecomb by M.001_enclosingsquarecomb ;
+    sub N enclosingsquarecomb by N.001_enclosingsquarecomb ;
+    sub O enclosingsquarecomb by O.001_enclosingsquarecomb ;
+    sub P enclosingsquarecomb by P.001_enclosingsquarecomb ;
+    sub Q enclosingsquarecomb by Q.001_enclosingsquarecomb ;
+    sub R enclosingsquarecomb by R.001_enclosingsquarecomb ;
+    sub S enclosingsquarecomb by S.001_enclosingsquarecomb ;
+    sub T enclosingsquarecomb by T.001_enclosingsquarecomb ;
+    sub U enclosingsquarecomb by U.001_enclosingsquarecomb ;
+    sub V enclosingsquarecomb by V.001_enclosingsquarecomb ;
+    sub W enclosingsquarecomb by W.001_enclosingsquarecomb ;
+    sub X enclosingsquarecomb by X.001_enclosingsquarecomb ;
+    sub Y enclosingsquarecomb by Y.001_enclosingsquarecomb ;
+    sub Z enclosingsquarecomb by Z.001_enclosingsquarecomb ;
+    sub a enclosingsquarecomb by a.001_enclosingsquarecomb ;
+    sub b enclosingsquarecomb by b.001_enclosingsquarecomb ;
+    sub c enclosingsquarecomb by c.001_enclosingsquarecomb ;
+    sub d enclosingsquarecomb by d.001_enclosingsquarecomb ;
+    sub e enclosingsquarecomb by e.001_enclosingsquarecomb ;
+    sub f enclosingsquarecomb by f.001_enclosingsquarecomb ;
+    sub g enclosingsquarecomb by g.001_enclosingsquarecomb ;
+    sub h enclosingsquarecomb by h.001_enclosingsquarecomb ;
+    sub i enclosingsquarecomb by i.001_enclosingsquarecomb ;
+    sub j enclosingsquarecomb by j.001_enclosingsquarecomb ;
+    sub k enclosingsquarecomb by k.001_enclosingsquarecomb ;
+    sub l enclosingsquarecomb by l.001_enclosingsquarecomb ;
+    sub m enclosingsquarecomb by m.001_enclosingsquarecomb ;
+    sub n enclosingsquarecomb by n.001_enclosingsquarecomb ;
+    sub o enclosingsquarecomb by o.001_enclosingsquarecomb ;
+    sub p enclosingsquarecomb by p.001_enclosingsquarecomb ;
+    sub q enclosingsquarecomb by q.001_enclosingsquarecomb ;
+    sub r enclosingsquarecomb by r.001_enclosingsquarecomb ;
+    sub s enclosingsquarecomb by s.001_enclosingsquarecomb ;
+    sub t enclosingsquarecomb by t.001_enclosingsquarecomb ;
+    sub u enclosingsquarecomb by u.001_enclosingsquarecomb ;
+    sub v enclosingsquarecomb by v.001_enclosingsquarecomb ;
+    sub w enclosingsquarecomb by w.001_enclosingsquarecomb ;
+    sub x enclosingsquarecomb by x.001_enclosingsquarecomb ;
+    sub y enclosingsquarecomb by y.001_enclosingsquarecomb ;
+    sub z enclosingsquarecomb by z.001_enclosingsquarecomb ;
+    sub zero enclosingsquarecomb by zero.001_enclosingsquarecomb ;
+    sub one enclosingsquarecomb by one.001_enclosingsquarecomb ;
+    sub two enclosingsquarecomb by two.001_enclosingsquarecomb ;
+    sub three enclosingsquarecomb by three.001_enclosingsquarecomb ;
+    sub four enclosingsquarecomb by four.001_enclosingsquarecomb ;
+    sub five enclosingsquarecomb by five.001_enclosingsquarecomb ;
+    sub six enclosingsquarecomb by six.001_enclosingsquarecomb ;
+    sub seven enclosingsquarecomb by seven.001_enclosingsquarecomb ;
+    sub eight enclosingsquarecomb by eight.001_enclosingsquarecomb ;
+    sub nine enclosingsquarecomb by nine.001_enclosingsquarecomb ;
+    } gsub_1_ligature ;
+
+lookup gsub_2_ligature {
+    sub space enclosingdiamondcomb by enclosingdiamond ;
+    sub A enclosingdiamondcomb by A.001_enclosingdiamondcomb ;
+    sub B enclosingdiamondcomb by B.001_enclosingdiamondcomb ;
+    sub C enclosingdiamondcomb by C.001_enclosingdiamondcomb ;
+    sub D enclosingdiamondcomb by D.001_enclosingdiamondcomb ;
+    sub E enclosingdiamondcomb by E.001_enclosingdiamondcomb ;
+    sub F enclosingdiamondcomb by F.001_enclosingdiamondcomb ;
+    sub G enclosingdiamondcomb by G.001_enclosingdiamondcomb ;
+    sub H enclosingdiamondcomb by H.001_enclosingdiamondcomb ;
+    sub I enclosingdiamondcomb by I.001_enclosingdiamondcomb ;
+    sub J enclosingdiamondcomb by J.001_enclosingdiamondcomb ;
+    sub K enclosingdiamondcomb by K.001_enclosingdiamondcomb ;
+    sub L enclosingdiamondcomb by L.001_enclosingdiamondcomb ;
+    sub M enclosingdiamondcomb by M.001_enclosingdiamondcomb ;
+    sub N enclosingdiamondcomb by N.001_enclosingdiamondcomb ;
+    sub O enclosingdiamondcomb by O.001_enclosingdiamondcomb ;
+    sub P enclosingdiamondcomb by P.001_enclosingdiamondcomb ;
+    sub Q enclosingdiamondcomb by Q.001_enclosingdiamondcomb ;
+    sub R enclosingdiamondcomb by R.001_enclosingdiamondcomb ;
+    sub S enclosingdiamondcomb by S.001_enclosingdiamondcomb ;
+    sub T enclosingdiamondcomb by T.001_enclosingdiamondcomb ;
+    sub U enclosingdiamondcomb by U.001_enclosingdiamondcomb ;
+    sub V enclosingdiamondcomb by V.001_enclosingdiamondcomb ;
+    sub W enclosingdiamondcomb by W.001_enclosingdiamondcomb ;
+    sub X enclosingdiamondcomb by X.001_enclosingdiamondcomb ;
+    sub Y enclosingdiamondcomb by Y.001_enclosingdiamondcomb ;
+    sub Z enclosingdiamondcomb by Z.001_enclosingdiamondcomb ;
+    sub a enclosingdiamondcomb by a.001_enclosingdiamondcomb ;
+    sub b enclosingdiamondcomb by b.001_enclosingdiamondcomb ;
+    sub c enclosingdiamondcomb by c.001_enclosingdiamondcomb ;
+    sub d enclosingdiamondcomb by d.001_enclosingdiamondcomb ;
+    sub e enclosingdiamondcomb by e.001_enclosingdiamondcomb ;
+    sub f enclosingdiamondcomb by f.001_enclosingdiamondcomb ;
+    sub g enclosingdiamondcomb by g.001_enclosingdiamondcomb ;
+    sub h enclosingdiamondcomb by h.001_enclosingdiamondcomb ;
+    sub i enclosingdiamondcomb by i.001_enclosingdiamondcomb ;
+    sub j enclosingdiamondcomb by j.001_enclosingdiamondcomb ;
+    sub k enclosingdiamondcomb by k.001_enclosingdiamondcomb ;
+    sub l enclosingdiamondcomb by l.001_enclosingdiamondcomb ;
+    sub m enclosingdiamondcomb by m.001_enclosingdiamondcomb ;
+    sub n enclosingdiamondcomb by n.001_enclosingdiamondcomb ;
+    sub o enclosingdiamondcomb by o.001_enclosingdiamondcomb ;
+    sub p enclosingdiamondcomb by p.001_enclosingdiamondcomb ;
+    sub q enclosingdiamondcomb by q.001_enclosingdiamondcomb ;
+    sub r enclosingdiamondcomb by r.001_enclosingdiamondcomb ;
+    sub s enclosingdiamondcomb by s.001_enclosingdiamondcomb ;
+    sub t enclosingdiamondcomb by t.001_enclosingdiamondcomb ;
+    sub u enclosingdiamondcomb by u.001_enclosingdiamondcomb ;
+    sub v enclosingdiamondcomb by v.001_enclosingdiamondcomb ;
+    sub w enclosingdiamondcomb by w.001_enclosingdiamondcomb ;
+    sub x enclosingdiamondcomb by x.001_enclosingdiamondcomb ;
+    sub y enclosingdiamondcomb by y.001_enclosingdiamondcomb ;
+    sub z enclosingdiamondcomb by z.001_enclosingdiamondcomb ;
+    sub zero enclosingdiamondcomb by zero.001_enclosingdiamondcomb ;
+    sub one enclosingdiamondcomb by one.001_enclosingdiamondcomb ;
+    sub two enclosingdiamondcomb by two.001_enclosingdiamondcomb ;
+    sub three enclosingdiamondcomb by three.001_enclosingdiamondcomb ;
+    sub four enclosingdiamondcomb by four.001_enclosingdiamondcomb ;
+    sub five enclosingdiamondcomb by five.001_enclosingdiamondcomb ;
+    sub six enclosingdiamondcomb by six.001_enclosingdiamondcomb ;
+    sub seven enclosingdiamondcomb by seven.001_enclosingdiamondcomb ;
+    sub eight enclosingdiamondcomb by eight.001_enclosingdiamondcomb ;
+    sub nine enclosingdiamondcomb by nine.001_enclosingdiamondcomb ;
+    } gsub_2_ligature ;
+
+lookup gsub_3_ligature {
+    sub space enclosingcirclebackslashcomb by enclosingcirclebackslash ;
+    sub A enclosingcirclebackslashcomb by A.001_enccirclebackslashcomb ;
+    sub B enclosingcirclebackslashcomb by B.001_enccirclebackslashcomb ;
+    sub C enclosingcirclebackslashcomb by C.001_enccirclebackslashcomb ;
+    sub D enclosingcirclebackslashcomb by D.001_enccirclebackslashcomb ;
+    sub E enclosingcirclebackslashcomb by E.001_enccirclebackslashcomb ;
+    sub F enclosingcirclebackslashcomb by F.001_enccirclebackslashcomb ;
+    sub G enclosingcirclebackslashcomb by G.001_enccirclebackslashcomb ;
+    sub H enclosingcirclebackslashcomb by H.001_enccirclebackslashcomb ;
+    sub I enclosingcirclebackslashcomb by I.001_enccirclebackslashcomb ;
+    sub J enclosingcirclebackslashcomb by J.001_enccirclebackslashcomb ;
+    sub K enclosingcirclebackslashcomb by K.001_enccirclebackslashcomb ;
+    sub L enclosingcirclebackslashcomb by L.001_enccirclebackslashcomb ;
+    sub M enclosingcirclebackslashcomb by M.001_enccirclebackslashcomb ;
+    sub N enclosingcirclebackslashcomb by N.001_enccirclebackslashcomb ;
+    sub O enclosingcirclebackslashcomb by O.001_enccirclebackslashcomb ;
+    sub P enclosingcirclebackslashcomb by P.001_enccirclebackslashcomb ;
+    sub Q enclosingcirclebackslashcomb by Q.001_enccirclebackslashcomb ;
+    sub R enclosingcirclebackslashcomb by R.001_enccirclebackslashcomb ;
+    sub S enclosingcirclebackslashcomb by S.001_enccirclebackslashcomb ;
+    sub T enclosingcirclebackslashcomb by T.001_enccirclebackslashcomb ;
+    sub U enclosingcirclebackslashcomb by U.001_enccirclebackslashcomb ;
+    sub V enclosingcirclebackslashcomb by V.001_enccirclebackslashcomb ;
+    sub W enclosingcirclebackslashcomb by W.001_enccirclebackslashcomb ;
+    sub X enclosingcirclebackslashcomb by X.001_enccirclebackslashcomb ;
+    sub Y enclosingcirclebackslashcomb by Y.001_enccirclebackslashcomb ;
+    sub Z enclosingcirclebackslashcomb by Z.001_enccirclebackslashcomb ;
+    sub a enclosingcirclebackslashcomb by a.001_enccirclebackslashcomb ;
+    sub b enclosingcirclebackslashcomb by b.001_enccirclebackslashcomb ;
+    sub c enclosingcirclebackslashcomb by c.001_enccirclebackslashcomb ;
+    sub d enclosingcirclebackslashcomb by d.001_enccirclebackslashcomb ;
+    sub e enclosingcirclebackslashcomb by e.001_enccirclebackslashcomb ;
+    sub f enclosingcirclebackslashcomb by f.001_enccirclebackslashcomb ;
+    sub g enclosingcirclebackslashcomb by g.001_enccirclebackslashcomb ;
+    sub h enclosingcirclebackslashcomb by h.001_enccirclebackslashcomb ;
+    sub i enclosingcirclebackslashcomb by i.001_enccirclebackslashcomb ;
+    sub j enclosingcirclebackslashcomb by j.001_enccirclebackslashcomb ;
+    sub k enclosingcirclebackslashcomb by k.001_enccirclebackslashcomb ;
+    sub l enclosingcirclebackslashcomb by l.001_enccirclebackslashcomb ;
+    sub m enclosingcirclebackslashcomb by m.001_enccirclebackslashcomb ;
+    sub n enclosingcirclebackslashcomb by n.001_enccirclebackslashcomb ;
+    sub o enclosingcirclebackslashcomb by o.001_enccirclebackslashcomb ;
+    sub p enclosingcirclebackslashcomb by p.001_enccirclebackslashcomb ;
+    sub q enclosingcirclebackslashcomb by q.001_enccirclebackslashcomb ;
+    sub r enclosingcirclebackslashcomb by r.001_enccirclebackslashcomb ;
+    sub s enclosingcirclebackslashcomb by s.001_enccirclebackslashcomb ;
+    sub t enclosingcirclebackslashcomb by t.001_enccirclebackslashcomb ;
+    sub u enclosingcirclebackslashcomb by u.001_enccirclebackslashcomb ;
+    sub v enclosingcirclebackslashcomb by v.001_enccirclebackslashcomb ;
+    sub w enclosingcirclebackslashcomb by w.001_enccirclebackslashcomb ;
+    sub x enclosingcirclebackslashcomb by x.001_enccirclebackslashcomb ;
+    sub y enclosingcirclebackslashcomb by y.001_enccirclebackslashcomb ;
+    sub z enclosingcirclebackslashcomb by z.001_enccirclebackslashcomb ;
+    sub zero enclosingcirclebackslashcomb by zero.001_enccirclebackslashcomb ;
+    sub one enclosingcirclebackslashcomb by one.001_enccirclebackslashcomb ;
+    sub two enclosingcirclebackslashcomb by two.001_enccirclebackslashcomb ;
+    sub three enclosingcirclebackslashcomb by three.001_enccircbackslashcomb ;
+    sub four enclosingcirclebackslashcomb by four.001_enccirclebackslashcomb ;
+    sub five enclosingcirclebackslashcomb by five.001_enccirclebackslashcomb ;
+    sub six enclosingcirclebackslashcomb by six.001_enccirclebackslashcomb ;
+    sub seven enclosingcirclebackslashcomb by seven.001_enccircbackslashcomb ;
+    sub eight enclosingcirclebackslashcomb by eight.001_enccircbackslashcomb ;
+    sub nine enclosingcirclebackslashcomb by nine.001_enccirclebackslashcomb ;
+    } gsub_3_ligature ;
+
+lookup gsub_4_ligature {
+    sub space enclosingupwardpointingtrianglecomb by enclosingupwardpointingtriangle ;
+    sub A enclosingupwardpointingtrianglecomb by A.001_encupwardpointingtricomb ;
+    sub B enclosingupwardpointingtrianglecomb by B.001_encupwardpointingtricomb ;
+    sub C enclosingupwardpointingtrianglecomb by C.001_encupwardpointingtricomb ;
+    sub D enclosingupwardpointingtrianglecomb by D.001_encupwardpointingtricomb ;
+    sub E enclosingupwardpointingtrianglecomb by E.001_encupwardpointingtricomb ;
+    sub F enclosingupwardpointingtrianglecomb by F.001_encupwardpointingtricomb ;
+    sub G enclosingupwardpointingtrianglecomb by G.001_encupwardpointingtricomb ;
+    sub H enclosingupwardpointingtrianglecomb by H.001_encupwardpointingtricomb ;
+    sub I enclosingupwardpointingtrianglecomb by I.001_encupwardpointingtricomb ;
+    sub J enclosingupwardpointingtrianglecomb by J.001_encupwardpointingtricomb ;
+    sub K enclosingupwardpointingtrianglecomb by K.001_encupwardpointingtricomb ;
+    sub L enclosingupwardpointingtrianglecomb by L.001_encupwardpointingtricomb ;
+    sub M enclosingupwardpointingtrianglecomb by M.001_encupwardpointingtricomb ;
+    sub N enclosingupwardpointingtrianglecomb by N.001_encupwardpointingtricomb ;
+    sub O enclosingupwardpointingtrianglecomb by O.001_encupwardpointingtricomb ;
+    sub P enclosingupwardpointingtrianglecomb by P.001_encupwardpointingtricomb ;
+    sub Q enclosingupwardpointingtrianglecomb by Q.001_encupwardpointingtricomb ;
+    sub R enclosingupwardpointingtrianglecomb by R.001_encupwardpointingtricomb ;
+    sub S enclosingupwardpointingtrianglecomb by S.001_encupwardpointingtricomb ;
+    sub T enclosingupwardpointingtrianglecomb by T.001_encupwardpointingtricomb ;
+    sub U enclosingupwardpointingtrianglecomb by U.001_encupwardpointingtricomb ;
+    sub V enclosingupwardpointingtrianglecomb by V.001_encupwardpointingtricomb ;
+    sub W enclosingupwardpointingtrianglecomb by W.001_encupwardpointingtricomb ;
+    sub X enclosingupwardpointingtrianglecomb by X.001_encupwardpointingtricomb ;
+    sub Y enclosingupwardpointingtrianglecomb by Y.001_encupwardpointingtricomb ;
+    sub Z enclosingupwardpointingtrianglecomb by Z.001_encupwardpointingtricomb ;
+    sub a enclosingupwardpointingtrianglecomb by a.001_encupwardpointingtricomb ;
+    sub b enclosingupwardpointingtrianglecomb by b.001_encupwardpointingtricomb ;
+    sub c enclosingupwardpointingtrianglecomb by c.001_encupwardpointingtricomb ;
+    sub d enclosingupwardpointingtrianglecomb by d.001_encupwardpointingtricomb ;
+    sub e enclosingupwardpointingtrianglecomb by e.001_encupwardpointingtricomb ;
+    sub f enclosingupwardpointingtrianglecomb by f.001_encupwardpointingtricomb ;
+    sub g enclosingupwardpointingtrianglecomb by g.001_encupwardpointingtricomb ;
+    sub h enclosingupwardpointingtrianglecomb by h.001_encupwardpointingtricomb ;
+    sub i enclosingupwardpointingtrianglecomb by i.001_encupwardpointingtricomb ;
+    sub j enclosingupwardpointingtrianglecomb by j.001_encupwardpointingtricomb ;
+    sub k enclosingupwardpointingtrianglecomb by k.001_encupwardpointingtricomb ;
+    sub l enclosingupwardpointingtrianglecomb by l.001_encupwardpointingtricomb ;
+    sub m enclosingupwardpointingtrianglecomb by m.001_encupwardpointingtricomb ;
+    sub n enclosingupwardpointingtrianglecomb by n.001_encupwardpointingtricomb ;
+    sub o enclosingupwardpointingtrianglecomb by o.001_encupwardpointingtricomb ;
+    sub p enclosingupwardpointingtrianglecomb by p.001_encupwardpointingtricomb ;
+    sub q enclosingupwardpointingtrianglecomb by q.001_encupwardpointingtricomb ;
+    sub r enclosingupwardpointingtrianglecomb by r.001_encupwardpointingtricomb ;
+    sub s enclosingupwardpointingtrianglecomb by s.001_encupwardpointingtricomb ;
+    sub t enclosingupwardpointingtrianglecomb by t.001_encupwardpointingtricomb ;
+    sub u enclosingupwardpointingtrianglecomb by u.001_encupwardpointingtricomb ;
+    sub v enclosingupwardpointingtrianglecomb by v.001_encupwardpointingtricomb ;
+    sub w enclosingupwardpointingtrianglecomb by w.001_encupwardpointingtricomb ;
+    sub x enclosingupwardpointingtrianglecomb by x.001_encupwardpointingtricomb ;
+    sub y enclosingupwardpointingtrianglecomb by y.001_encupwardpointingtricomb ;
+    sub z enclosingupwardpointingtrianglecomb by z.001_encupwardpointingtricomb ;
+    sub zero enclosingupwardpointingtrianglecomb by zero.001_encuppointingtricomb ;
+    sub one enclosingupwardpointingtrianglecomb by one.001_encuppointingtricomb ;
+    sub two enclosingupwardpointingtrianglecomb by two.001_encuppointingtricomb ;
+    sub three enclosingupwardpointingtrianglecomb by three.001_encuppointingtricomb ;
+    sub four enclosingupwardpointingtrianglecomb by four.001_encuppointingtricomb ;
+    sub five enclosingupwardpointingtrianglecomb by five.001_encuppointingtricomb ;
+    sub six enclosingupwardpointingtrianglecomb by six.001_encuppointingtricomb ;
+    sub seven enclosingupwardpointingtrianglecomb by seven.001_encuppointingtricomb ;
+    sub eight enclosingupwardpointingtrianglecomb by eight.001_encuppointingtricomb ;
+    sub nine enclosingupwardpointingtrianglecomb by nine.001_encuppointingtricomb ;
+    } gsub_4_ligature ;
+
+
+#GPOS
+
+#FEATURES LIST
+feature ccmp {
+	script DFLT ;
+		language dflt ;
+			lookup gsub_0_ligature;
+			lookup gsub_1_ligature;
+			lookup gsub_2_ligature;
+			lookup gsub_3_ligature;
+			lookup gsub_4_ligature;
+	script latn ;
+		language dflt ;
+			lookup gsub_0_ligature;
+			lookup gsub_1_ligature;
+			lookup gsub_2_ligature;
+			lookup gsub_3_ligature;
+			lookup gsub_4_ligature;
+		} ccmp;
+
+
+#GDEF
+
+table GDEF {
+  GlyphClassDef
+		@GDEF_base,
+		,
+		,
+		;
+
+} GDEF;";
+height = 6;
+width = 30;
+};
+},
+{
+axesValues = (
+90
+);
+customParameters = (
+{
+name = "UFO Filename";
+value = "NotoSansSymbols-Regular.ufo";
+},
+{
+name = hheaAscender;
+value = 1480;
+},
+{
+name = hheaDescender;
+value = -570;
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = typoAscender;
+value = 1480;
+},
+{
+name = typoDescender;
+value = -570;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = unicodeRanges;
+value = (
+0,
+1,
+34,
+36,
+37,
+39,
+42,
+45,
+46,
+47,
+57
+);
+},
+{
+name = versionString;
+value = "Version 2.002";
+},
+{
+name = vendorID;
+value = GOOG;
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+name = trademark;
+value = "Noto is a trademark of Google LLC.";
+},
+{
+name = description;
+value = "Designed by Monotype design team.";
+},
+{
+name = openTypeNameVersion;
+value = "Version 2.002";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Symbols";
+},
+{
+name = styleMapStyleName;
+value = regular;
+},
+{
+name = codePageRanges;
+value = (
+1252
+);
+},
+{
+name = winAscent;
+value = 1480;
+},
+{
+name = winDescent;
+value = 570;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Has WWS Names";
+value = 1;
+},
+{
+name = openTypeOS2SelectionUnsupportedBits;
+value = (
+);
+}
+);
+id = "F394B0DB-5C84-43F6-ACB2-AE9DD557A8AE";
+metricValues = (
+{
+over = 16;
+pos = 1471;
+},
+{
+over = 12;
+pos = 714;
+},
+{
+over = 11;
+pos = 536;
+},
+{
+over = -11;
+},
+{
+over = -16;
+pos = -565;
+},
+{
+over = -11;
+},
+{
+over = 10;
+pos = 572;
+}
+);
+name = Regular;
+stemValues = (
+42,
+42
+);
+userData = {
+GSOffsetHorizontal = 55;
+GSOffsetVertical = 50;
+com.schriftgestaltung.Glyphs.originalFeatureCode = "# Features for NotoSansSymbols-Regular
+# generated by translating original MTI data
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+@GDEF_base = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z zero one two three four five six seven eight nine ];
+
+#GSUB
+lookup gsub_0_ligature {
+    sub space enclosingcirclecomb by enclosingcircle ;
+    sub A enclosingcirclecomb by A.001_enclosingcirclecomb ;
+    sub B enclosingcirclecomb by B.001_enclosingcirclecomb ;
+    sub C enclosingcirclecomb by C.001_enclosingcirclecomb ;
+    sub D enclosingcirclecomb by D.001_enclosingcirclecomb ;
+    sub E enclosingcirclecomb by E.001_enclosingcirclecomb ;
+    sub F enclosingcirclecomb by F.001_enclosingcirclecomb ;
+    sub G enclosingcirclecomb by G.001_enclosingcirclecomb ;
+    sub H enclosingcirclecomb by H.001_enclosingcirclecomb ;
+    sub I enclosingcirclecomb by I.001_enclosingcirclecomb ;
+    sub J enclosingcirclecomb by J.001_enclosingcirclecomb ;
+    sub K enclosingcirclecomb by K.001_enclosingcirclecomb ;
+    sub L enclosingcirclecomb by L.001_enclosingcirclecomb ;
+    sub M enclosingcirclecomb by M.001_enclosingcirclecomb ;
+    sub N enclosingcirclecomb by N.001_enclosingcirclecomb ;
+    sub O enclosingcirclecomb by O.001_enclosingcirclecomb ;
+    sub P enclosingcirclecomb by P.001_enclosingcirclecomb ;
+    sub Q enclosingcirclecomb by Q.001_enclosingcirclecomb ;
+    sub R enclosingcirclecomb by R.001_enclosingcirclecomb ;
+    sub S enclosingcirclecomb by S.001_enclosingcirclecomb ;
+    sub T enclosingcirclecomb by T.001_enclosingcirclecomb ;
+    sub U enclosingcirclecomb by U.001_enclosingcirclecomb ;
+    sub V enclosingcirclecomb by V.001_enclosingcirclecomb ;
+    sub W enclosingcirclecomb by W.001_enclosingcirclecomb ;
+    sub X enclosingcirclecomb by X.001_enclosingcirclecomb ;
+    sub Y enclosingcirclecomb by Y.001_enclosingcirclecomb ;
+    sub Z enclosingcirclecomb by Z.001_enclosingcirclecomb ;
+    sub a enclosingcirclecomb by a.001_enclosingcirclecomb ;
+    sub b enclosingcirclecomb by b.001_enclosingcirclecomb ;
+    sub c enclosingcirclecomb by c.001_enclosingcirclecomb ;
+    sub d enclosingcirclecomb by d.001_enclosingcirclecomb ;
+    sub e enclosingcirclecomb by e.001_enclosingcirclecomb ;
+    sub f enclosingcirclecomb by f.001_enclosingcirclecomb ;
+    sub g enclosingcirclecomb by g.001_enclosingcirclecomb ;
+    sub h enclosingcirclecomb by h.001_enclosingcirclecomb ;
+    sub i enclosingcirclecomb by i.001_enclosingcirclecomb ;
+    sub j enclosingcirclecomb by j.001_enclosingcirclecomb ;
+    sub k enclosingcirclecomb by k.001_enclosingcirclecomb ;
+    sub l enclosingcirclecomb by l.001_enclosingcirclecomb ;
+    sub m enclosingcirclecomb by m.001_enclosingcirclecomb ;
+    sub n enclosingcirclecomb by n.001_enclosingcirclecomb ;
+    sub o enclosingcirclecomb by o.001_enclosingcirclecomb ;
+    sub p enclosingcirclecomb by p.001_enclosingcirclecomb ;
+    sub q enclosingcirclecomb by q.001_enclosingcirclecomb ;
+    sub r enclosingcirclecomb by r.001_enclosingcirclecomb ;
+    sub s enclosingcirclecomb by s.001_enclosingcirclecomb ;
+    sub t enclosingcirclecomb by t.001_enclosingcirclecomb ;
+    sub u enclosingcirclecomb by u.001_enclosingcirclecomb ;
+    sub v enclosingcirclecomb by v.001_enclosingcirclecomb ;
+    sub w enclosingcirclecomb by w.001_enclosingcirclecomb ;
+    sub x enclosingcirclecomb by x.001_enclosingcirclecomb ;
+    sub y enclosingcirclecomb by y.001_enclosingcirclecomb ;
+    sub z enclosingcirclecomb by z.001_enclosingcirclecomb ;
+    sub zero enclosingcirclecomb by zero.001_enclosingcirclecomb ;
+    sub one enclosingcirclecomb by one.001_enclosingcirclecomb ;
+    sub two enclosingcirclecomb by two.001_enclosingcirclecomb ;
+    sub three enclosingcirclecomb by three.001_enclosingcirclecomb ;
+    sub four enclosingcirclecomb by four.001_enclosingcirclecomb ;
+    sub five enclosingcirclecomb by five.001_enclosingcirclecomb ;
+    sub six enclosingcirclecomb by six.001_enclosingcirclecomb ;
+    sub seven enclosingcirclecomb by seven.001_enclosingcirclecomb ;
+    sub eight enclosingcirclecomb by eight.001_enclosingcirclecomb ;
+    sub nine enclosingcirclecomb by nine.001_enclosingcirclecomb ;
+    } gsub_0_ligature ;
+
+lookup gsub_1_ligature {
+    sub space enclosingsquarecomb by enclosingsquare ;
+    sub A enclosingsquarecomb by A.001_enclosingsquarecomb ;
+    sub B enclosingsquarecomb by B.001_enclosingsquarecomb ;
+    sub C enclosingsquarecomb by C.001_enclosingsquarecomb ;
+    sub D enclosingsquarecomb by D.001_enclosingsquarecomb ;
+    sub E enclosingsquarecomb by E.001_enclosingsquarecomb ;
+    sub F enclosingsquarecomb by F.001_enclosingsquarecomb ;
+    sub G enclosingsquarecomb by G.001_enclosingsquarecomb ;
+    sub H enclosingsquarecomb by H.001_enclosingsquarecomb ;
+    sub I enclosingsquarecomb by I.001_enclosingsquarecomb ;
+    sub J enclosingsquarecomb by J.001_enclosingsquarecomb ;
+    sub K enclosingsquarecomb by K.001_enclosingsquarecomb ;
+    sub L enclosingsquarecomb by L.001_enclosingsquarecomb ;
+    sub M enclosingsquarecomb by M.001_enclosingsquarecomb ;
+    sub N enclosingsquarecomb by N.001_enclosingsquarecomb ;
+    sub O enclosingsquarecomb by O.001_enclosingsquarecomb ;
+    sub P enclosingsquarecomb by P.001_enclosingsquarecomb ;
+    sub Q enclosingsquarecomb by Q.001_enclosingsquarecomb ;
+    sub R enclosingsquarecomb by R.001_enclosingsquarecomb ;
+    sub S enclosingsquarecomb by S.001_enclosingsquarecomb ;
+    sub T enclosingsquarecomb by T.001_enclosingsquarecomb ;
+    sub U enclosingsquarecomb by U.001_enclosingsquarecomb ;
+    sub V enclosingsquarecomb by V.001_enclosingsquarecomb ;
+    sub W enclosingsquarecomb by W.001_enclosingsquarecomb ;
+    sub X enclosingsquarecomb by X.001_enclosingsquarecomb ;
+    sub Y enclosingsquarecomb by Y.001_enclosingsquarecomb ;
+    sub Z enclosingsquarecomb by Z.001_enclosingsquarecomb ;
+    sub a enclosingsquarecomb by a.001_enclosingsquarecomb ;
+    sub b enclosingsquarecomb by b.001_enclosingsquarecomb ;
+    sub c enclosingsquarecomb by c.001_enclosingsquarecomb ;
+    sub d enclosingsquarecomb by d.001_enclosingsquarecomb ;
+    sub e enclosingsquarecomb by e.001_enclosingsquarecomb ;
+    sub f enclosingsquarecomb by f.001_enclosingsquarecomb ;
+    sub g enclosingsquarecomb by g.001_enclosingsquarecomb ;
+    sub h enclosingsquarecomb by h.001_enclosingsquarecomb ;
+    sub i enclosingsquarecomb by i.001_enclosingsquarecomb ;
+    sub j enclosingsquarecomb by j.001_enclosingsquarecomb ;
+    sub k enclosingsquarecomb by k.001_enclosingsquarecomb ;
+    sub l enclosingsquarecomb by l.001_enclosingsquarecomb ;
+    sub m enclosingsquarecomb by m.001_enclosingsquarecomb ;
+    sub n enclosingsquarecomb by n.001_enclosingsquarecomb ;
+    sub o enclosingsquarecomb by o.001_enclosingsquarecomb ;
+    sub p enclosingsquarecomb by p.001_enclosingsquarecomb ;
+    sub q enclosingsquarecomb by q.001_enclosingsquarecomb ;
+    sub r enclosingsquarecomb by r.001_enclosingsquarecomb ;
+    sub s enclosingsquarecomb by s.001_enclosingsquarecomb ;
+    sub t enclosingsquarecomb by t.001_enclosingsquarecomb ;
+    sub u enclosingsquarecomb by u.001_enclosingsquarecomb ;
+    sub v enclosingsquarecomb by v.001_enclosingsquarecomb ;
+    sub w enclosingsquarecomb by w.001_enclosingsquarecomb ;
+    sub x enclosingsquarecomb by x.001_enclosingsquarecomb ;
+    sub y enclosingsquarecomb by y.001_enclosingsquarecomb ;
+    sub z enclosingsquarecomb by z.001_enclosingsquarecomb ;
+    sub zero enclosingsquarecomb by zero.001_enclosingsquarecomb ;
+    sub one enclosingsquarecomb by one.001_enclosingsquarecomb ;
+    sub two enclosingsquarecomb by two.001_enclosingsquarecomb ;
+    sub three enclosingsquarecomb by three.001_enclosingsquarecomb ;
+    sub four enclosingsquarecomb by four.001_enclosingsquarecomb ;
+    sub five enclosingsquarecomb by five.001_enclosingsquarecomb ;
+    sub six enclosingsquarecomb by six.001_enclosingsquarecomb ;
+    sub seven enclosingsquarecomb by seven.001_enclosingsquarecomb ;
+    sub eight enclosingsquarecomb by eight.001_enclosingsquarecomb ;
+    sub nine enclosingsquarecomb by nine.001_enclosingsquarecomb ;
+    } gsub_1_ligature ;
+
+lookup gsub_2_ligature {
+    sub space enclosingdiamondcomb by enclosingdiamond ;
+    sub A enclosingdiamondcomb by A.001_enclosingdiamondcomb ;
+    sub B enclosingdiamondcomb by B.001_enclosingdiamondcomb ;
+    sub C enclosingdiamondcomb by C.001_enclosingdiamondcomb ;
+    sub D enclosingdiamondcomb by D.001_enclosingdiamondcomb ;
+    sub E enclosingdiamondcomb by E.001_enclosingdiamondcomb ;
+    sub F enclosingdiamondcomb by F.001_enclosingdiamondcomb ;
+    sub G enclosingdiamondcomb by G.001_enclosingdiamondcomb ;
+    sub H enclosingdiamondcomb by H.001_enclosingdiamondcomb ;
+    sub I enclosingdiamondcomb by I.001_enclosingdiamondcomb ;
+    sub J enclosingdiamondcomb by J.001_enclosingdiamondcomb ;
+    sub K enclosingdiamondcomb by K.001_enclosingdiamondcomb ;
+    sub L enclosingdiamondcomb by L.001_enclosingdiamondcomb ;
+    sub M enclosingdiamondcomb by M.001_enclosingdiamondcomb ;
+    sub N enclosingdiamondcomb by N.001_enclosingdiamondcomb ;
+    sub O enclosingdiamondcomb by O.001_enclosingdiamondcomb ;
+    sub P enclosingdiamondcomb by P.001_enclosingdiamondcomb ;
+    sub Q enclosingdiamondcomb by Q.001_enclosingdiamondcomb ;
+    sub R enclosingdiamondcomb by R.001_enclosingdiamondcomb ;
+    sub S enclosingdiamondcomb by S.001_enclosingdiamondcomb ;
+    sub T enclosingdiamondcomb by T.001_enclosingdiamondcomb ;
+    sub U enclosingdiamondcomb by U.001_enclosingdiamondcomb ;
+    sub V enclosingdiamondcomb by V.001_enclosingdiamondcomb ;
+    sub W enclosingdiamondcomb by W.001_enclosingdiamondcomb ;
+    sub X enclosingdiamondcomb by X.001_enclosingdiamondcomb ;
+    sub Y enclosingdiamondcomb by Y.001_enclosingdiamondcomb ;
+    sub Z enclosingdiamondcomb by Z.001_enclosingdiamondcomb ;
+    sub a enclosingdiamondcomb by a.001_enclosingdiamondcomb ;
+    sub b enclosingdiamondcomb by b.001_enclosingdiamondcomb ;
+    sub c enclosingdiamondcomb by c.001_enclosingdiamondcomb ;
+    sub d enclosingdiamondcomb by d.001_enclosingdiamondcomb ;
+    sub e enclosingdiamondcomb by e.001_enclosingdiamondcomb ;
+    sub f enclosingdiamondcomb by f.001_enclosingdiamondcomb ;
+    sub g enclosingdiamondcomb by g.001_enclosingdiamondcomb ;
+    sub h enclosingdiamondcomb by h.001_enclosingdiamondcomb ;
+    sub i enclosingdiamondcomb by i.001_enclosingdiamondcomb ;
+    sub j enclosingdiamondcomb by j.001_enclosingdiamondcomb ;
+    sub k enclosingdiamondcomb by k.001_enclosingdiamondcomb ;
+    sub l enclosingdiamondcomb by l.001_enclosingdiamondcomb ;
+    sub m enclosingdiamondcomb by m.001_enclosingdiamondcomb ;
+    sub n enclosingdiamondcomb by n.001_enclosingdiamondcomb ;
+    sub o enclosingdiamondcomb by o.001_enclosingdiamondcomb ;
+    sub p enclosingdiamondcomb by p.001_enclosingdiamondcomb ;
+    sub q enclosingdiamondcomb by q.001_enclosingdiamondcomb ;
+    sub r enclosingdiamondcomb by r.001_enclosingdiamondcomb ;
+    sub s enclosingdiamondcomb by s.001_enclosingdiamondcomb ;
+    sub t enclosingdiamondcomb by t.001_enclosingdiamondcomb ;
+    sub u enclosingdiamondcomb by u.001_enclosingdiamondcomb ;
+    sub v enclosingdiamondcomb by v.001_enclosingdiamondcomb ;
+    sub w enclosingdiamondcomb by w.001_enclosingdiamondcomb ;
+    sub x enclosingdiamondcomb by x.001_enclosingdiamondcomb ;
+    sub y enclosingdiamondcomb by y.001_enclosingdiamondcomb ;
+    sub z enclosingdiamondcomb by z.001_enclosingdiamondcomb ;
+    sub zero enclosingdiamondcomb by zero.001_enclosingdiamondcomb ;
+    sub one enclosingdiamondcomb by one.001_enclosingdiamondcomb ;
+    sub two enclosingdiamondcomb by two.001_enclosingdiamondcomb ;
+    sub three enclosingdiamondcomb by three.001_enclosingdiamondcomb ;
+    sub four enclosingdiamondcomb by four.001_enclosingdiamondcomb ;
+    sub five enclosingdiamondcomb by five.001_enclosingdiamondcomb ;
+    sub six enclosingdiamondcomb by six.001_enclosingdiamondcomb ;
+    sub seven enclosingdiamondcomb by seven.001_enclosingdiamondcomb ;
+    sub eight enclosingdiamondcomb by eight.001_enclosingdiamondcomb ;
+    sub nine enclosingdiamondcomb by nine.001_enclosingdiamondcomb ;
+    } gsub_2_ligature ;
+
+lookup gsub_3_ligature {
+    sub space enclosingcirclebackslashcomb by enclosingcirclebackslash ;
+    sub A enclosingcirclebackslashcomb by A.001_enccirclebackslashcomb ;
+    sub B enclosingcirclebackslashcomb by B.001_enccirclebackslashcomb ;
+    sub C enclosingcirclebackslashcomb by C.001_enccirclebackslashcomb ;
+    sub D enclosingcirclebackslashcomb by D.001_enccirclebackslashcomb ;
+    sub E enclosingcirclebackslashcomb by E.001_enccirclebackslashcomb ;
+    sub F enclosingcirclebackslashcomb by F.001_enccirclebackslashcomb ;
+    sub G enclosingcirclebackslashcomb by G.001_enccirclebackslashcomb ;
+    sub H enclosingcirclebackslashcomb by H.001_enccirclebackslashcomb ;
+    sub I enclosingcirclebackslashcomb by I.001_enccirclebackslashcomb ;
+    sub J enclosingcirclebackslashcomb by J.001_enccirclebackslashcomb ;
+    sub K enclosingcirclebackslashcomb by K.001_enccirclebackslashcomb ;
+    sub L enclosingcirclebackslashcomb by L.001_enccirclebackslashcomb ;
+    sub M enclosingcirclebackslashcomb by M.001_enccirclebackslashcomb ;
+    sub N enclosingcirclebackslashcomb by N.001_enccirclebackslashcomb ;
+    sub O enclosingcirclebackslashcomb by O.001_enccirclebackslashcomb ;
+    sub P enclosingcirclebackslashcomb by P.001_enccirclebackslashcomb ;
+    sub Q enclosingcirclebackslashcomb by Q.001_enccirclebackslashcomb ;
+    sub R enclosingcirclebackslashcomb by R.001_enccirclebackslashcomb ;
+    sub S enclosingcirclebackslashcomb by S.001_enccirclebackslashcomb ;
+    sub T enclosingcirclebackslashcomb by T.001_enccirclebackslashcomb ;
+    sub U enclosingcirclebackslashcomb by U.001_enccirclebackslashcomb ;
+    sub V enclosingcirclebackslashcomb by V.001_enccirclebackslashcomb ;
+    sub W enclosingcirclebackslashcomb by W.001_enccirclebackslashcomb ;
+    sub X enclosingcirclebackslashcomb by X.001_enccirclebackslashcomb ;
+    sub Y enclosingcirclebackslashcomb by Y.001_enccirclebackslashcomb ;
+    sub Z enclosingcirclebackslashcomb by Z.001_enccirclebackslashcomb ;
+    sub a enclosingcirclebackslashcomb by a.001_enccirclebackslashcomb ;
+    sub b enclosingcirclebackslashcomb by b.001_enccirclebackslashcomb ;
+    sub c enclosingcirclebackslashcomb by c.001_enccirclebackslashcomb ;
+    sub d enclosingcirclebackslashcomb by d.001_enccirclebackslashcomb ;
+    sub e enclosingcirclebackslashcomb by e.001_enccirclebackslashcomb ;
+    sub f enclosingcirclebackslashcomb by f.001_enccirclebackslashcomb ;
+    sub g enclosingcirclebackslashcomb by g.001_enccirclebackslashcomb ;
+    sub h enclosingcirclebackslashcomb by h.001_enccirclebackslashcomb ;
+    sub i enclosingcirclebackslashcomb by i.001_enccirclebackslashcomb ;
+    sub j enclosingcirclebackslashcomb by j.001_enccirclebackslashcomb ;
+    sub k enclosingcirclebackslashcomb by k.001_enccirclebackslashcomb ;
+    sub l enclosingcirclebackslashcomb by l.001_enccirclebackslashcomb ;
+    sub m enclosingcirclebackslashcomb by m.001_enccirclebackslashcomb ;
+    sub n enclosingcirclebackslashcomb by n.001_enccirclebackslashcomb ;
+    sub o enclosingcirclebackslashcomb by o.001_enccirclebackslashcomb ;
+    sub p enclosingcirclebackslashcomb by p.001_enccirclebackslashcomb ;
+    sub q enclosingcirclebackslashcomb by q.001_enccirclebackslashcomb ;
+    sub r enclosingcirclebackslashcomb by r.001_enccirclebackslashcomb ;
+    sub s enclosingcirclebackslashcomb by s.001_enccirclebackslashcomb ;
+    sub t enclosingcirclebackslashcomb by t.001_enccirclebackslashcomb ;
+    sub u enclosingcirclebackslashcomb by u.001_enccirclebackslashcomb ;
+    sub v enclosingcirclebackslashcomb by v.001_enccirclebackslashcomb ;
+    sub w enclosingcirclebackslashcomb by w.001_enccirclebackslashcomb ;
+    sub x enclosingcirclebackslashcomb by x.001_enccirclebackslashcomb ;
+    sub y enclosingcirclebackslashcomb by y.001_enccirclebackslashcomb ;
+    sub z enclosingcirclebackslashcomb by z.001_enccirclebackslashcomb ;
+    sub zero enclosingcirclebackslashcomb by zero.001_enccirclebackslashcomb ;
+    sub one enclosingcirclebackslashcomb by one.001_enccirclebackslashcomb ;
+    sub two enclosingcirclebackslashcomb by two.001_enccirclebackslashcomb ;
+    sub three enclosingcirclebackslashcomb by three.001_enccircbackslashcomb ;
+    sub four enclosingcirclebackslashcomb by four.001_enccirclebackslashcomb ;
+    sub five enclosingcirclebackslashcomb by five.001_enccirclebackslashcomb ;
+    sub six enclosingcirclebackslashcomb by six.001_enccirclebackslashcomb ;
+    sub seven enclosingcirclebackslashcomb by seven.001_enccircbackslashcomb ;
+    sub eight enclosingcirclebackslashcomb by eight.001_enccircbackslashcomb ;
+    sub nine enclosingcirclebackslashcomb by nine.001_enccirclebackslashcomb ;
+    } gsub_3_ligature ;
+
+lookup gsub_4_ligature {
+    sub space enclosingupwardpointingtrianglecomb by enclosingupwardpointingtriangle ;
+    sub A enclosingupwardpointingtrianglecomb by A.001_encupwardpointingtricomb ;
+    sub B enclosingupwardpointingtrianglecomb by B.001_encupwardpointingtricomb ;
+    sub C enclosingupwardpointingtrianglecomb by C.001_encupwardpointingtricomb ;
+    sub D enclosingupwardpointingtrianglecomb by D.001_encupwardpointingtricomb ;
+    sub E enclosingupwardpointingtrianglecomb by E.001_encupwardpointingtricomb ;
+    sub F enclosingupwardpointingtrianglecomb by F.001_encupwardpointingtricomb ;
+    sub G enclosingupwardpointingtrianglecomb by G.001_encupwardpointingtricomb ;
+    sub H enclosingupwardpointingtrianglecomb by H.001_encupwardpointingtricomb ;
+    sub I enclosingupwardpointingtrianglecomb by I.001_encupwardpointingtricomb ;
+    sub J enclosingupwardpointingtrianglecomb by J.001_encupwardpointingtricomb ;
+    sub K enclosingupwardpointingtrianglecomb by K.001_encupwardpointingtricomb ;
+    sub L enclosingupwardpointingtrianglecomb by L.001_encupwardpointingtricomb ;
+    sub M enclosingupwardpointingtrianglecomb by M.001_encupwardpointingtricomb ;
+    sub N enclosingupwardpointingtrianglecomb by N.001_encupwardpointingtricomb ;
+    sub O enclosingupwardpointingtrianglecomb by O.001_encupwardpointingtricomb ;
+    sub P enclosingupwardpointingtrianglecomb by P.001_encupwardpointingtricomb ;
+    sub Q enclosingupwardpointingtrianglecomb by Q.001_encupwardpointingtricomb ;
+    sub R enclosingupwardpointingtrianglecomb by R.001_encupwardpointingtricomb ;
+    sub S enclosingupwardpointingtrianglecomb by S.001_encupwardpointingtricomb ;
+    sub T enclosingupwardpointingtrianglecomb by T.001_encupwardpointingtricomb ;
+    sub U enclosingupwardpointingtrianglecomb by U.001_encupwardpointingtricomb ;
+    sub V enclosingupwardpointingtrianglecomb by V.001_encupwardpointingtricomb ;
+    sub W enclosingupwardpointingtrianglecomb by W.001_encupwardpointingtricomb ;
+    sub X enclosingupwardpointingtrianglecomb by X.001_encupwardpointingtricomb ;
+    sub Y enclosingupwardpointingtrianglecomb by Y.001_encupwardpointingtricomb ;
+    sub Z enclosingupwardpointingtrianglecomb by Z.001_encupwardpointingtricomb ;
+    sub a enclosingupwardpointingtrianglecomb by a.001_encupwardpointingtricomb ;
+    sub b enclosingupwardpointingtrianglecomb by b.001_encupwardpointingtricomb ;
+    sub c enclosingupwardpointingtrianglecomb by c.001_encupwardpointingtricomb ;
+    sub d enclosingupwardpointingtrianglecomb by d.001_encupwardpointingtricomb ;
+    sub e enclosingupwardpointingtrianglecomb by e.001_encupwardpointingtricomb ;
+    sub f enclosingupwardpointingtrianglecomb by f.001_encupwardpointingtricomb ;
+    sub g enclosingupwardpointingtrianglecomb by g.001_encupwardpointingtricomb ;
+    sub h enclosingupwardpointingtrianglecomb by h.001_encupwardpointingtricomb ;
+    sub i enclosingupwardpointingtrianglecomb by i.001_encupwardpointingtricomb ;
+    sub j enclosingupwardpointingtrianglecomb by j.001_encupwardpointingtricomb ;
+    sub k enclosingupwardpointingtrianglecomb by k.001_encupwardpointingtricomb ;
+    sub l enclosingupwardpointingtrianglecomb by l.001_encupwardpointingtricomb ;
+    sub m enclosingupwardpointingtrianglecomb by m.001_encupwardpointingtricomb ;
+    sub n enclosingupwardpointingtrianglecomb by n.001_encupwardpointingtricomb ;
+    sub o enclosingupwardpointingtrianglecomb by o.001_encupwardpointingtricomb ;
+    sub p enclosingupwardpointingtrianglecomb by p.001_encupwardpointingtricomb ;
+    sub q enclosingupwardpointingtrianglecomb by q.001_encupwardpointingtricomb ;
+    sub r enclosingupwardpointingtrianglecomb by r.001_encupwardpointingtricomb ;
+    sub s enclosingupwardpointingtrianglecomb by s.001_encupwardpointingtricomb ;
+    sub t enclosingupwardpointingtrianglecomb by t.001_encupwardpointingtricomb ;
+    sub u enclosingupwardpointingtrianglecomb by u.001_encupwardpointingtricomb ;
+    sub v enclosingupwardpointingtrianglecomb by v.001_encupwardpointingtricomb ;
+    sub w enclosingupwardpointingtrianglecomb by w.001_encupwardpointingtricomb ;
+    sub x enclosingupwardpointingtrianglecomb by x.001_encupwardpointingtricomb ;
+    sub y enclosingupwardpointingtrianglecomb by y.001_encupwardpointingtricomb ;
+    sub z enclosingupwardpointingtrianglecomb by z.001_encupwardpointingtricomb ;
+    sub zero enclosingupwardpointingtrianglecomb by zero.001_encuppointingtricomb ;
+    sub one enclosingupwardpointingtrianglecomb by one.001_encuppointingtricomb ;
+    sub two enclosingupwardpointingtrianglecomb by two.001_encuppointingtricomb ;
+    sub three enclosingupwardpointingtrianglecomb by three.001_encuppointingtricomb ;
+    sub four enclosingupwardpointingtrianglecomb by four.001_encuppointingtricomb ;
+    sub five enclosingupwardpointingtrianglecomb by five.001_encuppointingtricomb ;
+    sub six enclosingupwardpointingtrianglecomb by six.001_encuppointingtricomb ;
+    sub seven enclosingupwardpointingtrianglecomb by seven.001_encuppointingtricomb ;
+    sub eight enclosingupwardpointingtrianglecomb by eight.001_encuppointingtricomb ;
+    sub nine enclosingupwardpointingtrianglecomb by nine.001_encuppointingtricomb ;
+    } gsub_4_ligature ;
+
+
+#GPOS
+
+#FEATURES LIST
+feature ccmp {
+	script DFLT ;
+		language dflt ;
+			lookup gsub_0_ligature;
+			lookup gsub_1_ligature;
+			lookup gsub_2_ligature;
+			lookup gsub_3_ligature;
+			lookup gsub_4_ligature;
+	script latn ;
+		language dflt ;
+			lookup gsub_0_ligature;
+			lookup gsub_1_ligature;
+			lookup gsub_2_ligature;
+			lookup gsub_3_ligature;
+			lookup gsub_4_ligature;
+		} ccmp;
+
+
+#GDEF
+
+table GDEF {
+  GlyphClassDef
+		@GDEF_base,
+		,
+		,
+		;
+
+} GDEF;";
+};
+},
+{
+axesValues = (
+190
+);
+customParameters = (
+{
+name = hheaAscender;
+value = 1480;
+},
+{
+name = hheaDescender;
+value = -570;
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = typoAscender;
+value = 1480;
+},
+{
+name = typoDescender;
+value = -570;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = unicodeRanges;
+value = (
+0,
+1,
+34,
+36,
+37,
+39,
+42,
+45,
+46,
+47,
+57
+);
+},
+{
+name = versionString;
+value = "Version 2.002";
+},
+{
+name = vendorID;
+value = GOOG;
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+name = trademark;
+value = "Noto is a trademark of Google LLC.";
+},
+{
+name = description;
+value = "Designed by Monotype design team.";
+},
+{
+name = openTypeNameVersion;
+value = "Version 2.002";
+},
+{
+name = styleMapFamilyName;
+value = "Noto Sans Symbols";
+},
+{
+name = styleMapStyleName;
+value = bold;
+},
+{
+name = codePageRanges;
+value = (
+1252
+);
+},
+{
+name = winAscent;
+value = 1480;
+},
+{
+name = winDescent;
+value = 570;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Has WWS Names";
+value = 1;
+},
+{
+name = openTypeOS2SelectionUnsupportedBits;
+value = (
+);
+}
+);
+iconName = Bold;
+id = "6E6EE38D-3D27-4929-8DEE-9F0163F8D5EF";
+metricValues = (
+{
+over = 16;
+pos = 1471;
+},
+{
+over = 12;
+pos = 714;
+},
+{
+over = 11;
+pos = 553;
+},
+{
+over = -11;
+},
+{
+over = -16;
+pos = -565;
+},
+{
+over = -11;
+},
+{
+over = 10;
+pos = 591;
+}
+);
+name = Bold;
+stemValues = (
+108,
+109
+);
+userData = {
+GSCornerRadius = 12;
+GSOffsetHorizontal = 100;
+GSOffsetVertical = 90;
+com.schriftgestaltung.Glyphs.originalFeatureCode = "# Features for NotoSansSymbols-Bold
+# generated by translating original MTI data
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+@GDEF_base = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z zero one two three four five six seven eight nine ];
+
+#GSUB
+lookup gsub_0_ligature {
+    sub space enclosingcirclecomb by enclosingcircle ;
+    sub A enclosingcirclecomb by A.001_enclosingcirclecomb ;
+    sub B enclosingcirclecomb by B.001_enclosingcirclecomb ;
+    sub C enclosingcirclecomb by C.001_enclosingcirclecomb ;
+    sub D enclosingcirclecomb by D.001_enclosingcirclecomb ;
+    sub E enclosingcirclecomb by E.001_enclosingcirclecomb ;
+    sub F enclosingcirclecomb by F.001_enclosingcirclecomb ;
+    sub G enclosingcirclecomb by G.001_enclosingcirclecomb ;
+    sub H enclosingcirclecomb by H.001_enclosingcirclecomb ;
+    sub I enclosingcirclecomb by I.001_enclosingcirclecomb ;
+    sub J enclosingcirclecomb by J.001_enclosingcirclecomb ;
+    sub K enclosingcirclecomb by K.001_enclosingcirclecomb ;
+    sub L enclosingcirclecomb by L.001_enclosingcirclecomb ;
+    sub M enclosingcirclecomb by M.001_enclosingcirclecomb ;
+    sub N enclosingcirclecomb by N.001_enclosingcirclecomb ;
+    sub O enclosingcirclecomb by O.001_enclosingcirclecomb ;
+    sub P enclosingcirclecomb by P.001_enclosingcirclecomb ;
+    sub Q enclosingcirclecomb by Q.001_enclosingcirclecomb ;
+    sub R enclosingcirclecomb by R.001_enclosingcirclecomb ;
+    sub S enclosingcirclecomb by S.001_enclosingcirclecomb ;
+    sub T enclosingcirclecomb by T.001_enclosingcirclecomb ;
+    sub U enclosingcirclecomb by U.001_enclosingcirclecomb ;
+    sub V enclosingcirclecomb by V.001_enclosingcirclecomb ;
+    sub W enclosingcirclecomb by W.001_enclosingcirclecomb ;
+    sub X enclosingcirclecomb by X.001_enclosingcirclecomb ;
+    sub Y enclosingcirclecomb by Y.001_enclosingcirclecomb ;
+    sub Z enclosingcirclecomb by Z.001_enclosingcirclecomb ;
+    sub a enclosingcirclecomb by a.001_enclosingcirclecomb ;
+    sub b enclosingcirclecomb by b.001_enclosingcirclecomb ;
+    sub c enclosingcirclecomb by c.001_enclosingcirclecomb ;
+    sub d enclosingcirclecomb by d.001_enclosingcirclecomb ;
+    sub e enclosingcirclecomb by e.001_enclosingcirclecomb ;
+    sub f enclosingcirclecomb by f.001_enclosingcirclecomb ;
+    sub g enclosingcirclecomb by g.001_enclosingcirclecomb ;
+    sub h enclosingcirclecomb by h.001_enclosingcirclecomb ;
+    sub i enclosingcirclecomb by i.001_enclosingcirclecomb ;
+    sub j enclosingcirclecomb by j.001_enclosingcirclecomb ;
+    sub k enclosingcirclecomb by k.001_enclosingcirclecomb ;
+    sub l enclosingcirclecomb by l.001_enclosingcirclecomb ;
+    sub m enclosingcirclecomb by m.001_enclosingcirclecomb ;
+    sub n enclosingcirclecomb by n.001_enclosingcirclecomb ;
+    sub o enclosingcirclecomb by o.001_enclosingcirclecomb ;
+    sub p enclosingcirclecomb by p.001_enclosingcirclecomb ;
+    sub q enclosingcirclecomb by q.001_enclosingcirclecomb ;
+    sub r enclosingcirclecomb by r.001_enclosingcirclecomb ;
+    sub s enclosingcirclecomb by s.001_enclosingcirclecomb ;
+    sub t enclosingcirclecomb by t.001_enclosingcirclecomb ;
+    sub u enclosingcirclecomb by u.001_enclosingcirclecomb ;
+    sub v enclosingcirclecomb by v.001_enclosingcirclecomb ;
+    sub w enclosingcirclecomb by w.001_enclosingcirclecomb ;
+    sub x enclosingcirclecomb by x.001_enclosingcirclecomb ;
+    sub y enclosingcirclecomb by y.001_enclosingcirclecomb ;
+    sub z enclosingcirclecomb by z.001_enclosingcirclecomb ;
+    sub zero enclosingcirclecomb by zero.001_enclosingcirclecomb ;
+    sub one enclosingcirclecomb by one.001_enclosingcirclecomb ;
+    sub two enclosingcirclecomb by two.001_enclosingcirclecomb ;
+    sub three enclosingcirclecomb by three.001_enclosingcirclecomb ;
+    sub four enclosingcirclecomb by four.001_enclosingcirclecomb ;
+    sub five enclosingcirclecomb by five.001_enclosingcirclecomb ;
+    sub six enclosingcirclecomb by six.001_enclosingcirclecomb ;
+    sub seven enclosingcirclecomb by seven.001_enclosingcirclecomb ;
+    sub eight enclosingcirclecomb by eight.001_enclosingcirclecomb ;
+    sub nine enclosingcirclecomb by nine.001_enclosingcirclecomb ;
+    } gsub_0_ligature ;
+
+lookup gsub_1_ligature {
+    sub space enclosingsquarecomb by enclosingsquare ;
+    sub A enclosingsquarecomb by A.001_enclosingsquarecomb ;
+    sub B enclosingsquarecomb by B.001_enclosingsquarecomb ;
+    sub C enclosingsquarecomb by C.001_enclosingsquarecomb ;
+    sub D enclosingsquarecomb by D.001_enclosingsquarecomb ;
+    sub E enclosingsquarecomb by E.001_enclosingsquarecomb ;
+    sub F enclosingsquarecomb by F.001_enclosingsquarecomb ;
+    sub G enclosingsquarecomb by G.001_enclosingsquarecomb ;
+    sub H enclosingsquarecomb by H.001_enclosingsquarecomb ;
+    sub I enclosingsquarecomb by I.001_enclosingsquarecomb ;
+    sub J enclosingsquarecomb by J.001_enclosingsquarecomb ;
+    sub K enclosingsquarecomb by K.001_enclosingsquarecomb ;
+    sub L enclosingsquarecomb by L.001_enclosingsquarecomb ;
+    sub M enclosingsquarecomb by M.001_enclosingsquarecomb ;
+    sub N enclosingsquarecomb by N.001_enclosingsquarecomb ;
+    sub O enclosingsquarecomb by O.001_enclosingsquarecomb ;
+    sub P enclosingsquarecomb by P.001_enclosingsquarecomb ;
+    sub Q enclosingsquarecomb by Q.001_enclosingsquarecomb ;
+    sub R enclosingsquarecomb by R.001_enclosingsquarecomb ;
+    sub S enclosingsquarecomb by S.001_enclosingsquarecomb ;
+    sub T enclosingsquarecomb by T.001_enclosingsquarecomb ;
+    sub U enclosingsquarecomb by U.001_enclosingsquarecomb ;
+    sub V enclosingsquarecomb by V.001_enclosingsquarecomb ;
+    sub W enclosingsquarecomb by W.001_enclosingsquarecomb ;
+    sub X enclosingsquarecomb by X.001_enclosingsquarecomb ;
+    sub Y enclosingsquarecomb by Y.001_enclosingsquarecomb ;
+    sub Z enclosingsquarecomb by Z.001_enclosingsquarecomb ;
+    sub a enclosingsquarecomb by a.001_enclosingsquarecomb ;
+    sub b enclosingsquarecomb by b.001_enclosingsquarecomb ;
+    sub c enclosingsquarecomb by c.001_enclosingsquarecomb ;
+    sub d enclosingsquarecomb by d.001_enclosingsquarecomb ;
+    sub e enclosingsquarecomb by e.001_enclosingsquarecomb ;
+    sub f enclosingsquarecomb by f.001_enclosingsquarecomb ;
+    sub g enclosingsquarecomb by g.001_enclosingsquarecomb ;
+    sub h enclosingsquarecomb by h.001_enclosingsquarecomb ;
+    sub i enclosingsquarecomb by i.001_enclosingsquarecomb ;
+    sub j enclosingsquarecomb by j.001_enclosingsquarecomb ;
+    sub k enclosingsquarecomb by k.001_enclosingsquarecomb ;
+    sub l enclosingsquarecomb by l.001_enclosingsquarecomb ;
+    sub m enclosingsquarecomb by m.001_enclosingsquarecomb ;
+    sub n enclosingsquarecomb by n.001_enclosingsquarecomb ;
+    sub o enclosingsquarecomb by o.001_enclosingsquarecomb ;
+    sub p enclosingsquarecomb by p.001_enclosingsquarecomb ;
+    sub q enclosingsquarecomb by q.001_enclosingsquarecomb ;
+    sub r enclosingsquarecomb by r.001_enclosingsquarecomb ;
+    sub s enclosingsquarecomb by s.001_enclosingsquarecomb ;
+    sub t enclosingsquarecomb by t.001_enclosingsquarecomb ;
+    sub u enclosingsquarecomb by u.001_enclosingsquarecomb ;
+    sub v enclosingsquarecomb by v.001_enclosingsquarecomb ;
+    sub w enclosingsquarecomb by w.001_enclosingsquarecomb ;
+    sub x enclosingsquarecomb by x.001_enclosingsquarecomb ;
+    sub y enclosingsquarecomb by y.001_enclosingsquarecomb ;
+    sub z enclosingsquarecomb by z.001_enclosingsquarecomb ;
+    sub zero enclosingsquarecomb by zero.001_enclosingsquarecomb ;
+    sub one enclosingsquarecomb by one.001_enclosingsquarecomb ;
+    sub two enclosingsquarecomb by two.001_enclosingsquarecomb ;
+    sub three enclosingsquarecomb by three.001_enclosingsquarecomb ;
+    sub four enclosingsquarecomb by four.001_enclosingsquarecomb ;
+    sub five enclosingsquarecomb by five.001_enclosingsquarecomb ;
+    sub six enclosingsquarecomb by six.001_enclosingsquarecomb ;
+    sub seven enclosingsquarecomb by seven.001_enclosingsquarecomb ;
+    sub eight enclosingsquarecomb by eight.001_enclosingsquarecomb ;
+    sub nine enclosingsquarecomb by nine.001_enclosingsquarecomb ;
+    } gsub_1_ligature ;
+
+lookup gsub_2_ligature {
+    sub space enclosingdiamondcomb by enclosingdiamond ;
+    sub A enclosingdiamondcomb by A.001_enclosingdiamondcomb ;
+    sub B enclosingdiamondcomb by B.001_enclosingdiamondcomb ;
+    sub C enclosingdiamondcomb by C.001_enclosingdiamondcomb ;
+    sub D enclosingdiamondcomb by D.001_enclosingdiamondcomb ;
+    sub E enclosingdiamondcomb by E.001_enclosingdiamondcomb ;
+    sub F enclosingdiamondcomb by F.001_enclosingdiamondcomb ;
+    sub G enclosingdiamondcomb by G.001_enclosingdiamondcomb ;
+    sub H enclosingdiamondcomb by H.001_enclosingdiamondcomb ;
+    sub I enclosingdiamondcomb by I.001_enclosingdiamondcomb ;
+    sub J enclosingdiamondcomb by J.001_enclosingdiamondcomb ;
+    sub K enclosingdiamondcomb by K.001_enclosingdiamondcomb ;
+    sub L enclosingdiamondcomb by L.001_enclosingdiamondcomb ;
+    sub M enclosingdiamondcomb by M.001_enclosingdiamondcomb ;
+    sub N enclosingdiamondcomb by N.001_enclosingdiamondcomb ;
+    sub O enclosingdiamondcomb by O.001_enclosingdiamondcomb ;
+    sub P enclosingdiamondcomb by P.001_enclosingdiamondcomb ;
+    sub Q enclosingdiamondcomb by Q.001_enclosingdiamondcomb ;
+    sub R enclosingdiamondcomb by R.001_enclosingdiamondcomb ;
+    sub S enclosingdiamondcomb by S.001_enclosingdiamondcomb ;
+    sub T enclosingdiamondcomb by T.001_enclosingdiamondcomb ;
+    sub U enclosingdiamondcomb by U.001_enclosingdiamondcomb ;
+    sub V enclosingdiamondcomb by V.001_enclosingdiamondcomb ;
+    sub W enclosingdiamondcomb by W.001_enclosingdiamondcomb ;
+    sub X enclosingdiamondcomb by X.001_enclosingdiamondcomb ;
+    sub Y enclosingdiamondcomb by Y.001_enclosingdiamondcomb ;
+    sub Z enclosingdiamondcomb by Z.001_enclosingdiamondcomb ;
+    sub a enclosingdiamondcomb by a.001_enclosingdiamondcomb ;
+    sub b enclosingdiamondcomb by b.001_enclosingdiamondcomb ;
+    sub c enclosingdiamondcomb by c.001_enclosingdiamondcomb ;
+    sub d enclosingdiamondcomb by d.001_enclosingdiamondcomb ;
+    sub e enclosingdiamondcomb by e.001_enclosingdiamondcomb ;
+    sub f enclosingdiamondcomb by f.001_enclosingdiamondcomb ;
+    sub g enclosingdiamondcomb by g.001_enclosingdiamondcomb ;
+    sub h enclosingdiamondcomb by h.001_enclosingdiamondcomb ;
+    sub i enclosingdiamondcomb by i.001_enclosingdiamondcomb ;
+    sub j enclosingdiamondcomb by j.001_enclosingdiamondcomb ;
+    sub k enclosingdiamondcomb by k.001_enclosingdiamondcomb ;
+    sub l enclosingdiamondcomb by l.001_enclosingdiamondcomb ;
+    sub m enclosingdiamondcomb by m.001_enclosingdiamondcomb ;
+    sub n enclosingdiamondcomb by n.001_enclosingdiamondcomb ;
+    sub o enclosingdiamondcomb by o.001_enclosingdiamondcomb ;
+    sub p enclosingdiamondcomb by p.001_enclosingdiamondcomb ;
+    sub q enclosingdiamondcomb by q.001_enclosingdiamondcomb ;
+    sub r enclosingdiamondcomb by r.001_enclosingdiamondcomb ;
+    sub s enclosingdiamondcomb by s.001_enclosingdiamondcomb ;
+    sub t enclosingdiamondcomb by t.001_enclosingdiamondcomb ;
+    sub u enclosingdiamondcomb by u.001_enclosingdiamondcomb ;
+    sub v enclosingdiamondcomb by v.001_enclosingdiamondcomb ;
+    sub w enclosingdiamondcomb by w.001_enclosingdiamondcomb ;
+    sub x enclosingdiamondcomb by x.001_enclosingdiamondcomb ;
+    sub y enclosingdiamondcomb by y.001_enclosingdiamondcomb ;
+    sub z enclosingdiamondcomb by z.001_enclosingdiamondcomb ;
+    sub zero enclosingdiamondcomb by zero.001_enclosingdiamondcomb ;
+    sub one enclosingdiamondcomb by one.001_enclosingdiamondcomb ;
+    sub two enclosingdiamondcomb by two.001_enclosingdiamondcomb ;
+    sub three enclosingdiamondcomb by three.001_enclosingdiamondcomb ;
+    sub four enclosingdiamondcomb by four.001_enclosingdiamondcomb ;
+    sub five enclosingdiamondcomb by five.001_enclosingdiamondcomb ;
+    sub six enclosingdiamondcomb by six.001_enclosingdiamondcomb ;
+    sub seven enclosingdiamondcomb by seven.001_enclosingdiamondcomb ;
+    sub eight enclosingdiamondcomb by eight.001_enclosingdiamondcomb ;
+    sub nine enclosingdiamondcomb by nine.001_enclosingdiamondcomb ;
+    } gsub_2_ligature ;
+
+lookup gsub_3_ligature {
+    sub space enclosingcirclebackslashcomb by enclosingcirclebackslash ;
+    sub A enclosingcirclebackslashcomb by A.001_enccirclebackslashcomb ;
+    sub B enclosingcirclebackslashcomb by B.001_enccirclebackslashcomb ;
+    sub C enclosingcirclebackslashcomb by C.001_enccirclebackslashcomb ;
+    sub D enclosingcirclebackslashcomb by D.001_enccirclebackslashcomb ;
+    sub E enclosingcirclebackslashcomb by E.001_enccirclebackslashcomb ;
+    sub F enclosingcirclebackslashcomb by F.001_enccirclebackslashcomb ;
+    sub G enclosingcirclebackslashcomb by G.001_enccirclebackslashcomb ;
+    sub H enclosingcirclebackslashcomb by H.001_enccirclebackslashcomb ;
+    sub I enclosingcirclebackslashcomb by I.001_enccirclebackslashcomb ;
+    sub J enclosingcirclebackslashcomb by J.001_enccirclebackslashcomb ;
+    sub K enclosingcirclebackslashcomb by K.001_enccirclebackslashcomb ;
+    sub L enclosingcirclebackslashcomb by L.001_enccirclebackslashcomb ;
+    sub M enclosingcirclebackslashcomb by M.001_enccirclebackslashcomb ;
+    sub N enclosingcirclebackslashcomb by N.001_enccirclebackslashcomb ;
+    sub O enclosingcirclebackslashcomb by O.001_enccirclebackslashcomb ;
+    sub P enclosingcirclebackslashcomb by P.001_enccirclebackslashcomb ;
+    sub Q enclosingcirclebackslashcomb by Q.001_enccirclebackslashcomb ;
+    sub R enclosingcirclebackslashcomb by R.001_enccirclebackslashcomb ;
+    sub S enclosingcirclebackslashcomb by S.001_enccirclebackslashcomb ;
+    sub T enclosingcirclebackslashcomb by T.001_enccirclebackslashcomb ;
+    sub U enclosingcirclebackslashcomb by U.001_enccirclebackslashcomb ;
+    sub V enclosingcirclebackslashcomb by V.001_enccirclebackslashcomb ;
+    sub W enclosingcirclebackslashcomb by W.001_enccirclebackslashcomb ;
+    sub X enclosingcirclebackslashcomb by X.001_enccirclebackslashcomb ;
+    sub Y enclosingcirclebackslashcomb by Y.001_enccirclebackslashcomb ;
+    sub Z enclosingcirclebackslashcomb by Z.001_enccirclebackslashcomb ;
+    sub a enclosingcirclebackslashcomb by a.001_enccirclebackslashcomb ;
+    sub b enclosingcirclebackslashcomb by b.001_enccirclebackslashcomb ;
+    sub c enclosingcirclebackslashcomb by c.001_enccirclebackslashcomb ;
+    sub d enclosingcirclebackslashcomb by d.001_enccirclebackslashcomb ;
+    sub e enclosingcirclebackslashcomb by e.001_enccirclebackslashcomb ;
+    sub f enclosingcirclebackslashcomb by f.001_enccirclebackslashcomb ;
+    sub g enclosingcirclebackslashcomb by g.001_enccirclebackslashcomb ;
+    sub h enclosingcirclebackslashcomb by h.001_enccirclebackslashcomb ;
+    sub i enclosingcirclebackslashcomb by i.001_enccirclebackslashcomb ;
+    sub j enclosingcirclebackslashcomb by j.001_enccirclebackslashcomb ;
+    sub k enclosingcirclebackslashcomb by k.001_enccirclebackslashcomb ;
+    sub l enclosingcirclebackslashcomb by l.001_enccirclebackslashcomb ;
+    sub m enclosingcirclebackslashcomb by m.001_enccirclebackslashcomb ;
+    sub n enclosingcirclebackslashcomb by n.001_enccirclebackslashcomb ;
+    sub o enclosingcirclebackslashcomb by o.001_enccirclebackslashcomb ;
+    sub p enclosingcirclebackslashcomb by p.001_enccirclebackslashcomb ;
+    sub q enclosingcirclebackslashcomb by q.001_enccirclebackslashcomb ;
+    sub r enclosingcirclebackslashcomb by r.001_enccirclebackslashcomb ;
+    sub s enclosingcirclebackslashcomb by s.001_enccirclebackslashcomb ;
+    sub t enclosingcirclebackslashcomb by t.001_enccirclebackslashcomb ;
+    sub u enclosingcirclebackslashcomb by u.001_enccirclebackslashcomb ;
+    sub v enclosingcirclebackslashcomb by v.001_enccirclebackslashcomb ;
+    sub w enclosingcirclebackslashcomb by w.001_enccirclebackslashcomb ;
+    sub x enclosingcirclebackslashcomb by x.001_enccirclebackslashcomb ;
+    sub y enclosingcirclebackslashcomb by y.001_enccirclebackslashcomb ;
+    sub z enclosingcirclebackslashcomb by z.001_enccirclebackslashcomb ;
+    sub zero enclosingcirclebackslashcomb by zero.001_enccirclebackslashcomb ;
+    sub one enclosingcirclebackslashcomb by one.001_enccirclebackslashcomb ;
+    sub two enclosingcirclebackslashcomb by two.001_enccirclebackslashcomb ;
+    sub three enclosingcirclebackslashcomb by three.001_enccircbackslashcomb ;
+    sub four enclosingcirclebackslashcomb by four.001_enccirclebackslashcomb ;
+    sub five enclosingcirclebackslashcomb by five.001_enccirclebackslashcomb ;
+    sub six enclosingcirclebackslashcomb by six.001_enccirclebackslashcomb ;
+    sub seven enclosingcirclebackslashcomb by seven.001_enccircbackslashcomb ;
+    sub eight enclosingcirclebackslashcomb by eight.001_enccircbackslashcomb ;
+    sub nine enclosingcirclebackslashcomb by nine.001_enccirclebackslashcomb ;
+    } gsub_3_ligature ;
+
+lookup gsub_4_ligature {
+    sub space enclosingupwardpointingtrianglecomb by enclosingupwardpointingtriangle ;
+    sub A enclosingupwardpointingtrianglecomb by A.001_encupwardpointingtricomb ;
+    sub B enclosingupwardpointingtrianglecomb by B.001_encupwardpointingtricomb ;
+    sub C enclosingupwardpointingtrianglecomb by C.001_encupwardpointingtricomb ;
+    sub D enclosingupwardpointingtrianglecomb by D.001_encupwardpointingtricomb ;
+    sub E enclosingupwardpointingtrianglecomb by E.001_encupwardpointingtricomb ;
+    sub F enclosingupwardpointingtrianglecomb by F.001_encupwardpointingtricomb ;
+    sub G enclosingupwardpointingtrianglecomb by G.001_encupwardpointingtricomb ;
+    sub H enclosingupwardpointingtrianglecomb by H.001_encupwardpointingtricomb ;
+    sub I enclosingupwardpointingtrianglecomb by I.001_encupwardpointingtricomb ;
+    sub J enclosingupwardpointingtrianglecomb by J.001_encupwardpointingtricomb ;
+    sub K enclosingupwardpointingtrianglecomb by K.001_encupwardpointingtricomb ;
+    sub L enclosingupwardpointingtrianglecomb by L.001_encupwardpointingtricomb ;
+    sub M enclosingupwardpointingtrianglecomb by M.001_encupwardpointingtricomb ;
+    sub N enclosingupwardpointingtrianglecomb by N.001_encupwardpointingtricomb ;
+    sub O enclosingupwardpointingtrianglecomb by O.001_encupwardpointingtricomb ;
+    sub P enclosingupwardpointingtrianglecomb by P.001_encupwardpointingtricomb ;
+    sub Q enclosingupwardpointingtrianglecomb by Q.001_encupwardpointingtricomb ;
+    sub R enclosingupwardpointingtrianglecomb by R.001_encupwardpointingtricomb ;
+    sub S enclosingupwardpointingtrianglecomb by S.001_encupwardpointingtricomb ;
+    sub T enclosingupwardpointingtrianglecomb by T.001_encupwardpointingtricomb ;
+    sub U enclosingupwardpointingtrianglecomb by U.001_encupwardpointingtricomb ;
+    sub V enclosingupwardpointingtrianglecomb by V.001_encupwardpointingtricomb ;
+    sub W enclosingupwardpointingtrianglecomb by W.001_encupwardpointingtricomb ;
+    sub X enclosingupwardpointingtrianglecomb by X.001_encupwardpointingtricomb ;
+    sub Y enclosingupwardpointingtrianglecomb by Y.001_encupwardpointingtricomb ;
+    sub Z enclosingupwardpointingtrianglecomb by Z.001_encupwardpointingtricomb ;
+    sub a enclosingupwardpointingtrianglecomb by a.001_encupwardpointingtricomb ;
+    sub b enclosingupwardpointingtrianglecomb by b.001_encupwardpointingtricomb ;
+    sub c enclosingupwardpointingtrianglecomb by c.001_encupwardpointingtricomb ;
+    sub d enclosingupwardpointingtrianglecomb by d.001_encupwardpointingtricomb ;
+    sub e enclosingupwardpointingtrianglecomb by e.001_encupwardpointingtricomb ;
+    sub f enclosingupwardpointingtrianglecomb by f.001_encupwardpointingtricomb ;
+    sub g enclosingupwardpointingtrianglecomb by g.001_encupwardpointingtricomb ;
+    sub h enclosingupwardpointingtrianglecomb by h.001_encupwardpointingtricomb ;
+    sub i enclosingupwardpointingtrianglecomb by i.001_encupwardpointingtricomb ;
+    sub j enclosingupwardpointingtrianglecomb by j.001_encupwardpointingtricomb ;
+    sub k enclosingupwardpointingtrianglecomb by k.001_encupwardpointingtricomb ;
+    sub l enclosingupwardpointingtrianglecomb by l.001_encupwardpointingtricomb ;
+    sub m enclosingupwardpointingtrianglecomb by m.001_encupwardpointingtricomb ;
+    sub n enclosingupwardpointingtrianglecomb by n.001_encupwardpointingtricomb ;
+    sub o enclosingupwardpointingtrianglecomb by o.001_encupwardpointingtricomb ;
+    sub p enclosingupwardpointingtrianglecomb by p.001_encupwardpointingtricomb ;
+    sub q enclosingupwardpointingtrianglecomb by q.001_encupwardpointingtricomb ;
+    sub r enclosingupwardpointingtrianglecomb by r.001_encupwardpointingtricomb ;
+    sub s enclosingupwardpointingtrianglecomb by s.001_encupwardpointingtricomb ;
+    sub t enclosingupwardpointingtrianglecomb by t.001_encupwardpointingtricomb ;
+    sub u enclosingupwardpointingtrianglecomb by u.001_encupwardpointingtricomb ;
+    sub v enclosingupwardpointingtrianglecomb by v.001_encupwardpointingtricomb ;
+    sub w enclosingupwardpointingtrianglecomb by w.001_encupwardpointingtricomb ;
+    sub x enclosingupwardpointingtrianglecomb by x.001_encupwardpointingtricomb ;
+    sub y enclosingupwardpointingtrianglecomb by y.001_encupwardpointingtricomb ;
+    sub z enclosingupwardpointingtrianglecomb by z.001_encupwardpointingtricomb ;
+    sub zero enclosingupwardpointingtrianglecomb by zero.001_encuppointingtricomb ;
+    sub one enclosingupwardpointingtrianglecomb by one.001_encuppointingtricomb ;
+    sub two enclosingupwardpointingtrianglecomb by two.001_encuppointingtricomb ;
+    sub three enclosingupwardpointingtrianglecomb by three.001_encuppointingtricomb ;
+    sub four enclosingupwardpointingtrianglecomb by four.001_encuppointingtricomb ;
+    sub five enclosingupwardpointingtrianglecomb by five.001_encuppointingtricomb ;
+    sub six enclosingupwardpointingtrianglecomb by six.001_encuppointingtricomb ;
+    sub seven enclosingupwardpointingtrianglecomb by seven.001_encuppointingtricomb ;
+    sub eight enclosingupwardpointingtrianglecomb by eight.001_encuppointingtricomb ;
+    sub nine enclosingupwardpointingtrianglecomb by nine.001_encuppointingtricomb ;
+    } gsub_4_ligature ;
+
+
+#GPOS
+
+#FEATURES LIST
+feature ccmp {
+	script DFLT ;
+		language dflt ;
+			lookup gsub_0_ligature;
+			lookup gsub_1_ligature;
+			lookup gsub_2_ligature;
+			lookup gsub_3_ligature;
+			lookup gsub_4_ligature;
+	script latn ;
+		language dflt ;
+			lookup gsub_0_ligature;
+			lookup gsub_1_ligature;
+			lookup gsub_2_ligature;
+			lookup gsub_3_ligature;
+			lookup gsub_4_ligature;
+		} ccmp;
+
+
+#GDEF
+
+table GDEF {
+  GlyphClassDef
+		@GDEF_base,
+		,
+		,
+		;
+
+} GDEF;";
+};
+}
+);
+instances = (
+{
+axesValues = (
+26
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+2,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "UFO Filename";
+value = "instance_ufos/NotoSansSymbols-Thin.ufo";
+}
+);
+instanceInterpolations = {
+"24810176-774E-47FD-8B80-D284CD1191FD" = 1;
+};
+linkStyle = Thin;
+name = Thin;
+weightClass = 100;
+},
+{
+axesValues = (
+39
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+3,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "UFO Filename";
+value = "instance_ufos/NotoSansSymbols-ExtraLight.ufo";
+}
+);
+instanceInterpolations = {
+"24810176-774E-47FD-8B80-D284CD1191FD" = 0.79688;
+"F394B0DB-5C84-43F6-ACB2-AE9DD557A8AE" = 0.20312;
+};
+linkStyle = ExtraLight;
+name = ExtraLight;
+weightClass = 200;
+},
+{
+axesValues = (
+58
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+4,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "UFO Filename";
+value = "instance_ufos/NotoSansSymbols-Light.ufo";
+}
+);
+instanceInterpolations = {
+"24810176-774E-47FD-8B80-D284CD1191FD" = 0.5;
+"F394B0DB-5C84-43F6-ACB2-AE9DD557A8AE" = 0.5;
+};
+linkStyle = Light;
+name = Light;
+weightClass = 300;
+},
+{
+axesValues = (
+90
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "UFO Filename";
+value = "instance_ufos/NotoSansSymbols-Regular.ufo";
+}
+);
+instanceInterpolations = {
+"F394B0DB-5C84-43F6-ACB2-AE9DD557A8AE" = 1;
+};
+name = Regular;
+},
+{
+axesValues = (
+108
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "UFO Filename";
+value = "instance_ufos/NotoSansSymbols-Medium.ufo";
+}
+);
+instanceInterpolations = {
+"6E6EE38D-3D27-4929-8DEE-9F0163F8D5EF" = 0.18;
+"F394B0DB-5C84-43F6-ACB2-AE9DD557A8AE" = 0.82;
+};
+linkStyle = Medium;
+name = Medium;
+weightClass = 500;
+},
+{
+axesValues = (
+128
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+7,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "UFO Filename";
+value = "instance_ufos/NotoSansSymbols-SemiBold.ufo";
+}
+);
+instanceInterpolations = {
+"6E6EE38D-3D27-4929-8DEE-9F0163F8D5EF" = 0.38;
+"F394B0DB-5C84-43F6-ACB2-AE9DD557A8AE" = 0.62;
+};
+linkStyle = SemiBold;
+name = SemiBold;
+weightClass = 600;
+},
+{
+axesValues = (
+151
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+8,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "UFO Filename";
+value = "instance_ufos/NotoSansSymbols-Bold.ufo";
+}
+);
+instanceInterpolations = {
+"6E6EE38D-3D27-4929-8DEE-9F0163F8D5EF" = 0.61;
+"F394B0DB-5C84-43F6-ACB2-AE9DD557A8AE" = 0.39;
+};
+isBold = 1;
+name = Bold;
+weightClass = 700;
+},
+{
+axesValues = (
+169
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+9,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "UFO Filename";
+value = "instance_ufos/NotoSansSymbols-ExtraBold.ufo";
+}
+);
+instanceInterpolations = {
+"6E6EE38D-3D27-4929-8DEE-9F0163F8D5EF" = 0.79;
+"F394B0DB-5C84-43F6-ACB2-AE9DD557A8AE" = 0.21;
+};
+linkStyle = ExtraBold;
+name = ExtraBold;
+weightClass = 800;
+},
+{
+axesValues = (
+190
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+10,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "UFO Filename";
+value = "instance_ufos/NotoSansSymbols-Black.ufo";
+}
+);
+instanceInterpolations = {
+"6E6EE38D-3D27-4929-8DEE-9F0163F8D5EF" = 1;
+};
+linkStyle = Black;
+name = Black;
+weightClass = 900;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+},
+{
+name = "zone 1";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols)";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Monotype Design Team";
+}
+);
+},
+{
+key = designerURL;
+value = "http://www.monotype.com/studio";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Monotype Imaging Inc.";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "http://www.google.com/get/noto/";
+},
+{
+key = versionString;
+value = "Version 2.002";
+},
+{
+key = vendorID;
+value = GOOG;
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = trademarks;
+values = (
+{
+language = dflt;
+value = "Noto is a trademark of Google LLC.";
+}
+);
+},
+{
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "Designed by Monotype design team.";
+}
+);
+}
+);
+settings = {
+disablesAutomaticAlignment = 1;
+};
+stems = (
+{
+horizontal = 1;
+name = hStem0;
+},
+{
+name = vStem0;
+}
+);
+unitsPerEm = 1000;
+userData = {
+GSDimensionPlugin.Dimensions = {
+"63FFF063-D1A2-4517-AC17-E864DFB6D5A9" = {
+};
+};
+com.schriftgestaltung.Glyphs.groupsNotInFeature = (
+);
+com.schriftgestaltung.Glyphs.originalKerningGroups = {
+public.kern1.A.left = (
+A
+);
+public.kern1.C.left = (
+C
+);
+public.kern1.E.left = (
+E
+);
+public.kern1.K.left = (
+K,
+X
+);
+public.kern1.L.left = (
+L
+);
+public.kern1.O.left = (
+D,
+O,
+Q
+);
+public.kern1.P.left = (
+P
+);
+public.kern1.T.left = (
+T
+);
+public.kern1.U.left = (
+U
+);
+public.kern1.V.left = (
+V,
+W
+);
+public.kern1.Y.left = (
+Y
+);
+public.kern1.Z.left = (
+Z
+);
+public.kern1.d = (
+d,
+l
+);
+public.kern1.f.left = (
+f
+);
+public.kern1.j = (
+j
+);
+public.kern1.k = (
+k
+);
+public.kern1.k.left = (
+x
+);
+public.kern1.n.left = (
+a,
+h,
+m,
+n
+);
+public.kern1.o.left = (
+b,
+e,
+o,
+p
+);
+public.kern1.r.left = (
+r
+);
+public.kern1.t.left = (
+t
+);
+public.kern1.v.left = (
+v,
+w,
+y
+);
+public.kern2.A.right = (
+A
+);
+public.kern2.O.right = (
+C,
+G,
+O,
+Q
+);
+public.kern2.T.right = (
+T
+);
+public.kern2.U.right = (
+U
+);
+public.kern2.V.right = (
+V,
+W
+);
+public.kern2.Y.right = (
+Y
+);
+public.kern2.Z.right = (
+Z
+);
+public.kern2.a.right = (
+a
+);
+public.kern2.b = (
+b,
+h,
+k,
+l
+);
+public.kern2.f.right = (
+f
+);
+public.kern2.g.right = (
+g
+);
+public.kern2.n.right = (
+m,
+n,
+p,
+r,
+u
+);
+public.kern2.o.right = (
+c,
+d,
+e,
+o,
+q
+);
+public.kern2.s.right = (
+s
+);
+public.kern2.t.right = (
+t
+);
+public.kern2.v.right = (
+v,
+w,
+x,
+y
+);
+public.kern2.z.right = (
+z
+);
+};
+};
+versionMajor = 2;
+versionMinor = 2;
+}

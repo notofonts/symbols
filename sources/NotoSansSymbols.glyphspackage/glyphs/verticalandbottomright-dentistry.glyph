@@ -1,0 +1,61 @@
+{
+glyphname = "verticalandbottomright-dentistry";
+layers = (
+{
+layerId = "24810176-774E-47FD-8B80-D284CD1191FD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(709,0,l),
+(709,25,l),
+(360,25,l),
+(360,714,l),
+(334,714,l),
+(334,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 699;
+},
+{
+layerId = "F394B0DB-5C84-43F6-ACB2-AE9DD557A8AE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(709,0,l),
+(709,71,l),
+(388,71,l),
+(388,714,l),
+(316,714,l),
+(316,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 699;
+},
+{
+layerId = "6E6EE38D-3D27-4929-8DEE-9F0163F8D5EF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(709,0,l),
+(709,134,l),
+(419,134,l),
+(419,714,l),
+(284,714,l),
+(284,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 699;
+}
+);
+production = uni23BF;
+unicode = 9151;
+}

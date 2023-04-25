@@ -1,0 +1,77 @@
+{
+glyphname = enclosingupwardpointingtrianglecomb;
+layers = (
+{
+layerId = "24810176-774E-47FD-8B80-D284CD1191FD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(963,-193,l),
+(0,1471,l),
+(-963,-193,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,1420,l),
+(916,-167,l),
+(-916,-167,l)
+);
+}
+);
+vertWidth = 0;
+width = 0;
+},
+{
+layerId = "F394B0DB-5C84-43F6-ACB2-AE9DD557A8AE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(963,-193,l),
+(0,1471,l),
+(-963,-193,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,1349,l),
+(855,-131,l),
+(-855,-131,l)
+);
+}
+);
+vertWidth = 0;
+width = 0;
+},
+{
+layerId = "6E6EE38D-3D27-4929-8DEE-9F0163F8D5EF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(963,-193,l),
+(0,1471,l),
+(-963,-193,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,1182,l),
+(710,-47,l),
+(-710,-47,l)
+);
+}
+);
+vertWidth = 0;
+width = 0;
+}
+);
+note = uni20E4;
+production = uni20E4;
+unicode = 8420;
+}

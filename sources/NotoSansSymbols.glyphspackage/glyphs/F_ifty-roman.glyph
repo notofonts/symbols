@@ -1,0 +1,61 @@
+{
+glyphname = "Fifty-roman";
+layers = (
+{
+layerId = "24810176-774E-47FD-8B80-D284CD1191FD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(463,0,l),
+(463,25,l),
+(104,25,l),
+(104,719,l),
+(77,719,l),
+(77,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 468;
+},
+{
+layerId = "F394B0DB-5C84-43F6-ACB2-AE9DD557A8AE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(499,0,l),
+(499,80,l),
+(187,80,l),
+(187,714,l),
+(97,714,l),
+(97,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 524;
+},
+{
+layerId = "6E6EE38D-3D27-4929-8DEE-9F0163F8D5EF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(545,0,l),
+(545,156,l),
+(270,156,l),
+(270,714,l),
+(77,714,l),
+(77,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 582;
+}
+);
+production = uni216C;
+unicode = 8556;
+}

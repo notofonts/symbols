@@ -1,0 +1,62 @@
+{
+glyphname = leftCeiling;
+layers = (
+{
+layerId = "24810176-774E-47FD-8B80-D284CD1191FD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(91,-70,l),
+(91,748,l),
+(339,748,l),
+(339,774,l),
+(65,774,l),
+(65,-70,l)
+);
+}
+);
+vertWidth = 0;
+width = 404;
+},
+{
+layerId = "F394B0DB-5C84-43F6-ACB2-AE9DD557A8AE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(122,-80,l),
+(122,730,l),
+(353,730,l),
+(353,794,l),
+(51,794,l),
+(51,-80,l)
+);
+}
+);
+vertWidth = 0;
+width = 404;
+},
+{
+layerId = "6E6EE38D-3D27-4929-8DEE-9F0163F8D5EF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(165,-110,l),
+(165,696,l),
+(373,696,l),
+(373,824,l),
+(30,824,l),
+(30,-110,l)
+);
+}
+);
+vertWidth = 0;
+width = 404;
+}
+);
+note = uni2308;
+production = uni2308;
+unicode = 8968;
+}

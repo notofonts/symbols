@@ -1,0 +1,67 @@
+{
+glyphname = "downandhorizontal-dentistry";
+layers = (
+{
+layerId = "24810176-774E-47FD-8B80-D284CD1191FD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(363,0,l),
+(363,688,l),
+(709,688,l),
+(709,714,l),
+(-10,714,l),
+(-10,688,l),
+(336,688,l),
+(336,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 699;
+},
+{
+layerId = "F394B0DB-5C84-43F6-ACB2-AE9DD557A8AE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(385,0,l),
+(385,643,l),
+(709,643,l),
+(709,714,l),
+(-10,714,l),
+(-10,643,l),
+(314,643,l),
+(314,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 699;
+},
+{
+layerId = "6E6EE38D-3D27-4929-8DEE-9F0163F8D5EF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(417,0,l),
+(417,580,l),
+(709,580,l),
+(709,714,l),
+(-10,714,l),
+(-10,580,l),
+(282,580,l),
+(282,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 699;
+}
+);
+production = uni23C9;
+unicode = 9161;
+}

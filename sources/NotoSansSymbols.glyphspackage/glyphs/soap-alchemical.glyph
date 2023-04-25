@@ -1,0 +1,83 @@
+{
+glyphname = "soap-alchemical";
+layers = (
+{
+layerId = "24810176-774E-47FD-8B80-D284CD1191FD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(630,299,l),
+(340,608,l),
+(50,299,l),
+(340,-10,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(87,299,l),
+(340,570,l),
+(593,299,l),
+(340,27,l)
+);
+}
+);
+vertWidth = 0;
+width = 681;
+},
+{
+layerId = "F394B0DB-5C84-43F6-ACB2-AE9DD557A8AE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(631,299,l),
+(340,608,l),
+(50,299,l),
+(340,-10,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(144,299,l),
+(340,509,l),
+(537,299,l),
+(340,89,l)
+);
+}
+);
+vertWidth = 0;
+width = 681;
+},
+{
+layerId = "6E6EE38D-3D27-4929-8DEE-9F0163F8D5EF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(651,305,l),
+(340,635,l),
+(30,305,l),
+(340,-25,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(212,305,l),
+(340,442,l),
+(470,305,l),
+(340,167,l)
+);
+}
+);
+vertWidth = 0;
+width = 681;
+}
+);
+note = uni1F754;
+production = u1F754;
+unicode = 128852;
+}

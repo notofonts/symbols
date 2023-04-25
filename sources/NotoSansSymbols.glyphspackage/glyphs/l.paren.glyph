@@ -1,0 +1,66 @@
+{
+glyphname = l.paren;
+layers = (
+{
+layerId = "24810176-774E-47FD-8B80-D284CD1191FD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(514,195,l),
+(514,650,l),
+(486,650,l),
+(486,195,l)
+);
+},
+{
+ref = _parenComp;
+}
+);
+vertWidth = 0;
+width = 1000;
+},
+{
+layerId = "F394B0DB-5C84-43F6-ACB2-AE9DD557A8AE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(533,195,l),
+(533,650,l),
+(467,650,l),
+(467,195,l)
+);
+},
+{
+ref = _parenComp;
+}
+);
+vertWidth = 0;
+width = 1000;
+},
+{
+layerId = "6E6EE38D-3D27-4929-8DEE-9F0163F8D5EF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(560,201,l),
+(560,676,l),
+(440,676,l),
+(440,201,l)
+);
+},
+{
+alignment = -1;
+ref = _parenComp;
+}
+);
+vertWidth = 0;
+width = 1000;
+}
+);
+note = uni24A7;
+production = uni24A7;
+unicode = 9383;
+}

@@ -1,0 +1,83 @@
+{
+glyphname = whitetrapezium;
+layers = (
+{
+layerId = "24810176-774E-47FD-8B80-D284CD1191FD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(965,0,l),
+(684,619,l),
+(51,619,l),
+(51,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(77,594,l),
+(671,594,l),
+(920,25,l),
+(77,25,l)
+);
+}
+);
+vertWidth = 0;
+width = 1016;
+},
+{
+layerId = "F394B0DB-5C84-43F6-ACB2-AE9DD557A8AE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(965,0,l),
+(684,619,l),
+(51,619,l),
+(51,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(122,548,l),
+(638,548,l),
+(855,71,l),
+(122,71,l)
+);
+}
+);
+vertWidth = 0;
+width = 1016;
+},
+{
+layerId = "6E6EE38D-3D27-4929-8DEE-9F0163F8D5EF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(965,0,l),
+(680,628,l),
+(51,628,l),
+(51,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(186,494,l),
+(593,494,l),
+(756,134,l),
+(186,134,l)
+);
+}
+);
+vertWidth = 0;
+width = 1016;
+}
+);
+note = uni23E2;
+production = uni23E2;
+unicode = 9186;
+}
