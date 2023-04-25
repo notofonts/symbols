@@ -27,7 +27,7 @@ Fontbakery version: 0.8.11
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: i⃢̀ i⃢́ i⃢̂ i⃢̃ i⃢̄ i⃢̆ i⃢̇ i⃢̈ i⃢̊ i⃢̋ i⃢̌ i⃢̒ i⃣̀ i⃣́ i⃣̂ i⃣̃ i⃣̄ i⃣̆ i⃣̇ i⃣̈ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ i⃢̀ i⃢́ i⃢̂ i⃢̃ i⃢̄ i⃢̆ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -41,7 +41,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 	* G.001_enccirclebackslashcomb
 	* H.001_enccirclebackslashcomb
 	* I.001_enccirclebackslashcomb
-	* J.001_enccirclebackslashcomb and 80 more.
+	* J.001_enccirclebackslashcomb and 91 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -145,6 +145,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	* uni218B (U+218B): L<<557.0,706.0>--<556.0,547.0>>
 
+	* uni24EC (U+24EC): L<<737.0,262.0>--<604.0,263.0>>
+
+	* uni24F4 (U+24F4): L<<509.0,262.0>--<376.0,263.0>>
+
 	* uni2673 (U+2673): L<<666.0,418.0>--<540.0,419.0>>
 
 	* uni2674 (U+2674): L<<666.0,418.0>--<540.0,419.0>>
@@ -153,13 +157,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	* uni2677 (U+2677): L<<666.0,418.0>--<540.0,419.0>>
 
-	* uni2678 (U+2678): L<<666.0,418.0>--<540.0,419.0>>
+	* uni2678 (U+2678): L<<666.0,418.0>--<540.0,419.0>> 
 
-	* uni2679 (U+2679): L<<666.0,418.0>--<540.0,419.0>>
-
-	* uni267A (U+267A): L<<666.0,418.0>--<540.0,419.0>> 
-
-	* 10 more.
+	* 12 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[10] NotoSansSymbols-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
@@ -171,7 +171,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: i⃢̀ i⃢́ i⃢̂ i⃢̃ i⃢̄ i⃢̆ i⃢̇ i⃢̈ i⃢̊ i⃢̋ i⃢̌ i⃢̒ i⃣̀ i⃣́ i⃣̂ i⃣̃ i⃣̄ i⃣̆ i⃣̇ i⃣̈ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ i⃢̀ i⃢́ i⃢̂ i⃢̃ i⃢̄ i⃢̆ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -185,7 +185,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 	* G.001_enccirclebackslashcomb
 	* H.001_enccirclebackslashcomb
 	* I.001_enccirclebackslashcomb
-	* J.001_enccirclebackslashcomb and 78 more.
+	* J.001_enccirclebackslashcomb and 80 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -228,8 +228,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* u1F17C (U+1F17C): L<<640.0,475.0>--<640.0,476.0>> -> L<<640.0,476.0>--<640.0,477.0>>
-
 	* u1F764 (U+1F764): L<<403.0,0.0>--<406.0,171.0>> -> L<<406.0,171.0>--<411.0,282.0>>
 
 	* u1F764 (U+1F764): L<<517.0,283.0>--<524.0,171.0>> -> L<<524.0,171.0>--<527.0,0.0>>
@@ -268,7 +266,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* Wdieresis (U+1E84): B<<280.5,202.0>-<287.0,168.0>-<290.0,144.0>>/B<<290.0,144.0>-<294.0,179.0>-<302.5,223.0>> = 13.644818100558723 
 
-	* 58 more.
+	* 57 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -308,7 +306,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: i⃢̀ i⃢́ i⃢̂ i⃢̃ i⃢̄ i⃢̆ i⃢̇ i⃢̈ i⃢̊ i⃢̋ i⃢̌ i⃢̒ i⃣̀ i⃣́ i⃣̂ i⃣̃ i⃣̄ i⃣̆ i⃣̇ i⃣̈ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ i⃢̀ i⃢́ i⃢̂ i⃢̃ i⃢̄ i⃢̆ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -322,7 +320,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 	* G.001_enccirclebackslashcomb
 	* H.001_enccirclebackslashcomb
 	* I.001_enccirclebackslashcomb
-	* J.001_enccirclebackslashcomb and 78 more.
+	* J.001_enccirclebackslashcomb and 83 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -371,8 +369,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* u1F18E (U+1F18E): L<<751.0,368.0>--<751.0,368.0>> -> L<<751.0,368.0>--<751.0,368.0>>
 
 	* u1F19C (U+1F19C): L<<679.0,530.0>--<678.0,543.0>> -> L<<678.0,543.0>--<678.0,610.0>>
 
@@ -428,6 +424,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	* uni218B (U+218B): L<<558.0,706.0>--<557.0,562.0>>
 
+	* uni24EC (U+24EC): L<<735.0,250.0>--<592.0,251.0>>
+
+	* uni24F4 (U+24F4): L<<505.0,250.0>--<362.0,251.0>>
+
 	* uni2676 (U+2676): L<<665.0,423.0>--<543.0,424.0>>
 
 	* uni2696 (U+2696): L<<196.0,138.0>--<194.0,393.0>>
@@ -436,15 +436,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	* uni2696 (U+2696): L<<649.0,138.0>--<648.0,393.0>>
 
-	* uni2696 (U+2696): L<<706.0,393.0>--<704.0,138.0>>
+	* uni2696 (U+2696): L<<706.0,393.0>--<704.0,138.0>> 
 
-	* uni26A3 (U+26A3): L<<758.0,551.0>--<759.0,272.0>>
+	* 4 more.
 
-	* uni26A4 (U+26A4): L<<672.0,774.0>--<673.0,492.0>>
-
-	* uni26A5 (U+26A5): L<<573.0,774.0>--<574.0,492.0>> 
-
-	* uni26FD (U+26FD): L<<804.0,444.0>--<805.0,234.0>> [code: found-semi-vertical]
+Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[11] NotoSansSymbols-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
@@ -454,17 +450,23 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: i⃢̀ i⃢́ i⃢̂ i⃢̃ i⃢̄ i⃢̆ i⃢̇ i⃢̈ i⃢̊ i⃢̋ i⃢̌ i⃢̒ i⃣̀ i⃣́ i⃣̂ i⃣̃ i⃣̄ i⃣̆ i⃣̇ i⃣̈ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ i⃢̀ i⃢́ i⃢̂ i⃢̃ i⃢̄ i⃢̆ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* K.001_enccirclebackslashcomb
+	* M.001_enccirclebackslashcomb
+	* N.001_enccirclebackslashcomb
+	* R.001_enccirclebackslashcomb
+	* eight.001_enccircbackslashcomb
 	* u1F548
 	* u1F54F
 	* uni2388
 	* uni2638
-	* uni267B
-	* uni2696 and uni26F7
+	* uni267B and 3 more.
+
+Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -578,21 +580,23 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: i⃢̀ i⃢́ i⃢̂ i⃢̃ i⃢̄ i⃢̆ i⃢̇ i⃢̈ i⃢̊ i⃢̋ i⃢̌ i⃢̒ i⃣̀ i⃣́ i⃣̂ i⃣̃ i⃣̄ i⃣̆ i⃣̇ i⃣̈ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ i⃢̀ i⃢́ i⃢̂ i⃢̃ i⃢̄ i⃢̆ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* u1F548
-	* u1F54F
-	* uni2317
-	* uni2388
-	* uni2626
-	* uni2638
-	* uni267B
-	* uni2695
-	* uni2696
-	* uni26F7 and uni2721
+	* A.001_enccirclebackslashcomb
+	* B.001_enccirclebackslashcomb
+	* D.001_enccirclebackslashcomb
+	* E.001_enccirclebackslashcomb
+	* F.001_enccirclebackslashcomb
+	* G.001_enccirclebackslashcomb
+	* H.001_enccirclebackslashcomb
+	* K.001_enccirclebackslashcomb
+	* M.001_enccirclebackslashcomb
+	* N.001_enccirclebackslashcomb and 40 more.
+
+Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -686,10 +690,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* u1F15C (U+1F15C): L<<337.0,146.0>--<336.0,429.0>>
-
-	* u1F17C (U+1F17C): L<<337.0,146.0>--<336.0,429.0>>
-
 	* uni26A3 (U+26A3): L<<752.0,527.0>--<751.0,375.0>>
 
 	* uni26A4 (U+26A4): L<<663.0,769.0>--<662.0,617.0>>
@@ -706,21 +706,21 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: i⃢̀ i⃢́ i⃢̂ i⃢̃ i⃢̄ i⃢̆ i⃢̇ i⃢̈ i⃢̊ i⃢̋ i⃢̌ i⃢̒ i⃣̀ i⃣́ i⃣̂ i⃣̃ i⃣̄ i⃣̆ i⃣̇ i⃣̈ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ i⃢̀ i⃢́ i⃢̂ i⃢̃ i⃢̄ i⃢̆ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* W.001_encupwardpointingtricomb
-	* u1F548
-	* u1F54F
-	* uni2317
-	* uni2331
-	* uni2388
-	* uni2626
-	* uni2638
-	* uni267B
-	* uni2693 and 10 more.
+	* A.001_enccirclebackslashcomb
+	* B.001_enccirclebackslashcomb
+	* C.001_enccirclebackslashcomb
+	* D.001_enccirclebackslashcomb
+	* E.001_enccirclebackslashcomb
+	* F.001_enccirclebackslashcomb
+	* G.001_enccirclebackslashcomb
+	* H.001_enccirclebackslashcomb
+	* I.001_enccirclebackslashcomb
+	* J.001_enccirclebackslashcomb and 72 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -808,7 +808,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* u1F126 (U+1F126): B<<376.0,288.5>-<380.0,266.0>-<383.0,238.0>>/B<<383.0,238.0>-<384.0,248.0>-<386.5,261.5>> = 11.826096703785012 
 
-	* 41 more.
+	* 42 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -846,21 +846,21 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: i⃢̀ i⃢́ i⃢̂ i⃢̃ i⃢̄ i⃢̆ i⃢̇ i⃢̈ i⃢̊ i⃢̋ i⃢̌ i⃢̒ i⃣̀ i⃣́ i⃣̂ i⃣̃ i⃣̄ i⃣̆ i⃣̇ i⃣̈ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ i⃢̀ i⃢́ i⃢̂ i⃢̃ i⃢̄ i⃢̆ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* u1F548
-	* u1F54F
-	* uni2317
-	* uni2331
-	* uni2388
-	* uni2626
-	* uni2638
-	* uni267B
-	* uni2693
-	* uni2695 and 9 more.
+	* A.001_enccirclebackslashcomb
+	* B.001_enccirclebackslashcomb
+	* C.001_enccirclebackslashcomb
+	* D.001_enccirclebackslashcomb
+	* E.001_enccirclebackslashcomb
+	* F.001_enccirclebackslashcomb
+	* G.001_enccirclebackslashcomb
+	* H.001_enccirclebackslashcomb
+	* I.001_enccirclebackslashcomb
+	* J.001_enccirclebackslashcomb and 71 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -941,7 +941,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* u1F14B (U+1F14B): B<<688.0,244.0>-<689.0,232.0>-<690.0,220.0>>/B<<690.0,220.0>-<692.0,248.0>-<695.5,272.0>> = 8.849258470700986 
 
-	* 27 more.
+	* 28 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -981,7 +981,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: i⃢̀ i⃢́ i⃢̂ i⃢̃ i⃢̄ i⃢̆ i⃢̇ i⃢̈ i⃢̊ i⃢̋ i⃢̌ i⃢̒ i⃣̀ i⃣́ i⃣̂ i⃣̃ i⃣̄ i⃣̆ i⃣̇ i⃣̈ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ i⃢̀ i⃢́ i⃢̂ i⃢̃ i⃢̄ i⃢̆ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -1083,7 +1083,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* u1F126 (U+1F126): B<<507.0,425.0>-<502.0,449.0>-<500.0,472.0>>/B<<500.0,472.0>-<499.0,459.0>-<494.0,432.0>> = 9.368446083105818 
 
-	* 47 more.
+	* 48 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -1123,7 +1123,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: i⃢̀ i⃢́ i⃢̂ i⃢̃ i⃢̄ i⃢̆ i⃢̇ i⃢̈ i⃢̊ i⃢̋ i⃢̌ i⃢̒ i⃣̀ i⃣́ i⃣̂ i⃣̃ i⃣̄ i⃣̆ i⃣̇ i⃣̈ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ i⃢̀ i⃢́ i⃢̂ i⃢̃ i⃢̄ i⃢̆ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -1266,32 +1266,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: i⃢̀ i⃢́ i⃢̂ i⃢̃ i⃢̄ i⃢̆ i⃢̇ i⃢̈ i⃢̊ i⃢̋ i⃢̌ i⃢̒ i⃣̀ i⃣́ i⃣̂ i⃣̃ i⃣̄ i⃣̆ i⃣̇ i⃣̈ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ i⃢̀ i⃢́ i⃢̂ i⃢̃ i⃢̄ i⃢̆ [code: soft-dotted]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni24EA
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- _blackCircledComp
-
-	- _boxComp
-
-	- _circledComp
-
-	- _doubleCircled
-
-	- _parenComp 
-
-	- _roundBlackBoxComp
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 3 start point differs in glyph 'uni26A2' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6c0194d410> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f6c0056aed0> [code: interpolation-issues]
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 3 start point differs in glyph 'uni26A2' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f3f3acab790> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f3f39718c90> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
