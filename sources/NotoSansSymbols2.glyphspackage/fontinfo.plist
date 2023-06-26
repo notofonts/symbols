@@ -2218,6 +2218,7 @@ u1F7D5,
 u1F7D6,
 u1F7D7,
 u1F7D8,
+u1F7D9,
 u1F7E0,
 u1F7E1,
 u1F7E2,
@@ -4726,6 +4727,7 @@ com.schriftgestaltung.layerOrderInGlyph.u1F7D5 = 0;
 com.schriftgestaltung.layerOrderInGlyph.u1F7D6 = 0;
 com.schriftgestaltung.layerOrderInGlyph.u1F7D7 = 0;
 com.schriftgestaltung.layerOrderInGlyph.u1F7D8 = 0;
+com.schriftgestaltung.layerOrderInGlyph.u1F7D9 = 0;
 com.schriftgestaltung.layerOrderInGlyph.u1F7E0 = 0;
 com.schriftgestaltung.layerOrderInGlyph.u1F7E1 = 0;
 com.schriftgestaltung.layerOrderInGlyph.u1F7E2 = 0;
@@ -6635,6 +6637,7 @@ newlineRight = uni2B93;
 "nineOfBamboos-mahjong" = u1F018;
 "nineOfCharacters-mahjong" = u1F00F;
 "nineOfCircles-mahjong" = u1F021;
+ninePointedWhiteStar = u1F7D9;
 noEntry = uni26D4;
 noPiracy = u1F572;
 noSmokingSymbol = u1F6AD;
