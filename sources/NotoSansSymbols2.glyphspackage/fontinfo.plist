@@ -5540,7 +5540,7 @@ value = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/s
 },
 {
 key = versionString;
-value = "Version 2.006";
+value = "Version 2.007";
 },
 {
 key = vendorID;
@@ -7331,5 +7331,5 @@ width = 70;
 UFOFormat = 3;
 };
 versionMajor = 2;
-versionMinor = 6;
+versionMinor = 7;
 }
