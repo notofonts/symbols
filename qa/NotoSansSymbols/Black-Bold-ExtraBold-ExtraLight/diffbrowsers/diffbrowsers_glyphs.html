@@ -1,0 +1,7082 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Glyphs</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style type="text/css">
+    
+
+        html{
+	  font-family: sans-serif;
+	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
+	.box-title{
+	  width: 100%;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attrib-old{
+                color: red;
+                cursor: text;
+            }
+            .attrib-new{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+	    @font-face{
+    src: url(old-NotoSansSymbols[wght].ttf);
+    font-family: "old Noto Sans Symbols";
+    font-weight: 100 900;
+    
+    font-style: normal;
+}
+	  
+
+	  
+	    @font-face{
+    src: url(new-NotoSansSymbols[wght].ttf);
+    font-family: "new Noto Sans Symbols";
+    font-weight: 100 900;
+    
+    font-style: normal;
+}
+	  
+
+	  
+
+	  
+	    .old-Black{
+    font-family: "old Noto Sans Symbols", "Adobe NotDef";
+    font-weight: 900.0;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 900.0;
+}
+	  
+	    .old-Bold{
+    font-family: "old Noto Sans Symbols", "Adobe NotDef";
+    font-weight: 700.0;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 700.0;
+}
+	  
+	    .old-ExtraBold{
+    font-family: "old Noto Sans Symbols", "Adobe NotDef";
+    font-weight: 800.0;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 800.0;
+}
+	  
+	    .old-ExtraLight{
+    font-family: "old Noto Sans Symbols", "Adobe NotDef";
+    font-weight: 200.0;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 200.0;
+}
+	  
+
+	  
+	    .new-Black{
+    font-family: "new Noto Sans Symbols", "Adobe NotDef";
+    font-weight: 900.0;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 900.0;
+}
+	  
+	    .new-Bold{
+    font-family: "new Noto Sans Symbols", "Adobe NotDef";
+    font-weight: 700.0;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 700.0;
+}
+	  
+	    .new-ExtraBold{
+    font-family: "new Noto Sans Symbols", "Adobe NotDef";
+    font-weight: 800.0;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 800.0;
+}
+	  
+	    .new-ExtraLight{
+    font-family: "new Noto Sans Symbols", "Adobe NotDef";
+    font-weight: 200.0;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 200.0;
+}
+	  
+
+	  
+	
+.cell{
+  position: relative;
+  z-index: -1;
+  float: left;
+  background-color: #fcfcfc;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  width: 30.0px;
+  line-height: 30.0px;
+}
+
+    </style>
+</head>
+<body>
+    <div id="nav">
+		
+			<div class="nav-item" id="font-toggle">old</div>
+		
+		
+	</div>
+    <div id="content">
+	<h2>
+<b>Text</b>
+</h2>
+	
+  
+      <div class="box">
+	<div class="box-title">old-Black 20pt</div>
+	  <span class="old-Black" style="font-size: 20pt">
+	    
+	      <div class="cell">🝪</div>
+	    
+	      <div class="cell">⓲</div>
+	    
+	      <div class="cell">ⓦ</div>
+	    
+	      <div class="cell">⒀</div>
+	    
+	      <div class="cell">⚢</div>
+	    
+	      <div class="cell">🜨</div>
+	    
+	      <div class="cell">🝯</div>
+	    
+	      <div class="cell">⑯</div>
+	    
+	      <div class="cell">🕆</div>
+	    
+	      <div class="cell">🝗</div>
+	    
+	      <div class="cell">🝔</div>
+	    
+	      <div class="cell">⃤</div>
+	    
+	      <div class="cell">⒮</div>
+	    
+	      <div class="cell">⌓</div>
+	    
+	      <div class="cell">🜼</div>
+	    
+	      <div class="cell">⚹</div>
+	    
+	      <div class="cell">⒠</div>
+	    
+	      <div class="cell">⒛</div>
+	    
+	      <div class="cell">Ⓐ</div>
+	    
+	      <div class="cell">🆢</div>
+	    
+	      <div class="cell">♩</div>
+	    
+	      <div class="cell">⛱</div>
+	    
+	      <div class="cell">n</div>
+	    
+	      <div class="cell">⒐</div>
+	    
+	      <div class="cell">⎔</div>
+	    
+	      <div class="cell">⌴</div>
+	    
+	      <div class="cell">⏦</div>
+	    
+	      <div class="cell">⌳</div>
+	    
+	      <div class="cell">F</div>
+	    
+	      <div class="cell">🅱</div>
+	    
+	      <div class="cell">🜿</div>
+	    
+	      <div class="cell">🜖</div>
+	    
+	      <div class="cell">⒝</div>
+	    
+	      <div class="cell">ⅶ</div>
+	    
+	      <div class="cell">⒟</div>
+	    
+	      <div class="cell">❼</div>
+	    
+	      <div class="cell">🅽</div>
+	    
+	      <div class="cell">➂</div>
+	    
+	      <div class="cell">⚒</div>
+	    
+	      <div class="cell">S</div>
+	    
+	      <div class="cell">⛹</div>
+	    
+	      <div class="cell">Ⅳ</div>
+	    
+	      <div class="cell">v</div>
+	    
+	      <div class="cell">⒧</div>
+	    
+	      <div class="cell">🝊</div>
+	    
+	      <div class="cell">⚩</div>
+	    
+	      <div class="cell">♭</div>
+	    
+	      <div class="cell">🄸</div>
+	    
+	      <div class="cell">🝂</div>
+	    
+	      <div class="cell">ⓣ</div>
+	    
+	      <div class="cell">🜱</div>
+	    
+	      <div class="cell">⚔</div>
+	    
+	      <div class="cell">⚕</div>
+	    
+	      <div class="cell">⚵</div>
+	    
+	      <div class="cell">🄛</div>
+	    
+	      <div class="cell">ⓚ</div>
+	    
+	      <div class="cell">ⓔ</div>
+	    
+	      <div class="cell">☹</div>
+	    
+	      <div class="cell">⏧</div>
+	    
+	      <div class="cell">ⓞ</div>
+	    
+	      <div class="cell">🅊</div>
+	    
+	      <div class="cell">⌈</div>
+	    
+	      <div class="cell">🄘</div>
+	    
+	      <div class="cell">⏢</div>
+	    
+	      <div class="cell">⛶</div>
+	    
+	      <div class="cell">ⓢ</div>
+	    
+	      <div class="cell">↓</div>
+	    
+	      <div class="cell">🄅</div>
+	    
+	      <div class="cell">🝥</div>
+	    
+	      <div class="cell">🄪</div>
+	    
+	      <div class="cell">🝤</div>
+	    
+	      <div class="cell">🜧</div>
+	    
+	      <div class="cell">🜜</div>
+	    
+	      <div class="cell">🄭</div>
+	    
+	      <div class="cell">➍</div>
+	    
+	      <div class="cell">➋</div>
+	    
+	      <div class="cell">⏁</div>
+	    
+	      <div class="cell">🄤</div>
+	    
+	      <div class="cell">🅝</div>
+	    
+	      <div class="cell">⒪</div>
+	    
+	      <div class="cell">r</div>
+	    
+	      <div class="cell">⌑</div>
+	    
+	      <div class="cell">♀</div>
+	    
+	      <div class="cell">🄽</div>
+	    
+	      <div class="cell">Ⓔ</div>
+	    
+	      <div class="cell">♐</div>
+	    
+	      <div class="cell">🝏</div>
+	    
+	      <div class="cell">🝱</div>
+	    
+	      <div class="cell">☓</div>
+	    
+	      <div class="cell">⒤</div>
+	    
+	      <div class="cell">⓬</div>
+	    
+	      <div class="cell">⎯</div>
+	    
+	      <div class="cell">Ⓘ</div>
+	    
+	      <div class="cell">⚨</div>
+	    
+	      <div class="cell">y</div>
+	    
+	      <div class="cell">🜫</div>
+	    
+	      <div class="cell">R</div>
+	    
+	      <div class="cell">Ⅶ</div>
+	    
+	      <div class="cell">🄴</div>
+	    
+	      <div class="cell">🅐</div>
+	    
+	      <div class="cell">♼</div>
+	    
+	      <div class="cell">➅</div>
+	    
+	      <div class="cell">⑼</div>
+	    
+	      <div class="cell">🅄</div>
+	    
+	      <div class="cell">🝉</div>
+	    
+	      <div class="cell">⛪</div>
+	    
+	      <div class="cell">Ⓝ</div>
+	    
+	      <div class="cell">Q</div>
+	    
+	      <div class="cell">➐</div>
+	    
+	      <div class="cell">⌁</div>
+	    
+	      <div class="cell">🝖</div>
+	    
+	      <div class="cell">Ⓣ</div>
+	    
+	      <div class="cell"> </div>
+	    
+	      <div class="cell">🜻</div>
+	    
+	      <div class="cell">🄺</div>
+	    
+	      <div class="cell">⓻</div>
+	    
+	      <div class="cell">⚣</div>
+	    
+	      <div class="cell">🄜</div>
+	    
+	      <div class="cell">🆨</div>
+	    
+	      <div class="cell">🝑</div>
+	    
+	      <div class="cell">🄂</div>
+	    
+	      <div class="cell">Ⓑ</div>
+	    
+	      <div class="cell">🜰</div>
+	    
+	      <div class="cell">🜺</div>
+	    
+	      <div class="cell">❹</div>
+	    
+	      <div class="cell">🜶</div>
+	    
+	      <div class="cell">⌢</div>
+	    
+	      <div class="cell">🄣</div>
+	    
+	      <div class="cell">⓽</div>
+	    
+	      <div class="cell">🆃</div>
+	    
+	      <div class="cell">🜩</div>
+	    
+	      <div class="cell">⌀</div>
+	    
+	      <div class="cell">⏌</div>
+	    
+	      <div class="cell">⒩</div>
+	    
+	      <div class="cell">♓</div>
+	    
+	      <div class="cell">⑸</div>
+	    
+	      <div class="cell">🜗</div>
+	    
+	      <div class="cell">🝀</div>
+	    
+	      <div class="cell">⌄</div>
+	    
+	      <div class="cell">⑵</div>
+	    
+	      <div class="cell">🆬</div>
+	    
+	      <div class="cell">⌜</div>
+	    
+	      <div class="cell">⑤</div>
+	    
+	      <div class="cell">Ⓒ</div>
+	    
+	      <div class="cell">⛺</div>
+	    
+	      <div class="cell">ⓡ</div>
+	    
+	      <div class="cell">✠</div>
+	    
+	      <div class="cell">🄟</div>
+	    
+	      <div class="cell">⒜</div>
+	    
+	      <div class="cell">⌒</div>
+	    
+	      <div class="cell">⚯</div>
+	    
+	      <div class="cell">♽</div>
+	    
+	      <div class="cell">🝝</div>
+	    
+	      <div class="cell">🆞</div>
+	    
+	      <div class="cell">Ⅷ</div>
+	    
+	      <div class="cell">⎒</div>
+	    
+	      <div class="cell">🆂</div>
+	    
+	      <div class="cell">ⓨ</div>
+	    
+	      <div class="cell">🄾</div>
+	    
+	      <div class="cell">ⓙ</div>
+	    
+	      <div class="cell">D</div>
+	    
+	      <div class="cell">⚧</div>
+	    
+	      <div class="cell">🄿</div>
+	    
+	      <div class="cell">⓫</div>
+	    
+	      <div class="cell">X</div>
+	    
+	      <div class="cell">🆋</div>
+	    
+	      <div class="cell">A</div>
+	    
+	      <div class="cell">➉</div>
+	    
+	      <div class="cell">⚜</div>
+	    
+	      <div class="cell">🕉</div>
+	    
+	      <div class="cell">🝨</div>
+	    
+	      <div class="cell">🜵</div>
+	    
+	      <div class="cell">♑</div>
+	    
+	      <div class="cell">ⓘ</div>
+	    
+	      <div class="cell">⎄</div>
+	    
+	      <div class="cell">ⓖ</div>
+	    
+	      <div class="cell">☋</div>
+	    
+	      <div class="cell">🜪</div>
+	    
+	      <div class="cell">L</div>
+	    
+	      <div class="cell">↖</div>
+	    
+	      <div class="cell">🄹</div>
+	    
+	      <div class="cell">ⓥ</div>
+	    
+	      <div class="cell">↑</div>
+	    
+	      <div class="cell">⒅</div>
+	    
+	      <div class="cell">◌</div>
+	    
+	      <div class="cell">➃</div>
+	    
+	      <div class="cell">🜚</div>
+	    
+	      <div class="cell">🜋</div>
+	    
+	      <div class="cell">↊</div>
+	    
+	      <div class="cell">♂</div>
+	    
+	      <div class="cell">🆡</div>
+	    
+	      <div class="cell">♴</div>
+	    
+	      <div class="cell">♺</div>
+	    
+	      <div class="cell">⒣</div>
+	    
+	      <div class="cell">☺</div>
+	    
+	      <div class="cell">2</div>
+	    
+	      <div class="cell">⏃</div>
+	    
+	      <div class="cell">🜁</div>
+	    
+	      <div class="cell">🄞</div>
+	    
+	      <div class="cell">⛳</div>
+	    
+	      <div class="cell">⒇</div>
+	    
+	      <div class="cell">⒬</div>
+	    
+	      <div class="cell">♉</div>
+	    
+	      <div class="cell">⑰</div>
+	    
+	      <div class="cell">🜮</div>
+	    
+	      <div class="cell">⌌</div>
+	    
+	      <div class="cell">♃</div>
+	    
+	      <div class="cell">🅑</div>
+	    
+	      <div class="cell">⎎</div>
+	    
+	      <div class="cell">🅰</div>
+	    
+	      <div class="cell">⚗</div>
+	    
+	      <div class="cell">⚱</div>
+	    
+	      <div class="cell">⑷</div>
+	    
+	      <div class="cell">⒄</div>
+	    
+	      <div class="cell">❾</div>
+	    
+	      <div class="cell">❺</div>
+	    
+	      <div class="cell">♊</div>
+	    
+	      <div class="cell">☯</div>
+	    
+	      <div class="cell">🜦</div>
+	    
+	      <div class="cell">Ⓛ</div>
+	    
+	      <div class="cell">H</div>
+	    
+	      <div class="cell">E</div>
+	    
+	      <div class="cell">⒴</div>
+	    
+	      <div class="cell">🝁</div>
+	    
+	      <div class="cell">⓹</div>
+	    
+	      <div class="cell">↕</div>
+	    
+	      <div class="cell">⑱</div>
+	    
+	      <div class="cell">⒏</div>
+	    
+	      <div class="cell">🅼</div>
+	    
+	      <div class="cell">🄑</div>
+	    
+	      <div class="cell">🜤</div>
+	    
+	      <div class="cell">ⅿ</div>
+	    
+	      <div class="cell">⚑</div>
+	    
+	      <div class="cell">⏕</div>
+	    
+	      <div class="cell">⛫</div>
+	    
+	      <div class="cell">🝋</div>
+	    
+	      <div class="cell">🄃</div>
+	    
+	      <div class="cell">⏊</div>
+	    
+	      <div class="cell">⒨</div>
+	    
+	      <div class="cell">🜸</div>
+	    
+	      <div class="cell">🕈</div>
+	    
+	      <div class="cell">🝟</div>
+	    
+	      <div class="cell">⒓</div>
+	    
+	      <div class="cell">☧</div>
+	    
+	      <div class="cell">🅾</div>
+	    
+	      <div class="cell">🜔</div>
+	    
+	      <div class="cell">🄳</div>
+	    
+	      <div class="cell">🜝</div>
+	    
+	      <div class="cell">⏖</div>
+	    
+	      <div class="cell">⚮</div>
+	    
+	      <div class="cell">⑿</div>
+	    
+	      <div class="cell">➇</div>
+	    
+	      <div class="cell">⑽</div>
+	    
+	      <div class="cell">⏄</div>
+	    
+	      <div class="cell">⏗</div>
+	    
+	      <div class="cell">⑨</div>
+	    
+	      <div class="cell">Ⅾ</div>
+	    
+	      <div class="cell">🄱</div>
+	    
+	      <div class="cell">❷</div>
+	    
+	      <div class="cell">☭</div>
+	    
+	      <div class="cell">🅈</div>
+	    
+	      <div class="cell">⚸</div>
+	    
+	      <div class="cell">⎇</div>
+	    
+	      <div class="cell">🆎</div>
+	    
+	      <div class="cell">⚴</div>
+	    
+	      <div class="cell">T</div>
+	    
+	      <div class="cell">❶</div>
+	    
+	      <div class="cell">⌏</div>
+	    
+	      <div class="cell">🜅</div>
+	    
+	      <div class="cell">🜒</div>
+	    
+	      <div class="cell">🆩</div>
+	    
+	      <div class="cell">⒘</div>
+	    
+	      <div class="cell">🄵</div>
+	    
+	      <div class="cell">🄧</div>
+	    
+	      <div class="cell">🆆</div>
+	    
+	      <div class="cell">⓸</div>
+	    
+	      <div class="cell">🝰</div>
+	    
+	      <div class="cell">⒊</div>
+	    
+	      <div class="cell">9</div>
+	    
+	      <div class="cell">⒍</div>
+	    
+	      <div class="cell">Ⓓ</div>
+	    
+	      <div class="cell">⛼</div>
+	    
+	      <div class="cell">🄉</div>
+	    
+	      <div class="cell">🅘</div>
+	    
+	      <div class="cell">🆣</div>
+	    
+	      <div class="cell">f</div>
+	    
+	      <div class="cell">⎐</div>
+	    
+	      <div class="cell">ↀ</div>
+	    
+	      <div class="cell">⎑</div>
+	    
+	      <div class="cell">🅒</div>
+	    
+	      <div class="cell">⒢</div>
+	    
+	      <div class="cell">🝬</div>
+	    
+	      <div class="cell">☩</div>
+	    
+	      <div class="cell">🝒</div>
+	    
+	      <div class="cell">🜽</div>
+	    
+	      <div class="cell">Ⓖ</div>
+	    
+	      <div class="cell">V</div>
+	    
+	      <div class="cell">B</div>
+	    
+	      <div class="cell">⛣</div>
+	    
+	      <div class="cell">⎓</div>
+	    
+	      <div class="cell">🅢</div>
+	    
+	      <div class="cell">8</div>
+	    
+	      <div class="cell">☥</div>
+	    
+	      <div class="cell">ⅼ</div>
+	    
+	      <div class="cell">🜎</div>
+	    
+	      <div class="cell">➀</div>
+	    
+	      <div class="cell">ⅹ</div>
+	    
+	      <div class="cell">🆇</div>
+	    
+	      <div class="cell">🅦</div>
+	    
+	      <div class="cell">⒡</div>
+	    
+	      <div class="cell">ⓟ</div>
+	    
+	      <div class="cell">s</div>
+	    
+	      <div class="cell">🅶</div>
+	    
+	      <div class="cell">⏤</div>
+	    
+	      <div class="cell">⛴</div>
+	    
+	      <div class="cell">⎙</div>
+	    
+	      <div class="cell">⏨</div>
+	    
+	      <div class="cell">⑶</div>
+	    
+	      <div class="cell">🅎</div>
+	    
+	      <div class="cell">🆜</div>
+	    
+	      <div class="cell">❸</div>
+	    
+	      <div class="cell">🅆</div>
+	    
+	      <div class="cell">♲</div>
+	    
+	      <div class="cell">♷</div>
+	    
+	      <div class="cell">⒙</div>
+	    
+	      <div class="cell">⎖</div>
+	    
+	      <div class="cell">⎘</div>
+	    
+	      <div class="cell">ⓛ</div>
+	    
+	      <div class="cell">⚥</div>
+	    
+	      <div class="cell">🆠</div>
+	    
+	      <div class="cell">🝎</div>
+	    
+	      <div class="cell">♱</div>
+	    
+	      <div class="cell">⃢</div>
+	    
+	      <div class="cell">🄯</div>
+	    
+	      <div class="cell">⒭</div>
+	    
+	      <div class="cell">🆌</div>
+	    
+	      <div class="cell">⏘</div>
+	    
+	      <div class="cell">⛦</div>
+	    
+	      <div class="cell">🅵</div>
+	    
+	      <div class="cell">ⓜ</div>
+	    
+	      <div class="cell">🆝</div>
+	    
+	      <div class="cell">⏉</div>
+	    
+	      <div class="cell">⚷</div>
+	    
+	      <div class="cell">🄫</div>
+	    
+	      <div class="cell">↋</div>
+	    
+	      <div class="cell">✞</div>
+	    
+	      <div class="cell">🜍</div>
+	    
+	      <div class="cell">⌊</div>
+	    
+	      <div class="cell">Ⓚ</div>
+	    
+	      <div class="cell">b</div>
+	    
+	      <div class="cell">⌰</div>
+	    
+	      <div class="cell">⏔</div>
+	    
+	      <div class="cell">G</div>
+	    
+	      <div class="cell">⓳</div>
+	    
+	      <div class="cell">〉</div>
+	    
+	      <div class="cell">⎀</div>
+	    
+	      <div class="cell">🄙</div>
+	    
+	      <div class="cell">⒲</div>
+	    
+	      <div class="cell">⎉</div>
+	    
+	      <div class="cell">⒳</div>
+	    
+	      <div class="cell">🜭</div>
+	    
+	      <div class="cell">x</div>
+	    
+	      <div class="cell">g</div>
+	    
+	      <div class="cell">⏙</div>
+	    
+	      <div class="cell">⑩</div>
+	    
+	      <div class="cell">W</div>
+	    
+	      <div class="cell">ↂ</div>
+	    
+	      <div class="cell">⒫</div>
+	    
+	      <div class="cell">p</div>
+	    
+	      <div class="cell">⛵</div>
+	    
+	      <div class="cell">⑫</div>
+	    
+	      <div class="cell">🝜</div>
+	    
+	      <div class="cell">⛰</div>
+	    
+	      <div class="cell">❽</div>
+	    
+	      <div class="cell">⌆</div>
+	    
+	      <div class="cell">🆐</div>
+	    
+	      <div class="cell">🝫</div>
+	    
+	      <div class="cell">🝲</div>
+	    
+	      <div class="cell">Ⓢ</div>
+	    
+	      <div class="cell">🝄</div>
+	    
+	      <div class="cell">Ⅰ</div>
+	    
+	      <div class="cell">↙</div>
+	    
+	      <div class="cell">☿</div>
+	    
+	      <div class="cell">⛢</div>
+	    
+	      <div class="cell">⓷</div>
+	    
+	      <div class="cell">⛬</div>
+	    
+	      <div class="cell">⛯</div>
+	    
+	      <div class="cell">➌</div>
+	    
+	      <div class="cell">🄖</div>
+	    
+	      <div class="cell">J</div>
+	    
+	      <div class="cell">ↁ</div>
+	    
+	      <div class="cell">🆥</div>
+	    
+	      <div class="cell">🆈</div>
+	    
+	      <div class="cell">ⅴ</div>
+	    
+	      <div class="cell">ↈ</div>
+	    
+	      <div class="cell">♸</div>
+	    
+	      <div class="cell">⏑</div>
+	    
+	      <div class="cell">⒰</div>
+	    
+	      <div class="cell">I</div>
+	    
+	      <div class="cell">⛷</div>
+	    
+	      <div class="cell">⚝</div>
+	    
+	      <div class="cell">🄰</div>
+	    
+	      <div class="cell">a</div>
+	    
+	      <div class="cell">⑴</div>
+	    
+	      <div class="cell">t</div>
+	    
+	      <div class="cell">🅤</div>
+	    
+	      <div class="cell">⒯</div>
+	    
+	      <div class="cell">ⅷ</div>
+	    
+	      <div class="cell">➑</div>
+	    
+	      <div class="cell">🅔</div>
+	    
+	      <div class="cell">⎆</div>
+	    
+	      <div class="cell">🄕</div>
+	    
+	      <div class="cell">🅖</div>
+	    
+	      <div class="cell">🄨</div>
+	    
+	      <div class="cell">🕏</div>
+	    
+	      <div class="cell">🜳</div>
+	    
+	      <div class="cell">m</div>
+	    
+	      <div class="cell">⑭</div>
+	    
+	      <div class="cell">⌬</div>
+	    
+	      <div class="cell">⚚</div>
+	    
+	      <div class="cell">🆅</div>
+	    
+	      <div class="cell">Ⅴ</div>
+	    
+	      <div class="cell">🆍</div>
+	    
+	      <div class="cell">🅜</div>
+	    
+	      <div class="cell">🅞</div>
+	    
+	      <div class="cell">🜲</div>
+	    
+	      <div class="cell">🆉</div>
+	    
+	      <div class="cell">🜃</div>
+	    
+	      <div class="cell">ⅳ</div>
+	    
+	      <div class="cell">🄦</div>
+	    
+	      <div class="cell">⛤</div>
+	    
+	      <div class="cell">⛽</div>
+	    
+	      <div class="cell">⒖</div>
+	    
+	      <div class="cell">ⅻ</div>
+	    
+	      <div class="cell">⒥</div>
+	    
+	      <div class="cell">⓪</div>
+	    
+	      <div class="cell">➄</div>
+	    
+	      <div class="cell">🆊</div>
+	    
+	      <div class="cell">ⅾ</div>
+	    
+	      <div class="cell">⃝</div>
+	    
+	      <div class="cell">🜛</div>
+	    
+	      <div class="cell">ⅸ</div>
+	    
+	      <div class="cell">Ⅺ</div>
+	    
+	      <div class="cell">l</div>
+	    
+	      <div class="cell">Ⓩ</div>
+	    
+	      <div class="cell">⎊</div>
+	    
+	      <div class="cell">♌</div>
+	    
+	      <div class="cell">⚦</div>
+	    
+	      <div class="cell">⚲</div>
+	    
+	      <div class="cell">🝈</div>
+	    
+	      <div class="cell">⑺</div>
+	    
+	      <div class="cell">🝐</div>
+	    
+	      <div class="cell">ⓑ</div>
+	    
+	      <div class="cell">⚓</div>
+	    
+	      <div class="cell">z</div>
+	    
+	      <div class="cell">ⅰ</div>
+	    
+	      <div class="cell">ⅵ</div>
+	    
+	      <div class="cell">🅹</div>
+	    
+	      <div class="cell">⒕</div>
+	    
+	      <div class="cell">🝢</div>
+	    
+	      <div class="cell">☪</div>
+	    
+	      <div class="cell">⎅</div>
+	    
+	      <div class="cell">⑻</div>
+	    
+	      <div class="cell">🄋</div>
+	    
+	      <div class="cell">ⓓ</div>
+	    
+	      <div class="cell">➈</div>
+	    
+	      <div class="cell">🆛</div>
+	    
+	      <div class="cell">⎋</div>
+	    
+	      <div class="cell">⛩</div>
+	    
+	      <div class="cell">⏓</div>
+	    
+	      <div class="cell">ⓕ</div>
+	    
+	      <div class="cell">☽</div>
+	    
+	      <div class="cell">⒦</div>
+	    
+	      <div class="cell">⓿</div>
+	    
+	      <div class="cell">⛭</div>
+	    
+	      <div class="cell">⏚</div>
+	    
+	      <div class="cell">🅨</div>
+	    
+	      <div class="cell">🝚</div>
+	    
+	      <div class="cell">🆫</div>
+	    
+	      <div class="cell">ⓩ</div>
+	    
+	      <div class="cell">🅪</div>
+	    
+	      <div class="cell">🄐</div>
+	    
+	      <div class="cell">☨</div>
+	    
+	      <div class="cell">🄡</div>
+	    
+	      <div class="cell">⒔</div>
+	    
+	      <div class="cell">⒱</div>
+	    
+	      <div class="cell">🆦</div>
+	    
+	      <div class="cell">⎏</div>
+	    
+	      <div class="cell">🝣</div>
+	    
+	      <div class="cell">⒎</div>
+	    
+	      <div class="cell">⒋</div>
+	    
+	      <div class="cell">⒃</div>
+	    
+	      <div class="cell">⒆</div>
+	    
+	      <div class="cell">⚭</div>
+	    
+	      <div class="cell">🝕</div>
+	    
+	      <div class="cell">🄔</div>
+	    
+	      <div class="cell">⏍</div>
+	    
+	      <div class="cell">♆</div>
+	    
+	      <div class="cell">⓭</div>
+	    
+	      <div class="cell">4</div>
+	    
+	      <div class="cell">⎂</div>
+	    
+	      <div class="cell">🝡</div>
+	    
+	      <div class="cell"> </div>
+	    
+	      <div class="cell">⌯</div>
+	    
+	      <div class="cell">🜘</div>
+	    
+	      <div class="cell">🜥</div>
+	    
+	      <div class="cell">②</div>
+	    
+	      <div class="cell">🅅</div>
+	    
+	      <div class="cell">⌟</div>
+	    
+	      <div class="cell">🆏</div>
+	    
+	      <div class="cell">☮</div>
+	    
+	      <div class="cell">🕇</div>
+	    
+	      <div class="cell">↘</div>
+	    
+	      <div class="cell">⌮</div>
+	    
+	      <div class="cell">⎈</div>
+	    
+	      <div class="cell">⎚</div>
+	    
+	      <div class="cell">♵</div>
+	    
+	      <div class="cell">w</div>
+	    
+	      <div class="cell">🜂</div>
+	    
+	      <div class="cell">⚺</div>
+	    
+	      <div class="cell">Ⅽ</div>
+	    
+	      <div class="cell">⏆</div>
+	    
+	      <div class="cell">➆</div>
+	    
+	      <div class="cell">⌣</div>
+	    
+	      <div class="cell">5</div>
+	    
+	      <div class="cell">🅓</div>
+	    
+	      <div class="cell">🜓</div>
+	    
+	      <div class="cell">🝩</div>
+	    
+	      <div class="cell">😐</div>
+	    
+	      <div class="cell">3</div>
+	    
+	      <div class="cell">Ⅿ</div>
+	    
+	      <div class="cell">⚖</div>
+	    
+	      <div class="cell">🅸</div>
+	    
+	      <div class="cell">⏥</div>
+	    
+	      <div class="cell">⑬</div>
+	    
+	      <div class="cell">ⅲ</div>
+	    
+	      <div class="cell">⌅</div>
+	    
+	      <div class="cell">⌃</div>
+	    
+	      <div class="cell">♾</div>
+	    
+	      <div class="cell">↔</div>
+	    
+	      <div class="cell">♄</div>
+	    
+	      <div class="cell">♶</div>
+	    
+	      <div class="cell">🆪</div>
+	    
+	      <div class="cell">☌</div>
+	    
+	      <div class="cell">🜠</div>
+	    
+	      <div class="cell">⎍</div>
+	    
+	      <div class="cell">⑳</div>
+	    
+	      <div class="cell">Ⅲ</div>
+	    
+	      <div class="cell">✟</div>
+	    
+	      <div class="cell">🄆</div>
+	    
+	      <div class="cell">ⅱ</div>
+	    
+	      <div class="cell">🆤</div>
+	    
+	      <div class="cell">i</div>
+	    
+	      <div class="cell">o</div>
+	    
+	      <div class="cell">⓼</div>
+	    
+	      <div class="cell">⏈</div>
+	    
+	      <div class="cell">🝮</div>
+	    
+	      <div class="cell">O</div>
+	    
+	      <div class="cell">🜾</div>
+	    
+	      <div class="cell">⚙</div>
+	    
+	      <div class="cell">🅫</div>
+	    
+	      <div class="cell">🄒</div>
+	    
+	      <div class="cell">⓴</div>
+	    
+	      <div class="cell">🜏</div>
+	    
+	      <div class="cell">🅳</div>
+	    
+	      <div class="cell">♳</div>
+	    
+	      <div class="cell">♯</div>
+	    
+	      <div class="cell">⏐</div>
+	    
+	      <div class="cell">🜈</div>
+	    
+	      <div class="cell">☸</div>
+	    
+	      <div class="cell">⌱</div>
+	    
+	      <div class="cell">♇</div>
+	    
+	      <div class="cell">🆟</div>
+	    
+	      <div class="cell">⛨</div>
+	    
+	      <div class="cell">⒌</div>
+	    
+	      <div class="cell">⑪</div>
+	    
+	      <div class="cell">⒒</div>
+	    
+	      <div class="cell">♒</div>
+	    
+	      <div class="cell">⑾</div>
+	    
+	      <div class="cell">⓵</div>
+	    
+	      <div class="cell">➏</div>
+	    
+	      <div class="cell">⒗</div>
+	    
+	      <div class="cell">🜢</div>
+	    
+	      <div class="cell">⓶</div>
+	    
+	      <div class="cell">k</div>
+	    
+	      <div class="cell">🄊</div>
+	    
+	      <div class="cell">🄇</div>
+	    
+	      <div class="cell">🅗</div>
+	    
+	      <div class="cell">⌗</div>
+	    
+	      <div class="cell">🅟</div>
+	    
+	      <div class="cell">⎃</div>
+	    
+	      <div class="cell">1</div>
+	    
+	      <div class="cell">🄻</div>
+	    
+	      <div class="cell">⏛</div>
+	    
+	      <div class="cell">Ⓞ</div>
+	    
+	      <div class="cell">🝘</div>
+	    
+	      <div class="cell">⛮</div>
+	    
+	      <div class="cell">Ⓡ</div>
+	    
+	      <div class="cell">⌎</div>
+	    
+	      <div class="cell">⚘</div>
+	    
+	      <div class="cell">⒂</div>
+	    
+	      <div class="cell">❻</div>
+	    
+	      <div class="cell">🅁</div>
+	    
+	      <div class="cell">⃟</div>
+	    
+	      <div class="cell">⏀</div>
+	    
+	      <div class="cell">⛥</div>
+	    
+	      <div class="cell">ↇ</div>
+	    
+	      <div class="cell">h</div>
+	    
+	      <div class="cell">➒</div>
+	    
+	      <div class="cell">⛎</div>
+	    
+	      <div class="cell">🝛</div>
+	    
+	      <div class="cell">🄲</div>
+	    
+	      <div class="cell">Ⅻ</div>
+	    
+	      <div class="cell">⚼</div>
+	    
+	      <div class="cell">⏣</div>
+	    
+	      <div class="cell">🅕</div>
+	    
+	      <div class="cell">⒉</div>
+	    
+	      <div class="cell">⎁</div>
+	    
+	      <div class="cell">Ⓦ</div>
+	    
+	      <div class="cell">☊</div>
+	    
+	      <div class="cell">⓰</div>
+	    
+	      <div class="cell">Ⓥ</div>
+	    
+	      <div class="cell">🄠</div>
+	    
+	      <div class="cell">ↅ</div>
+	    
+	      <div class="cell">🜟</div>
+	    
+	      <div class="cell">🄷</div>
+	    
+	      <div class="cell">Ⓤ</div>
+	    
+	      <div class="cell">⌵</div>
+	    
+	      <div class="cell">🅬</div>
+	    
+	      <div class="cell">🅍</div>
+	    
+	      <div class="cell">⌭</div>
+	    
+	      <div class="cell">M</div>
+	    
+	      <div class="cell">〈</div>
+	    
+	      <div class="cell">⎿</div>
+	    
+	      <div class="cell">④</div>
+	    
+	      <div class="cell">Y</div>
+	    
+	      <div class="cell">⓯</div>
+	    
+	      <div class="cell">☾</div>
+	    
+	      <div class="cell">⏋</div>
+	    
+	      <div class="cell">Ⓙ</div>
+	    
+	      <div class="cell">➎</div>
+	    
+	      <div class="cell">🄶</div>
+	    
+	      <div class="cell">♅</div>
+	    
+	      <div class="cell">↗</div>
+	    
+	      <div class="cell">⒑</div>
+	    
+	      <div class="cell">🄝</div>
+	    
+	      <div class="cell">7</div>
+	    
+	      <div class="cell">🆧</div>
+	    
+	      <div class="cell">⑧</div>
+	    
+	      <div class="cell">Ⅵ</div>
+	    
+	      <div class="cell">Ⅸ</div>
+	    
+	      <div class="cell">⛾</div>
+	    
+	      <div class="cell">🅚</div>
+	    
+	      <div class="cell">⒞</div>
+	    
+	      <div class="cell">⍼</div>
+	    
+	      <div class="cell">♫</div>
+	    
+	      <div class="cell">🅉</div>
+	    
+	      <div class="cell">⌇</div>
+	    
+	      <div class="cell">🜞</div>
+	    
+	      <div class="cell">⓱</div>
+	    
+	      <div class="cell">🜡</div>
+	    
+	      <div class="cell">🜷</div>
+	    
+	      <div class="cell">🜀</div>
+	    
+	      <div class="cell">🝭</div>
+	    
+	      <div class="cell">Ⅱ</div>
+	    
+	      <div class="cell">🅺</div>
+	    
+	      <div class="cell">🜊</div>
+	    
+	      <div class="cell">Z</div>
+	    
+	      <div class="cell">⚛</div>
+	    
+	      <div class="cell">⚰</div>
+	    
+	      <div class="cell">♈</div>
+	    
+	      <div class="cell">⒁</div>
+	    
+	      <div class="cell">♎</div>
+	    
+	      <div class="cell">☫</div>
+	    
+	      <div class="cell">♋</div>
+	    
+	      <div class="cell">⚐</div>
+	    
+	      <div class="cell">☤</div>
+	    
+	      <div class="cell">🝅</div>
+	    
+	      <div class="cell">Ⓠ</div>
+	    
+	      <div class="cell">Ⓟ</div>
+	    
+	      <div class="cell">⛧</div>
+	    
+	      <div class="cell">🄁</div>
+	    
+	      <div class="cell">🄚</div>
+	    
+	      <div class="cell">⌔</div>
+	    
+	      <div class="cell">→</div>
+	    
+	      <div class="cell">⏒</div>
+	    
+	      <div class="cell">🅣</div>
+	    
+	      <div class="cell">🜌</div>
+	    
+	      <div class="cell">🅻</div>
+	    
+	      <div class="cell">🆄</div>
+	    
+	      <div class="cell">P</div>
+	    
+	      <div class="cell">⃞</div>
+	    
+	      <div class="cell">⒵</div>
+	    
+	      <div class="cell">🝆</div>
+	    
+	      <div class="cell">⑦</div>
+	    
+	      <div class="cell">d</div>
+	    
+	      <div class="cell">Ⓧ</div>
+	    
+	      <div class="cell">🅇</div>
+	    
+	      <div class="cell">🝦</div>
+	    
+	      <div class="cell">⌲</div>
+	    
+	      <div class="cell"></div>
+	    
+	      <div class="cell">K</div>
+	    
+	      <div class="cell">⃠</div>
+	    
+	      <div class="cell">🜄</div>
+	    
+	      <div class="cell">🜕</div>
+	    
+	      <div class="cell">🅴</div>
+	    
+	      <div class="cell">🄼</div>
+	    
+	      <div class="cell">🅿</div>
+	    
+	      <div class="cell">🝃</div>
+	    
+	      <div class="cell">⛿</div>
+	    
+	      <div class="cell">➊</div>
+	    
+	      <div class="cell">ⓝ</div>
+	    
+	      <div class="cell">c</div>
+	    
+	      <div class="cell">q</div>
+	    
+	      <div class="cell">⑮</div>
+	    
+	      <div class="cell">u</div>
+	    
+	      <div class="cell">ⓠ</div>
+	    
+	      <div class="cell">🆁</div>
+	    
+	      <div class="cell"> </div>
+	    
+	      <div class="cell">⛸</div>
+	    
+	      <div class="cell">🅃</div>
+	    
+	      <div class="cell">🅧</div>
+	    
+	      <div class="cell">🅲</div>
+	    
+	      <div class="cell">🅌</div>
+	    
+	      <div class="cell">⚶</div>
+	    
+	      <div class="cell">🄄</div>
+	    
+	      <div class="cell">⌂</div>
+	    
+	      <div class="cell">🄬</div>
+	    
+	      <div class="cell">♮</div>
+	    
+	      <div class="cell">⌞</div>
+	    
+	      <div class="cell">🅙</div>
+	    
+	      <div class="cell">♏</div>
+	    
+	      <div class="cell">⛲</div>
+	    
+	      <div class="cell">🜴</div>
+	    
+	      <div class="cell">🅩</div>
+	    
+	      <div class="cell">⤡</div>
+	    
+	      <div class="cell">⎌</div>
+	    
+	      <div class="cell">🝞</div>
+	    
+	      <div class="cell">e</div>
+	    
+	      <div class="cell">⏂</div>
+	    
+	      <div class="cell">⏇</div>
+	    
+	      <div class="cell">ⓤ</div>
+	    
+	      <div class="cell">♻</div>
+	    
+	      <div class="cell">🜐</div>
+	    
+	      <div class="cell">⏅</div>
+	    
+	      <div class="cell">ↆ</div>
+	    
+	      <div class="cell">⤢</div>
+	    
+	      <div class="cell">ⓐ</div>
+	    
+	      <div class="cell">🝍</div>
+	    
+	      <div class="cell">⌉</div>
+	    
+	      <div class="cell">⛻</div>
+	    
+	      <div class="cell">✝</div>
+	    
+	      <div class="cell">🝳</div>
+	    
+	      <div class="cell">⎾</div>
+	    
+	      <div class="cell">⓮</div>
+	    
+	      <div class="cell">C</div>
+	    
+	      <div class="cell">ⅽ</div>
+	    
+	      <div class="cell">☦</div>
+	    
+	      <div class="cell">🄌</div>
+	    
+	      <div class="cell">Ⓜ</div>
+	    
+	      <div class="cell">🄥</div>
+	    
+	      <div class="cell">ⓧ</div>
+	    
+	      <div class="cell">🜇</div>
+	    
+	      <div class="cell">🝇</div>
+	    
+	      <div class="cell">⃣</div>
+	    
+	      <div class="cell">☍</div>
+	    
+	      <div class="cell">🆀</div>
+	    
+	      <div class="cell">🜯</div>
+	    
+	      <div class="cell">j</div>
+	    
+	      <div class="cell">N</div>
+	    
+	      <div class="cell">⌋</div>
+	    
+	      <div class="cell">ⓒ</div>
+	    
+	      <div class="cell">0</div>
+	    
+	      <div class="cell">🝧</div>
+	    
+	      <div class="cell">🜆</div>
+	    
+	      <div class="cell">ⅺ</div>
+	    
+	      <div class="cell">Ⓕ</div>
+	    
+	      <div class="cell">Ⅹ</div>
+	    
+	      <div class="cell">♬</div>
+	    
+	      <div class="cell">🜑</div>
+	    
+	      <div class="cell">⚳</div>
+	    
+	      <div class="cell">🄢</div>
+	    
+	      <div class="cell">♍</div>
+	    
+	      <div class="cell">♹</div>
+	    
+	      <div class="cell">🄀</div>
+	    
+	      <div class="cell">⓾</div>
+	    
+	      <div class="cell">Ⅼ</div>
+	    
+	      <div class="cell">❿</div>
+	    
+	      <div class="cell">🅏</div>
+	    
+	      <div class="cell">🄓</div>
+	    
+	      <div class="cell">⒈</div>
+	    
+	      <div class="cell">6</div>
+	    
+	      <div class="cell">Ⓗ</div>
+	    
+	      <div class="cell">✡</div>
+	    
+	      <div class="cell">🝙</div>
+	    
+	      <div class="cell">🝌</div>
+	    
+	      <div class="cell">Ⓨ</div>
+	    
+	      <div class="cell">U</div>
+	    
+	      <div class="cell">⚻</div>
+	    
+	      <div class="cell">🜬</div>
+	    
+	      <div class="cell">⎗</div>
+	    
+	      <div class="cell">🄗</div>
+	    
+	      <div class="cell">🅛</div>
+	    
+	      <div class="cell">🅠</div>
+	    
+	      <div class="cell">🄈</div>
+	    
+	      <div class="cell">☬</div>
+	    
+	      <div class="cell">⌝</div>
+	    
+	      <div class="cell">⚤</div>
+	    
+	      <div class="cell">🅂</div>
+	    
+	      <div class="cell">🜉</div>
+	    
+	      <div class="cell">🜣</div>
+	    
+	      <div class="cell">⒚</div>
+	    
+	      <div class="cell">♰</div>
+	    
+	      <div class="cell">⑲</div>
+	    
+	      <div class="cell">➓</div>
+	    
+	      <div class="cell">←</div>
+	    
+	      <div class="cell">🅋</div>
+	    
+	      <div class="cell">⌍</div>
+	    
+	      <div class="cell">⌕</div>
+	    
+	      <div class="cell">♪</div>
+	    
+	      <div class="cell">➁</div>
+	    
+	      <div class="cell">⑥</div>
+	    
+	      <div class="cell">🄮</div>
+	    
+	      <div class="cell">③</div>
+	    
+	      <div class="cell">🝓</div>
+	    
+	      <div class="cell">🅷</div>
+	    
+	      <div class="cell">🄩</div>
+	    
+	      <div class="cell">♁</div>
+	    
+	      <div class="cell">①</div>
+	    
+	      <div class="cell">🅡</div>
+	    
+	      <div class="cell">Ↄ</div>
+	    
+	      <div class="cell">☻</div>
+	    
+	      <div class="cell">🜙</div>
+	    
+	      <div class="cell">⑹</div>
+	    
+	      <div class="cell">🜹</div>
+	    
+	      <div class="cell">🅀</div>
+	    
+	      <div class="cell">⓺</div>
+	    
+	      <div class="cell">🅥</div>
+	    
+	      <div class="cell">🝠</div>
+	    
+	      <div class="cell">ⓗ</div>
+	    
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">old-Bold 20pt</div>
+	  <span class="old-Bold" style="font-size: 20pt">
+	    
+	      <div class="cell">🝪</div>
+	    
+	      <div class="cell">⓲</div>
+	    
+	      <div class="cell">ⓦ</div>
+	    
+	      <div class="cell">⒀</div>
+	    
+	      <div class="cell">⚢</div>
+	    
+	      <div class="cell">🜨</div>
+	    
+	      <div class="cell">🝯</div>
+	    
+	      <div class="cell">⑯</div>
+	    
+	      <div class="cell">🕆</div>
+	    
+	      <div class="cell">🝗</div>
+	    
+	      <div class="cell">🝔</div>
+	    
+	      <div class="cell">⃤</div>
+	    
+	      <div class="cell">⒮</div>
+	    
+	      <div class="cell">⌓</div>
+	    
+	      <div class="cell">🜼</div>
+	    
+	      <div class="cell">⚹</div>
+	    
+	      <div class="cell">⒠</div>
+	    
+	      <div class="cell">⒛</div>
+	    
+	      <div class="cell">Ⓐ</div>
+	    
+	      <div class="cell">🆢</div>
+	    
+	      <div class="cell">♩</div>
+	    
+	      <div class="cell">⛱</div>
+	    
+	      <div class="cell">n</div>
+	    
+	      <div class="cell">⒐</div>
+	    
+	      <div class="cell">⎔</div>
+	    
+	      <div class="cell">⌴</div>
+	    
+	      <div class="cell">⏦</div>
+	    
+	      <div class="cell">⌳</div>
+	    
+	      <div class="cell">F</div>
+	    
+	      <div class="cell">🅱</div>
+	    
+	      <div class="cell">🜿</div>
+	    
+	      <div class="cell">🜖</div>
+	    
+	      <div class="cell">⒝</div>
+	    
+	      <div class="cell">ⅶ</div>
+	    
+	      <div class="cell">⒟</div>
+	    
+	      <div class="cell">❼</div>
+	    
+	      <div class="cell">🅽</div>
+	    
+	      <div class="cell">➂</div>
+	    
+	      <div class="cell">⚒</div>
+	    
+	      <div class="cell">S</div>
+	    
+	      <div class="cell">⛹</div>
+	    
+	      <div class="cell">Ⅳ</div>
+	    
+	      <div class="cell">v</div>
+	    
+	      <div class="cell">⒧</div>
+	    
+	      <div class="cell">🝊</div>
+	    
+	      <div class="cell">⚩</div>
+	    
+	      <div class="cell">♭</div>
+	    
+	      <div class="cell">🄸</div>
+	    
+	      <div class="cell">🝂</div>
+	    
+	      <div class="cell">ⓣ</div>
+	    
+	      <div class="cell">🜱</div>
+	    
+	      <div class="cell">⚔</div>
+	    
+	      <div class="cell">⚕</div>
+	    
+	      <div class="cell">⚵</div>
+	    
+	      <div class="cell">🄛</div>
+	    
+	      <div class="cell">ⓚ</div>
+	    
+	      <div class="cell">ⓔ</div>
+	    
+	      <div class="cell">☹</div>
+	    
+	      <div class="cell">⏧</div>
+	    
+	      <div class="cell">ⓞ</div>
+	    
+	      <div class="cell">🅊</div>
+	    
+	      <div class="cell">⌈</div>
+	    
+	      <div class="cell">🄘</div>
+	    
+	      <div class="cell">⏢</div>
+	    
+	      <div class="cell">⛶</div>
+	    
+	      <div class="cell">ⓢ</div>
+	    
+	      <div class="cell">↓</div>
+	    
+	      <div class="cell">🄅</div>
+	    
+	      <div class="cell">🝥</div>
+	    
+	      <div class="cell">🄪</div>
+	    
+	      <div class="cell">🝤</div>
+	    
+	      <div class="cell">🜧</div>
+	    
+	      <div class="cell">🜜</div>
+	    
+	      <div class="cell">🄭</div>
+	    
+	      <div class="cell">➍</div>
+	    
+	      <div class="cell">➋</div>
+	    
+	      <div class="cell">⏁</div>
+	    
+	      <div class="cell">🄤</div>
+	    
+	      <div class="cell">🅝</div>
+	    
+	      <div class="cell">⒪</div>
+	    
+	      <div class="cell">r</div>
+	    
+	      <div class="cell">⌑</div>
+	    
+	      <div class="cell">♀</div>
+	    
+	      <div class="cell">🄽</div>
+	    
+	      <div class="cell">Ⓔ</div>
+	    
+	      <div class="cell">♐</div>
+	    
+	      <div class="cell">🝏</div>
+	    
+	      <div class="cell">🝱</div>
+	    
+	      <div class="cell">☓</div>
+	    
+	      <div class="cell">⒤</div>
+	    
+	      <div class="cell">⓬</div>
+	    
+	      <div class="cell">⎯</div>
+	    
+	      <div class="cell">Ⓘ</div>
+	    
+	      <div class="cell">⚨</div>
+	    
+	      <div class="cell">y</div>
+	    
+	      <div class="cell">🜫</div>
+	    
+	      <div class="cell">R</div>
+	    
+	      <div class="cell">Ⅶ</div>
+	    
+	      <div class="cell">🄴</div>
+	    
+	      <div class="cell">🅐</div>
+	    
+	      <div class="cell">♼</div>
+	    
+	      <div class="cell">➅</div>
+	    
+	      <div class="cell">⑼</div>
+	    
+	      <div class="cell">🅄</div>
+	    
+	      <div class="cell">🝉</div>
+	    
+	      <div class="cell">⛪</div>
+	    
+	      <div class="cell">Ⓝ</div>
+	    
+	      <div class="cell">Q</div>
+	    
+	      <div class="cell">➐</div>
+	    
+	      <div class="cell">⌁</div>
+	    
+	      <div class="cell">🝖</div>
+	    
+	      <div class="cell">Ⓣ</div>
+	    
+	      <div class="cell"> </div>
+	    
+	      <div class="cell">🜻</div>
+	    
+	      <div class="cell">🄺</div>
+	    
+	      <div class="cell">⓻</div>
+	    
+	      <div class="cell">⚣</div>
+	    
+	      <div class="cell">🄜</div>
+	    
+	      <div class="cell">🆨</div>
+	    
+	      <div class="cell">🝑</div>
+	    
+	      <div class="cell">🄂</div>
+	    
+	      <div class="cell">Ⓑ</div>
+	    
+	      <div class="cell">🜰</div>
+	    
+	      <div class="cell">🜺</div>
+	    
+	      <div class="cell">❹</div>
+	    
+	      <div class="cell">🜶</div>
+	    
+	      <div class="cell">⌢</div>
+	    
+	      <div class="cell">🄣</div>
+	    
+	      <div class="cell">⓽</div>
+	    
+	      <div class="cell">🆃</div>
+	    
+	      <div class="cell">🜩</div>
+	    
+	      <div class="cell">⌀</div>
+	    
+	      <div class="cell">⏌</div>
+	    
+	      <div class="cell">⒩</div>
+	    
+	      <div class="cell">♓</div>
+	    
+	      <div class="cell">⑸</div>
+	    
+	      <div class="cell">🜗</div>
+	    
+	      <div class="cell">🝀</div>
+	    
+	      <div class="cell">⌄</div>
+	    
+	      <div class="cell">⑵</div>
+	    
+	      <div class="cell">🆬</div>
+	    
+	      <div class="cell">⌜</div>
+	    
+	      <div class="cell">⑤</div>
+	    
+	      <div class="cell">Ⓒ</div>
+	    
+	      <div class="cell">⛺</div>
+	    
+	      <div class="cell">ⓡ</div>
+	    
+	      <div class="cell">✠</div>
+	    
+	      <div class="cell">🄟</div>
+	    
+	      <div class="cell">⒜</div>
+	    
+	      <div class="cell">⌒</div>
+	    
+	      <div class="cell">⚯</div>
+	    
+	      <div class="cell">♽</div>
+	    
+	      <div class="cell">🝝</div>
+	    
+	      <div class="cell">🆞</div>
+	    
+	      <div class="cell">Ⅷ</div>
+	    
+	      <div class="cell">⎒</div>
+	    
+	      <div class="cell">🆂</div>
+	    
+	      <div class="cell">ⓨ</div>
+	    
+	      <div class="cell">🄾</div>
+	    
+	      <div class="cell">ⓙ</div>
+	    
+	      <div class="cell">D</div>
+	    
+	      <div class="cell">⚧</div>
+	    
+	      <div class="cell">🄿</div>
+	    
+	      <div class="cell">⓫</div>
+	    
+	      <div class="cell">X</div>
+	    
+	      <div class="cell">🆋</div>
+	    
+	      <div class="cell">A</div>
+	    
+	      <div class="cell">➉</div>
+	    
+	      <div class="cell">⚜</div>
+	    
+	      <div class="cell">🕉</div>
+	    
+	      <div class="cell">🝨</div>
+	    
+	      <div class="cell">🜵</div>
+	    
+	      <div class="cell">♑</div>
+	    
+	      <div class="cell">ⓘ</div>
+	    
+	      <div class="cell">⎄</div>
+	    
+	      <div class="cell">ⓖ</div>
+	    
+	      <div class="cell">☋</div>
+	    
+	      <div class="cell">🜪</div>
+	    
+	      <div class="cell">L</div>
+	    
+	      <div class="cell">↖</div>
+	    
+	      <div class="cell">🄹</div>
+	    
+	      <div class="cell">ⓥ</div>
+	    
+	      <div class="cell">↑</div>
+	    
+	      <div class="cell">⒅</div>
+	    
+	      <div class="cell">◌</div>
+	    
+	      <div class="cell">➃</div>
+	    
+	      <div class="cell">🜚</div>
+	    
+	      <div class="cell">🜋</div>
+	    
+	      <div class="cell">↊</div>
+	    
+	      <div class="cell">♂</div>
+	    
+	      <div class="cell">🆡</div>
+	    
+	      <div class="cell">♴</div>
+	    
+	      <div class="cell">♺</div>
+	    
+	      <div class="cell">⒣</div>
+	    
+	      <div class="cell">☺</div>
+	    
+	      <div class="cell">2</div>
+	    
+	      <div class="cell">⏃</div>
+	    
+	      <div class="cell">🜁</div>
+	    
+	      <div class="cell">🄞</div>
+	    
+	      <div class="cell">⛳</div>
+	    
+	      <div class="cell">⒇</div>
+	    
+	      <div class="cell">⒬</div>
+	    
+	      <div class="cell">♉</div>
+	    
+	      <div class="cell">⑰</div>
+	    
+	      <div class="cell">🜮</div>
+	    
+	      <div class="cell">⌌</div>
+	    
+	      <div class="cell">♃</div>
+	    
+	      <div class="cell">🅑</div>
+	    
+	      <div class="cell">⎎</div>
+	    
+	      <div class="cell">🅰</div>
+	    
+	      <div class="cell">⚗</div>
+	    
+	      <div class="cell">⚱</div>
+	    
+	      <div class="cell">⑷</div>
+	    
+	      <div class="cell">⒄</div>
+	    
+	      <div class="cell">❾</div>
+	    
+	      <div class="cell">❺</div>
+	    
+	      <div class="cell">♊</div>
+	    
+	      <div class="cell">☯</div>
+	    
+	      <div class="cell">🜦</div>
+	    
+	      <div class="cell">Ⓛ</div>
+	    
+	      <div class="cell">H</div>
+	    
+	      <div class="cell">E</div>
+	    
+	      <div class="cell">⒴</div>
+	    
+	      <div class="cell">🝁</div>
+	    
+	      <div class="cell">⓹</div>
+	    
+	      <div class="cell">↕</div>
+	    
+	      <div class="cell">⑱</div>
+	    
+	      <div class="cell">⒏</div>
+	    
+	      <div class="cell">🅼</div>
+	    
+	      <div class="cell">🄑</div>
+	    
+	      <div class="cell">🜤</div>
+	    
+	      <div class="cell">ⅿ</div>
+	    
+	      <div class="cell">⚑</div>
+	    
+	      <div class="cell">⏕</div>
+	    
+	      <div class="cell">⛫</div>
+	    
+	      <div class="cell">🝋</div>
+	    
+	      <div class="cell">🄃</div>
+	    
+	      <div class="cell">⏊</div>
+	    
+	      <div class="cell">⒨</div>
+	    
+	      <div class="cell">🜸</div>
+	    
+	      <div class="cell">🕈</div>
+	    
+	      <div class="cell">🝟</div>
+	    
+	      <div class="cell">⒓</div>
+	    
+	      <div class="cell">☧</div>
+	    
+	      <div class="cell">🅾</div>
+	    
+	      <div class="cell">🜔</div>
+	    
+	      <div class="cell">🄳</div>
+	    
+	      <div class="cell">🜝</div>
+	    
+	      <div class="cell">⏖</div>
+	    
+	      <div class="cell">⚮</div>
+	    
+	      <div class="cell">⑿</div>
+	    
+	      <div class="cell">➇</div>
+	    
+	      <div class="cell">⑽</div>
+	    
+	      <div class="cell">⏄</div>
+	    
+	      <div class="cell">⏗</div>
+	    
+	      <div class="cell">⑨</div>
+	    
+	      <div class="cell">Ⅾ</div>
+	    
+	      <div class="cell">🄱</div>
+	    
+	      <div class="cell">❷</div>
+	    
+	      <div class="cell">☭</div>
+	    
+	      <div class="cell">🅈</div>
+	    
+	      <div class="cell">⚸</div>
+	    
+	      <div class="cell">⎇</div>
+	    
+	      <div class="cell">🆎</div>
+	    
+	      <div class="cell">⚴</div>
+	    
+	      <div class="cell">T</div>
+	    
+	      <div class="cell">❶</div>
+	    
+	      <div class="cell">⌏</div>
+	    
+	      <div class="cell">🜅</div>
+	    
+	      <div class="cell">🜒</div>
+	    
+	      <div class="cell">🆩</div>
+	    
+	      <div class="cell">⒘</div>
+	    
+	      <div class="cell">🄵</div>
+	    
+	      <div class="cell">🄧</div>
+	    
+	      <div class="cell">🆆</div>
+	    
+	      <div class="cell">⓸</div>
+	    
+	      <div class="cell">🝰</div>
+	    
+	      <div class="cell">⒊</div>
+	    
+	      <div class="cell">9</div>
+	    
+	      <div class="cell">⒍</div>
+	    
+	      <div class="cell">Ⓓ</div>
+	    
+	      <div class="cell">⛼</div>
+	    
+	      <div class="cell">🄉</div>
+	    
+	      <div class="cell">🅘</div>
+	    
+	      <div class="cell">🆣</div>
+	    
+	      <div class="cell">f</div>
+	    
+	      <div class="cell">⎐</div>
+	    
+	      <div class="cell">ↀ</div>
+	    
+	      <div class="cell">⎑</div>
+	    
+	      <div class="cell">🅒</div>
+	    
+	      <div class="cell">⒢</div>
+	    
+	      <div class="cell">🝬</div>
+	    
+	      <div class="cell">☩</div>
+	    
+	      <div class="cell">🝒</div>
+	    
+	      <div class="cell">🜽</div>
+	    
+	      <div class="cell">Ⓖ</div>
+	    
+	      <div class="cell">V</div>
+	    
+	      <div class="cell">B</div>
+	    
+	      <div class="cell">⛣</div>
+	    
+	      <div class="cell">⎓</div>
+	    
+	      <div class="cell">🅢</div>
+	    
+	      <div class="cell">8</div>
+	    
+	      <div class="cell">☥</div>
+	    
+	      <div class="cell">ⅼ</div>
+	    
+	      <div class="cell">🜎</div>
+	    
+	      <div class="cell">➀</div>
+	    
+	      <div class="cell">ⅹ</div>
+	    
+	      <div class="cell">🆇</div>
+	    
+	      <div class="cell">🅦</div>
+	    
+	      <div class="cell">⒡</div>
+	    
+	      <div class="cell">ⓟ</div>
+	    
+	      <div class="cell">s</div>
+	    
+	      <div class="cell">🅶</div>
+	    
+	      <div class="cell">⏤</div>
+	    
+	      <div class="cell">⛴</div>
+	    
+	      <div class="cell">⎙</div>
+	    
+	      <div class="cell">⏨</div>
+	    
+	      <div class="cell">⑶</div>
+	    
+	      <div class="cell">🅎</div>
+	    
+	      <div class="cell">🆜</div>
+	    
+	      <div class="cell">❸</div>
+	    
+	      <div class="cell">🅆</div>
+	    
+	      <div class="cell">♲</div>
+	    
+	      <div class="cell">♷</div>
+	    
+	      <div class="cell">⒙</div>
+	    
+	      <div class="cell">⎖</div>
+	    
+	      <div class="cell">⎘</div>
+	    
+	      <div class="cell">ⓛ</div>
+	    
+	      <div class="cell">⚥</div>
+	    
+	      <div class="cell">🆠</div>
+	    
+	      <div class="cell">🝎</div>
+	    
+	      <div class="cell">♱</div>
+	    
+	      <div class="cell">⃢</div>
+	    
+	      <div class="cell">🄯</div>
+	    
+	      <div class="cell">⒭</div>
+	    
+	      <div class="cell">🆌</div>
+	    
+	      <div class="cell">⏘</div>
+	    
+	      <div class="cell">⛦</div>
+	    
+	      <div class="cell">🅵</div>
+	    
+	      <div class="cell">ⓜ</div>
+	    
+	      <div class="cell">🆝</div>
+	    
+	      <div class="cell">⏉</div>
+	    
+	      <div class="cell">⚷</div>
+	    
+	      <div class="cell">🄫</div>
+	    
+	      <div class="cell">↋</div>
+	    
+	      <div class="cell">✞</div>
+	    
+	      <div class="cell">🜍</div>
+	    
+	      <div class="cell">⌊</div>
+	    
+	      <div class="cell">Ⓚ</div>
+	    
+	      <div class="cell">b</div>
+	    
+	      <div class="cell">⌰</div>
+	    
+	      <div class="cell">⏔</div>
+	    
+	      <div class="cell">G</div>
+	    
+	      <div class="cell">⓳</div>
+	    
+	      <div class="cell">〉</div>
+	    
+	      <div class="cell">⎀</div>
+	    
+	      <div class="cell">🄙</div>
+	    
+	      <div class="cell">⒲</div>
+	    
+	      <div class="cell">⎉</div>
+	    
+	      <div class="cell">⒳</div>
+	    
+	      <div class="cell">🜭</div>
+	    
+	      <div class="cell">x</div>
+	    
+	      <div class="cell">g</div>
+	    
+	      <div class="cell">⏙</div>
+	    
+	      <div class="cell">⑩</div>
+	    
+	      <div class="cell">W</div>
+	    
+	      <div class="cell">ↂ</div>
+	    
+	      <div class="cell">⒫</div>
+	    
+	      <div class="cell">p</div>
+	    
+	      <div class="cell">⛵</div>
+	    
+	      <div class="cell">⑫</div>
+	    
+	      <div class="cell">🝜</div>
+	    
+	      <div class="cell">⛰</div>
+	    
+	      <div class="cell">❽</div>
+	    
+	      <div class="cell">⌆</div>
+	    
+	      <div class="cell">🆐</div>
+	    
+	      <div class="cell">🝫</div>
+	    
+	      <div class="cell">🝲</div>
+	    
+	      <div class="cell">Ⓢ</div>
+	    
+	      <div class="cell">🝄</div>
+	    
+	      <div class="cell">Ⅰ</div>
+	    
+	      <div class="cell">↙</div>
+	    
+	      <div class="cell">☿</div>
+	    
+	      <div class="cell">⛢</div>
+	    
+	      <div class="cell">⓷</div>
+	    
+	      <div class="cell">⛬</div>
+	    
+	      <div class="cell">⛯</div>
+	    
+	      <div class="cell">➌</div>
+	    
+	      <div class="cell">🄖</div>
+	    
+	      <div class="cell">J</div>
+	    
+	      <div class="cell">ↁ</div>
+	    
+	      <div class="cell">🆥</div>
+	    
+	      <div class="cell">🆈</div>
+	    
+	      <div class="cell">ⅴ</div>
+	    
+	      <div class="cell">ↈ</div>
+	    
+	      <div class="cell">♸</div>
+	    
+	      <div class="cell">⏑</div>
+	    
+	      <div class="cell">⒰</div>
+	    
+	      <div class="cell">I</div>
+	    
+	      <div class="cell">⛷</div>
+	    
+	      <div class="cell">⚝</div>
+	    
+	      <div class="cell">🄰</div>
+	    
+	      <div class="cell">a</div>
+	    
+	      <div class="cell">⑴</div>
+	    
+	      <div class="cell">t</div>
+	    
+	      <div class="cell">🅤</div>
+	    
+	      <div class="cell">⒯</div>
+	    
+	      <div class="cell">ⅷ</div>
+	    
+	      <div class="cell">➑</div>
+	    
+	      <div class="cell">🅔</div>
+	    
+	      <div class="cell">⎆</div>
+	    
+	      <div class="cell">🄕</div>
+	    
+	      <div class="cell">🅖</div>
+	    
+	      <div class="cell">🄨</div>
+	    
+	      <div class="cell">🕏</div>
+	    
+	      <div class="cell">🜳</div>
+	    
+	      <div class="cell">m</div>
+	    
+	      <div class="cell">⑭</div>
+	    
+	      <div class="cell">⌬</div>
+	    
+	      <div class="cell">⚚</div>
+	    
+	      <div class="cell">🆅</div>
+	    
+	      <div class="cell">Ⅴ</div>
+	    
+	      <div class="cell">🆍</div>
+	    
+	      <div class="cell">🅜</div>
+	    
+	      <div class="cell">🅞</div>
+	    
+	      <div class="cell">🜲</div>
+	    
+	      <div class="cell">🆉</div>
+	    
+	      <div class="cell">🜃</div>
+	    
+	      <div class="cell">ⅳ</div>
+	    
+	      <div class="cell">🄦</div>
+	    
+	      <div class="cell">⛤</div>
+	    
+	      <div class="cell">⛽</div>
+	    
+	      <div class="cell">⒖</div>
+	    
+	      <div class="cell">ⅻ</div>
+	    
+	      <div class="cell">⒥</div>
+	    
+	      <div class="cell">⓪</div>
+	    
+	      <div class="cell">➄</div>
+	    
+	      <div class="cell">🆊</div>
+	    
+	      <div class="cell">ⅾ</div>
+	    
+	      <div class="cell">⃝</div>
+	    
+	      <div class="cell">🜛</div>
+	    
+	      <div class="cell">ⅸ</div>
+	    
+	      <div class="cell">Ⅺ</div>
+	    
+	      <div class="cell">l</div>
+	    
+	      <div class="cell">Ⓩ</div>
+	    
+	      <div class="cell">⎊</div>
+	    
+	      <div class="cell">♌</div>
+	    
+	      <div class="cell">⚦</div>
+	    
+	      <div class="cell">⚲</div>
+	    
+	      <div class="cell">🝈</div>
+	    
+	      <div class="cell">⑺</div>
+	    
+	      <div class="cell">🝐</div>
+	    
+	      <div class="cell">ⓑ</div>
+	    
+	      <div class="cell">⚓</div>
+	    
+	      <div class="cell">z</div>
+	    
+	      <div class="cell">ⅰ</div>
+	    
+	      <div class="cell">ⅵ</div>
+	    
+	      <div class="cell">🅹</div>
+	    
+	      <div class="cell">⒕</div>
+	    
+	      <div class="cell">🝢</div>
+	    
+	      <div class="cell">☪</div>
+	    
+	      <div class="cell">⎅</div>
+	    
+	      <div class="cell">⑻</div>
+	    
+	      <div class="cell">🄋</div>
+	    
+	      <div class="cell">ⓓ</div>
+	    
+	      <div class="cell">➈</div>
+	    
+	      <div class="cell">🆛</div>
+	    
+	      <div class="cell">⎋</div>
+	    
+	      <div class="cell">⛩</div>
+	    
+	      <div class="cell">⏓</div>
+	    
+	      <div class="cell">ⓕ</div>
+	    
+	      <div class="cell">☽</div>
+	    
+	      <div class="cell">⒦</div>
+	    
+	      <div class="cell">⓿</div>
+	    
+	      <div class="cell">⛭</div>
+	    
+	      <div class="cell">⏚</div>
+	    
+	      <div class="cell">🅨</div>
+	    
+	      <div class="cell">🝚</div>
+	    
+	      <div class="cell">🆫</div>
+	    
+	      <div class="cell">ⓩ</div>
+	    
+	      <div class="cell">🅪</div>
+	    
+	      <div class="cell">🄐</div>
+	    
+	      <div class="cell">☨</div>
+	    
+	      <div class="cell">🄡</div>
+	    
+	      <div class="cell">⒔</div>
+	    
+	      <div class="cell">⒱</div>
+	    
+	      <div class="cell">🆦</div>
+	    
+	      <div class="cell">⎏</div>
+	    
+	      <div class="cell">🝣</div>
+	    
+	      <div class="cell">⒎</div>
+	    
+	      <div class="cell">⒋</div>
+	    
+	      <div class="cell">⒃</div>
+	    
+	      <div class="cell">⒆</div>
+	    
+	      <div class="cell">⚭</div>
+	    
+	      <div class="cell">🝕</div>
+	    
+	      <div class="cell">🄔</div>
+	    
+	      <div class="cell">⏍</div>
+	    
+	      <div class="cell">♆</div>
+	    
+	      <div class="cell">⓭</div>
+	    
+	      <div class="cell">4</div>
+	    
+	      <div class="cell">⎂</div>
+	    
+	      <div class="cell">🝡</div>
+	    
+	      <div class="cell"> </div>
+	    
+	      <div class="cell">⌯</div>
+	    
+	      <div class="cell">🜘</div>
+	    
+	      <div class="cell">🜥</div>
+	    
+	      <div class="cell">②</div>
+	    
+	      <div class="cell">🅅</div>
+	    
+	      <div class="cell">⌟</div>
+	    
+	      <div class="cell">🆏</div>
+	    
+	      <div class="cell">☮</div>
+	    
+	      <div class="cell">🕇</div>
+	    
+	      <div class="cell">↘</div>
+	    
+	      <div class="cell">⌮</div>
+	    
+	      <div class="cell">⎈</div>
+	    
+	      <div class="cell">⎚</div>
+	    
+	      <div class="cell">♵</div>
+	    
+	      <div class="cell">w</div>
+	    
+	      <div class="cell">🜂</div>
+	    
+	      <div class="cell">⚺</div>
+	    
+	      <div class="cell">Ⅽ</div>
+	    
+	      <div class="cell">⏆</div>
+	    
+	      <div class="cell">➆</div>
+	    
+	      <div class="cell">⌣</div>
+	    
+	      <div class="cell">5</div>
+	    
+	      <div class="cell">🅓</div>
+	    
+	      <div class="cell">🜓</div>
+	    
+	      <div class="cell">🝩</div>
+	    
+	      <div class="cell">😐</div>
+	    
+	      <div class="cell">3</div>
+	    
+	      <div class="cell">Ⅿ</div>
+	    
+	      <div class="cell">⚖</div>
+	    
+	      <div class="cell">🅸</div>
+	    
+	      <div class="cell">⏥</div>
+	    
+	      <div class="cell">⑬</div>
+	    
+	      <div class="cell">ⅲ</div>
+	    
+	      <div class="cell">⌅</div>
+	    
+	      <div class="cell">⌃</div>
+	    
+	      <div class="cell">♾</div>
+	    
+	      <div class="cell">↔</div>
+	    
+	      <div class="cell">♄</div>
+	    
+	      <div class="cell">♶</div>
+	    
+	      <div class="cell">🆪</div>
+	    
+	      <div class="cell">☌</div>
+	    
+	      <div class="cell">🜠</div>
+	    
+	      <div class="cell">⎍</div>
+	    
+	      <div class="cell">⑳</div>
+	    
+	      <div class="cell">Ⅲ</div>
+	    
+	      <div class="cell">✟</div>
+	    
+	      <div class="cell">🄆</div>
+	    
+	      <div class="cell">ⅱ</div>
+	    
+	      <div class="cell">🆤</div>
+	    
+	      <div class="cell">i</div>
+	    
+	      <div class="cell">o</div>
+	    
+	      <div class="cell">⓼</div>
+	    
+	      <div class="cell">⏈</div>
+	    
+	      <div class="cell">🝮</div>
+	    
+	      <div class="cell">O</div>
+	    
+	      <div class="cell">🜾</div>
+	    
+	      <div class="cell">⚙</div>
+	    
+	      <div class="cell">🅫</div>
+	    
+	      <div class="cell">🄒</div>
+	    
+	      <div class="cell">⓴</div>
+	    
+	      <div class="cell">🜏</div>
+	    
+	      <div class="cell">🅳</div>
+	    
+	      <div class="cell">♳</div>
+	    
+	      <div class="cell">♯</div>
+	    
+	      <div class="cell">⏐</div>
+	    
+	      <div class="cell">🜈</div>
+	    
+	      <div class="cell">☸</div>
+	    
+	      <div class="cell">⌱</div>
+	    
+	      <div class="cell">♇</div>
+	    
+	      <div class="cell">🆟</div>
+	    
+	      <div class="cell">⛨</div>
+	    
+	      <div class="cell">⒌</div>
+	    
+	      <div class="cell">⑪</div>
+	    
+	      <div class="cell">⒒</div>
+	    
+	      <div class="cell">♒</div>
+	    
+	      <div class="cell">⑾</div>
+	    
+	      <div class="cell">⓵</div>
+	    
+	      <div class="cell">➏</div>
+	    
+	      <div class="cell">⒗</div>
+	    
+	      <div class="cell">🜢</div>
+	    
+	      <div class="cell">⓶</div>
+	    
+	      <div class="cell">k</div>
+	    
+	      <div class="cell">🄊</div>
+	    
+	      <div class="cell">🄇</div>
+	    
+	      <div class="cell">🅗</div>
+	    
+	      <div class="cell">⌗</div>
+	    
+	      <div class="cell">🅟</div>
+	    
+	      <div class="cell">⎃</div>
+	    
+	      <div class="cell">1</div>
+	    
+	      <div class="cell">🄻</div>
+	    
+	      <div class="cell">⏛</div>
+	    
+	      <div class="cell">Ⓞ</div>
+	    
+	      <div class="cell">🝘</div>
+	    
+	      <div class="cell">⛮</div>
+	    
+	      <div class="cell">Ⓡ</div>
+	    
+	      <div class="cell">⌎</div>
+	    
+	      <div class="cell">⚘</div>
+	    
+	      <div class="cell">⒂</div>
+	    
+	      <div class="cell">❻</div>
+	    
+	      <div class="cell">🅁</div>
+	    
+	      <div class="cell">⃟</div>
+	    
+	      <div class="cell">⏀</div>
+	    
+	      <div class="cell">⛥</div>
+	    
+	      <div class="cell">ↇ</div>
+	    
+	      <div class="cell">h</div>
+	    
+	      <div class="cell">➒</div>
+	    
+	      <div class="cell">⛎</div>
+	    
+	      <div class="cell">🝛</div>
+	    
+	      <div class="cell">🄲</div>
+	    
+	      <div class="cell">Ⅻ</div>
+	    
+	      <div class="cell">⚼</div>
+	    
+	      <div class="cell">⏣</div>
+	    
+	      <div class="cell">🅕</div>
+	    
+	      <div class="cell">⒉</div>
+	    
+	      <div class="cell">⎁</div>
+	    
+	      <div class="cell">Ⓦ</div>
+	    
+	      <div class="cell">☊</div>
+	    
+	      <div class="cell">⓰</div>
+	    
+	      <div class="cell">Ⓥ</div>
+	    
+	      <div class="cell">🄠</div>
+	    
+	      <div class="cell">ↅ</div>
+	    
+	      <div class="cell">🜟</div>
+	    
+	      <div class="cell">🄷</div>
+	    
+	      <div class="cell">Ⓤ</div>
+	    
+	      <div class="cell">⌵</div>
+	    
+	      <div class="cell">🅬</div>
+	    
+	      <div class="cell">🅍</div>
+	    
+	      <div class="cell">⌭</div>
+	    
+	      <div class="cell">M</div>
+	    
+	      <div class="cell">〈</div>
+	    
+	      <div class="cell">⎿</div>
+	    
+	      <div class="cell">④</div>
+	    
+	      <div class="cell">Y</div>
+	    
+	      <div class="cell">⓯</div>
+	    
+	      <div class="cell">☾</div>
+	    
+	      <div class="cell">⏋</div>
+	    
+	      <div class="cell">Ⓙ</div>
+	    
+	      <div class="cell">➎</div>
+	    
+	      <div class="cell">🄶</div>
+	    
+	      <div class="cell">♅</div>
+	    
+	      <div class="cell">↗</div>
+	    
+	      <div class="cell">⒑</div>
+	    
+	      <div class="cell">🄝</div>
+	    
+	      <div class="cell">7</div>
+	    
+	      <div class="cell">🆧</div>
+	    
+	      <div class="cell">⑧</div>
+	    
+	      <div class="cell">Ⅵ</div>
+	    
+	      <div class="cell">Ⅸ</div>
+	    
+	      <div class="cell">⛾</div>
+	    
+	      <div class="cell">🅚</div>
+	    
+	      <div class="cell">⒞</div>
+	    
+	      <div class="cell">⍼</div>
+	    
+	      <div class="cell">♫</div>
+	    
+	      <div class="cell">🅉</div>
+	    
+	      <div class="cell">⌇</div>
+	    
+	      <div class="cell">🜞</div>
+	    
+	      <div class="cell">⓱</div>
+	    
+	      <div class="cell">🜡</div>
+	    
+	      <div class="cell">🜷</div>
+	    
+	      <div class="cell">🜀</div>
+	    
+	      <div class="cell">🝭</div>
+	    
+	      <div class="cell">Ⅱ</div>
+	    
+	      <div class="cell">🅺</div>
+	    
+	      <div class="cell">🜊</div>
+	    
+	      <div class="cell">Z</div>
+	    
+	      <div class="cell">⚛</div>
+	    
+	      <div class="cell">⚰</div>
+	    
+	      <div class="cell">♈</div>
+	    
+	      <div class="cell">⒁</div>
+	    
+	      <div class="cell">♎</div>
+	    
+	      <div class="cell">☫</div>
+	    
+	      <div class="cell">♋</div>
+	    
+	      <div class="cell">⚐</div>
+	    
+	      <div class="cell">☤</div>
+	    
+	      <div class="cell">🝅</div>
+	    
+	      <div class="cell">Ⓠ</div>
+	    
+	      <div class="cell">Ⓟ</div>
+	    
+	      <div class="cell">⛧</div>
+	    
+	      <div class="cell">🄁</div>
+	    
+	      <div class="cell">🄚</div>
+	    
+	      <div class="cell">⌔</div>
+	    
+	      <div class="cell">→</div>
+	    
+	      <div class="cell">⏒</div>
+	    
+	      <div class="cell">🅣</div>
+	    
+	      <div class="cell">🜌</div>
+	    
+	      <div class="cell">🅻</div>
+	    
+	      <div class="cell">🆄</div>
+	    
+	      <div class="cell">P</div>
+	    
+	      <div class="cell">⃞</div>
+	    
+	      <div class="cell">⒵</div>
+	    
+	      <div class="cell">🝆</div>
+	    
+	      <div class="cell">⑦</div>
+	    
+	      <div class="cell">d</div>
+	    
+	      <div class="cell">Ⓧ</div>
+	    
+	      <div class="cell">🅇</div>
+	    
+	      <div class="cell">🝦</div>
+	    
+	      <div class="cell">⌲</div>
+	    
+	      <div class="cell"></div>
+	    
+	      <div class="cell">K</div>
+	    
+	      <div class="cell">⃠</div>
+	    
+	      <div class="cell">🜄</div>
+	    
+	      <div class="cell">🜕</div>
+	    
+	      <div class="cell">🅴</div>
+	    
+	      <div class="cell">🄼</div>
+	    
+	      <div class="cell">🅿</div>
+	    
+	      <div class="cell">🝃</div>
+	    
+	      <div class="cell">⛿</div>
+	    
+	      <div class="cell">➊</div>
+	    
+	      <div class="cell">ⓝ</div>
+	    
+	      <div class="cell">c</div>
+	    
+	      <div class="cell">q</div>
+	    
+	      <div class="cell">⑮</div>
+	    
+	      <div class="cell">u</div>
+	    
+	      <div class="cell">ⓠ</div>
+	    
+	      <div class="cell">🆁</div>
+	    
+	      <div class="cell"> </div>
+	    
+	      <div class="cell">⛸</div>
+	    
+	      <div class="cell">🅃</div>
+	    
+	      <div class="cell">🅧</div>
+	    
+	      <div class="cell">🅲</div>
+	    
+	      <div class="cell">🅌</div>
+	    
+	      <div class="cell">⚶</div>
+	    
+	      <div class="cell">🄄</div>
+	    
+	      <div class="cell">⌂</div>
+	    
+	      <div class="cell">🄬</div>
+	    
+	      <div class="cell">♮</div>
+	    
+	      <div class="cell">⌞</div>
+	    
+	      <div class="cell">🅙</div>
+	    
+	      <div class="cell">♏</div>
+	    
+	      <div class="cell">⛲</div>
+	    
+	      <div class="cell">🜴</div>
+	    
+	      <div class="cell">🅩</div>
+	    
+	      <div class="cell">⤡</div>
+	    
+	      <div class="cell">⎌</div>
+	    
+	      <div class="cell">🝞</div>
+	    
+	      <div class="cell">e</div>
+	    
+	      <div class="cell">⏂</div>
+	    
+	      <div class="cell">⏇</div>
+	    
+	      <div class="cell">ⓤ</div>
+	    
+	      <div class="cell">♻</div>
+	    
+	      <div class="cell">🜐</div>
+	    
+	      <div class="cell">⏅</div>
+	    
+	      <div class="cell">ↆ</div>
+	    
+	      <div class="cell">⤢</div>
+	    
+	      <div class="cell">ⓐ</div>
+	    
+	      <div class="cell">🝍</div>
+	    
+	      <div class="cell">⌉</div>
+	    
+	      <div class="cell">⛻</div>
+	    
+	      <div class="cell">✝</div>
+	    
+	      <div class="cell">🝳</div>
+	    
+	      <div class="cell">⎾</div>
+	    
+	      <div class="cell">⓮</div>
+	    
+	      <div class="cell">C</div>
+	    
+	      <div class="cell">ⅽ</div>
+	    
+	      <div class="cell">☦</div>
+	    
+	      <div class="cell">🄌</div>
+	    
+	      <div class="cell">Ⓜ</div>
+	    
+	      <div class="cell">🄥</div>
+	    
+	      <div class="cell">ⓧ</div>
+	    
+	      <div class="cell">🜇</div>
+	    
+	      <div class="cell">🝇</div>
+	    
+	      <div class="cell">⃣</div>
+	    
+	      <div class="cell">☍</div>
+	    
+	      <div class="cell">🆀</div>
+	    
+	      <div class="cell">🜯</div>
+	    
+	      <div class="cell">j</div>
+	    
+	      <div class="cell">N</div>
+	    
+	      <div class="cell">⌋</div>
+	    
+	      <div class="cell">ⓒ</div>
+	    
+	      <div class="cell">0</div>
+	    
+	      <div class="cell">🝧</div>
+	    
+	      <div class="cell">🜆</div>
+	    
+	      <div class="cell">ⅺ</div>
+	    
+	      <div class="cell">Ⓕ</div>
+	    
+	      <div class="cell">Ⅹ</div>
+	    
+	      <div class="cell">♬</div>
+	    
+	      <div class="cell">🜑</div>
+	    
+	      <div class="cell">⚳</div>
+	    
+	      <div class="cell">🄢</div>
+	    
+	      <div class="cell">♍</div>
+	    
+	      <div class="cell">♹</div>
+	    
+	      <div class="cell">🄀</div>
+	    
+	      <div class="cell">⓾</div>
+	    
+	      <div class="cell">Ⅼ</div>
+	    
+	      <div class="cell">❿</div>
+	    
+	      <div class="cell">🅏</div>
+	    
+	      <div class="cell">🄓</div>
+	    
+	      <div class="cell">⒈</div>
+	    
+	      <div class="cell">6</div>
+	    
+	      <div class="cell">Ⓗ</div>
+	    
+	      <div class="cell">✡</div>
+	    
+	      <div class="cell">🝙</div>
+	    
+	      <div class="cell">🝌</div>
+	    
+	      <div class="cell">Ⓨ</div>
+	    
+	      <div class="cell">U</div>
+	    
+	      <div class="cell">⚻</div>
+	    
+	      <div class="cell">🜬</div>
+	    
+	      <div class="cell">⎗</div>
+	    
+	      <div class="cell">🄗</div>
+	    
+	      <div class="cell">🅛</div>
+	    
+	      <div class="cell">🅠</div>
+	    
+	      <div class="cell">🄈</div>
+	    
+	      <div class="cell">☬</div>
+	    
+	      <div class="cell">⌝</div>
+	    
+	      <div class="cell">⚤</div>
+	    
+	      <div class="cell">🅂</div>
+	    
+	      <div class="cell">🜉</div>
+	    
+	      <div class="cell">🜣</div>
+	    
+	      <div class="cell">⒚</div>
+	    
+	      <div class="cell">♰</div>
+	    
+	      <div class="cell">⑲</div>
+	    
+	      <div class="cell">➓</div>
+	    
+	      <div class="cell">←</div>
+	    
+	      <div class="cell">🅋</div>
+	    
+	      <div class="cell">⌍</div>
+	    
+	      <div class="cell">⌕</div>
+	    
+	      <div class="cell">♪</div>
+	    
+	      <div class="cell">➁</div>
+	    
+	      <div class="cell">⑥</div>
+	    
+	      <div class="cell">🄮</div>
+	    
+	      <div class="cell">③</div>
+	    
+	      <div class="cell">🝓</div>
+	    
+	      <div class="cell">🅷</div>
+	    
+	      <div class="cell">🄩</div>
+	    
+	      <div class="cell">♁</div>
+	    
+	      <div class="cell">①</div>
+	    
+	      <div class="cell">🅡</div>
+	    
+	      <div class="cell">Ↄ</div>
+	    
+	      <div class="cell">☻</div>
+	    
+	      <div class="cell">🜙</div>
+	    
+	      <div class="cell">⑹</div>
+	    
+	      <div class="cell">🜹</div>
+	    
+	      <div class="cell">🅀</div>
+	    
+	      <div class="cell">⓺</div>
+	    
+	      <div class="cell">🅥</div>
+	    
+	      <div class="cell">🝠</div>
+	    
+	      <div class="cell">ⓗ</div>
+	    
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">old-ExtraBold 20pt</div>
+	  <span class="old-ExtraBold" style="font-size: 20pt">
+	    
+	      <div class="cell">🝪</div>
+	    
+	      <div class="cell">⓲</div>
+	    
+	      <div class="cell">ⓦ</div>
+	    
+	      <div class="cell">⒀</div>
+	    
+	      <div class="cell">⚢</div>
+	    
+	      <div class="cell">🜨</div>
+	    
+	      <div class="cell">🝯</div>
+	    
+	      <div class="cell">⑯</div>
+	    
+	      <div class="cell">🕆</div>
+	    
+	      <div class="cell">🝗</div>
+	    
+	      <div class="cell">🝔</div>
+	    
+	      <div class="cell">⃤</div>
+	    
+	      <div class="cell">⒮</div>
+	    
+	      <div class="cell">⌓</div>
+	    
+	      <div class="cell">🜼</div>
+	    
+	      <div class="cell">⚹</div>
+	    
+	      <div class="cell">⒠</div>
+	    
+	      <div class="cell">⒛</div>
+	    
+	      <div class="cell">Ⓐ</div>
+	    
+	      <div class="cell">🆢</div>
+	    
+	      <div class="cell">♩</div>
+	    
+	      <div class="cell">⛱</div>
+	    
+	      <div class="cell">n</div>
+	    
+	      <div class="cell">⒐</div>
+	    
+	      <div class="cell">⎔</div>
+	    
+	      <div class="cell">⌴</div>
+	    
+	      <div class="cell">⏦</div>
+	    
+	      <div class="cell">⌳</div>
+	    
+	      <div class="cell">F</div>
+	    
+	      <div class="cell">🅱</div>
+	    
+	      <div class="cell">🜿</div>
+	    
+	      <div class="cell">🜖</div>
+	    
+	      <div class="cell">⒝</div>
+	    
+	      <div class="cell">ⅶ</div>
+	    
+	      <div class="cell">⒟</div>
+	    
+	      <div class="cell">❼</div>
+	    
+	      <div class="cell">🅽</div>
+	    
+	      <div class="cell">➂</div>
+	    
+	      <div class="cell">⚒</div>
+	    
+	      <div class="cell">S</div>
+	    
+	      <div class="cell">⛹</div>
+	    
+	      <div class="cell">Ⅳ</div>
+	    
+	      <div class="cell">v</div>
+	    
+	      <div class="cell">⒧</div>
+	    
+	      <div class="cell">🝊</div>
+	    
+	      <div class="cell">⚩</div>
+	    
+	      <div class="cell">♭</div>
+	    
+	      <div class="cell">🄸</div>
+	    
+	      <div class="cell">🝂</div>
+	    
+	      <div class="cell">ⓣ</div>
+	    
+	      <div class="cell">🜱</div>
+	    
+	      <div class="cell">⚔</div>
+	    
+	      <div class="cell">⚕</div>
+	    
+	      <div class="cell">⚵</div>
+	    
+	      <div class="cell">🄛</div>
+	    
+	      <div class="cell">ⓚ</div>
+	    
+	      <div class="cell">ⓔ</div>
+	    
+	      <div class="cell">☹</div>
+	    
+	      <div class="cell">⏧</div>
+	    
+	      <div class="cell">ⓞ</div>
+	    
+	      <div class="cell">🅊</div>
+	    
+	      <div class="cell">⌈</div>
+	    
+	      <div class="cell">🄘</div>
+	    
+	      <div class="cell">⏢</div>
+	    
+	      <div class="cell">⛶</div>
+	    
+	      <div class="cell">ⓢ</div>
+	    
+	      <div class="cell">↓</div>
+	    
+	      <div class="cell">🄅</div>
+	    
+	      <div class="cell">🝥</div>
+	    
+	      <div class="cell">🄪</div>
+	    
+	      <div class="cell">🝤</div>
+	    
+	      <div class="cell">🜧</div>
+	    
+	      <div class="cell">🜜</div>
+	    
+	      <div class="cell">🄭</div>
+	    
+	      <div class="cell">➍</div>
+	    
+	      <div class="cell">➋</div>
+	    
+	      <div class="cell">⏁</div>
+	    
+	      <div class="cell">🄤</div>
+	    
+	      <div class="cell">🅝</div>
+	    
+	      <div class="cell">⒪</div>
+	    
+	      <div class="cell">r</div>
+	    
+	      <div class="cell">⌑</div>
+	    
+	      <div class="cell">♀</div>
+	    
+	      <div class="cell">🄽</div>
+	    
+	      <div class="cell">Ⓔ</div>
+	    
+	      <div class="cell">♐</div>
+	    
+	      <div class="cell">🝏</div>
+	    
+	      <div class="cell">🝱</div>
+	    
+	      <div class="cell">☓</div>
+	    
+	      <div class="cell">⒤</div>
+	    
+	      <div class="cell">⓬</div>
+	    
+	      <div class="cell">⎯</div>
+	    
+	      <div class="cell">Ⓘ</div>
+	    
+	      <div class="cell">⚨</div>
+	    
+	      <div class="cell">y</div>
+	    
+	      <div class="cell">🜫</div>
+	    
+	      <div class="cell">R</div>
+	    
+	      <div class="cell">Ⅶ</div>
+	    
+	      <div class="cell">🄴</div>
+	    
+	      <div class="cell">🅐</div>
+	    
+	      <div class="cell">♼</div>
+	    
+	      <div class="cell">➅</div>
+	    
+	      <div class="cell">⑼</div>
+	    
+	      <div class="cell">🅄</div>
+	    
+	      <div class="cell">🝉</div>
+	    
+	      <div class="cell">⛪</div>
+	    
+	      <div class="cell">Ⓝ</div>
+	    
+	      <div class="cell">Q</div>
+	    
+	      <div class="cell">➐</div>
+	    
+	      <div class="cell">⌁</div>
+	    
+	      <div class="cell">🝖</div>
+	    
+	      <div class="cell">Ⓣ</div>
+	    
+	      <div class="cell"> </div>
+	    
+	      <div class="cell">🜻</div>
+	    
+	      <div class="cell">🄺</div>
+	    
+	      <div class="cell">⓻</div>
+	    
+	      <div class="cell">⚣</div>
+	    
+	      <div class="cell">🄜</div>
+	    
+	      <div class="cell">🆨</div>
+	    
+	      <div class="cell">🝑</div>
+	    
+	      <div class="cell">🄂</div>
+	    
+	      <div class="cell">Ⓑ</div>
+	    
+	      <div class="cell">🜰</div>
+	    
+	      <div class="cell">🜺</div>
+	    
+	      <div class="cell">❹</div>
+	    
+	      <div class="cell">🜶</div>
+	    
+	      <div class="cell">⌢</div>
+	    
+	      <div class="cell">🄣</div>
+	    
+	      <div class="cell">⓽</div>
+	    
+	      <div class="cell">🆃</div>
+	    
+	      <div class="cell">🜩</div>
+	    
+	      <div class="cell">⌀</div>
+	    
+	      <div class="cell">⏌</div>
+	    
+	      <div class="cell">⒩</div>
+	    
+	      <div class="cell">♓</div>
+	    
+	      <div class="cell">⑸</div>
+	    
+	      <div class="cell">🜗</div>
+	    
+	      <div class="cell">🝀</div>
+	    
+	      <div class="cell">⌄</div>
+	    
+	      <div class="cell">⑵</div>
+	    
+	      <div class="cell">🆬</div>
+	    
+	      <div class="cell">⌜</div>
+	    
+	      <div class="cell">⑤</div>
+	    
+	      <div class="cell">Ⓒ</div>
+	    
+	      <div class="cell">⛺</div>
+	    
+	      <div class="cell">ⓡ</div>
+	    
+	      <div class="cell">✠</div>
+	    
+	      <div class="cell">🄟</div>
+	    
+	      <div class="cell">⒜</div>
+	    
+	      <div class="cell">⌒</div>
+	    
+	      <div class="cell">⚯</div>
+	    
+	      <div class="cell">♽</div>
+	    
+	      <div class="cell">🝝</div>
+	    
+	      <div class="cell">🆞</div>
+	    
+	      <div class="cell">Ⅷ</div>
+	    
+	      <div class="cell">⎒</div>
+	    
+	      <div class="cell">🆂</div>
+	    
+	      <div class="cell">ⓨ</div>
+	    
+	      <div class="cell">🄾</div>
+	    
+	      <div class="cell">ⓙ</div>
+	    
+	      <div class="cell">D</div>
+	    
+	      <div class="cell">⚧</div>
+	    
+	      <div class="cell">🄿</div>
+	    
+	      <div class="cell">⓫</div>
+	    
+	      <div class="cell">X</div>
+	    
+	      <div class="cell">🆋</div>
+	    
+	      <div class="cell">A</div>
+	    
+	      <div class="cell">➉</div>
+	    
+	      <div class="cell">⚜</div>
+	    
+	      <div class="cell">🕉</div>
+	    
+	      <div class="cell">🝨</div>
+	    
+	      <div class="cell">🜵</div>
+	    
+	      <div class="cell">♑</div>
+	    
+	      <div class="cell">ⓘ</div>
+	    
+	      <div class="cell">⎄</div>
+	    
+	      <div class="cell">ⓖ</div>
+	    
+	      <div class="cell">☋</div>
+	    
+	      <div class="cell">🜪</div>
+	    
+	      <div class="cell">L</div>
+	    
+	      <div class="cell">↖</div>
+	    
+	      <div class="cell">🄹</div>
+	    
+	      <div class="cell">ⓥ</div>
+	    
+	      <div class="cell">↑</div>
+	    
+	      <div class="cell">⒅</div>
+	    
+	      <div class="cell">◌</div>
+	    
+	      <div class="cell">➃</div>
+	    
+	      <div class="cell">🜚</div>
+	    
+	      <div class="cell">🜋</div>
+	    
+	      <div class="cell">↊</div>
+	    
+	      <div class="cell">♂</div>
+	    
+	      <div class="cell">🆡</div>
+	    
+	      <div class="cell">♴</div>
+	    
+	      <div class="cell">♺</div>
+	    
+	      <div class="cell">⒣</div>
+	    
+	      <div class="cell">☺</div>
+	    
+	      <div class="cell">2</div>
+	    
+	      <div class="cell">⏃</div>
+	    
+	      <div class="cell">🜁</div>
+	    
+	      <div class="cell">🄞</div>
+	    
+	      <div class="cell">⛳</div>
+	    
+	      <div class="cell">⒇</div>
+	    
+	      <div class="cell">⒬</div>
+	    
+	      <div class="cell">♉</div>
+	    
+	      <div class="cell">⑰</div>
+	    
+	      <div class="cell">🜮</div>
+	    
+	      <div class="cell">⌌</div>
+	    
+	      <div class="cell">♃</div>
+	    
+	      <div class="cell">🅑</div>
+	    
+	      <div class="cell">⎎</div>
+	    
+	      <div class="cell">🅰</div>
+	    
+	      <div class="cell">⚗</div>
+	    
+	      <div class="cell">⚱</div>
+	    
+	      <div class="cell">⑷</div>
+	    
+	      <div class="cell">⒄</div>
+	    
+	      <div class="cell">❾</div>
+	    
+	      <div class="cell">❺</div>
+	    
+	      <div class="cell">♊</div>
+	    
+	      <div class="cell">☯</div>
+	    
+	      <div class="cell">🜦</div>
+	    
+	      <div class="cell">Ⓛ</div>
+	    
+	      <div class="cell">H</div>
+	    
+	      <div class="cell">E</div>
+	    
+	      <div class="cell">⒴</div>
+	    
+	      <div class="cell">🝁</div>
+	    
+	      <div class="cell">⓹</div>
+	    
+	      <div class="cell">↕</div>
+	    
+	      <div class="cell">⑱</div>
+	    
+	      <div class="cell">⒏</div>
+	    
+	      <div class="cell">🅼</div>
+	    
+	      <div class="cell">🄑</div>
+	    
+	      <div class="cell">🜤</div>
+	    
+	      <div class="cell">ⅿ</div>
+	    
+	      <div class="cell">⚑</div>
+	    
+	      <div class="cell">⏕</div>
+	    
+	      <div class="cell">⛫</div>
+	    
+	      <div class="cell">🝋</div>
+	    
+	      <div class="cell">🄃</div>
+	    
+	      <div class="cell">⏊</div>
+	    
+	      <div class="cell">⒨</div>
+	    
+	      <div class="cell">🜸</div>
+	    
+	      <div class="cell">🕈</div>
+	    
+	      <div class="cell">🝟</div>
+	    
+	      <div class="cell">⒓</div>
+	    
+	      <div class="cell">☧</div>
+	    
+	      <div class="cell">🅾</div>
+	    
+	      <div class="cell">🜔</div>
+	    
+	      <div class="cell">🄳</div>
+	    
+	      <div class="cell">🜝</div>
+	    
+	      <div class="cell">⏖</div>
+	    
+	      <div class="cell">⚮</div>
+	    
+	      <div class="cell">⑿</div>
+	    
+	      <div class="cell">➇</div>
+	    
+	      <div class="cell">⑽</div>
+	    
+	      <div class="cell">⏄</div>
+	    
+	      <div class="cell">⏗</div>
+	    
+	      <div class="cell">⑨</div>
+	    
+	      <div class="cell">Ⅾ</div>
+	    
+	      <div class="cell">🄱</div>
+	    
+	      <div class="cell">❷</div>
+	    
+	      <div class="cell">☭</div>
+	    
+	      <div class="cell">🅈</div>
+	    
+	      <div class="cell">⚸</div>
+	    
+	      <div class="cell">⎇</div>
+	    
+	      <div class="cell">🆎</div>
+	    
+	      <div class="cell">⚴</div>
+	    
+	      <div class="cell">T</div>
+	    
+	      <div class="cell">❶</div>
+	    
+	      <div class="cell">⌏</div>
+	    
+	      <div class="cell">🜅</div>
+	    
+	      <div class="cell">🜒</div>
+	    
+	      <div class="cell">🆩</div>
+	    
+	      <div class="cell">⒘</div>
+	    
+	      <div class="cell">🄵</div>
+	    
+	      <div class="cell">🄧</div>
+	    
+	      <div class="cell">🆆</div>
+	    
+	      <div class="cell">⓸</div>
+	    
+	      <div class="cell">🝰</div>
+	    
+	      <div class="cell">⒊</div>
+	    
+	      <div class="cell">9</div>
+	    
+	      <div class="cell">⒍</div>
+	    
+	      <div class="cell">Ⓓ</div>
+	    
+	      <div class="cell">⛼</div>
+	    
+	      <div class="cell">🄉</div>
+	    
+	      <div class="cell">🅘</div>
+	    
+	      <div class="cell">🆣</div>
+	    
+	      <div class="cell">f</div>
+	    
+	      <div class="cell">⎐</div>
+	    
+	      <div class="cell">ↀ</div>
+	    
+	      <div class="cell">⎑</div>
+	    
+	      <div class="cell">🅒</div>
+	    
+	      <div class="cell">⒢</div>
+	    
+	      <div class="cell">🝬</div>
+	    
+	      <div class="cell">☩</div>
+	    
+	      <div class="cell">🝒</div>
+	    
+	      <div class="cell">🜽</div>
+	    
+	      <div class="cell">Ⓖ</div>
+	    
+	      <div class="cell">V</div>
+	    
+	      <div class="cell">B</div>
+	    
+	      <div class="cell">⛣</div>
+	    
+	      <div class="cell">⎓</div>
+	    
+	      <div class="cell">🅢</div>
+	    
+	      <div class="cell">8</div>
+	    
+	      <div class="cell">☥</div>
+	    
+	      <div class="cell">ⅼ</div>
+	    
+	      <div class="cell">🜎</div>
+	    
+	      <div class="cell">➀</div>
+	    
+	      <div class="cell">ⅹ</div>
+	    
+	      <div class="cell">🆇</div>
+	    
+	      <div class="cell">🅦</div>
+	    
+	      <div class="cell">⒡</div>
+	    
+	      <div class="cell">ⓟ</div>
+	    
+	      <div class="cell">s</div>
+	    
+	      <div class="cell">🅶</div>
+	    
+	      <div class="cell">⏤</div>
+	    
+	      <div class="cell">⛴</div>
+	    
+	      <div class="cell">⎙</div>
+	    
+	      <div class="cell">⏨</div>
+	    
+	      <div class="cell">⑶</div>
+	    
+	      <div class="cell">🅎</div>
+	    
+	      <div class="cell">🆜</div>
+	    
+	      <div class="cell">❸</div>
+	    
+	      <div class="cell">🅆</div>
+	    
+	      <div class="cell">♲</div>
+	    
+	      <div class="cell">♷</div>
+	    
+	      <div class="cell">⒙</div>
+	    
+	      <div class="cell">⎖</div>
+	    
+	      <div class="cell">⎘</div>
+	    
+	      <div class="cell">ⓛ</div>
+	    
+	      <div class="cell">⚥</div>
+	    
+	      <div class="cell">🆠</div>
+	    
+	      <div class="cell">🝎</div>
+	    
+	      <div class="cell">♱</div>
+	    
+	      <div class="cell">⃢</div>
+	    
+	      <div class="cell">🄯</div>
+	    
+	      <div class="cell">⒭</div>
+	    
+	      <div class="cell">🆌</div>
+	    
+	      <div class="cell">⏘</div>
+	    
+	      <div class="cell">⛦</div>
+	    
+	      <div class="cell">🅵</div>
+	    
+	      <div class="cell">ⓜ</div>
+	    
+	      <div class="cell">🆝</div>
+	    
+	      <div class="cell">⏉</div>
+	    
+	      <div class="cell">⚷</div>
+	    
+	      <div class="cell">🄫</div>
+	    
+	      <div class="cell">↋</div>
+	    
+	      <div class="cell">✞</div>
+	    
+	      <div class="cell">🜍</div>
+	    
+	      <div class="cell">⌊</div>
+	    
+	      <div class="cell">Ⓚ</div>
+	    
+	      <div class="cell">b</div>
+	    
+	      <div class="cell">⌰</div>
+	    
+	      <div class="cell">⏔</div>
+	    
+	      <div class="cell">G</div>
+	    
+	      <div class="cell">⓳</div>
+	    
+	      <div class="cell">〉</div>
+	    
+	      <div class="cell">⎀</div>
+	    
+	      <div class="cell">🄙</div>
+	    
+	      <div class="cell">⒲</div>
+	    
+	      <div class="cell">⎉</div>
+	    
+	      <div class="cell">⒳</div>
+	    
+	      <div class="cell">🜭</div>
+	    
+	      <div class="cell">x</div>
+	    
+	      <div class="cell">g</div>
+	    
+	      <div class="cell">⏙</div>
+	    
+	      <div class="cell">⑩</div>
+	    
+	      <div class="cell">W</div>
+	    
+	      <div class="cell">ↂ</div>
+	    
+	      <div class="cell">⒫</div>
+	    
+	      <div class="cell">p</div>
+	    
+	      <div class="cell">⛵</div>
+	    
+	      <div class="cell">⑫</div>
+	    
+	      <div class="cell">🝜</div>
+	    
+	      <div class="cell">⛰</div>
+	    
+	      <div class="cell">❽</div>
+	    
+	      <div class="cell">⌆</div>
+	    
+	      <div class="cell">🆐</div>
+	    
+	      <div class="cell">🝫</div>
+	    
+	      <div class="cell">🝲</div>
+	    
+	      <div class="cell">Ⓢ</div>
+	    
+	      <div class="cell">🝄</div>
+	    
+	      <div class="cell">Ⅰ</div>
+	    
+	      <div class="cell">↙</div>
+	    
+	      <div class="cell">☿</div>
+	    
+	      <div class="cell">⛢</div>
+	    
+	      <div class="cell">⓷</div>
+	    
+	      <div class="cell">⛬</div>
+	    
+	      <div class="cell">⛯</div>
+	    
+	      <div class="cell">➌</div>
+	    
+	      <div class="cell">🄖</div>
+	    
+	      <div class="cell">J</div>
+	    
+	      <div class="cell">ↁ</div>
+	    
+	      <div class="cell">🆥</div>
+	    
+	      <div class="cell">🆈</div>
+	    
+	      <div class="cell">ⅴ</div>
+	    
+	      <div class="cell">ↈ</div>
+	    
+	      <div class="cell">♸</div>
+	    
+	      <div class="cell">⏑</div>
+	    
+	      <div class="cell">⒰</div>
+	    
+	      <div class="cell">I</div>
+	    
+	      <div class="cell">⛷</div>
+	    
+	      <div class="cell">⚝</div>
+	    
+	      <div class="cell">🄰</div>
+	    
+	      <div class="cell">a</div>
+	    
+	      <div class="cell">⑴</div>
+	    
+	      <div class="cell">t</div>
+	    
+	      <div class="cell">🅤</div>
+	    
+	      <div class="cell">⒯</div>
+	    
+	      <div class="cell">ⅷ</div>
+	    
+	      <div class="cell">➑</div>
+	    
+	      <div class="cell">🅔</div>
+	    
+	      <div class="cell">⎆</div>
+	    
+	      <div class="cell">🄕</div>
+	    
+	      <div class="cell">🅖</div>
+	    
+	      <div class="cell">🄨</div>
+	    
+	      <div class="cell">🕏</div>
+	    
+	      <div class="cell">🜳</div>
+	    
+	      <div class="cell">m</div>
+	    
+	      <div class="cell">⑭</div>
+	    
+	      <div class="cell">⌬</div>
+	    
+	      <div class="cell">⚚</div>
+	    
+	      <div class="cell">🆅</div>
+	    
+	      <div class="cell">Ⅴ</div>
+	    
+	      <div class="cell">🆍</div>
+	    
+	      <div class="cell">🅜</div>
+	    
+	      <div class="cell">🅞</div>
+	    
+	      <div class="cell">🜲</div>
+	    
+	      <div class="cell">🆉</div>
+	    
+	      <div class="cell">🜃</div>
+	    
+	      <div class="cell">ⅳ</div>
+	    
+	      <div class="cell">🄦</div>
+	    
+	      <div class="cell">⛤</div>
+	    
+	      <div class="cell">⛽</div>
+	    
+	      <div class="cell">⒖</div>
+	    
+	      <div class="cell">ⅻ</div>
+	    
+	      <div class="cell">⒥</div>
+	    
+	      <div class="cell">⓪</div>
+	    
+	      <div class="cell">➄</div>
+	    
+	      <div class="cell">🆊</div>
+	    
+	      <div class="cell">ⅾ</div>
+	    
+	      <div class="cell">⃝</div>
+	    
+	      <div class="cell">🜛</div>
+	    
+	      <div class="cell">ⅸ</div>
+	    
+	      <div class="cell">Ⅺ</div>
+	    
+	      <div class="cell">l</div>
+	    
+	      <div class="cell">Ⓩ</div>
+	    
+	      <div class="cell">⎊</div>
+	    
+	      <div class="cell">♌</div>
+	    
+	      <div class="cell">⚦</div>
+	    
+	      <div class="cell">⚲</div>
+	    
+	      <div class="cell">🝈</div>
+	    
+	      <div class="cell">⑺</div>
+	    
+	      <div class="cell">🝐</div>
+	    
+	      <div class="cell">ⓑ</div>
+	    
+	      <div class="cell">⚓</div>
+	    
+	      <div class="cell">z</div>
+	    
+	      <div class="cell">ⅰ</div>
+	    
+	      <div class="cell">ⅵ</div>
+	    
+	      <div class="cell">🅹</div>
+	    
+	      <div class="cell">⒕</div>
+	    
+	      <div class="cell">🝢</div>
+	    
+	      <div class="cell">☪</div>
+	    
+	      <div class="cell">⎅</div>
+	    
+	      <div class="cell">⑻</div>
+	    
+	      <div class="cell">🄋</div>
+	    
+	      <div class="cell">ⓓ</div>
+	    
+	      <div class="cell">➈</div>
+	    
+	      <div class="cell">🆛</div>
+	    
+	      <div class="cell">⎋</div>
+	    
+	      <div class="cell">⛩</div>
+	    
+	      <div class="cell">⏓</div>
+	    
+	      <div class="cell">ⓕ</div>
+	    
+	      <div class="cell">☽</div>
+	    
+	      <div class="cell">⒦</div>
+	    
+	      <div class="cell">⓿</div>
+	    
+	      <div class="cell">⛭</div>
+	    
+	      <div class="cell">⏚</div>
+	    
+	      <div class="cell">🅨</div>
+	    
+	      <div class="cell">🝚</div>
+	    
+	      <div class="cell">🆫</div>
+	    
+	      <div class="cell">ⓩ</div>
+	    
+	      <div class="cell">🅪</div>
+	    
+	      <div class="cell">🄐</div>
+	    
+	      <div class="cell">☨</div>
+	    
+	      <div class="cell">🄡</div>
+	    
+	      <div class="cell">⒔</div>
+	    
+	      <div class="cell">⒱</div>
+	    
+	      <div class="cell">🆦</div>
+	    
+	      <div class="cell">⎏</div>
+	    
+	      <div class="cell">🝣</div>
+	    
+	      <div class="cell">⒎</div>
+	    
+	      <div class="cell">⒋</div>
+	    
+	      <div class="cell">⒃</div>
+	    
+	      <div class="cell">⒆</div>
+	    
+	      <div class="cell">⚭</div>
+	    
+	      <div class="cell">🝕</div>
+	    
+	      <div class="cell">🄔</div>
+	    
+	      <div class="cell">⏍</div>
+	    
+	      <div class="cell">♆</div>
+	    
+	      <div class="cell">⓭</div>
+	    
+	      <div class="cell">4</div>
+	    
+	      <div class="cell">⎂</div>
+	    
+	      <div class="cell">🝡</div>
+	    
+	      <div class="cell"> </div>
+	    
+	      <div class="cell">⌯</div>
+	    
+	      <div class="cell">🜘</div>
+	    
+	      <div class="cell">🜥</div>
+	    
+	      <div class="cell">②</div>
+	    
+	      <div class="cell">🅅</div>
+	    
+	      <div class="cell">⌟</div>
+	    
+	      <div class="cell">🆏</div>
+	    
+	      <div class="cell">☮</div>
+	    
+	      <div class="cell">🕇</div>
+	    
+	      <div class="cell">↘</div>
+	    
+	      <div class="cell">⌮</div>
+	    
+	      <div class="cell">⎈</div>
+	    
+	      <div class="cell">⎚</div>
+	    
+	      <div class="cell">♵</div>
+	    
+	      <div class="cell">w</div>
+	    
+	      <div class="cell">🜂</div>
+	    
+	      <div class="cell">⚺</div>
+	    
+	      <div class="cell">Ⅽ</div>
+	    
+	      <div class="cell">⏆</div>
+	    
+	      <div class="cell">➆</div>
+	    
+	      <div class="cell">⌣</div>
+	    
+	      <div class="cell">5</div>
+	    
+	      <div class="cell">🅓</div>
+	    
+	      <div class="cell">🜓</div>
+	    
+	      <div class="cell">🝩</div>
+	    
+	      <div class="cell">😐</div>
+	    
+	      <div class="cell">3</div>
+	    
+	      <div class="cell">Ⅿ</div>
+	    
+	      <div class="cell">⚖</div>
+	    
+	      <div class="cell">🅸</div>
+	    
+	      <div class="cell">⏥</div>
+	    
+	      <div class="cell">⑬</div>
+	    
+	      <div class="cell">ⅲ</div>
+	    
+	      <div class="cell">⌅</div>
+	    
+	      <div class="cell">⌃</div>
+	    
+	      <div class="cell">♾</div>
+	    
+	      <div class="cell">↔</div>
+	    
+	      <div class="cell">♄</div>
+	    
+	      <div class="cell">♶</div>
+	    
+	      <div class="cell">🆪</div>
+	    
+	      <div class="cell">☌</div>
+	    
+	      <div class="cell">🜠</div>
+	    
+	      <div class="cell">⎍</div>
+	    
+	      <div class="cell">⑳</div>
+	    
+	      <div class="cell">Ⅲ</div>
+	    
+	      <div class="cell">✟</div>
+	    
+	      <div class="cell">🄆</div>
+	    
+	      <div class="cell">ⅱ</div>
+	    
+	      <div class="cell">🆤</div>
+	    
+	      <div class="cell">i</div>
+	    
+	      <div class="cell">o</div>
+	    
+	      <div class="cell">⓼</div>
+	    
+	      <div class="cell">⏈</div>
+	    
+	      <div class="cell">🝮</div>
+	    
+	      <div class="cell">O</div>
+	    
+	      <div class="cell">🜾</div>
+	    
+	      <div class="cell">⚙</div>
+	    
+	      <div class="cell">🅫</div>
+	    
+	      <div class="cell">🄒</div>
+	    
+	      <div class="cell">⓴</div>
+	    
+	      <div class="cell">🜏</div>
+	    
+	      <div class="cell">🅳</div>
+	    
+	      <div class="cell">♳</div>
+	    
+	      <div class="cell">♯</div>
+	    
+	      <div class="cell">⏐</div>
+	    
+	      <div class="cell">🜈</div>
+	    
+	      <div class="cell">☸</div>
+	    
+	      <div class="cell">⌱</div>
+	    
+	      <div class="cell">♇</div>
+	    
+	      <div class="cell">🆟</div>
+	    
+	      <div class="cell">⛨</div>
+	    
+	      <div class="cell">⒌</div>
+	    
+	      <div class="cell">⑪</div>
+	    
+	      <div class="cell">⒒</div>
+	    
+	      <div class="cell">♒</div>
+	    
+	      <div class="cell">⑾</div>
+	    
+	      <div class="cell">⓵</div>
+	    
+	      <div class="cell">➏</div>
+	    
+	      <div class="cell">⒗</div>
+	    
+	      <div class="cell">🜢</div>
+	    
+	      <div class="cell">⓶</div>
+	    
+	      <div class="cell">k</div>
+	    
+	      <div class="cell">🄊</div>
+	    
+	      <div class="cell">🄇</div>
+	    
+	      <div class="cell">🅗</div>
+	    
+	      <div class="cell">⌗</div>
+	    
+	      <div class="cell">🅟</div>
+	    
+	      <div class="cell">⎃</div>
+	    
+	      <div class="cell">1</div>
+	    
+	      <div class="cell">🄻</div>
+	    
+	      <div class="cell">⏛</div>
+	    
+	      <div class="cell">Ⓞ</div>
+	    
+	      <div class="cell">🝘</div>
+	    
+	      <div class="cell">⛮</div>
+	    
+	      <div class="cell">Ⓡ</div>
+	    
+	      <div class="cell">⌎</div>
+	    
+	      <div class="cell">⚘</div>
+	    
+	      <div class="cell">⒂</div>
+	    
+	      <div class="cell">❻</div>
+	    
+	      <div class="cell">🅁</div>
+	    
+	      <div class="cell">⃟</div>
+	    
+	      <div class="cell">⏀</div>
+	    
+	      <div class="cell">⛥</div>
+	    
+	      <div class="cell">ↇ</div>
+	    
+	      <div class="cell">h</div>
+	    
+	      <div class="cell">➒</div>
+	    
+	      <div class="cell">⛎</div>
+	    
+	      <div class="cell">🝛</div>
+	    
+	      <div class="cell">🄲</div>
+	    
+	      <div class="cell">Ⅻ</div>
+	    
+	      <div class="cell">⚼</div>
+	    
+	      <div class="cell">⏣</div>
+	    
+	      <div class="cell">🅕</div>
+	    
+	      <div class="cell">⒉</div>
+	    
+	      <div class="cell">⎁</div>
+	    
+	      <div class="cell">Ⓦ</div>
+	    
+	      <div class="cell">☊</div>
+	    
+	      <div class="cell">⓰</div>
+	    
+	      <div class="cell">Ⓥ</div>
+	    
+	      <div class="cell">🄠</div>
+	    
+	      <div class="cell">ↅ</div>
+	    
+	      <div class="cell">🜟</div>
+	    
+	      <div class="cell">🄷</div>
+	    
+	      <div class="cell">Ⓤ</div>
+	    
+	      <div class="cell">⌵</div>
+	    
+	      <div class="cell">🅬</div>
+	    
+	      <div class="cell">🅍</div>
+	    
+	      <div class="cell">⌭</div>
+	    
+	      <div class="cell">M</div>
+	    
+	      <div class="cell">〈</div>
+	    
+	      <div class="cell">⎿</div>
+	    
+	      <div class="cell">④</div>
+	    
+	      <div class="cell">Y</div>
+	    
+	      <div class="cell">⓯</div>
+	    
+	      <div class="cell">☾</div>
+	    
+	      <div class="cell">⏋</div>
+	    
+	      <div class="cell">Ⓙ</div>
+	    
+	      <div class="cell">➎</div>
+	    
+	      <div class="cell">🄶</div>
+	    
+	      <div class="cell">♅</div>
+	    
+	      <div class="cell">↗</div>
+	    
+	      <div class="cell">⒑</div>
+	    
+	      <div class="cell">🄝</div>
+	    
+	      <div class="cell">7</div>
+	    
+	      <div class="cell">🆧</div>
+	    
+	      <div class="cell">⑧</div>
+	    
+	      <div class="cell">Ⅵ</div>
+	    
+	      <div class="cell">Ⅸ</div>
+	    
+	      <div class="cell">⛾</div>
+	    
+	      <div class="cell">🅚</div>
+	    
+	      <div class="cell">⒞</div>
+	    
+	      <div class="cell">⍼</div>
+	    
+	      <div class="cell">♫</div>
+	    
+	      <div class="cell">🅉</div>
+	    
+	      <div class="cell">⌇</div>
+	    
+	      <div class="cell">🜞</div>
+	    
+	      <div class="cell">⓱</div>
+	    
+	      <div class="cell">🜡</div>
+	    
+	      <div class="cell">🜷</div>
+	    
+	      <div class="cell">🜀</div>
+	    
+	      <div class="cell">🝭</div>
+	    
+	      <div class="cell">Ⅱ</div>
+	    
+	      <div class="cell">🅺</div>
+	    
+	      <div class="cell">🜊</div>
+	    
+	      <div class="cell">Z</div>
+	    
+	      <div class="cell">⚛</div>
+	    
+	      <div class="cell">⚰</div>
+	    
+	      <div class="cell">♈</div>
+	    
+	      <div class="cell">⒁</div>
+	    
+	      <div class="cell">♎</div>
+	    
+	      <div class="cell">☫</div>
+	    
+	      <div class="cell">♋</div>
+	    
+	      <div class="cell">⚐</div>
+	    
+	      <div class="cell">☤</div>
+	    
+	      <div class="cell">🝅</div>
+	    
+	      <div class="cell">Ⓠ</div>
+	    
+	      <div class="cell">Ⓟ</div>
+	    
+	      <div class="cell">⛧</div>
+	    
+	      <div class="cell">🄁</div>
+	    
+	      <div class="cell">🄚</div>
+	    
+	      <div class="cell">⌔</div>
+	    
+	      <div class="cell">→</div>
+	    
+	      <div class="cell">⏒</div>
+	    
+	      <div class="cell">🅣</div>
+	    
+	      <div class="cell">🜌</div>
+	    
+	      <div class="cell">🅻</div>
+	    
+	      <div class="cell">🆄</div>
+	    
+	      <div class="cell">P</div>
+	    
+	      <div class="cell">⃞</div>
+	    
+	      <div class="cell">⒵</div>
+	    
+	      <div class="cell">🝆</div>
+	    
+	      <div class="cell">⑦</div>
+	    
+	      <div class="cell">d</div>
+	    
+	      <div class="cell">Ⓧ</div>
+	    
+	      <div class="cell">🅇</div>
+	    
+	      <div class="cell">🝦</div>
+	    
+	      <div class="cell">⌲</div>
+	    
+	      <div class="cell"></div>
+	    
+	      <div class="cell">K</div>
+	    
+	      <div class="cell">⃠</div>
+	    
+	      <div class="cell">🜄</div>
+	    
+	      <div class="cell">🜕</div>
+	    
+	      <div class="cell">🅴</div>
+	    
+	      <div class="cell">🄼</div>
+	    
+	      <div class="cell">🅿</div>
+	    
+	      <div class="cell">🝃</div>
+	    
+	      <div class="cell">⛿</div>
+	    
+	      <div class="cell">➊</div>
+	    
+	      <div class="cell">ⓝ</div>
+	    
+	      <div class="cell">c</div>
+	    
+	      <div class="cell">q</div>
+	    
+	      <div class="cell">⑮</div>
+	    
+	      <div class="cell">u</div>
+	    
+	      <div class="cell">ⓠ</div>
+	    
+	      <div class="cell">🆁</div>
+	    
+	      <div class="cell"> </div>
+	    
+	      <div class="cell">⛸</div>
+	    
+	      <div class="cell">🅃</div>
+	    
+	      <div class="cell">🅧</div>
+	    
+	      <div class="cell">🅲</div>
+	    
+	      <div class="cell">🅌</div>
+	    
+	      <div class="cell">⚶</div>
+	    
+	      <div class="cell">🄄</div>
+	    
+	      <div class="cell">⌂</div>
+	    
+	      <div class="cell">🄬</div>
+	    
+	      <div class="cell">♮</div>
+	    
+	      <div class="cell">⌞</div>
+	    
+	      <div class="cell">🅙</div>
+	    
+	      <div class="cell">♏</div>
+	    
+	      <div class="cell">⛲</div>
+	    
+	      <div class="cell">🜴</div>
+	    
+	      <div class="cell">🅩</div>
+	    
+	      <div class="cell">⤡</div>
+	    
+	      <div class="cell">⎌</div>
+	    
+	      <div class="cell">🝞</div>
+	    
+	      <div class="cell">e</div>
+	    
+	      <div class="cell">⏂</div>
+	    
+	      <div class="cell">⏇</div>
+	    
+	      <div class="cell">ⓤ</div>
+	    
+	      <div class="cell">♻</div>
+	    
+	      <div class="cell">🜐</div>
+	    
+	      <div class="cell">⏅</div>
+	    
+	      <div class="cell">ↆ</div>
+	    
+	      <div class="cell">⤢</div>
+	    
+	      <div class="cell">ⓐ</div>
+	    
+	      <div class="cell">🝍</div>
+	    
+	      <div class="cell">⌉</div>
+	    
+	      <div class="cell">⛻</div>
+	    
+	      <div class="cell">✝</div>
+	    
+	      <div class="cell">🝳</div>
+	    
+	      <div class="cell">⎾</div>
+	    
+	      <div class="cell">⓮</div>
+	    
+	      <div class="cell">C</div>
+	    
+	      <div class="cell">ⅽ</div>
+	    
+	      <div class="cell">☦</div>
+	    
+	      <div class="cell">🄌</div>
+	    
+	      <div class="cell">Ⓜ</div>
+	    
+	      <div class="cell">🄥</div>
+	    
+	      <div class="cell">ⓧ</div>
+	    
+	      <div class="cell">🜇</div>
+	    
+	      <div class="cell">🝇</div>
+	    
+	      <div class="cell">⃣</div>
+	    
+	      <div class="cell">☍</div>
+	    
+	      <div class="cell">🆀</div>
+	    
+	      <div class="cell">🜯</div>
+	    
+	      <div class="cell">j</div>
+	    
+	      <div class="cell">N</div>
+	    
+	      <div class="cell">⌋</div>
+	    
+	      <div class="cell">ⓒ</div>
+	    
+	      <div class="cell">0</div>
+	    
+	      <div class="cell">🝧</div>
+	    
+	      <div class="cell">🜆</div>
+	    
+	      <div class="cell">ⅺ</div>
+	    
+	      <div class="cell">Ⓕ</div>
+	    
+	      <div class="cell">Ⅹ</div>
+	    
+	      <div class="cell">♬</div>
+	    
+	      <div class="cell">🜑</div>
+	    
+	      <div class="cell">⚳</div>
+	    
+	      <div class="cell">🄢</div>
+	    
+	      <div class="cell">♍</div>
+	    
+	      <div class="cell">♹</div>
+	    
+	      <div class="cell">🄀</div>
+	    
+	      <div class="cell">⓾</div>
+	    
+	      <div class="cell">Ⅼ</div>
+	    
+	      <div class="cell">❿</div>
+	    
+	      <div class="cell">🅏</div>
+	    
+	      <div class="cell">🄓</div>
+	    
+	      <div class="cell">⒈</div>
+	    
+	      <div class="cell">6</div>
+	    
+	      <div class="cell">Ⓗ</div>
+	    
+	      <div class="cell">✡</div>
+	    
+	      <div class="cell">🝙</div>
+	    
+	      <div class="cell">🝌</div>
+	    
+	      <div class="cell">Ⓨ</div>
+	    
+	      <div class="cell">U</div>
+	    
+	      <div class="cell">⚻</div>
+	    
+	      <div class="cell">🜬</div>
+	    
+	      <div class="cell">⎗</div>
+	    
+	      <div class="cell">🄗</div>
+	    
+	      <div class="cell">🅛</div>
+	    
+	      <div class="cell">🅠</div>
+	    
+	      <div class="cell">🄈</div>
+	    
+	      <div class="cell">☬</div>
+	    
+	      <div class="cell">⌝</div>
+	    
+	      <div class="cell">⚤</div>
+	    
+	      <div class="cell">🅂</div>
+	    
+	      <div class="cell">🜉</div>
+	    
+	      <div class="cell">🜣</div>
+	    
+	      <div class="cell">⒚</div>
+	    
+	      <div class="cell">♰</div>
+	    
+	      <div class="cell">⑲</div>
+	    
+	      <div class="cell">➓</div>
+	    
+	      <div class="cell">←</div>
+	    
+	      <div class="cell">🅋</div>
+	    
+	      <div class="cell">⌍</div>
+	    
+	      <div class="cell">⌕</div>
+	    
+	      <div class="cell">♪</div>
+	    
+	      <div class="cell">➁</div>
+	    
+	      <div class="cell">⑥</div>
+	    
+	      <div class="cell">🄮</div>
+	    
+	      <div class="cell">③</div>
+	    
+	      <div class="cell">🝓</div>
+	    
+	      <div class="cell">🅷</div>
+	    
+	      <div class="cell">🄩</div>
+	    
+	      <div class="cell">♁</div>
+	    
+	      <div class="cell">①</div>
+	    
+	      <div class="cell">🅡</div>
+	    
+	      <div class="cell">Ↄ</div>
+	    
+	      <div class="cell">☻</div>
+	    
+	      <div class="cell">🜙</div>
+	    
+	      <div class="cell">⑹</div>
+	    
+	      <div class="cell">🜹</div>
+	    
+	      <div class="cell">🅀</div>
+	    
+	      <div class="cell">⓺</div>
+	    
+	      <div class="cell">🅥</div>
+	    
+	      <div class="cell">🝠</div>
+	    
+	      <div class="cell">ⓗ</div>
+	    
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">old-ExtraLight 20pt</div>
+	  <span class="old-ExtraLight" style="font-size: 20pt">
+	    
+	      <div class="cell">🝪</div>
+	    
+	      <div class="cell">⓲</div>
+	    
+	      <div class="cell">ⓦ</div>
+	    
+	      <div class="cell">⒀</div>
+	    
+	      <div class="cell">⚢</div>
+	    
+	      <div class="cell">🜨</div>
+	    
+	      <div class="cell">🝯</div>
+	    
+	      <div class="cell">⑯</div>
+	    
+	      <div class="cell">🕆</div>
+	    
+	      <div class="cell">🝗</div>
+	    
+	      <div class="cell">🝔</div>
+	    
+	      <div class="cell">⃤</div>
+	    
+	      <div class="cell">⒮</div>
+	    
+	      <div class="cell">⌓</div>
+	    
+	      <div class="cell">🜼</div>
+	    
+	      <div class="cell">⚹</div>
+	    
+	      <div class="cell">⒠</div>
+	    
+	      <div class="cell">⒛</div>
+	    
+	      <div class="cell">Ⓐ</div>
+	    
+	      <div class="cell">🆢</div>
+	    
+	      <div class="cell">♩</div>
+	    
+	      <div class="cell">⛱</div>
+	    
+	      <div class="cell">n</div>
+	    
+	      <div class="cell">⒐</div>
+	    
+	      <div class="cell">⎔</div>
+	    
+	      <div class="cell">⌴</div>
+	    
+	      <div class="cell">⏦</div>
+	    
+	      <div class="cell">⌳</div>
+	    
+	      <div class="cell">F</div>
+	    
+	      <div class="cell">🅱</div>
+	    
+	      <div class="cell">🜿</div>
+	    
+	      <div class="cell">🜖</div>
+	    
+	      <div class="cell">⒝</div>
+	    
+	      <div class="cell">ⅶ</div>
+	    
+	      <div class="cell">⒟</div>
+	    
+	      <div class="cell">❼</div>
+	    
+	      <div class="cell">🅽</div>
+	    
+	      <div class="cell">➂</div>
+	    
+	      <div class="cell">⚒</div>
+	    
+	      <div class="cell">S</div>
+	    
+	      <div class="cell">⛹</div>
+	    
+	      <div class="cell">Ⅳ</div>
+	    
+	      <div class="cell">v</div>
+	    
+	      <div class="cell">⒧</div>
+	    
+	      <div class="cell">🝊</div>
+	    
+	      <div class="cell">⚩</div>
+	    
+	      <div class="cell">♭</div>
+	    
+	      <div class="cell">🄸</div>
+	    
+	      <div class="cell">🝂</div>
+	    
+	      <div class="cell">ⓣ</div>
+	    
+	      <div class="cell">🜱</div>
+	    
+	      <div class="cell">⚔</div>
+	    
+	      <div class="cell">⚕</div>
+	    
+	      <div class="cell">⚵</div>
+	    
+	      <div class="cell">🄛</div>
+	    
+	      <div class="cell">ⓚ</div>
+	    
+	      <div class="cell">ⓔ</div>
+	    
+	      <div class="cell">☹</div>
+	    
+	      <div class="cell">⏧</div>
+	    
+	      <div class="cell">ⓞ</div>
+	    
+	      <div class="cell">🅊</div>
+	    
+	      <div class="cell">⌈</div>
+	    
+	      <div class="cell">🄘</div>
+	    
+	      <div class="cell">⏢</div>
+	    
+	      <div class="cell">⛶</div>
+	    
+	      <div class="cell">ⓢ</div>
+	    
+	      <div class="cell">↓</div>
+	    
+	      <div class="cell">🄅</div>
+	    
+	      <div class="cell">🝥</div>
+	    
+	      <div class="cell">🄪</div>
+	    
+	      <div class="cell">🝤</div>
+	    
+	      <div class="cell">🜧</div>
+	    
+	      <div class="cell">🜜</div>
+	    
+	      <div class="cell">🄭</div>
+	    
+	      <div class="cell">➍</div>
+	    
+	      <div class="cell">➋</div>
+	    
+	      <div class="cell">⏁</div>
+	    
+	      <div class="cell">🄤</div>
+	    
+	      <div class="cell">🅝</div>
+	    
+	      <div class="cell">⒪</div>
+	    
+	      <div class="cell">r</div>
+	    
+	      <div class="cell">⌑</div>
+	    
+	      <div class="cell">♀</div>
+	    
+	      <div class="cell">🄽</div>
+	    
+	      <div class="cell">Ⓔ</div>
+	    
+	      <div class="cell">♐</div>
+	    
+	      <div class="cell">🝏</div>
+	    
+	      <div class="cell">🝱</div>
+	    
+	      <div class="cell">☓</div>
+	    
+	      <div class="cell">⒤</div>
+	    
+	      <div class="cell">⓬</div>
+	    
+	      <div class="cell">⎯</div>
+	    
+	      <div class="cell">Ⓘ</div>
+	    
+	      <div class="cell">⚨</div>
+	    
+	      <div class="cell">y</div>
+	    
+	      <div class="cell">🜫</div>
+	    
+	      <div class="cell">R</div>
+	    
+	      <div class="cell">Ⅶ</div>
+	    
+	      <div class="cell">🄴</div>
+	    
+	      <div class="cell">🅐</div>
+	    
+	      <div class="cell">♼</div>
+	    
+	      <div class="cell">➅</div>
+	    
+	      <div class="cell">⑼</div>
+	    
+	      <div class="cell">🅄</div>
+	    
+	      <div class="cell">🝉</div>
+	    
+	      <div class="cell">⛪</div>
+	    
+	      <div class="cell">Ⓝ</div>
+	    
+	      <div class="cell">Q</div>
+	    
+	      <div class="cell">➐</div>
+	    
+	      <div class="cell">⌁</div>
+	    
+	      <div class="cell">🝖</div>
+	    
+	      <div class="cell">Ⓣ</div>
+	    
+	      <div class="cell"> </div>
+	    
+	      <div class="cell">🜻</div>
+	    
+	      <div class="cell">🄺</div>
+	    
+	      <div class="cell">⓻</div>
+	    
+	      <div class="cell">⚣</div>
+	    
+	      <div class="cell">🄜</div>
+	    
+	      <div class="cell">🆨</div>
+	    
+	      <div class="cell">🝑</div>
+	    
+	      <div class="cell">🄂</div>
+	    
+	      <div class="cell">Ⓑ</div>
+	    
+	      <div class="cell">🜰</div>
+	    
+	      <div class="cell">🜺</div>
+	    
+	      <div class="cell">❹</div>
+	    
+	      <div class="cell">🜶</div>
+	    
+	      <div class="cell">⌢</div>
+	    
+	      <div class="cell">🄣</div>
+	    
+	      <div class="cell">⓽</div>
+	    
+	      <div class="cell">🆃</div>
+	    
+	      <div class="cell">🜩</div>
+	    
+	      <div class="cell">⌀</div>
+	    
+	      <div class="cell">⏌</div>
+	    
+	      <div class="cell">⒩</div>
+	    
+	      <div class="cell">♓</div>
+	    
+	      <div class="cell">⑸</div>
+	    
+	      <div class="cell">🜗</div>
+	    
+	      <div class="cell">🝀</div>
+	    
+	      <div class="cell">⌄</div>
+	    
+	      <div class="cell">⑵</div>
+	    
+	      <div class="cell">🆬</div>
+	    
+	      <div class="cell">⌜</div>
+	    
+	      <div class="cell">⑤</div>
+	    
+	      <div class="cell">Ⓒ</div>
+	    
+	      <div class="cell">⛺</div>
+	    
+	      <div class="cell">ⓡ</div>
+	    
+	      <div class="cell">✠</div>
+	    
+	      <div class="cell">🄟</div>
+	    
+	      <div class="cell">⒜</div>
+	    
+	      <div class="cell">⌒</div>
+	    
+	      <div class="cell">⚯</div>
+	    
+	      <div class="cell">♽</div>
+	    
+	      <div class="cell">🝝</div>
+	    
+	      <div class="cell">🆞</div>
+	    
+	      <div class="cell">Ⅷ</div>
+	    
+	      <div class="cell">⎒</div>
+	    
+	      <div class="cell">🆂</div>
+	    
+	      <div class="cell">ⓨ</div>
+	    
+	      <div class="cell">🄾</div>
+	    
+	      <div class="cell">ⓙ</div>
+	    
+	      <div class="cell">D</div>
+	    
+	      <div class="cell">⚧</div>
+	    
+	      <div class="cell">🄿</div>
+	    
+	      <div class="cell">⓫</div>
+	    
+	      <div class="cell">X</div>
+	    
+	      <div class="cell">🆋</div>
+	    
+	      <div class="cell">A</div>
+	    
+	      <div class="cell">➉</div>
+	    
+	      <div class="cell">⚜</div>
+	    
+	      <div class="cell">🕉</div>
+	    
+	      <div class="cell">🝨</div>
+	    
+	      <div class="cell">🜵</div>
+	    
+	      <div class="cell">♑</div>
+	    
+	      <div class="cell">ⓘ</div>
+	    
+	      <div class="cell">⎄</div>
+	    
+	      <div class="cell">ⓖ</div>
+	    
+	      <div class="cell">☋</div>
+	    
+	      <div class="cell">🜪</div>
+	    
+	      <div class="cell">L</div>
+	    
+	      <div class="cell">↖</div>
+	    
+	      <div class="cell">🄹</div>
+	    
+	      <div class="cell">ⓥ</div>
+	    
+	      <div class="cell">↑</div>
+	    
+	      <div class="cell">⒅</div>
+	    
+	      <div class="cell">◌</div>
+	    
+	      <div class="cell">➃</div>
+	    
+	      <div class="cell">🜚</div>
+	    
+	      <div class="cell">🜋</div>
+	    
+	      <div class="cell">↊</div>
+	    
+	      <div class="cell">♂</div>
+	    
+	      <div class="cell">🆡</div>
+	    
+	      <div class="cell">♴</div>
+	    
+	      <div class="cell">♺</div>
+	    
+	      <div class="cell">⒣</div>
+	    
+	      <div class="cell">☺</div>
+	    
+	      <div class="cell">2</div>
+	    
+	      <div class="cell">⏃</div>
+	    
+	      <div class="cell">🜁</div>
+	    
+	      <div class="cell">🄞</div>
+	    
+	      <div class="cell">⛳</div>
+	    
+	      <div class="cell">⒇</div>
+	    
+	      <div class="cell">⒬</div>
+	    
+	      <div class="cell">♉</div>
+	    
+	      <div class="cell">⑰</div>
+	    
+	      <div class="cell">🜮</div>
+	    
+	      <div class="cell">⌌</div>
+	    
+	      <div class="cell">♃</div>
+	    
+	      <div class="cell">🅑</div>
+	    
+	      <div class="cell">⎎</div>
+	    
+	      <div class="cell">🅰</div>
+	    
+	      <div class="cell">⚗</div>
+	    
+	      <div class="cell">⚱</div>
+	    
+	      <div class="cell">⑷</div>
+	    
+	      <div class="cell">⒄</div>
+	    
+	      <div class="cell">❾</div>
+	    
+	      <div class="cell">❺</div>
+	    
+	      <div class="cell">♊</div>
+	    
+	      <div class="cell">☯</div>
+	    
+	      <div class="cell">🜦</div>
+	    
+	      <div class="cell">Ⓛ</div>
+	    
+	      <div class="cell">H</div>
+	    
+	      <div class="cell">E</div>
+	    
+	      <div class="cell">⒴</div>
+	    
+	      <div class="cell">🝁</div>
+	    
+	      <div class="cell">⓹</div>
+	    
+	      <div class="cell">↕</div>
+	    
+	      <div class="cell">⑱</div>
+	    
+	      <div class="cell">⒏</div>
+	    
+	      <div class="cell">🅼</div>
+	    
+	      <div class="cell">🄑</div>
+	    
+	      <div class="cell">🜤</div>
+	    
+	      <div class="cell">ⅿ</div>
+	    
+	      <div class="cell">⚑</div>
+	    
+	      <div class="cell">⏕</div>
+	    
+	      <div class="cell">⛫</div>
+	    
+	      <div class="cell">🝋</div>
+	    
+	      <div class="cell">🄃</div>
+	    
+	      <div class="cell">⏊</div>
+	    
+	      <div class="cell">⒨</div>
+	    
+	      <div class="cell">🜸</div>
+	    
+	      <div class="cell">🕈</div>
+	    
+	      <div class="cell">🝟</div>
+	    
+	      <div class="cell">⒓</div>
+	    
+	      <div class="cell">☧</div>
+	    
+	      <div class="cell">🅾</div>
+	    
+	      <div class="cell">🜔</div>
+	    
+	      <div class="cell">🄳</div>
+	    
+	      <div class="cell">🜝</div>
+	    
+	      <div class="cell">⏖</div>
+	    
+	      <div class="cell">⚮</div>
+	    
+	      <div class="cell">⑿</div>
+	    
+	      <div class="cell">➇</div>
+	    
+	      <div class="cell">⑽</div>
+	    
+	      <div class="cell">⏄</div>
+	    
+	      <div class="cell">⏗</div>
+	    
+	      <div class="cell">⑨</div>
+	    
+	      <div class="cell">Ⅾ</div>
+	    
+	      <div class="cell">🄱</div>
+	    
+	      <div class="cell">❷</div>
+	    
+	      <div class="cell">☭</div>
+	    
+	      <div class="cell">🅈</div>
+	    
+	      <div class="cell">⚸</div>
+	    
+	      <div class="cell">⎇</div>
+	    
+	      <div class="cell">🆎</div>
+	    
+	      <div class="cell">⚴</div>
+	    
+	      <div class="cell">T</div>
+	    
+	      <div class="cell">❶</div>
+	    
+	      <div class="cell">⌏</div>
+	    
+	      <div class="cell">🜅</div>
+	    
+	      <div class="cell">🜒</div>
+	    
+	      <div class="cell">🆩</div>
+	    
+	      <div class="cell">⒘</div>
+	    
+	      <div class="cell">🄵</div>
+	    
+	      <div class="cell">🄧</div>
+	    
+	      <div class="cell">🆆</div>
+	    
+	      <div class="cell">⓸</div>
+	    
+	      <div class="cell">🝰</div>
+	    
+	      <div class="cell">⒊</div>
+	    
+	      <div class="cell">9</div>
+	    
+	      <div class="cell">⒍</div>
+	    
+	      <div class="cell">Ⓓ</div>
+	    
+	      <div class="cell">⛼</div>
+	    
+	      <div class="cell">🄉</div>
+	    
+	      <div class="cell">🅘</div>
+	    
+	      <div class="cell">🆣</div>
+	    
+	      <div class="cell">f</div>
+	    
+	      <div class="cell">⎐</div>
+	    
+	      <div class="cell">ↀ</div>
+	    
+	      <div class="cell">⎑</div>
+	    
+	      <div class="cell">🅒</div>
+	    
+	      <div class="cell">⒢</div>
+	    
+	      <div class="cell">🝬</div>
+	    
+	      <div class="cell">☩</div>
+	    
+	      <div class="cell">🝒</div>
+	    
+	      <div class="cell">🜽</div>
+	    
+	      <div class="cell">Ⓖ</div>
+	    
+	      <div class="cell">V</div>
+	    
+	      <div class="cell">B</div>
+	    
+	      <div class="cell">⛣</div>
+	    
+	      <div class="cell">⎓</div>
+	    
+	      <div class="cell">🅢</div>
+	    
+	      <div class="cell">8</div>
+	    
+	      <div class="cell">☥</div>
+	    
+	      <div class="cell">ⅼ</div>
+	    
+	      <div class="cell">🜎</div>
+	    
+	      <div class="cell">➀</div>
+	    
+	      <div class="cell">ⅹ</div>
+	    
+	      <div class="cell">🆇</div>
+	    
+	      <div class="cell">🅦</div>
+	    
+	      <div class="cell">⒡</div>
+	    
+	      <div class="cell">ⓟ</div>
+	    
+	      <div class="cell">s</div>
+	    
+	      <div class="cell">🅶</div>
+	    
+	      <div class="cell">⏤</div>
+	    
+	      <div class="cell">⛴</div>
+	    
+	      <div class="cell">⎙</div>
+	    
+	      <div class="cell">⏨</div>
+	    
+	      <div class="cell">⑶</div>
+	    
+	      <div class="cell">🅎</div>
+	    
+	      <div class="cell">🆜</div>
+	    
+	      <div class="cell">❸</div>
+	    
+	      <div class="cell">🅆</div>
+	    
+	      <div class="cell">♲</div>
+	    
+	      <div class="cell">♷</div>
+	    
+	      <div class="cell">⒙</div>
+	    
+	      <div class="cell">⎖</div>
+	    
+	      <div class="cell">⎘</div>
+	    
+	      <div class="cell">ⓛ</div>
+	    
+	      <div class="cell">⚥</div>
+	    
+	      <div class="cell">🆠</div>
+	    
+	      <div class="cell">🝎</div>
+	    
+	      <div class="cell">♱</div>
+	    
+	      <div class="cell">⃢</div>
+	    
+	      <div class="cell">🄯</div>
+	    
+	      <div class="cell">⒭</div>
+	    
+	      <div class="cell">🆌</div>
+	    
+	      <div class="cell">⏘</div>
+	    
+	      <div class="cell">⛦</div>
+	    
+	      <div class="cell">🅵</div>
+	    
+	      <div class="cell">ⓜ</div>
+	    
+	      <div class="cell">🆝</div>
+	    
+	      <div class="cell">⏉</div>
+	    
+	      <div class="cell">⚷</div>
+	    
+	      <div class="cell">🄫</div>
+	    
+	      <div class="cell">↋</div>
+	    
+	      <div class="cell">✞</div>
+	    
+	      <div class="cell">🜍</div>
+	    
+	      <div class="cell">⌊</div>
+	    
+	      <div class="cell">Ⓚ</div>
+	    
+	      <div class="cell">b</div>
+	    
+	      <div class="cell">⌰</div>
+	    
+	      <div class="cell">⏔</div>
+	    
+	      <div class="cell">G</div>
+	    
+	      <div class="cell">⓳</div>
+	    
+	      <div class="cell">〉</div>
+	    
+	      <div class="cell">⎀</div>
+	    
+	      <div class="cell">🄙</div>
+	    
+	      <div class="cell">⒲</div>
+	    
+	      <div class="cell">⎉</div>
+	    
+	      <div class="cell">⒳</div>
+	    
+	      <div class="cell">🜭</div>
+	    
+	      <div class="cell">x</div>
+	    
+	      <div class="cell">g</div>
+	    
+	      <div class="cell">⏙</div>
+	    
+	      <div class="cell">⑩</div>
+	    
+	      <div class="cell">W</div>
+	    
+	      <div class="cell">ↂ</div>
+	    
+	      <div class="cell">⒫</div>
+	    
+	      <div class="cell">p</div>
+	    
+	      <div class="cell">⛵</div>
+	    
+	      <div class="cell">⑫</div>
+	    
+	      <div class="cell">🝜</div>
+	    
+	      <div class="cell">⛰</div>
+	    
+	      <div class="cell">❽</div>
+	    
+	      <div class="cell">⌆</div>
+	    
+	      <div class="cell">🆐</div>
+	    
+	      <div class="cell">🝫</div>
+	    
+	      <div class="cell">🝲</div>
+	    
+	      <div class="cell">Ⓢ</div>
+	    
+	      <div class="cell">🝄</div>
+	    
+	      <div class="cell">Ⅰ</div>
+	    
+	      <div class="cell">↙</div>
+	    
+	      <div class="cell">☿</div>
+	    
+	      <div class="cell">⛢</div>
+	    
+	      <div class="cell">⓷</div>
+	    
+	      <div class="cell">⛬</div>
+	    
+	      <div class="cell">⛯</div>
+	    
+	      <div class="cell">➌</div>
+	    
+	      <div class="cell">🄖</div>
+	    
+	      <div class="cell">J</div>
+	    
+	      <div class="cell">ↁ</div>
+	    
+	      <div class="cell">🆥</div>
+	    
+	      <div class="cell">🆈</div>
+	    
+	      <div class="cell">ⅴ</div>
+	    
+	      <div class="cell">ↈ</div>
+	    
+	      <div class="cell">♸</div>
+	    
+	      <div class="cell">⏑</div>
+	    
+	      <div class="cell">⒰</div>
+	    
+	      <div class="cell">I</div>
+	    
+	      <div class="cell">⛷</div>
+	    
+	      <div class="cell">⚝</div>
+	    
+	      <div class="cell">🄰</div>
+	    
+	      <div class="cell">a</div>
+	    
+	      <div class="cell">⑴</div>
+	    
+	      <div class="cell">t</div>
+	    
+	      <div class="cell">🅤</div>
+	    
+	      <div class="cell">⒯</div>
+	    
+	      <div class="cell">ⅷ</div>
+	    
+	      <div class="cell">➑</div>
+	    
+	      <div class="cell">🅔</div>
+	    
+	      <div class="cell">⎆</div>
+	    
+	      <div class="cell">🄕</div>
+	    
+	      <div class="cell">🅖</div>
+	    
+	      <div class="cell">🄨</div>
+	    
+	      <div class="cell">🕏</div>
+	    
+	      <div class="cell">🜳</div>
+	    
+	      <div class="cell">m</div>
+	    
+	      <div class="cell">⑭</div>
+	    
+	      <div class="cell">⌬</div>
+	    
+	      <div class="cell">⚚</div>
+	    
+	      <div class="cell">🆅</div>
+	    
+	      <div class="cell">Ⅴ</div>
+	    
+	      <div class="cell">🆍</div>
+	    
+	      <div class="cell">🅜</div>
+	    
+	      <div class="cell">🅞</div>
+	    
+	      <div class="cell">🜲</div>
+	    
+	      <div class="cell">🆉</div>
+	    
+	      <div class="cell">🜃</div>
+	    
+	      <div class="cell">ⅳ</div>
+	    
+	      <div class="cell">🄦</div>
+	    
+	      <div class="cell">⛤</div>
+	    
+	      <div class="cell">⛽</div>
+	    
+	      <div class="cell">⒖</div>
+	    
+	      <div class="cell">ⅻ</div>
+	    
+	      <div class="cell">⒥</div>
+	    
+	      <div class="cell">⓪</div>
+	    
+	      <div class="cell">➄</div>
+	    
+	      <div class="cell">🆊</div>
+	    
+	      <div class="cell">ⅾ</div>
+	    
+	      <div class="cell">⃝</div>
+	    
+	      <div class="cell">🜛</div>
+	    
+	      <div class="cell">ⅸ</div>
+	    
+	      <div class="cell">Ⅺ</div>
+	    
+	      <div class="cell">l</div>
+	    
+	      <div class="cell">Ⓩ</div>
+	    
+	      <div class="cell">⎊</div>
+	    
+	      <div class="cell">♌</div>
+	    
+	      <div class="cell">⚦</div>
+	    
+	      <div class="cell">⚲</div>
+	    
+	      <div class="cell">🝈</div>
+	    
+	      <div class="cell">⑺</div>
+	    
+	      <div class="cell">🝐</div>
+	    
+	      <div class="cell">ⓑ</div>
+	    
+	      <div class="cell">⚓</div>
+	    
+	      <div class="cell">z</div>
+	    
+	      <div class="cell">ⅰ</div>
+	    
+	      <div class="cell">ⅵ</div>
+	    
+	      <div class="cell">🅹</div>
+	    
+	      <div class="cell">⒕</div>
+	    
+	      <div class="cell">🝢</div>
+	    
+	      <div class="cell">☪</div>
+	    
+	      <div class="cell">⎅</div>
+	    
+	      <div class="cell">⑻</div>
+	    
+	      <div class="cell">🄋</div>
+	    
+	      <div class="cell">ⓓ</div>
+	    
+	      <div class="cell">➈</div>
+	    
+	      <div class="cell">🆛</div>
+	    
+	      <div class="cell">⎋</div>
+	    
+	      <div class="cell">⛩</div>
+	    
+	      <div class="cell">⏓</div>
+	    
+	      <div class="cell">ⓕ</div>
+	    
+	      <div class="cell">☽</div>
+	    
+	      <div class="cell">⒦</div>
+	    
+	      <div class="cell">⓿</div>
+	    
+	      <div class="cell">⛭</div>
+	    
+	      <div class="cell">⏚</div>
+	    
+	      <div class="cell">🅨</div>
+	    
+	      <div class="cell">🝚</div>
+	    
+	      <div class="cell">🆫</div>
+	    
+	      <div class="cell">ⓩ</div>
+	    
+	      <div class="cell">🅪</div>
+	    
+	      <div class="cell">🄐</div>
+	    
+	      <div class="cell">☨</div>
+	    
+	      <div class="cell">🄡</div>
+	    
+	      <div class="cell">⒔</div>
+	    
+	      <div class="cell">⒱</div>
+	    
+	      <div class="cell">🆦</div>
+	    
+	      <div class="cell">⎏</div>
+	    
+	      <div class="cell">🝣</div>
+	    
+	      <div class="cell">⒎</div>
+	    
+	      <div class="cell">⒋</div>
+	    
+	      <div class="cell">⒃</div>
+	    
+	      <div class="cell">⒆</div>
+	    
+	      <div class="cell">⚭</div>
+	    
+	      <div class="cell">🝕</div>
+	    
+	      <div class="cell">🄔</div>
+	    
+	      <div class="cell">⏍</div>
+	    
+	      <div class="cell">♆</div>
+	    
+	      <div class="cell">⓭</div>
+	    
+	      <div class="cell">4</div>
+	    
+	      <div class="cell">⎂</div>
+	    
+	      <div class="cell">🝡</div>
+	    
+	      <div class="cell"> </div>
+	    
+	      <div class="cell">⌯</div>
+	    
+	      <div class="cell">🜘</div>
+	    
+	      <div class="cell">🜥</div>
+	    
+	      <div class="cell">②</div>
+	    
+	      <div class="cell">🅅</div>
+	    
+	      <div class="cell">⌟</div>
+	    
+	      <div class="cell">🆏</div>
+	    
+	      <div class="cell">☮</div>
+	    
+	      <div class="cell">🕇</div>
+	    
+	      <div class="cell">↘</div>
+	    
+	      <div class="cell">⌮</div>
+	    
+	      <div class="cell">⎈</div>
+	    
+	      <div class="cell">⎚</div>
+	    
+	      <div class="cell">♵</div>
+	    
+	      <div class="cell">w</div>
+	    
+	      <div class="cell">🜂</div>
+	    
+	      <div class="cell">⚺</div>
+	    
+	      <div class="cell">Ⅽ</div>
+	    
+	      <div class="cell">⏆</div>
+	    
+	      <div class="cell">➆</div>
+	    
+	      <div class="cell">⌣</div>
+	    
+	      <div class="cell">5</div>
+	    
+	      <div class="cell">🅓</div>
+	    
+	      <div class="cell">🜓</div>
+	    
+	      <div class="cell">🝩</div>
+	    
+	      <div class="cell">😐</div>
+	    
+	      <div class="cell">3</div>
+	    
+	      <div class="cell">Ⅿ</div>
+	    
+	      <div class="cell">⚖</div>
+	    
+	      <div class="cell">🅸</div>
+	    
+	      <div class="cell">⏥</div>
+	    
+	      <div class="cell">⑬</div>
+	    
+	      <div class="cell">ⅲ</div>
+	    
+	      <div class="cell">⌅</div>
+	    
+	      <div class="cell">⌃</div>
+	    
+	      <div class="cell">♾</div>
+	    
+	      <div class="cell">↔</div>
+	    
+	      <div class="cell">♄</div>
+	    
+	      <div class="cell">♶</div>
+	    
+	      <div class="cell">🆪</div>
+	    
+	      <div class="cell">☌</div>
+	    
+	      <div class="cell">🜠</div>
+	    
+	      <div class="cell">⎍</div>
+	    
+	      <div class="cell">⑳</div>
+	    
+	      <div class="cell">Ⅲ</div>
+	    
+	      <div class="cell">✟</div>
+	    
+	      <div class="cell">🄆</div>
+	    
+	      <div class="cell">ⅱ</div>
+	    
+	      <div class="cell">🆤</div>
+	    
+	      <div class="cell">i</div>
+	    
+	      <div class="cell">o</div>
+	    
+	      <div class="cell">⓼</div>
+	    
+	      <div class="cell">⏈</div>
+	    
+	      <div class="cell">🝮</div>
+	    
+	      <div class="cell">O</div>
+	    
+	      <div class="cell">🜾</div>
+	    
+	      <div class="cell">⚙</div>
+	    
+	      <div class="cell">🅫</div>
+	    
+	      <div class="cell">🄒</div>
+	    
+	      <div class="cell">⓴</div>
+	    
+	      <div class="cell">🜏</div>
+	    
+	      <div class="cell">🅳</div>
+	    
+	      <div class="cell">♳</div>
+	    
+	      <div class="cell">♯</div>
+	    
+	      <div class="cell">⏐</div>
+	    
+	      <div class="cell">🜈</div>
+	    
+	      <div class="cell">☸</div>
+	    
+	      <div class="cell">⌱</div>
+	    
+	      <div class="cell">♇</div>
+	    
+	      <div class="cell">🆟</div>
+	    
+	      <div class="cell">⛨</div>
+	    
+	      <div class="cell">⒌</div>
+	    
+	      <div class="cell">⑪</div>
+	    
+	      <div class="cell">⒒</div>
+	    
+	      <div class="cell">♒</div>
+	    
+	      <div class="cell">⑾</div>
+	    
+	      <div class="cell">⓵</div>
+	    
+	      <div class="cell">➏</div>
+	    
+	      <div class="cell">⒗</div>
+	    
+	      <div class="cell">🜢</div>
+	    
+	      <div class="cell">⓶</div>
+	    
+	      <div class="cell">k</div>
+	    
+	      <div class="cell">🄊</div>
+	    
+	      <div class="cell">🄇</div>
+	    
+	      <div class="cell">🅗</div>
+	    
+	      <div class="cell">⌗</div>
+	    
+	      <div class="cell">🅟</div>
+	    
+	      <div class="cell">⎃</div>
+	    
+	      <div class="cell">1</div>
+	    
+	      <div class="cell">🄻</div>
+	    
+	      <div class="cell">⏛</div>
+	    
+	      <div class="cell">Ⓞ</div>
+	    
+	      <div class="cell">🝘</div>
+	    
+	      <div class="cell">⛮</div>
+	    
+	      <div class="cell">Ⓡ</div>
+	    
+	      <div class="cell">⌎</div>
+	    
+	      <div class="cell">⚘</div>
+	    
+	      <div class="cell">⒂</div>
+	    
+	      <div class="cell">❻</div>
+	    
+	      <div class="cell">🅁</div>
+	    
+	      <div class="cell">⃟</div>
+	    
+	      <div class="cell">⏀</div>
+	    
+	      <div class="cell">⛥</div>
+	    
+	      <div class="cell">ↇ</div>
+	    
+	      <div class="cell">h</div>
+	    
+	      <div class="cell">➒</div>
+	    
+	      <div class="cell">⛎</div>
+	    
+	      <div class="cell">🝛</div>
+	    
+	      <div class="cell">🄲</div>
+	    
+	      <div class="cell">Ⅻ</div>
+	    
+	      <div class="cell">⚼</div>
+	    
+	      <div class="cell">⏣</div>
+	    
+	      <div class="cell">🅕</div>
+	    
+	      <div class="cell">⒉</div>
+	    
+	      <div class="cell">⎁</div>
+	    
+	      <div class="cell">Ⓦ</div>
+	    
+	      <div class="cell">☊</div>
+	    
+	      <div class="cell">⓰</div>
+	    
+	      <div class="cell">Ⓥ</div>
+	    
+	      <div class="cell">🄠</div>
+	    
+	      <div class="cell">ↅ</div>
+	    
+	      <div class="cell">🜟</div>
+	    
+	      <div class="cell">🄷</div>
+	    
+	      <div class="cell">Ⓤ</div>
+	    
+	      <div class="cell">⌵</div>
+	    
+	      <div class="cell">🅬</div>
+	    
+	      <div class="cell">🅍</div>
+	    
+	      <div class="cell">⌭</div>
+	    
+	      <div class="cell">M</div>
+	    
+	      <div class="cell">〈</div>
+	    
+	      <div class="cell">⎿</div>
+	    
+	      <div class="cell">④</div>
+	    
+	      <div class="cell">Y</div>
+	    
+	      <div class="cell">⓯</div>
+	    
+	      <div class="cell">☾</div>
+	    
+	      <div class="cell">⏋</div>
+	    
+	      <div class="cell">Ⓙ</div>
+	    
+	      <div class="cell">➎</div>
+	    
+	      <div class="cell">🄶</div>
+	    
+	      <div class="cell">♅</div>
+	    
+	      <div class="cell">↗</div>
+	    
+	      <div class="cell">⒑</div>
+	    
+	      <div class="cell">🄝</div>
+	    
+	      <div class="cell">7</div>
+	    
+	      <div class="cell">🆧</div>
+	    
+	      <div class="cell">⑧</div>
+	    
+	      <div class="cell">Ⅵ</div>
+	    
+	      <div class="cell">Ⅸ</div>
+	    
+	      <div class="cell">⛾</div>
+	    
+	      <div class="cell">🅚</div>
+	    
+	      <div class="cell">⒞</div>
+	    
+	      <div class="cell">⍼</div>
+	    
+	      <div class="cell">♫</div>
+	    
+	      <div class="cell">🅉</div>
+	    
+	      <div class="cell">⌇</div>
+	    
+	      <div class="cell">🜞</div>
+	    
+	      <div class="cell">⓱</div>
+	    
+	      <div class="cell">🜡</div>
+	    
+	      <div class="cell">🜷</div>
+	    
+	      <div class="cell">🜀</div>
+	    
+	      <div class="cell">🝭</div>
+	    
+	      <div class="cell">Ⅱ</div>
+	    
+	      <div class="cell">🅺</div>
+	    
+	      <div class="cell">🜊</div>
+	    
+	      <div class="cell">Z</div>
+	    
+	      <div class="cell">⚛</div>
+	    
+	      <div class="cell">⚰</div>
+	    
+	      <div class="cell">♈</div>
+	    
+	      <div class="cell">⒁</div>
+	    
+	      <div class="cell">♎</div>
+	    
+	      <div class="cell">☫</div>
+	    
+	      <div class="cell">♋</div>
+	    
+	      <div class="cell">⚐</div>
+	    
+	      <div class="cell">☤</div>
+	    
+	      <div class="cell">🝅</div>
+	    
+	      <div class="cell">Ⓠ</div>
+	    
+	      <div class="cell">Ⓟ</div>
+	    
+	      <div class="cell">⛧</div>
+	    
+	      <div class="cell">🄁</div>
+	    
+	      <div class="cell">🄚</div>
+	    
+	      <div class="cell">⌔</div>
+	    
+	      <div class="cell">→</div>
+	    
+	      <div class="cell">⏒</div>
+	    
+	      <div class="cell">🅣</div>
+	    
+	      <div class="cell">🜌</div>
+	    
+	      <div class="cell">🅻</div>
+	    
+	      <div class="cell">🆄</div>
+	    
+	      <div class="cell">P</div>
+	    
+	      <div class="cell">⃞</div>
+	    
+	      <div class="cell">⒵</div>
+	    
+	      <div class="cell">🝆</div>
+	    
+	      <div class="cell">⑦</div>
+	    
+	      <div class="cell">d</div>
+	    
+	      <div class="cell">Ⓧ</div>
+	    
+	      <div class="cell">🅇</div>
+	    
+	      <div class="cell">🝦</div>
+	    
+	      <div class="cell">⌲</div>
+	    
+	      <div class="cell"></div>
+	    
+	      <div class="cell">K</div>
+	    
+	      <div class="cell">⃠</div>
+	    
+	      <div class="cell">🜄</div>
+	    
+	      <div class="cell">🜕</div>
+	    
+	      <div class="cell">🅴</div>
+	    
+	      <div class="cell">🄼</div>
+	    
+	      <div class="cell">🅿</div>
+	    
+	      <div class="cell">🝃</div>
+	    
+	      <div class="cell">⛿</div>
+	    
+	      <div class="cell">➊</div>
+	    
+	      <div class="cell">ⓝ</div>
+	    
+	      <div class="cell">c</div>
+	    
+	      <div class="cell">q</div>
+	    
+	      <div class="cell">⑮</div>
+	    
+	      <div class="cell">u</div>
+	    
+	      <div class="cell">ⓠ</div>
+	    
+	      <div class="cell">🆁</div>
+	    
+	      <div class="cell"> </div>
+	    
+	      <div class="cell">⛸</div>
+	    
+	      <div class="cell">🅃</div>
+	    
+	      <div class="cell">🅧</div>
+	    
+	      <div class="cell">🅲</div>
+	    
+	      <div class="cell">🅌</div>
+	    
+	      <div class="cell">⚶</div>
+	    
+	      <div class="cell">🄄</div>
+	    
+	      <div class="cell">⌂</div>
+	    
+	      <div class="cell">🄬</div>
+	    
+	      <div class="cell">♮</div>
+	    
+	      <div class="cell">⌞</div>
+	    
+	      <div class="cell">🅙</div>
+	    
+	      <div class="cell">♏</div>
+	    
+	      <div class="cell">⛲</div>
+	    
+	      <div class="cell">🜴</div>
+	    
+	      <div class="cell">🅩</div>
+	    
+	      <div class="cell">⤡</div>
+	    
+	      <div class="cell">⎌</div>
+	    
+	      <div class="cell">🝞</div>
+	    
+	      <div class="cell">e</div>
+	    
+	      <div class="cell">⏂</div>
+	    
+	      <div class="cell">⏇</div>
+	    
+	      <div class="cell">ⓤ</div>
+	    
+	      <div class="cell">♻</div>
+	    
+	      <div class="cell">🜐</div>
+	    
+	      <div class="cell">⏅</div>
+	    
+	      <div class="cell">ↆ</div>
+	    
+	      <div class="cell">⤢</div>
+	    
+	      <div class="cell">ⓐ</div>
+	    
+	      <div class="cell">🝍</div>
+	    
+	      <div class="cell">⌉</div>
+	    
+	      <div class="cell">⛻</div>
+	    
+	      <div class="cell">✝</div>
+	    
+	      <div class="cell">🝳</div>
+	    
+	      <div class="cell">⎾</div>
+	    
+	      <div class="cell">⓮</div>
+	    
+	      <div class="cell">C</div>
+	    
+	      <div class="cell">ⅽ</div>
+	    
+	      <div class="cell">☦</div>
+	    
+	      <div class="cell">🄌</div>
+	    
+	      <div class="cell">Ⓜ</div>
+	    
+	      <div class="cell">🄥</div>
+	    
+	      <div class="cell">ⓧ</div>
+	    
+	      <div class="cell">🜇</div>
+	    
+	      <div class="cell">🝇</div>
+	    
+	      <div class="cell">⃣</div>
+	    
+	      <div class="cell">☍</div>
+	    
+	      <div class="cell">🆀</div>
+	    
+	      <div class="cell">🜯</div>
+	    
+	      <div class="cell">j</div>
+	    
+	      <div class="cell">N</div>
+	    
+	      <div class="cell">⌋</div>
+	    
+	      <div class="cell">ⓒ</div>
+	    
+	      <div class="cell">0</div>
+	    
+	      <div class="cell">🝧</div>
+	    
+	      <div class="cell">🜆</div>
+	    
+	      <div class="cell">ⅺ</div>
+	    
+	      <div class="cell">Ⓕ</div>
+	    
+	      <div class="cell">Ⅹ</div>
+	    
+	      <div class="cell">♬</div>
+	    
+	      <div class="cell">🜑</div>
+	    
+	      <div class="cell">⚳</div>
+	    
+	      <div class="cell">🄢</div>
+	    
+	      <div class="cell">♍</div>
+	    
+	      <div class="cell">♹</div>
+	    
+	      <div class="cell">🄀</div>
+	    
+	      <div class="cell">⓾</div>
+	    
+	      <div class="cell">Ⅼ</div>
+	    
+	      <div class="cell">❿</div>
+	    
+	      <div class="cell">🅏</div>
+	    
+	      <div class="cell">🄓</div>
+	    
+	      <div class="cell">⒈</div>
+	    
+	      <div class="cell">6</div>
+	    
+	      <div class="cell">Ⓗ</div>
+	    
+	      <div class="cell">✡</div>
+	    
+	      <div class="cell">🝙</div>
+	    
+	      <div class="cell">🝌</div>
+	    
+	      <div class="cell">Ⓨ</div>
+	    
+	      <div class="cell">U</div>
+	    
+	      <div class="cell">⚻</div>
+	    
+	      <div class="cell">🜬</div>
+	    
+	      <div class="cell">⎗</div>
+	    
+	      <div class="cell">🄗</div>
+	    
+	      <div class="cell">🅛</div>
+	    
+	      <div class="cell">🅠</div>
+	    
+	      <div class="cell">🄈</div>
+	    
+	      <div class="cell">☬</div>
+	    
+	      <div class="cell">⌝</div>
+	    
+	      <div class="cell">⚤</div>
+	    
+	      <div class="cell">🅂</div>
+	    
+	      <div class="cell">🜉</div>
+	    
+	      <div class="cell">🜣</div>
+	    
+	      <div class="cell">⒚</div>
+	    
+	      <div class="cell">♰</div>
+	    
+	      <div class="cell">⑲</div>
+	    
+	      <div class="cell">➓</div>
+	    
+	      <div class="cell">←</div>
+	    
+	      <div class="cell">🅋</div>
+	    
+	      <div class="cell">⌍</div>
+	    
+	      <div class="cell">⌕</div>
+	    
+	      <div class="cell">♪</div>
+	    
+	      <div class="cell">➁</div>
+	    
+	      <div class="cell">⑥</div>
+	    
+	      <div class="cell">🄮</div>
+	    
+	      <div class="cell">③</div>
+	    
+	      <div class="cell">🝓</div>
+	    
+	      <div class="cell">🅷</div>
+	    
+	      <div class="cell">🄩</div>
+	    
+	      <div class="cell">♁</div>
+	    
+	      <div class="cell">①</div>
+	    
+	      <div class="cell">🅡</div>
+	    
+	      <div class="cell">Ↄ</div>
+	    
+	      <div class="cell">☻</div>
+	    
+	      <div class="cell">🜙</div>
+	    
+	      <div class="cell">⑹</div>
+	    
+	      <div class="cell">🜹</div>
+	    
+	      <div class="cell">🅀</div>
+	    
+	      <div class="cell">⓺</div>
+	    
+	      <div class="cell">🅥</div>
+	    
+	      <div class="cell">🝠</div>
+	    
+	      <div class="cell">ⓗ</div>
+	    
+          </span>
+       </div>
+    
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
+	  
+	if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+	function render(node, toplevel) {
+		var wrapper = $("<div> </div>");
+		if (!node) { return wrapper }
+		if (Array.isArray(node)) {
+			var before = $("<span/>");
+			before.addClass("attr-before");
+			before.html(" " + node[0] + " ");
+			var after = $("<span/>");
+			after.addClass("attr-after");
+			after.append(node[1]);
+			wrapper.append(before);
+			wrapper.append(after);
+			return wrapper
+		}
+		for (const [key, value] of Object.entries(node)) {
+			var display = $("<div/>");
+			display.addClass("node")
+			if (!toplevel && ! key.match(/^\d+$/)) {
+				display.hide()
+			}
+			display.append(key);
+			display.append(render(value, false).children());
+			wrapper.append(display)
+		}
+		return wrapper
+
+	}
+	$(function() {
+		$("#difftable").append(render(fontdiff, true).children())
+		$(".node").on("click", function(event){ $(this).children().toggle(); event.stopPropagation() })
+	});
+    
+	
+
+    </script>
+</html>
