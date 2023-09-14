@@ -1,33 +1,39 @@
-## Fontbakery report
+## FontBakery report
 
-Fontbakery version: 0.8.13
+fontbakery version: 0.9.0
 
 <details><summary><b>[4] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
 
 * 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSansSymbols/googlefonts/ttf', 'fonts/NotoSansSymbols/googlefonts/variable-ttf'] [code: single-directory]
-</div></details><details><summary>🔥 <b>FAIL:</b> Fonts have consistent PANOSE proportion? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/family/panose_proportion">com.google.fonts/check/family/panose_proportion</a>)</summary><div>
-
-
-* 🔥 **FAIL** PANOSE proportion is not the same across this family. In order to fix this, please make sure that the panose.bProportion value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
-</div></details><details><summary>🔥 <b>FAIL:</b> Fonts have consistent PANOSE family type? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/family/panose_familytype">com.google.fonts/check/family/panose_familytype</a>)</summary><div>
-
-
-* 🔥 **FAIL** PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that OS/2.fsSelection bold & italic settings are unique for each NameID1 (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.adobe.fonts/check/family/bold_italic_unique_for_nameid1">com.adobe.fonts/check/family/bold_italic_unique_for_nameid1</a>)</summary><div>
 
 
 * 🔥 **FAIL** Family 'Noto Sans Symbols' has 2 fonts (should be no more than 1) with the same OS/2.fsSelection bold & italic settings: Bold=False, Italic=False [code: unique-fsselection]
-</div></details><br></div></details><details><summary><b>[11] NotoSansSymbols-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Fonts have consistent PANOSE proportion? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/family/panose_proportion">com.google.fonts/check/family/panose_proportion</a>)</summary><div>
+
+
+* ⚠ **WARN** PANOSE proportion is not the same across this family. In order to fix this, please make sure that the panose.bProportion value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
+</div></details><details><summary>⚠ <b>WARN:</b> Fonts have consistent PANOSE family type? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/family/panose_familytype">com.google.fonts/check/family/panose_familytype</a>)</summary><div>
+
+
+* ⚠ **WARN** PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
+</div></details><br></div></details><details><summary><b>[14] NotoSansSymbols-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
+</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
+</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
-
-The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -50,11 +56,15 @@ Use -F or --full-lists to disable shortening of long lists.
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
  FONT_FAMILY_NAME = 'Noto Sans Symbols Black' / SUBFAMILY_NAME = 'Regular'
 
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+Please take a look at the conversation at https://github.com/fonttools/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
+
+
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
@@ -66,7 +76,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- enclosingdiamond
 
-	- enclosingsquare 
+	- enclosingsquare
 
 	- enclosingupwardpointingtriangle
  [code: unreachable-glyphs]
@@ -81,7 +91,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -111,7 +121,7 @@ minus
 
 	* uni2697 (U+2697): L<<274.0,62.0>--<276.0,74.0>> -> L<<276.0,74.0>--<313.0,237.0>>
 
-	* uni2697 (U+2697): L<<777.0,237.0>--<813.0,74.0>> -> L<<813.0,74.0>--<815.0,62.0>> 
+	* uni2697 (U+2697): L<<777.0,237.0>--<813.0,74.0>> -> L<<813.0,74.0>--<815.0,62.0>>
 
 	* uni26FD (U+26FD): L<<553.0,610.0>--<554.0,541.0>> -> L<<554.0,541.0>--<554.0,524.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -137,7 +147,7 @@ minus
 
 	* Wcircumflex (U+0174): B<<527.0,442.0>-<523.0,468.0>-<521.0,486.0>>/B<<521.0,486.0>-<519.0,468.0>-<514.5,442.0>> = 12.680383491819825
 
-	* Wcircumflex (U+0174): B<<714.0,235.0>-<721.0,196.0>-<724.0,167.0>>/B<<724.0,167.0>-<727.0,192.0>-<734.0,229.0>> = 12.748914526401432 
+	* Wcircumflex (U+0174): B<<714.0,235.0>-<721.0,196.0>-<724.0,167.0>>/B<<724.0,167.0>-<727.0,192.0>-<734.0,229.0>> = 12.748914526401432
 
 	* 55 more.
 
@@ -165,21 +175,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	* uni2677 (U+2677): L<<666.0,418.0>--<540.0,419.0>>
 
-	* uni2678 (U+2678): L<<666.0,418.0>--<540.0,419.0>> 
+	* uni2678 (U+2678): L<<666.0,418.0>--<540.0,419.0>>
 
 	* 12 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSansSymbols-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansSymbols-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
+</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
+</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
-
-The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -200,6 +216,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
+
+
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
@@ -211,7 +231,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	- enclosingdiamond
 
-	- enclosingsquare 
+	- enclosingsquare
 
 	- enclosingupwardpointingtriangle
  [code: unreachable-glyphs]
@@ -226,7 +246,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -254,7 +274,7 @@ minus
 
 	* uni2697 (U+2697): L<<281.0,48.0>--<283.0,60.0>> -> L<<283.0,60.0>--<321.0,230.0>>
 
-	* uni2697 (U+2697): L<<774.0,230.0>--<812.0,60.0>> -> L<<812.0,60.0>--<814.0,48.0>> 
+	* uni2697 (U+2697): L<<774.0,230.0>--<812.0,60.0>> -> L<<812.0,60.0>--<814.0,48.0>>
 
 	* uni26FD (U+26FD): L<<553.0,610.0>--<554.0,541.0>> -> L<<554.0,541.0>--<554.0,524.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -280,7 +300,7 @@ minus
 
 	* Wcircumflex (U+0174): B<<693.5,221.0>-<702.0,177.0>-<706.0,144.0>>/B<<706.0,144.0>-<709.0,168.0>-<715.0,202.0>> = 14.03624346792643
 
-	* Wdieresis (U+1E84): B<<280.5,202.0>-<287.0,168.0>-<290.0,144.0>>/B<<290.0,144.0>-<294.0,179.0>-<302.5,223.0>> = 13.644818100558723 
+	* Wdieresis (U+1E84): B<<280.5,202.0>-<287.0,168.0>-<290.0,144.0>>/B<<290.0,144.0>-<294.0,179.0>-<302.5,223.0>> = 13.644818100558723
 
 	* 57 more.
 
@@ -308,21 +328,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	* uni2696 (U+2696): L<<198.0,137.0>--<196.0,396.0>>
 
-	* uni2696 (U+2696): L<<250.0,396.0>--<249.0,137.0>> 
+	* uni2696 (U+2696): L<<250.0,396.0>--<249.0,137.0>>
 
 	* 6 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSansSymbols-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansSymbols-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
+</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
+</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
-
-The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -345,11 +371,15 @@ Use -F or --full-lists to disable shortening of long lists.
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
  FONT_FAMILY_NAME = 'Noto Sans Symbols ExtraBold' / SUBFAMILY_NAME = 'Regular'
 
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+Please take a look at the conversation at https://github.com/fonttools/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
+
+
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
@@ -361,7 +391,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- enclosingdiamond
 
-	- enclosingsquare 
+	- enclosingsquare
 
 	- enclosingupwardpointingtriangle
  [code: unreachable-glyphs]
@@ -376,7 +406,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -406,7 +436,7 @@ minus
 
 	* uni2697 (U+2697): L<<278.0,54.0>--<280.0,67.0>> -> L<<280.0,67.0>--<317.0,233.0>>
 
-	* uni2697 (U+2697): L<<776.0,233.0>--<813.0,67.0>> -> L<<813.0,67.0>--<815.0,54.0>> 
+	* uni2697 (U+2697): L<<776.0,233.0>--<813.0,67.0>> -> L<<813.0,67.0>--<815.0,54.0>>
 
 	* uni26FD (U+26FD): L<<553.0,610.0>--<554.0,541.0>> -> L<<554.0,541.0>--<554.0,524.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -432,7 +462,7 @@ minus
 
 	* Wdieresis (U+1E84): B<<705.0,216.0>-<711.0,181.0>-<714.0,155.0>>/B<<714.0,155.0>-<717.0,179.0>-<723.5,214.5>> = 13.70696100407981
 
-	* Wgrave (U+1E80): B<<517.0,457.0>-<511.0,491.0>-<508.0,512.0>>/B<<508.0,512.0>-<506.0,491.0>-<500.0,457.0>> = 13.570434385161475 
+	* Wgrave (U+1E80): B<<517.0,457.0>-<511.0,491.0>-<508.0,512.0>>/B<<508.0,512.0>-<506.0,491.0>-<500.0,457.0>> = 13.570434385161475
 
 	* 55 more.
 
@@ -460,21 +490,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	* uni2696 (U+2696): L<<649.0,138.0>--<648.0,393.0>>
 
-	* uni2696 (U+2696): L<<706.0,393.0>--<704.0,138.0>> 
+	* uni2696 (U+2696): L<<706.0,393.0>--<704.0,138.0>>
 
 	* 4 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSansSymbols-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansSymbols-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
+</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
+</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
-
-The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -491,11 +527,15 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
  FONT_FAMILY_NAME = 'Noto Sans Symbols ExtraLight' / SUBFAMILY_NAME = 'Regular'
 
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+Please take a look at the conversation at https://github.com/fonttools/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
+
+
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
@@ -507,7 +547,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- enclosingdiamond
 
-	- enclosingsquare 
+	- enclosingsquare
 
 	- enclosingupwardpointingtriangle
  [code: unreachable-glyphs]
@@ -522,7 +562,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -552,7 +592,7 @@ minus
 
 	* uni2697 (U+2697): L<<303.0,14.0>--<304.0,21.0>> -> L<<304.0,21.0>--<358.0,250.0>>
 
-	* uni2697 (U+2697): L<<746.0,250.0>--<800.0,21.0>> -> L<<800.0,21.0>--<801.0,14.0>> 
+	* uni2697 (U+2697): L<<746.0,250.0>--<800.0,21.0>> -> L<<800.0,21.0>--<801.0,14.0>>
 
 	* uni26FD (U+26FD): L<<553.0,610.0>--<554.0,541.0>> -> L<<554.0,541.0>--<554.0,524.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -578,7 +618,7 @@ minus
 
 	* u1F14E (U+1F14E): B<<703.5,225.0>-<707.0,202.0>-<709.0,191.0>>/B<<709.0,191.0>-<710.0,206.0>-<714.5,230.0>> = 14.118921303056382
 
-	* u1F14F (U+1F14F): B<<277.5,237.0>-<279.0,222.0>-<281.0,202.0>>/B<<281.0,202.0>-<283.0,221.0>-<286.5,241.0>> = 11.719599094994122 
+	* u1F14F (U+1F14F): B<<277.5,237.0>-<279.0,222.0>-<281.0,202.0>>/B<<281.0,202.0>-<283.0,221.0>-<286.5,241.0>> = 11.719599094994122
 
 	* 19 more.
 
@@ -594,19 +634,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	* uni26A5 (U+26A5): L<<557.0,764.0>--<556.0,623.0>>
 
-	* uni26A7 (U+26A7): L<<655.0,764.0>--<654.0,623.0>> 
+	* uni26A7 (U+26A7): L<<655.0,764.0>--<654.0,623.0>>
 
 	* uni26FD (U+26FD): L<<804.0,444.0>--<805.0,234.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSansSymbols-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansSymbols-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
+</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
+</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
-
-The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -627,11 +673,15 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
  FONT_FAMILY_NAME = 'Noto Sans Symbols Light' / SUBFAMILY_NAME = 'Regular'
 
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+Please take a look at the conversation at https://github.com/fonttools/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
+
+
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
@@ -643,7 +693,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- enclosingdiamond
 
-	- enclosingsquare 
+	- enclosingsquare
 
 	- enclosingupwardpointingtriangle
  [code: unreachable-glyphs]
@@ -658,7 +708,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -686,7 +736,7 @@ minus
 
 	* uni262B (U+262B): L<<636.0,23.0>--<650.0,23.0>> -> L<<650.0,23.0>--<663.0,24.0>>
 
-	* uni2697 (U+2697): L<<755.0,239.0>--<804.0,28.0>> -> L<<804.0,28.0>--<806.0,18.0>> 
+	* uni2697 (U+2697): L<<755.0,239.0>--<804.0,28.0>> -> L<<804.0,28.0>--<806.0,18.0>>
 
 	* uni26FD (U+26FD): L<<553.0,610.0>--<554.0,541.0>> -> L<<554.0,541.0>--<554.0,524.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -712,7 +762,7 @@ minus
 
 	* u1F14E (U+1F14E): B<<702.5,236.5>-<705.0,213.0>-<707.0,202.0>>/B<<707.0,202.0>-<708.0,222.0>-<712.0,246.5>> = 13.167251694877788
 
-	* u1F14F (U+1F14F): B<<280.5,247.5>-<282.0,234.0>-<283.0,218.0>>/B<<283.0,218.0>-<285.0,236.0>-<288.5,256.0>> = 9.916526120907228 
+	* u1F14F (U+1F14F): B<<280.5,247.5>-<282.0,234.0>-<283.0,218.0>>/B<<283.0,218.0>-<285.0,236.0>-<288.5,256.0>> = 9.916526120907228
 
 	* 22 more.
 
@@ -726,19 +776,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	* uni26A4 (U+26A4): L<<663.0,769.0>--<662.0,617.0>>
 
-	* uni26A7 (U+26A7): L<<659.0,769.0>--<658.0,617.0>> 
+	* uni26A7 (U+26A7): L<<659.0,769.0>--<658.0,617.0>>
 
 	* uni26FD (U+26FD): L<<804.0,444.0>--<805.0,234.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSansSymbols-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansSymbols-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
+</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
+</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
-
-The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -761,11 +817,15 @@ Use -F or --full-lists to disable shortening of long lists.
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
  FONT_FAMILY_NAME = 'Noto Sans Symbols Medium' / SUBFAMILY_NAME = 'Regular'
 
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+Please take a look at the conversation at https://github.com/fonttools/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
+
+
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
@@ -777,7 +837,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- enclosingdiamond
 
-	- enclosingsquare 
+	- enclosingsquare
 
 	- enclosingupwardpointingtriangle
  [code: unreachable-glyphs]
@@ -792,7 +852,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -820,7 +880,7 @@ minus
 
 	* uni2697 (U+2697): L<<288.0,32.0>--<290.0,45.0>> -> L<<290.0,45.0>--<330.0,222.0>>
 
-	* uni2697 (U+2697): L<<771.0,222.0>--<811.0,45.0>> -> L<<811.0,45.0>--<813.0,32.0>> 
+	* uni2697 (U+2697): L<<771.0,222.0>--<811.0,45.0>> -> L<<811.0,45.0>--<813.0,32.0>>
 
 	* uni26FD (U+26FD): L<<553.0,610.0>--<554.0,541.0>> -> L<<554.0,541.0>--<554.0,524.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -846,7 +906,7 @@ minus
 
 	* u1F125 (U+1F125): B<<492.0,267.0>-<499.0,242.0>-<501.0,228.0>>/B<<501.0,228.0>-<502.0,240.0>-<510.0,265.0>> = 12.893744044882132
 
-	* u1F126 (U+1F126): B<<376.0,288.5>-<380.0,266.0>-<383.0,238.0>>/B<<383.0,238.0>-<384.0,248.0>-<386.5,261.5>> = 11.826096703785012 
+	* u1F126 (U+1F126): B<<376.0,288.5>-<380.0,266.0>-<383.0,238.0>>/B<<383.0,238.0>-<384.0,248.0>-<386.5,261.5>> = 11.826096703785012
 
 	* 42 more.
 
@@ -874,19 +934,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	* uni26A5 (U+26A5): L<<567.0,776.0>--<568.0,581.0>>
 
-	* uni26A7 (U+26A7): L<<669.0,779.0>--<670.0,588.0>> 
+	* uni26A7 (U+26A7): L<<669.0,779.0>--<670.0,588.0>>
 
 	* uni26FD (U+26FD): L<<804.0,444.0>--<805.0,234.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSansSymbols-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansSymbols-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
+</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
+</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
-
-The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -907,6 +973,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
+
+
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
@@ -918,7 +988,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	- enclosingdiamond
 
-	- enclosingsquare 
+	- enclosingsquare
 
 	- enclosingupwardpointingtriangle
  [code: unreachable-glyphs]
@@ -933,7 +1003,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -961,7 +1031,7 @@ minus
 
 	* uni2697 (U+2697): L<<291.0,25.0>--<293.0,39.0>> -> L<<293.0,39.0>--<334.0,219.0>>
 
-	* uni2697 (U+2697): L<<770.0,219.0>--<811.0,39.0>> -> L<<811.0,39.0>--<813.0,25.0>> 
+	* uni2697 (U+2697): L<<770.0,219.0>--<811.0,39.0>> -> L<<811.0,39.0>--<813.0,25.0>>
 
 	* uni26FD (U+26FD): L<<553.0,610.0>--<554.0,541.0>> -> L<<554.0,541.0>--<554.0,524.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -987,7 +1057,7 @@ minus
 
 	* u1F14B (U+1F14B): B<<476.0,456.0>-<477.0,481.0>-<479.0,501.0>>/L<<479.0,501.0>--<395.0,156.0>> = 7.973426614747843
 
-	* u1F14B (U+1F14B): B<<688.0,244.0>-<689.0,232.0>-<690.0,220.0>>/B<<690.0,220.0>-<692.0,248.0>-<695.5,272.0>> = 8.849258470700986 
+	* u1F14B (U+1F14B): B<<688.0,244.0>-<689.0,232.0>-<690.0,220.0>>/B<<690.0,220.0>-<692.0,248.0>-<695.5,272.0>> = 8.849258470700986
 
 	* 28 more.
 
@@ -1015,21 +1085,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	* uni26A5 (U+26A5): L<<565.0,776.0>--<566.0,607.0>>
 
-	* uni26A6 (U+26A6): L<<565.0,534.0>--<566.0,365.0>> 
+	* uni26A6 (U+26A6): L<<565.0,534.0>--<566.0,365.0>>
 
 	* 3 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSansSymbols-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansSymbols-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
+</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
+</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
-
-The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -1052,11 +1128,15 @@ Use -F or --full-lists to disable shortening of long lists.
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
  FONT_FAMILY_NAME = 'Noto Sans Symbols SemiBold' / SUBFAMILY_NAME = 'Regular'
 
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+Please take a look at the conversation at https://github.com/fonttools/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
+
+
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
@@ -1068,7 +1148,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- enclosingdiamond
 
-	- enclosingsquare 
+	- enclosingsquare
 
 	- enclosingupwardpointingtriangle
  [code: unreachable-glyphs]
@@ -1083,7 +1163,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -1111,7 +1191,7 @@ minus
 
 	* uni2697 (U+2697): L<<285.0,39.0>--<287.0,52.0>> -> L<<287.0,52.0>--<326.0,226.0>>
 
-	* uni2697 (U+2697): L<<773.0,226.0>--<812.0,52.0>> -> L<<812.0,52.0>--<814.0,39.0>> 
+	* uni2697 (U+2697): L<<773.0,226.0>--<812.0,52.0>> -> L<<812.0,52.0>--<814.0,39.0>>
 
 	* uni26FD (U+26FD): L<<553.0,610.0>--<554.0,541.0>> -> L<<554.0,541.0>--<554.0,524.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1137,7 +1217,7 @@ minus
 
 	* u1F126 (U+1F126): B<<377.5,293.5>-<382.0,268.0>-<385.0,242.0>>/B<<385.0,242.0>-<386.0,257.0>-<390.5,279.0>> = 10.396019489468372
 
-	* u1F126 (U+1F126): B<<507.0,425.0>-<502.0,449.0>-<500.0,472.0>>/B<<500.0,472.0>-<499.0,459.0>-<494.0,432.0>> = 9.368446083105818 
+	* u1F126 (U+1F126): B<<507.0,425.0>-<502.0,449.0>-<500.0,472.0>>/B<<500.0,472.0>-<499.0,459.0>-<494.0,432.0>> = 9.368446083105818
 
 	* 48 more.
 
@@ -1167,19 +1247,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	* uni26A5 (U+26A5): L<<569.0,775.0>--<570.0,552.0>>
 
-	* uni26A7 (U+26A7): L<<674.0,781.0>--<675.0,566.0>> 
+	* uni26A7 (U+26A7): L<<674.0,781.0>--<675.0,566.0>>
 
 	* uni26FD (U+26FD): L<<804.0,444.0>--<805.0,234.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSansSymbols-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansSymbols-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
+</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
+</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
-
-The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -1193,11 +1279,15 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
  FONT_FAMILY_NAME = 'Noto Sans Symbols Thin' / SUBFAMILY_NAME = 'Regular'
 
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+Please take a look at the conversation at https://github.com/fonttools/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
+
+
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
@@ -1209,7 +1299,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- enclosingdiamond
 
-	- enclosingsquare 
+	- enclosingsquare
 
 	- enclosingupwardpointingtriangle
  [code: unreachable-glyphs]
@@ -1224,7 +1314,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -1254,7 +1344,7 @@ minus
 
 	* uni2697 (U+2697): L<<306.0,11.0>--<307.0,17.0>> -> L<<307.0,17.0>--<364.0,258.0>>
 
-	* uni2697 (U+2697): L<<740.0,258.0>--<797.0,17.0>> -> L<<797.0,17.0>--<798.0,11.0>> 
+	* uni2697 (U+2697): L<<740.0,258.0>--<797.0,17.0>> -> L<<797.0,17.0>--<798.0,11.0>>
 
 	* uni26FD (U+26FD): L<<553.0,610.0>--<554.0,541.0>> -> L<<554.0,541.0>--<554.0,524.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1280,7 +1370,7 @@ minus
 
 	* u1F14B (U+1F14B): B<<507.0,500.5>-<507.0,522.0>-<509.0,544.0>>/L<<509.0,544.0>--<389.0,156.0>> = 11.991277236489928
 
-	* u1F14F (U+1F14F): B<<276.0,230.5>-<278.0,214.0>-<280.0,191.0>>/B<<280.0,191.0>-<282.0,211.0>-<285.5,231.5>> = 10.68033386560994 
+	* u1F14F (U+1F14F): B<<276.0,230.5>-<278.0,214.0>-<280.0,191.0>>/B<<280.0,191.0>-<282.0,211.0>-<285.5,231.5>> = 10.68033386560994
 
 	* 22 more.
 
@@ -1306,13 +1396,21 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	* uni2696 (U+2696): L<<664.0,133.0>--<665.0,443.0>>
 
-	* uni2696 (U+2696): L<<689.0,443.0>--<690.0,133.0>> 
+	* uni2696 (U+2696): L<<689.0,443.0>--<690.0,133.0>>
 
 	* uni26FD (U+26FD): L<<804.0,444.0>--<805.0,234.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSansSymbols[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansSymbols[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
+</div></details><details><summary>💔 <b>ERROR:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
 </div></details><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -1325,16 +1423,14 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
 </div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
-
-The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -1344,6 +1440,10 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
+
+
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
@@ -1355,14 +1455,14 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- enclosingdiamond
 
-	- enclosingsquare 
+	- enclosingsquare
 
 	- enclosingupwardpointingtriangle
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 3 start point differs in glyph 'uni26A2' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe6b314d50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efe6b358fd0> [code: interpolation-issues]
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 3 start point differs in glyph 'uni26A2' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f02ad435c50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f02ad4df0d0> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -1378,8 +1478,8 @@ minus
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 4 | 24 | 84 | 1153 | 62 | 980 | 0 |
-| 0% | 1% | 4% | 50% | 3% | 42% | 0% |
+| 34 | 12 | 96 | 1172 | 52 | 981 | 0 |
+| 1% | 1% | 4% | 50% | 2% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

@@ -1,17 +1,27 @@
-## Fontbakery report
+## FontBakery report
 
-Fontbakery version: 0.8.13
+fontbakery version: 0.9.0
 
-<details><summary><b>[9] NotoSansSymbols2-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+<details><summary><b>[13] NotoSansSymbols2-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
+</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
+</div></details><details><summary>💔 <b>ERROR:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'shaperglot'
+</div></details><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
+
+
+* 🔥 **FAIL** Version number 2.0070037841796875 is equal to version on Google Fonts GitHub repo.
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
-
-The dot of soft dotted characters should disappear in other cases, for example: i⃢̀ i⃢́ i⃢̂ i⃢̃ i⃢̄ i⃢̆ i⃢̇ i⃢̈ i⃢̊ i⃢̋ i⃢̌ i⃢̒ i⃣̀ i⃣́ i⃣̂ i⃣̃ i⃣̄ i⃣̆ i⃣̇ i⃣̈ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
 
 
@@ -20,6 +30,10 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if uppercase glyphs are vertically centered. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/caps_vertically_centered">com.google.fonts/check/caps_vertically_centered</a>)</summary><div>
+
+
+* ⚠ **WARN** Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -35,7 +49,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni2611	Contours detected: 3	Expected: 2 
+	- Glyph name: uni2611	Contours detected: 3	Expected: 2
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -76,7 +90,7 @@ minus
 
 	* u101D5 (U+101D5): B<<262.0,599.0>-<295.0,599.0>-<341.0,560.0>>/B<<341.0,560.0>-<317.0,588.0>-<287.0,604.5>> = 9.106557599367749
 
-	* u101D9 (U+101D9): B<<140.0,253.0>-<140.0,110.0>-<146.0,-22.0>>/B<<146.0,-22.0>-<154.0,23.0>-<158.5,91.5>> = 12.683160190042093 
+	* u101D9 (U+101D9): B<<140.0,253.0>-<140.0,110.0>-<146.0,-22.0>>/B<<146.0,-22.0>-<154.0,23.0>-<158.5,91.5>> = 12.683160190042093
 
 	* 220 more.
 
@@ -104,7 +118,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	* u1F6E8 (U+1F6E8): L<<460.0,328.0>--<87.0,325.0>>
 
-	* u1F6E8 (U+1F6E8): L<<943.0,325.0>--<569.0,328.0>> 
+	* u1F6E8 (U+1F6E8): L<<943.0,325.0>--<569.0,328.0>>
 
 	* 26 more.
 
@@ -115,8 +129,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 2 | 7 | 118 | 7 | 112 | 0 |
-| 0% | 1% | 3% | 48% | 3% | 46% | 0% |
+| 3 | 2 | 8 | 120 | 6 | 111 | 0 |
+| 1% | 1% | 3% | 48% | 2% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

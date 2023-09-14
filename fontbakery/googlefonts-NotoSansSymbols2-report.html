@@ -2,7 +2,7 @@
                 <html lang="en">
                     <head>
                         <meta charset="utf-8">
-                        <title>Fontbakery Check Report</title>
+                        <title>FontBakery Check Report</title>
                         <style>
                             
             html {
@@ -59,8 +59,8 @@
                         </style>
                     </head>
                     <body>
-                    <h1>Fontbakery Technical Report</h1>
-<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+                    <h1>FontBakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/fonttools/fontbakery/issues'>https://github.com/fonttools/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
 <h2>Summary</h2>
             <table>
             <tr>
@@ -72,29 +72,44 @@
                 <th>✅ PASS</th>
             </tr>
             <tr>
-                <td>0</td>
+                <td>3</td>
                 <td>2</td>
-                <td>7</td>
-                <td>118</td>
-                <td>7</td>
-                <td>112</td>
+                <td>8</td>
+                <td>120</td>
+                <td>6</td>
+                <td>111</td>
             </tr>
             <tr>
-                <td>0%</td>
                 <td>1%</td>
-                <td>4%</td>
-                <td>65%</td>
-                <td>4%</td>
-                <td>62%</td>
+                <td>1%</td>
+                <td>3%</td>
+                <td>48%</td>
+                <td>2%</td>
+                <td>44%</td>
             </tr>
             </table>
             
 <p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
-<h2>&lt;Section: Google Fonts&gt; 🔥⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h2>&lt;Section: Google Fonts&gt; 💥💥🔥🔥⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Checking OS/2 achVendID.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/vendor_id&gt;</div>
+
+<details><summary>💥 <strong>fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:registered_vendor_ids">FontBakeryCondition:registered_vendor_ids</a> had an error: ModuleNotFoundError: No module named 'bs4'</p>
+</span></li></ul></div></details>
+<h3>Show hinting filesize impact.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/hinting_impact&gt;</div>
+
+<details><summary>💥 <strong>fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:hinting_stats">FontBakeryCondition:hinting_stats</a> had an error: ModuleNotFoundError: No module named 'dehinter'</p>
+</span></li></ul></div></details>
 <h3>Ensure files are not too large.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/file_size&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Font file is 1.2Mb; ideally it should be less than 1.0Mb [code: large-font]</p>
+</span></li></ul></div></details>
+<h3>Version number has increased since previous release on Google Fonts?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/version_bump&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Version number 2.0070037841796875 is equal to version on Google Fonts GitHub repo.</p>
 </span></li></ul></div></details>
 <h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
@@ -106,7 +121,12 @@
 
 <details><summary>🔥 <strong>fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: Universal&gt; 🔥⚠️⚠️⏩⏩⏩⏩⏩ℹ️ℹ️</h2>
+<h2>&lt;Section: Universal&gt; ⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩ℹ️ℹ️</h2>
+<h3>Check if uppercase glyphs are vertically centered.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/caps_vertically_centered&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]</p>
+</span></li></ul></div></details>
 <h3>Check if each glyph has the recommended amount of contours.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/contour_count&gt;</div>
 
@@ -120,17 +140,11 @@
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-- Glyph name: uni2611	Contours detected: 3	Expected: 2 
+- Glyph name: uni2611	Contours detected: 3	Expected: 2
 
 - Glyph name: uogonek	Contours detected: 2	Expected: 1
 </code></pre>
 <p>[code: contour-count]</p>
-</span></li></ul></div></details>
-<h3>Ensure soft_dotted characters lose their dot when combined with marks that replace the dot.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/soft_dotted&gt;</div>
-
-<details><summary>🔥 <strong>fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
-<p>The dot of soft dotted characters should disappear in other cases, for example: i⃢̀ i⃢́ i⃢̂ i⃢̃ i⃢̄ i⃢̆ i⃢̇ i⃢̈ i⃢̊ i⃢̋ i⃢̌ i⃢̒ i⃣̀ i⃣́ i⃣̂ i⃣̃ i⃣̄ i⃣̆ i⃣̇ i⃣̈ [code: soft-dotted]</p>
 </span></li></ul></div></details>
 <h3>Check math signs have the same width.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/math_signs_width&gt;</div>
@@ -171,7 +185,7 @@ uni20E2 (U+20E2) and uni20E3 (U+20E3) [code: mark-chars]</p>
 
 * u101D5 (U+101D5): B&lt;&lt;262.0,599.0&gt;-&lt;295.0,599.0&gt;-&lt;341.0,560.0&gt;&gt;/B&lt;&lt;341.0,560.0&gt;-&lt;317.0,588.0&gt;-&lt;287.0,604.5&gt;&gt; = 9.106557599367749
 
-* u101D9 (U+101D9): B&lt;&lt;140.0,253.0&gt;-&lt;140.0,110.0&gt;-&lt;146.0,-22.0&gt;&gt;/B&lt;&lt;146.0,-22.0&gt;-&lt;154.0,23.0&gt;-&lt;158.5,91.5&gt;&gt; = 12.683160190042093 
+* u101D9 (U+101D9): B&lt;&lt;140.0,253.0&gt;-&lt;140.0,110.0&gt;-&lt;146.0,-22.0&gt;&gt;/B&lt;&lt;146.0,-22.0&gt;-&lt;154.0,23.0&gt;-&lt;158.5,91.5&gt;&gt; = 12.683160190042093
 
 * 220 more.
 </code></pre>
@@ -199,11 +213,17 @@ uni20E2 (U+20E2) and uni20E3 (U+20E3) [code: mark-chars]</p>
 
 * u1F6E8 (U+1F6E8): L&lt;&lt;460.0,328.0&gt;--&lt;87.0,325.0&gt;&gt;
 
-* u1F6E8 (U+1F6E8): L&lt;&lt;943.0,325.0&gt;--&lt;569.0,328.0&gt;&gt; 
+* u1F6E8 (U+1F6E8): L&lt;&lt;943.0,325.0&gt;--&lt;569.0,328.0&gt;&gt;
 
 * 26 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Shaping Checks&gt; 💥⏩⏩⏩</h2>
+<h3>Ensure soft_dotted characters lose their dot when combined with marks that replace the dot.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/soft_dotted&gt;</div>
+
+<details><summary>💥 <strong>fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>Failed with ModuleNotFoundError: No module named 'shaperglot'</p>
 </span></li></ul></div></details>
                     </body>
                 </html>
