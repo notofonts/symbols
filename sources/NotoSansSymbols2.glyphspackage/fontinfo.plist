@@ -2812,6 +2812,14 @@ name = underlinePosition;
 value = -100;
 }
 );
+guides = (
+{
+pos = (-174,-162);
+},
+{
+pos = (-622,760);
+}
+);
 id = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
 metricValues = (
 {
