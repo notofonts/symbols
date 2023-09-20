@@ -1,5 +1,5 @@
 {
-.appVersion = "3214";
+.appVersion = "3219";
 .formatVersion = 3;
 customParameters = (
 {
@@ -2810,6 +2810,28 @@ value = 50;
 {
 name = underlinePosition;
 value = -100;
+}
+);
+guides = (
+{
+pos = (-632,760);
+},
+{
+pos = (-547,-61);
+},
+{
+pos = (-622,569);
+},
+{
+pos = (55,131);
+},
+{
+angle = -14;
+pos = (-587,410);
+},
+{
+angle = 180;
+pos = (1701,760);
 }
 );
 id = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
