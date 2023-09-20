@@ -1,6 +1,6 @@
 ## FontBakery report
 
-fontbakery version: 0.9.0
+fontbakery version: 0.9.1
 
 <details><summary><b>[13] NotoSansSymbols2-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
