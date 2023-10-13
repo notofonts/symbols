@@ -8,3 +8,6 @@
 #
 # Names should be added to this file as:
 # Name <email address>
+
+# Contributed a number of Unicode 14 symbols
+Emma Marichal <emma.marichal44@gmail.com>
