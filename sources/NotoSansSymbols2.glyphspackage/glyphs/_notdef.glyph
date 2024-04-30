@@ -29,5 +29,5 @@ public.verticalOrigin = 1069;
 width = 600;
 }
 );
-note = ".notdef";
+note = .notdef;
 }

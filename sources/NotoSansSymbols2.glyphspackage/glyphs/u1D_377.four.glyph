@@ -1,0 +1,31 @@
+{
+glyphname = u1D377.four;
+layers = (
+{
+layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
+shapes = (
+{
+pos = (-240,0);
+ref = u1D377;
+},
+{
+pos = (-80,0);
+ref = u1D377;
+},
+{
+pos = (80,0);
+ref = u1D377;
+},
+{
+pos = (240,0);
+ref = u1D377;
+}
+);
+userData = {
+public.verticalOrigin = 1069;
+};
+width = 816;
+}
+);
+metricWidth = "=u1D377";
+}

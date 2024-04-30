@@ -1,5 +1,5 @@
 {
-.appVersion = "3219";
+.appVersion = "3243";
 .formatVersion = 3;
 customParameters = (
 {
@@ -2770,6 +2770,12 @@ lookup ccmp2 {
 	sub enclosingscreencomb dottedCircle by dottedCircle_enclosingscreencomb;
 } ccmp2;";
 tag = ccmp;
+},
+{
+code = "sub u1D377 u1D377 u1D377 u1D377 by u1D377.four;
+sub u1D377 u1D377 u1D377 by u1D377.three;
+sub u1D377 u1D377 by u1D377.two;";
+tag = liga;
 }
 );
 fontMaster = (
@@ -2854,7 +2860,6 @@ over = -11;
 pos = -622;
 },
 {
-over = -11;
 }
 );
 name = Regular;
@@ -5526,6 +5531,24 @@ type = "italic angle";
 );
 properties = (
 {
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols)";
+}
+);
+},
+{
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "Designed by Monotype design team.";
+}
+);
+},
+{
 key = designers;
 values = (
 {
@@ -5537,36 +5560,6 @@ value = "Monotype Design Team";
 {
 key = designerURL;
 value = "http://www.monotype.com/studio";
-},
-{
-key = manufacturers;
-values = (
-{
-language = dflt;
-value = "Monotype Imaging Inc.";
-}
-);
-},
-{
-key = manufacturerURL;
-value = "http://www.google.com/get/noto/";
-},
-{
-key = copyrights;
-values = (
-{
-language = dflt;
-value = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols)";
-}
-);
-},
-{
-key = versionString;
-value = "Version 2.008";
-},
-{
-key = vendorID;
-value = GOOG;
 },
 {
 key = licenses;
@@ -5582,6 +5575,19 @@ key = licenseURL;
 value = "https://scripts.sil.org/OFL";
 },
 {
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Monotype Imaging Inc.";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "http://www.google.com/get/noto/";
+},
+{
 key = trademarks;
 values = (
 {
@@ -5591,13 +5597,12 @@ value = "Noto is a trademark of Google Inc.";
 );
 },
 {
-key = descriptions;
-values = (
+key = vendorID;
+value = GOOG;
+},
 {
-language = dflt;
-value = "Designed by Monotype design team.";
-}
-);
+key = versionString;
+value = "Version 2.008";
 }
 );
 settings = {
