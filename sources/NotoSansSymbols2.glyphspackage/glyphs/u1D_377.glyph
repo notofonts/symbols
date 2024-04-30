@@ -7,10 +7,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(447,0,l),
-(447,718,l),
-(369,718,l),
-(369,0,l)
+(207,0,l),
+(207,718,l),
+(129,718,l),
+(129,0,l)
 );
 }
 );
@@ -20,5 +20,7 @@ public.verticalOrigin = 1069;
 width = 816;
 }
 );
+metricLeft = "=129";
+metricWidth = "=816";
 unicode = 119671;
 }

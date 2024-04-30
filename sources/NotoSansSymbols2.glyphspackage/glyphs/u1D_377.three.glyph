@@ -5,14 +5,14 @@ layers = (
 layerId = "6E183CFB-E55F-4C96-8804-AC4D4AF4B24B";
 shapes = (
 {
-pos = (-160,0);
-ref = u1D377;
-},
-{
 ref = u1D377;
 },
 {
 pos = (160,0);
+ref = u1D377;
+},
+{
+pos = (320,0);
 ref = u1D377;
 }
 );
@@ -22,5 +22,6 @@ public.verticalOrigin = 1069;
 width = 816;
 }
 );
+metricLeft = "=129";
 metricWidth = "=u1D377";
 }
