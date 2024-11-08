@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Diffenator3</title>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+		crossorigin="anonymous"></script>
+	<style type="text/css">
+		@font-face {
+      font-family: "Font Before";
+      src: url();
+    }
+
+    @font-face {
+      font-family: "Font After";
+      src: url();
+    }
+
+    .font-before, .font-after {
+      font-variation-settings: "wght" 400, "wdth" 100;
+    }
+
+    .font-before {
+      font-family: "Font Before", "Adobe Notdef";
+    }
+
+    .font-after {
+      font-family: "Font After", "Adobe Notdef";
+    }
+
+	:root {
+	--node-pt-size: 40px;
+	}
+
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #b3d4f5 !important;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
+    background-color: #ced9e4 !important;
+}
+.nav-item {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+.nav-pills .nav-link{
+    background-color: #9fcaf5 !important;
+}
+h4 {
+    color: #6f7882 !important;
+}
+
+@font-face {
+    font-family: "Adobe NotDef";
+    src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+}
+
+.box-title {
+    width: 100%;
+    font-size: 8pt;
+    font-weight: 700;
+    border-top: 1px solid black;
+    padding-top: 5px;
+    margin-bottom: 10pt;
+    display: block;
+}
+
+.box {
+    margin-bottom: 20pt;
+    width: 100%;
+    float: left;
+}
+
+.box-text {}
+
+#ui-nav {
+    position: fixed;
+    right: 20px;
+    z-index: 100;
+}
+
+#font-toggle {}
+
+.ui-nav-item {
+    display: block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */
+    text-align: center;
+    color: white;
+    background-color: black;
+    display: block;
+    font-size: 14pt;
+    padding: 5px;
+    margin: 2px;
+}
+
+/* Stuff needed for the table differ */
+body {
+    font-family: Helvetica;
+}
+
+.node {
+    font-family: courier;
+    cursor: pointer;
+    position: relative;
+    left: 30px;
+    padding: 5px;
+    display: block;
+    border: 1px dashed grey;
+    background-color: #e9e9ee;
+}
+
+.header {
+    font-weight: bold;
+}
+
+.attr-before {
+    color: green;
+    cursor: text;
+}
+
+.attr-after {
+    color: red;
+    cursor: text;
+}
+
+.leaf {
+    font-weight: bold;
+}
+
+.old .cell .new {
+    display: none;
+}
+
+.new .cell .old {
+    display: none;
+}
+
+.both .cell .old {
+    opacity: 0.75;
+    color: red;
+}
+
+.both .cell .new {
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    color: green;
+}
+
+.spacer {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+#ot-panel {
+    max-height: 400px;
+    overflow-y: scroll;
+    background: white;
+    padding: 10px;
+    display: none;
+   }
+
+   .cell{
+    z-index: -100;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 5pt;
+    margin: 5pt;
+    width: 50pt;
+    font-size: var(--node-pt-size);
+    line-height: calc(var(--node-pt-size) * 1.5);
+  }
+  .cell-word{
+    z-index: -100;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 5pt;
+    margin: 5pt;
+    font-size: var(--node-pt-size);
+    line-height: calc(var(--node-pt-size) * 1.5);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  .cell-glyph{
+    z-index: -100;
+    float: left;
+    display: block;
+    text-align: center;
+    border-radius: 5pt;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 5pt;
+    margin: 5pt;
+    width: calc(var(--node-pt-size) * 2);
+    min-height: calc(var(--node-pt-size) * 2);
+    font-size: var(--node-pt-size);
+  }
+  .cell-glyph.font-before, .cell-word.font-before {
+    background: #eff6f2;
+  }
+  .cell-glyph.font-after, .cell-word.font-after {
+    background: #f7f4f4;
+  }
+
+  .cell-glyph:hover {
+    box-shadow: none;
+    background: #f0f0f5;
+  }
+  .cat-strings .cell {
+    clear: both;
+    position: static;
+    float: none;
+    text-align: left;
+  }
+  .codepoint {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 10pt;
+    line-height: 10pt;
+  }
+  .box-title {
+    clear: both;
+  }
+  .node.closed::before {
+    content: "+";
+    margin-right: 5pt;
+  }
+  .node.open::before {
+    content: "-";
+    margin-right: 5pt;
+  }
+
+  .tooltip pre {
+    background-color: #6f7882;
+    padding: 5px;
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+  .tooltip {
+    line-height: 1em;
+  }
+  .tooltip-inner {
+    max-width: 300px;
+  }
+
+  h1,h2,h3,h4,h5 {
+    clear: both;
+  }
+
+  #locationnav li {
+    white-space: wrap;
+  }
+
+  #userdefined div { width: 100%; }
+  
+/* The following rules are used in the WASM version, not in the CLI version.
+   But we keep them here so we can share them between the two versions. */
+
+   .modal-dialog {
+    max-width: 100% !important;
+    margin: 0 !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+  }
+
+  .fontdrop {
+    padding: 30px;
+    border-radius: 20px;
+    outline: 3px dashed #ffffffff;
+    outline-offset: -20px;
+  }
+
+  #fontbefore {
+    background-color: #ddffdddd;
+  }
+
+  #fontafter {
+    background-color: #ffdddddd;
+  }
+
+  .dragging {
+    background-image: linear-gradient(rgb(0 0 0/5%) 0 0);
+    outline: 5px dashed #ffffffff;
+  }
+
+  #diffkerns {
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+		</style>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+	integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+		<div id="ui-nav">
+		  <div class="ui-nav-item" id="fonttoggle">Old</div>
+		  <div class="ui-nav-item" id="fontanimate">Animate</div>
+		  <div id="axes">
+		  </div>
+		</div>
+	
+	<div class="row">
+		<div class="col-2">
+			<ul class="nav nav-pills" id="locationnav">
+			</ul>
+		</div>
+		<div class="col-9 mt-3">
+			<div id="title"></div>
+			<div id="cmapdiff"> </div>
+			<div id="main"></div>
+			<div id="userdefined">
+				<h4>User defined sample text</h4>
+				<div contenteditable="true" class="font-before cell-word">
+					You can type your own text here to see it previewed in the fonts.
+				</div>
+				<div style="clear: both"></div>
+			</div>
+			<div id="diffkerns"> </div>
+			<div id="difftable"> </div>
+		</div>
+	</div>
+	<script type="module">
+		function renderTableDiff(node, toplevel) {
+  var wrapper = $("<div> </div>");
+  if (!node) {
+    return wrapper;
+  }
+  if (Array.isArray(node) && node.length == 2) {
+    var before = $("<span/>");
+    before.addClass("attr-before");
+    before.html(" " + node[0] + " ");
+    var after = $("<span/>");
+    after.addClass("attr-after");
+    after.append(renderTableDiff(node[1], true).children());
+    wrapper.append(before);
+    wrapper.append(after);
+    return wrapper;
+  }
+  if (node.constructor != Object) {
+    var thing = $("<span/>");
+    thing.html(node);
+    wrapper.append(thing);
+    return wrapper;
+  }
+  for (const [key, value] of Object.entries(node)) {
+    var display = $("<div/>");
+    display.addClass("node");
+    if (!toplevel) {
+      display.hide();
+    }
+    display.append(key);
+    display.append(renderTableDiff(value, false).children());
+    if (display.children(".node").length > 0) {
+      display.addClass("closed");
+    }
+    wrapper.append(display);
+  }
+  return wrapper;
+}
+
+function addAGlyph(glyph, where) {
+  let title = "";
+  if (glyph.name) {
+    title = "name: " + glyph.name;
+  }
+  let cp =
+    "<br>U+" +
+    glyph.string.codePointAt(0).toString(16).padStart(4, "0").toUpperCase();
+  where.append(`
+        <div class="cell-glyph font-before">
+        <div data-toggle="tooltip" data-html="true" data-title="${glyph.differing_pixels} pixels"> ${glyph.string}
+        <div class="codepoint" data-toggle="tooltip" data-html="true" data-title="${title}">
+		${cp}
+        </div>
+        </div>
+    `);
+}
+
+function addAWord(diff, where) {
+  if (!diff.buffer_b) {
+    diff.buffer_b = diff.buffer_a;
+  }
+  where.append(`
+		<div class="cell-word font-before">
+		<span data-toggle="tooltip" data-html="true" data-title="Before: <pre>${diff.buffer_a}</pre>After: <pre>${diff.buffer_b}</pre><br>difference: ${diff.differing_pixels} pixels">
+		${diff.word}
+		</span>
+		</div>
+	`);
+}
+
+function diffTables(report) {
+  $("#difftable").empty();
+  $("#difftable").append(`<h4 class="mt-2 box-title">Table-level details</h4>`);
+  $("#difftable").append(
+    renderTableDiff({ tables: report["tables"] }, true).children()
+  );
+  $("#difftable .node").on("click", function (e) {
+    $(this).toggleClass("closed open");
+    $(this).children(".node").toggle();
+    e.stopPropagation();
+  });
+}
+function diffKerns(report) {
+  $("#diffkerns").empty();
+  $("#diffkerns").append(`<h4 class="mt-2">Modified Kerns</h4>`);
+  $("#diffkerns").append(
+    `<table class="table table-striped" id="diffkerns"><tr><th>Pair</th><th>Old</old><th>New</th></table>`
+  );
+  for (let [pair, value] of Object.entries(report["kerns"])) {
+    if (pair == "error") {
+      $("#diffkerns").append(`<p class="text-danger">Error: ${value}</p>`);
+      continue;
+    } else {
+      let row = $("<tr>");
+      row.append(`<td>${pair}</td>`);
+      row.append(`<td>${serializeKernBefore(value)}</td>`);
+      row.append(`<td>${serializeKernAfter(value)}</td>`);
+      $("#diffkerns table").append(row);
+    }
+  }
+}
+
+function serializeKernBefore(kern) {
+  if (Array.isArray(kern)) {
+    return serializeKern(kern[0], -1);
+  }
+  return serializeKern(kern, 0);
+}
+
+function serializeKernAfter(kern) {
+  if (Array.isArray(kern)) {
+    return serializeKern(kern[1], -1);
+  }
+  return serializeKern(kern, 1);
+}
+
+function serializeKern(kern, index) {
+  let string = "";
+  if (kern === null || kern === undefined) {
+    return "(null)";
+  }
+  if (kern.x) {
+    string += serializeKernValue(kern.x, index);
+  } else if (kern.y) {
+    string = "0";
+  }
+
+  if (kern.y) {
+    string += "," + serializeKernValue(kern.y, index);
+  }
+  if (!kern.x_placement && !kern.y_placement) {
+    return string;
+  }
+  string += "@";
+  if (kern.x_placement) {
+    string += serializeKernValue(kern.x_placement, index);
+  } else if (kern.y_placement) {
+    string += "0";
+  }
+  if (kern.y_placement) {
+    string += "," + serializeKernValue(kern.y_placement, index);
+  }
+  return string;
+}
+
+function serializeKernValue(kern, index) {
+  if (typeof kern == "number") {
+    return kern;
+  }
+  let string = "(";
+  let verybig = Object.entries(kern).length > 5;
+  for (let [key, value] of Object.entries(kern)) {
+    if (key == "default") {
+      string += value[index] + " ";
+    } else {
+      string += value[index] + "@" + key + " ";
+    }
+    if (verybig) {
+      string += "<br>";
+    }
+  }
+  return string.trim() + ")";
+}
+
+function cmapDiff(report) {
+  if (report.cmap_diff && (report.cmap_diff.new || report.cmap_diff.missing)) {
+    $("#cmapdiff").append(
+      `<h4 class="mt-2">Added and Removed Encoded Glyphs</h4>`
+    );
+    if (report["cmap_diff"]["new"]) {
+      $("#cmapdiff").append(`<h4 class="box-title">Added Glyphs</h4>`);
+      let added = $("<div>");
+      for (let glyph of report["cmap_diff"]["new"]) {
+        addAGlyph(glyph, added);
+      }
+      $("#cmapdiff").append(added);
+    }
+
+    if (report["cmap_diff"]["missing"]) {
+      $("#cmapdiff").append(`<h4 class="box-title">Removed Glyphs</h4>`);
+      let missing = $("<div>");
+      for (let glyph of report["cmap_diff"]["missing"]) {
+        addAGlyph(glyph, missing);
+      }
+      $("#cmapdiff").append(missing);
+    }
+  } else {
+    $("#cmapdiff").append(`<p>No changes to encoded glyphs</p>`);
+  }
+}
+
+function setupAnimation() {
+  $("#fonttoggle").click(function () {
+    if ($(this).text() == "Old") {
+      $(this).text("New");
+      $(".font-before").removeClass("font-before").addClass("font-after");
+    } else {
+      $(this).text("Old");
+      $(".font-after").removeClass("font-after").addClass("font-before");
+    }
+  });
+
+  let animationHandle;
+  function animate() {
+    $("#fonttoggle").click();
+    animationHandle = setTimeout(animate, 1000);
+  }
+  $("#fontanimate").click(function () {
+    if ($(this).text() == "Animate") {
+      $(this).text("Stop");
+      animate();
+    } else {
+      $(this).text("Animate");
+      clearTimeout(animationHandle);
+    }
+  });
+}
+
+export {
+  renderTableDiff,
+  addAGlyph,
+  addAWord,
+  cmapDiff,
+  diffTables,
+  diffKerns,
+  setupAnimation,
+};
+
+	var report = {"tables":{"GDEF":{"glyph_classes":{"copyleft":["Base",null],"u1F12F":[null,"Base"]}},"GPOS":{"lookup_list":{"0":{"0":{"bases":{"copyleft":[{"anchor_0":{"x":{"wght=900":412,"default":416},"y":0}},null],"u1F12F":[null,{"anchor_0":{"x":{"default":416,"wght=900":412},"y":0}}]}}}}},"HVAR":{"item_variation_store_offset":{"item_variation_data_count":[6,2],"item_variation_data_offsets":{"0":{"item_count":[3,73],"region_index_count":[1,2],"region_indexes":{"1":[null,1]},"delta_sets":{"error":"There are 146 changes, check manually!"}},"1":{"item_count":[5,22],"word_delta_count":[0,2],"region_index_count":[1,2],"region_indexes":{"0":[1,0],"1":[null,1]},"delta_sets":{"0":[248,254],"1":[33,54],"2":[36,1],"3":[60,140],"4":[79,254],"5":[null,67],"6":[null,1],"7":[null,48],"8":[null,254],"9":[null,79],"10":[null,1],"11":[null,47],"12":[null,254],"13":[null,164],"14":[null,0],"15":[null,235],"16":[null,254],"17":[null,191],"18":[null,0],"19":[null,202],"20":[null,254],"21":[null,192],"22":[null,0],"23":[null,237],"24":[null,254],"25":[null,204],"26":[null,1],"27":[null,40],"28":[null,254],"29":[null,229],"30":[null,0],"31":[null,202],"32":[null,254],"33":[null,243],"34":[null,1],"35":[null,83],"36":[null,255],"37":[null,2],"38":[null,0],"39":[null,114],"40":[null,255],"41":[null,31],"42":[null,0],"43":[null,168],"44":[null,255],"45":[null,33],"46":[null,0],"47":[null,168],"48":[null,255],"49":[null,59],"50":[null,0],"51":[null,170],"52":[null,255],"53":[null,60],"54":[null,0],"55":[null,134],"56":[null,255],"57":[null,60],"58":[null,0],"59":[null,170],"60":[null,255],"61":[null,65],"62":[null,0],"63":[null,238],"64":[null,255],"65":[null,66],"66":[null,0],"67":[null,238],"68":[null,255],"69":[null,97],"70":[null,0],"71":[null,195],"72":[null,255],"73":[null,98],"74":[null,0],"75":[null,195],"76":[null,255],"77":[null,123],"78":[null,0],"79":[null,101],"80":[null,255],"81":[null,179],"82":[null,0],"83":[null,137],"84":[null,255],"85":[null,199],"86":[null,0],"87":[null,137]}},"2":[{"item_count":65,"word_delta_count":0,"region_index_count":2,"region_indexes":[0,1],"delta_sets":[130,78,138,60,140,65,155,124,159,65,163,101,173,65,174,100,176,125,178,4,178,103,185,67,186,28,186,60,186,69,191,103,194,74,194,87,195,68,195,98,195,109,200,58,200,101,201,27,205,35,205,65,205,66,205,67,206,62,206,101,211,52,211,55,214,79,214,99,217,249,218,216,218,4,218,56,219,24,219,94,221,25,224,27,224,28,225,59,226,32,229,16,229,20,230,30,230,49,232,54,233,94,235,38,237,26,237,30,238,17,238,58,242,37,245,17,248,12,248,59,250,249,250,28,254,223,254,14,6,39]},null],"3":[{"item_count":2,"word_delta_count":1,"region_index_count":2,"region_indexes":[0,1],"delta_sets":[255,2,114,255,123,101]},null],"4":[{"item_count":2,"word_delta_count":1,"region_index_count":2,"region_indexes":[1,0],"delta_sets":[0,137,179,0,137,199]},null],"5":[{"item_count":18,"word_delta_count":2,"region_index_count":2,"region_indexes":[0,1],"delta_sets":[254,54,1,140,254,67,1,48,254,79,1,47,254,164,0,235,254,191,0,202,254,192,0,237,254,204,1,40,254,229,0,202,254,243,1,83,255,31,0,168,255,33,0,168,255,59,0,170,255,60,0,134,255,60,0,170,255,65,0,238,255,66,0,238,255,97,0,195,255,98,0,195]},null]}},"advance_width_mapping_offset":{"entry_format":[22,6],"map_data":{"error":"There are 1681 changes, check manually!"}}},"OS/2":{"fs_selection":[192,448]},"STAT":{"offset_to_axis_value_offsets":{"axis_value_offsets":{"1":{"value_name_id":["258","259"]},"2":{"value_name_id":["259","261"]},"4":{"value_name_id":["261","265"]},"5":{"value_name_id":["262","267"]},"6":{"value_name_id":["263","269"]},"7":{"value_name_id":["264","271"]},"8":{"value_name_id":["265","273"]}}}},"VVAR":{"item_variation_store_offset":{"variation_region_list_offset":{"region_count":[2,0],"variation_regions":{"0":[{"region_axes":[{"start_coord":-1.0,"peak_coord":-1.0,"end_coord":0.0}]},null],"1":[{"region_axes":[{"start_coord":0.0,"peak_coord":1.0,"end_coord":1.0}]},null]}},"item_variation_data_offsets":{"0":{"item_count":[846,1]}}},"advance_height_mapping_offset":["0x0000",{"format":0,"entry_format":0,"map_count":1,"map_data":[0]}]},"cmap":{"U+1F12F":["copyleft","u1F12F"]},"fvar":{"axis_instance_arrays_offset":{"instances":{"0":{"subfamily_name_id":["266","257"],"post_script_name_id":[null,"258"]},"1":{"subfamily_name_id":["267","259"],"post_script_name_id":[null,"260"]},"2":{"subfamily_name_id":["268","261"],"post_script_name_id":[null,"262"]},"3":{"subfamily_name_id":["269","263"],"post_script_name_id":[null,"264"]},"4":{"subfamily_name_id":["270","265"],"post_script_name_id":[null,"266"]},"5":{"subfamily_name_id":["271","267"],"post_script_name_id":[null,"268"]},"6":{"subfamily_name_id":["272","269"],"post_script_name_id":[null,"270"]},"7":{"subfamily_name_id":["273","271"],"post_script_name_id":[null,"272"]},"8":{"subfamily_name_id":["274","273"],"post_script_name_id":[null,"274"]}}},"instance_size":[8,10]},"head":{"checksum_adjustment":[890875864,1893827879],"modified":[3770716707,3813912244]},"hhea":{"caret_slope_rise":[1,1000]},"hmtx":{"copyleft":[{"width":832,"lsb":49},null],"u1F12F":[null,{"width":832,"lsb":49}]},"loca":{"offsets":{"error":"There are 547 changes, check manually!"}},"name":{"LICENSE_DESCRIPTION":{"en-US":["This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL","This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org"]},"LICENSE_URL":{"en-US":["https://scripts.sil.org/OFL","https://openfontlicense.org"]},"256":{"en":[null,"Weight"]},"257":{"en":[null,"Thin"]},"258":{"en-US":["ExtraLight","NotoSansSymbols-Thin"],"en":[null,"NotoSansSymbols-Thin"]},"259":{"en-US":["Light","ExtraLight"],"en":[null,"ExtraLight"]},"261":{"en-US":["Medium","Light"],"en":[null,"Light"]},"262":{"en-US":["SemiBold","NotoSansSymbols-Light"],"en":[null,"NotoSansSymbols-Light"]},"263":{"en-US":["Bold","Regular"],"en":[null,"Regular"]},"264":{"en-US":["ExtraBold","NotoSansSymbols-Regular"],"en":[null,"NotoSansSymbols-Regular"]},"265":{"en-US":["Black","Medium"],"en":[null,"Medium"]},"266":{"en":["Thin","NotoSansSymbols-Medium"],"en-US":["Thin","NotoSansSymbols-Medium"]},"267":{"en":["ExtraLight","SemiBold"],"en-US":["ExtraLight","SemiBold"]},"268":{"en":["Light","NotoSansSymbols-SemiBold"],"en-US":["Light","NotoSansSymbols-SemiBold"]},"269":{"en":["Regular","Bold"],"en-US":["Regular","Bold"]},"270":{"en":["Medium","NotoSansSymbols-Bold"],"en-US":["Medium","NotoSansSymbols-Bold"]},"271":{"en":["SemiBold","ExtraBold"],"en-US":["SemiBold","ExtraBold"]},"272":{"en":["Bold","NotoSansSymbols-ExtraBold"],"en-US":["Bold","NotoSansSymbols-ExtraBold"]},"273":{"en":["ExtraBold","Black"],"en-US":["ExtraBold","Black"]},"274":{"en":["Black","NotoSansSymbols-Black"],"en-US":["Black","NotoSansSymbols-Black"]},"260":[null,{"en":"NotoSansSymbols-ExtraLight","en-US":"NotoSansSymbols-ExtraLight"}]}},"cmap_diff":{},"locations":[{"location":"Medium","coords":{"wght":500.0},"glyphs":[{"string":"⚢","name":"DOUBLED FEMALE SIGN","unicode":"U+26A2","differing_pixels":31}],"words":{}},{"location":"SemiBold","coords":{"wght":600.0},"glyphs":[{"string":"⚢","name":"DOUBLED FEMALE SIGN","unicode":"U+26A2","differing_pixels":41}],"words":{}},{"location":"Bold","coords":{"wght":700.0},"glyphs":[{"string":"⚢","name":"DOUBLED FEMALE SIGN","unicode":"U+26A2","differing_pixels":33}],"words":{}},{"location":"ExtraBold","coords":{"wght":800.0},"glyphs":[{"string":"⚢","name":"DOUBLED FEMALE SIGN","unicode":"U+26A2","differing_pixels":31}],"words":{}}]};
+		function buildLocation_statichtml(loc) {
+  // Set font styles to appropriate axis locations
+  let rule = document.styleSheets[0].cssRules[2].style;
+  let cssSetting = "";
+  let textLocation = "Default";
+  if (loc.coords) {
+    cssSetting = Object.entries(loc.coords)
+      .map(function ([axis, value]) {
+        return `"${axis}" ${value}`;
+      })
+      .join(", ");
+    textLocation = Object.entries(loc.coords)
+      .map(function ([axis, value]) {
+        return `${axis}=${value}`;
+      })
+      .join(" ");
+    rule.setProperty("font-variation-settings", cssSetting);
+  }
+
+  $("#main").empty();
+
+  $("#title").html(`<h4 class="mt-2">${textLocation}</h2>`);
+
+  if (loc.glyphs) {
+    $("#main").append("<h4>Modified Glyphs</h4>");
+    let glyphs = $("<div>");
+    for (let glyph of loc.glyphs) {
+      addAGlyph(glyph, glyphs);
+    }
+    $("#main").append(glyphs);
+  }
+
+  if (loc.words) {
+    $("#main").append("<h4>Modified Words</h4>");
+    for (let [script, words] of Object.entries(loc.words)) {
+      let scriptTitle = $(`<h6>${script}</h6>`);
+      $("#main").append(scriptTitle);
+      let worddiv = $("<div>");
+      for (let word of words) {
+        addAWord(word, worddiv);
+      }
+      $("#main").append(worddiv);
+    }
+  }
+  $('[data-toggle="tooltip"]').tooltip();
+}
+
+$(function () {
+  if (report["tables"]) {
+    diffTables(report);
+  }
+  if (report["kerns"]) {
+    diffKerns(report);
+  }
+  cmapDiff(report);
+  $('[data-toggle="tooltip"]').tooltip();
+  if (!report["locations"]) {
+    $("#title").html("<h4 class='mt-2'>No differences found</h4>");
+    $("#ui-nav").hide();
+    return;
+  }
+
+  for (var [index, loc] of report["locations"].entries()) {
+    var loc_nav = $(`<li class="nav-item">
+		<a class="nav-link text-secondary" href="#" data-index="${index}">${loc.location.replaceAll(
+      ",",
+      ",\u200b"
+    )}</a>
+	</li>`);
+    $("#locationnav").append(loc_nav);
+  }
+  $("#locationnav li a").on("click", function (e) {
+    $("#locationnav li a").removeClass("active");
+    $(this).addClass("active");
+    buildLocation_statichtml(report.locations[$(this).data("index")]);
+  });
+  $("#locationnav li a").eq(0).click();
+
+  document.styleSheets[0].cssRules[0].style.setProperty(
+    "src",
+    "url(old-NotoSansSymbols[wght].ttf)"
+  );
+  document.styleSheets[0].cssRules[1].style.setProperty(
+    "src",
+    "url(new-NotoSansSymbols[wght].ttf)"
+  );
+  setupAnimation();
+});
+
+	</script>
+</body>
+
+</html>

@@ -1,18 +1,19 @@
 ## FontBakery report
 
-fontbakery version: 0.12.4
+fontbakery version: 0.12.10
 
 
 
-## Experimental checks
-
-These won't break the CI job for now, but will become effective after some time if nobody raises any concern.
 
 
-<details><summary>[1] NotoSansSymbols[wght].ttf</summary>
+## Check results
+
+
+
+<details><summary>[9] NotoSansSymbols[wght].ttf</summary>
 <div>
 <details>
-    <summary>⚠️ <b>WARN</b> Validate location, size and resolution of article images. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
     <div>
 
 
@@ -21,25 +22,83 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* ⚠️ **WARN** <p>Family metadata at fonts/NotoSansSymbols/googlefonts/variable does not have an article.</p>
- [code: lacks-article]
+* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Glyph present in the font</th>
+<th align="left">Missing case-swapping counterpart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">U+2183: ROMAN NUMERAL REVERSED ONE HUNDRED</td>
+<td align="left">U+2184: LATIN SMALL LETTER REVERSED C</td>
+</tr>
+</tbody>
+</table>
+ [code: missing-case-counterparts]
 
 
 
 </div>
 </details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nl_Latn (Dutch)</td>
+<td align="left">Shaper didn't attach acutecomb to J</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
 </div>
 </details>
 
+<details>
+    <summary>🔥 <b>FAIL</b> Check for presence of an ARTICLE.en_us.html file <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.description.html#"></a></summary>
+    <div>
 
 
 
-## All other checks
 
 
 
-<details><summary>[10] NotoSansSymbols[wght].ttf</summary>
-<div>
+
+* 🔥 **FAIL** <p>This is a Noto font but it lacks an ARTICLE.en_us.html file.</p>
+ [code: missing-article]
+
+
+
+* 🔥 **FAIL** <p>This is a Noto font but it lacks a DESCRIPTION.en_us.html file.</p>
+ [code: missing-description]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>⚠️ <b>WARN</b> Detect any interpolation issues in the font. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
@@ -65,28 +124,7 @@ These won't break the CI job for now, but will become effective after some time 
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The most common width is 572 among a set of 6 math glyphs.
-The following math glyphs have a different width, though:</p>
-<p>Width = 322:
-minus</p>
- [code: width-outliers]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
     <div>
 
 
@@ -114,7 +152,7 @@ minus</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
     <div>
 
 
@@ -123,11 +161,8 @@ minus</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̧̀ į̧́ į̧̂ į̧̃</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Aghem (Latn, 38,843 speakers), Bete-Bendi (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), Nzakara (Latn, 50,000 speakers), Cicipu (Latn, 44,000 speakers), South Central Banda (Latn, 244,000 speakers), Bafut (Latn, 158,146 speakers), Ngbaka (Latn, 1,020,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Navajo (Latn, 166,319 speakers), Yala (Latn, 200,000 speakers), Kom (Latn, 360,685 speakers), Ejagham (Latn, 120,000 speakers), Mundani (Latn, 34,000 speakers), Zapotec (Latn, 490,000 speakers), Gulay (Latn, 250,478 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Fur (Latn, 1,230,163 speakers), Southern Kisi (Latn, 360,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Avokaya (Latn, 100,000 speakers), Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Mfumte (Latn, 79,000 speakers), Mango (Latn, 77,000 speakers), Dii (Latn, 71,000 speakers), Dan (Latn, 1,099,244 speakers), Sar (Latn, 500,000 speakers), Basaa (Latn, 332,940 speakers), Koonzime (Latn, 40,000 speakers), Igbo (Latn, 27,823,640 speakers), Makaa (Latn, 221,000 speakers), Ekpeye (Latn, 226,000 speakers), Nateni (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers).</p>
- [code: soft-dotted]
+* ⚠️ **WARN** <p>Family metadata at fonts/NotoSansSymbols/googlefonts/variable-ttf does not have an article.</p>
+ [code: lacks-article]
 
 
 
@@ -150,20 +185,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi</li>
-<li>U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition</li>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, coptic, tai-le, syriac, tifinagh, old-permic, math</li>
-<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, duployan, tai-le, syriac, old-permic, canadian-aboriginal, todhri, coptic, math, malayalam</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
-<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
-<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
+<li>U+0326 COMBINING COMMA BELOW: try adding math</li>
+<li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+20DD COMBINING ENCLOSING CIRCLE: try adding symbols</li>
 <li>U+20DE COMBINING ENCLOSING SQUARE: try adding symbols</li>
@@ -214,14 +246,14 @@ definitions.</p>
 <li>U+2188 ROMAN NUMERAL ONE HUNDRED THOUSAND: try adding symbols</li>
 <li>U+218A TURNED DIGIT TWO: try adding symbols</li>
 <li>U+218B TURNED DIGIT THREE: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+2300 DIAMETER SIGN: try adding symbols</li>
 <li>U+2301 ELECTRIC ARROW: try adding symbols</li>
 <li>U+2302 HOUSE: try adding symbols</li>
@@ -230,10 +262,10 @@ definitions.</p>
 <li>U+2305 PROJECTIVE: try adding symbols</li>
 <li>U+2306 PERSPECTIVE: try adding symbols</li>
 <li>U+2307 WAVY LINE: try adding symbols</li>
-<li>U+2308 LEFT CEILING: try adding one of: symbols, math</li>
-<li>U+2309 RIGHT CEILING: try adding one of: symbols, math</li>
-<li>U+230A LEFT FLOOR: try adding one of: symbols, math</li>
-<li>U+230B RIGHT FLOOR: try adding one of: symbols, math</li>
+<li>U+2308 LEFT CEILING: try adding one of: math, symbols</li>
+<li>U+2309 RIGHT CEILING: try adding one of: math, symbols</li>
+<li>U+230A LEFT FLOOR: try adding one of: math, symbols</li>
+<li>U+230B RIGHT FLOOR: try adding one of: math, symbols</li>
 <li>U+230C BOTTOM RIGHT CROP: try adding symbols</li>
 <li>U+230D BOTTOM LEFT CROP: try adding symbols</li>
 <li>U+230E TOP RIGHT CROP: try adding symbols</li>
@@ -244,10 +276,10 @@ definitions.</p>
 <li>U+2314 SECTOR: try adding symbols</li>
 <li>U+2315 TELEPHONE RECORDER: try adding symbols</li>
 <li>U+2317 VIEWDATA SQUARE: try adding symbols</li>
-<li>U+231C TOP LEFT CORNER: try adding one of: symbols, math</li>
-<li>U+231D TOP RIGHT CORNER: try adding one of: symbols, math</li>
-<li>U+231E BOTTOM LEFT CORNER: try adding one of: symbols, math</li>
-<li>U+231F BOTTOM RIGHT CORNER: try adding one of: symbols, math</li>
+<li>U+231C TOP LEFT CORNER: try adding one of: math, symbols</li>
+<li>U+231D TOP RIGHT CORNER: try adding one of: math, symbols</li>
+<li>U+231E BOTTOM LEFT CORNER: try adding one of: math, symbols</li>
+<li>U+231F BOTTOM RIGHT CORNER: try adding one of: math, symbols</li>
 <li>U+2322 FROWN: try adding symbols</li>
 <li>U+2323 SMILE: try adding symbols</li>
 <li>U+2329 LEFT-POINTING ANGLE BRACKET: try adding symbols</li>
@@ -262,7 +294,7 @@ definitions.</p>
 <li>U+2333 SLOPE: try adding symbols</li>
 <li>U+2334 COUNTERBORE: try adding symbols</li>
 <li>U+2335 COUNTERSINK: try adding symbols</li>
-<li>U+237C RIGHT ANGLE WITH DOWNWARDS ZIGZAG ARROW: try adding one of: symbols, math</li>
+<li>U+237C RIGHT ANGLE WITH DOWNWARDS ZIGZAG ARROW: try adding one of: math, symbols</li>
 <li>U+2380 INSERTION SYMBOL: try adding symbols</li>
 <li>U+2381 CONTINUOUS UNDERLINE SYMBOL: try adding symbols</li>
 <li>U+2382 DISCONTINUOUS UNDERLINE SYMBOL: try adding symbols</li>
@@ -289,7 +321,7 @@ definitions.</p>
 <li>U+2398 NEXT PAGE: try adding symbols</li>
 <li>U+2399 PRINT SCREEN SYMBOL: try adding symbols</li>
 <li>U+239A CLEAR SCREEN SYMBOL: try adding symbols</li>
-<li>U+23AF HORIZONTAL LINE EXTENSION: try adding one of: symbols, math</li>
+<li>U+23AF HORIZONTAL LINE EXTENSION: try adding one of: math, symbols</li>
 <li>U+23BE DENTISTRY SYMBOL LIGHT VERTICAL AND TOP RIGHT: try adding symbols</li>
 <li>U+23BF DENTISTRY SYMBOL LIGHT VERTICAL AND BOTTOM RIGHT: try adding symbols</li>
 <li>U+23C0 DENTISTRY SYMBOL LIGHT VERTICAL WITH CIRCLE: try adding symbols</li>
@@ -306,7 +338,7 @@ definitions.</p>
 <li>U+23CB DENTISTRY SYMBOL LIGHT VERTICAL AND TOP LEFT: try adding symbols</li>
 <li>U+23CC DENTISTRY SYMBOL LIGHT VERTICAL AND BOTTOM LEFT: try adding symbols</li>
 <li>U+23CD SQUARE FOOT: try adding symbols</li>
-<li>U+23D0 VERTICAL LINE EXTENSION: try adding one of: symbols, math</li>
+<li>U+23D0 VERTICAL LINE EXTENSION: try adding one of: math, symbols</li>
 <li>U+23D1 METRICAL BREVE: try adding symbols</li>
 <li>U+23D2 METRICAL LONG OVER SHORT: try adding symbols</li>
 <li>U+23D3 METRICAL SHORT OVER LONG: try adding symbols</li>
@@ -325,28 +357,28 @@ definitions.</p>
 <li>U+23E6 AC CURRENT: try adding symbols</li>
 <li>U+23E7 ELECTRICAL INTERSECTION: try adding symbols</li>
 <li>U+23E8 DECIMAL EXPONENT SYMBOL: try adding symbols</li>
-<li>U+2460 CIRCLED DIGIT ONE: try adding one of: symbols, mongolian, yi</li>
-<li>U+2461 CIRCLED DIGIT TWO: try adding one of: symbols, mongolian, yi</li>
-<li>U+2462 CIRCLED DIGIT THREE: try adding one of: symbols, mongolian, yi</li>
-<li>U+2463 CIRCLED DIGIT FOUR: try adding one of: symbols, mongolian, yi</li>
-<li>U+2464 CIRCLED DIGIT FIVE: try adding one of: symbols, mongolian, yi</li>
-<li>U+2465 CIRCLED DIGIT SIX: try adding one of: symbols, mongolian, yi</li>
-<li>U+2466 CIRCLED DIGIT SEVEN: try adding one of: symbols, mongolian, yi</li>
-<li>U+2467 CIRCLED DIGIT EIGHT: try adding one of: symbols, mongolian, yi</li>
-<li>U+2468 CIRCLED DIGIT NINE: try adding one of: symbols, mongolian, yi</li>
-<li>U+2469 CIRCLED NUMBER TEN: try adding one of: symbols, mongolian, yi</li>
-<li>U+246A CIRCLED NUMBER ELEVEN: try adding one of: symbols, mongolian, yi</li>
-<li>U+246B CIRCLED NUMBER TWELVE: try adding one of: symbols, mongolian, yi</li>
-<li>U+246C CIRCLED NUMBER THIRTEEN: try adding one of: symbols, mongolian, yi</li>
-<li>U+246D CIRCLED NUMBER FOURTEEN: try adding one of: symbols, mongolian, yi</li>
-<li>U+246E CIRCLED NUMBER FIFTEEN: try adding one of: symbols, mongolian, yi</li>
-<li>U+246F CIRCLED NUMBER SIXTEEN: try adding one of: symbols, mongolian, yi</li>
-<li>U+2470 CIRCLED NUMBER SEVENTEEN: try adding one of: symbols, mongolian, yi</li>
-<li>U+2471 CIRCLED NUMBER EIGHTEEN: try adding one of: symbols, mongolian, yi</li>
-<li>U+2472 CIRCLED NUMBER NINETEEN: try adding one of: symbols, mongolian, yi</li>
-<li>U+2473 CIRCLED NUMBER TWENTY: try adding one of: symbols, mongolian, yi</li>
-<li>U+2474 PARENTHESIZED DIGIT ONE: try adding one of: symbols, math</li>
-<li>U+2475 PARENTHESIZED DIGIT TWO: try adding one of: symbols, math</li>
+<li>U+2460 CIRCLED DIGIT ONE: try adding one of: mongolian, symbols, yi</li>
+<li>U+2461 CIRCLED DIGIT TWO: try adding one of: mongolian, symbols, yi</li>
+<li>U+2462 CIRCLED DIGIT THREE: try adding one of: mongolian, symbols, yi</li>
+<li>U+2463 CIRCLED DIGIT FOUR: try adding one of: mongolian, symbols, yi</li>
+<li>U+2464 CIRCLED DIGIT FIVE: try adding one of: mongolian, symbols, yi</li>
+<li>U+2465 CIRCLED DIGIT SIX: try adding one of: mongolian, symbols, yi</li>
+<li>U+2466 CIRCLED DIGIT SEVEN: try adding one of: mongolian, symbols, yi</li>
+<li>U+2467 CIRCLED DIGIT EIGHT: try adding one of: mongolian, symbols, yi</li>
+<li>U+2468 CIRCLED DIGIT NINE: try adding one of: mongolian, symbols, yi</li>
+<li>U+2469 CIRCLED NUMBER TEN: try adding one of: mongolian, symbols, yi</li>
+<li>U+246A CIRCLED NUMBER ELEVEN: try adding one of: mongolian, symbols, yi</li>
+<li>U+246B CIRCLED NUMBER TWELVE: try adding one of: mongolian, symbols, yi</li>
+<li>U+246C CIRCLED NUMBER THIRTEEN: try adding one of: mongolian, symbols, yi</li>
+<li>U+246D CIRCLED NUMBER FOURTEEN: try adding one of: mongolian, symbols, yi</li>
+<li>U+246E CIRCLED NUMBER FIFTEEN: try adding one of: mongolian, symbols, yi</li>
+<li>U+246F CIRCLED NUMBER SIXTEEN: try adding one of: mongolian, symbols, yi</li>
+<li>U+2470 CIRCLED NUMBER SEVENTEEN: try adding one of: mongolian, symbols, yi</li>
+<li>U+2471 CIRCLED NUMBER EIGHTEEN: try adding one of: mongolian, symbols, yi</li>
+<li>U+2472 CIRCLED NUMBER NINETEEN: try adding one of: mongolian, symbols, yi</li>
+<li>U+2473 CIRCLED NUMBER TWENTY: try adding one of: mongolian, symbols, yi</li>
+<li>U+2474 PARENTHESIZED DIGIT ONE: try adding one of: math, symbols</li>
+<li>U+2475 PARENTHESIZED DIGIT TWO: try adding one of: math, symbols</li>
 <li>U+2476 PARENTHESIZED DIGIT THREE: try adding symbols</li>
 <li>U+2477 PARENTHESIZED DIGIT FOUR: try adding symbols</li>
 <li>U+2478 PARENTHESIZED DIGIT FIVE: try adding symbols</li>
@@ -485,7 +517,7 @@ definitions.</p>
 <li>U+24FD DOUBLE CIRCLED DIGIT NINE: try adding symbols</li>
 <li>U+24FE DOUBLE CIRCLED NUMBER TEN: try adding symbols</li>
 <li>U+24FF NEGATIVE CIRCLED DIGIT ZERO: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: wancho, yi, pahawh-hmong, cham, elbasan, gunjala-gondi, khojki, sinhala, tirhuta, dogra, math, duployan, symbols, mahajani, miao, mandaic, thai, grantha, rejang, siddham, khudawadi, armenian, saurashtra, mongolian, batak, newa, manichaean, sharada, syriac, sundanese, meetei-mayek, buhid, tagbanwa, hanunoo, chakma, sogdian, soyombo, kayah-li, tibetan, caucasian-albanian, new-tai-lue, adlam, tai-viet, hebrew, zanabazar-square, ahom, khmer, psalter-pahlavi, tamil, nko, myanmar, balinese, tai-le, javanese, buginese, oriya, takri, devanagari, kharoshthi, kannada, marchen, warang-citi, malayalam, bengali, mende-kikakui, hanifi-rohingya, tai-tham, tagalog, lao, phags-pa, bhaiksuki, brahmi, limbu, music, telugu, old-permic, bassa-vah, thaana, gujarati, modi, coptic, kaithi, lepcha, syloti-nagri, canadian-aboriginal, masaram-gondi, osage, gurmukhi, tifinagh</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: yi, meetei-mayek, nko, takri, limbu, lepcha, myanmar, old-permic, coptic, saurashtra, zanabazar-square, tagbanwa, tai-viet, tagalog, brahmi, cham, telugu, devanagari, gurmukhi, sharada, tai-le, kaithi, khudawadi, syriac, batak, gunjala-gondi, elbasan, tai-tham, sogdian, mende-kikakui, buginese, hanunoo, thaana, psalter-pahlavi, math, tibetan, wancho, tamil, kharoshthi, canadian-aboriginal, grantha, ahom, bengali, buhid, bhaiksuki, caucasian-albanian, gujarati, rejang, modi, syloti-nagri, hebrew, mongolian, masaram-gondi, osage, tifinagh, armenian, newa, new-tai-lue, malayalam, adlam, oriya, dogra, thai, tirhuta, marchen, chakma, duployan, mahajani, sinhala, phags-pa, siddham, pahawh-hmong, bassa-vah, music, soyombo, javanese, kannada, khmer, kayah-li, khojki, manichaean, symbols, miao, balinese, hanifi-rohingya, warang-citi, mandaic, sundanese, lao</li>
 <li>U+260A ASCENDING NODE: try adding symbols</li>
 <li>U+260B DESCENDING NODE: try adding symbols</li>
 <li>U+260C CONJUNCTION: try adding symbols</li>
@@ -499,7 +531,7 @@ definitions.</p>
 <li>U+2629 CROSS OF JERUSALEM: try adding symbols</li>
 <li>U+262A STAR AND CRESCENT: try adding symbols</li>
 <li>U+262B FARSI SYMBOL: try adding symbols</li>
-<li>U+262C ADI SHAKTI: try adding one of: symbols, gurmukhi</li>
+<li>U+262C ADI SHAKTI: try adding one of: gurmukhi, symbols</li>
 <li>U+262D HAMMER AND SICKLE: try adding symbols</li>
 <li>U+262E PEACE SYMBOL: try adding symbols</li>
 <li>U+262F YIN YANG: try adding symbols</li>
@@ -534,9 +566,9 @@ definitions.</p>
 <li>U+266A EIGHTH NOTE: try adding one of: symbols, music</li>
 <li>U+266B BEAMED EIGHTH NOTES: try adding one of: symbols, music</li>
 <li>U+266C BEAMED SIXTEENTH NOTES: try adding one of: symbols, music</li>
-<li>U+266D MUSIC FLAT SIGN: try adding one of: symbols, music, math</li>
-<li>U+266E MUSIC NATURAL SIGN: try adding one of: symbols, music, math</li>
-<li>U+266F MUSIC SHARP SIGN: try adding one of: symbols, music, math</li>
+<li>U+266D MUSIC FLAT SIGN: try adding one of: math, symbols, music</li>
+<li>U+266E MUSIC NATURAL SIGN: try adding one of: math, symbols, music</li>
+<li>U+266F MUSIC SHARP SIGN: try adding one of: math, symbols, music</li>
 <li>U+2670 WEST SYRIAC CROSS: try adding one of: symbols, syriac</li>
 <li>U+2671 EAST SYRIAC CROSS: try adding one of: symbols, syriac</li>
 <li>U+2672 UNIVERSAL RECYCLING SYMBOL: try adding symbols</li>
@@ -656,8 +688,8 @@ definitions.</p>
 <li>U+2791 DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT EIGHT: try adding symbols</li>
 <li>U+2792 DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT NINE: try adding symbols</li>
 <li>U+2793 DINGBAT NEGATIVE CIRCLED SANS-SERIF NUMBER TEN: try adding symbols</li>
-<li>U+2921 NORTH WEST AND SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2922 NORTH EAST AND SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2921 NORTH WEST AND SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2922 NORTH EAST AND SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+1F100 DIGIT ZERO FULL STOP: try adding symbols</li>
 <li>U+1F101 DIGIT ZERO COMMA: try adding symbols</li>
 <li>U+1F102 DIGIT ONE COMMA: try adding symbols</li>
@@ -938,8 +970,29 @@ definitions.</p>
 <li>U+1F772 ALCHEMICAL SYMBOL FOR HALF DRAM: try adding symbols</li>
 <li>U+1F773 ALCHEMICAL SYMBOL FOR HALF OUNCE: try adding symbols</li>
 </ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>greek-ext</code>, <code>latin</code>, <code>latin-ext</code></p>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̧̀ į̧́ į̧̂ į̧̃</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Avokaya (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Sar (Latn, 500,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ekpeye (Latn, 226,000 speakers), Ma’di (Latn, 584,000 speakers), Igbo (Latn, 27,823,640 speakers), Makaa (Latn, 221,000 speakers), Han (Latn, 6 speakers), Mfumte (Latn, 79,000 speakers), Dan (Latn, 1,099,244 speakers), South Central Banda (Latn, 244,000 speakers), Kaska (Latn, 125 speakers), Lugbara (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Cicipu (Latn, 44,000 speakers), Fur (Latn, 1,230,163 speakers), Dutch (Latn, 31,709,104 speakers), Mango (Latn, 77,000 speakers), Basaa (Latn, 332,940 speakers), Vute (Latn, 21,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Mundani (Latn, 34,000 speakers), Nateni (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Nzakara (Latn, 50,000 speakers), Southern Kisi (Latn, 360,000 speakers), Kom (Latn, 360,685 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dii (Latn, 71,000 speakers), Heiltsuk (Latn, 300 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ebira (Latn, 2,200,000 speakers), Navajo (Latn, 166,319 speakers), Yala (Latn, 200,000 speakers), Gulay (Latn, 250,478 speakers), Belarusian (Cyrl, 10,064,517 speakers), Koonzime (Latn, 40,000 speakers), Ejagham (Latn, 120,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers).</p>
+ [code: soft-dotted]
 
 
 
@@ -963,139 +1016,6 @@ definitions.</p>
 
 </div>
 </details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+2183: ROMAN NUMERAL REVERSED ONE HUNDRED</td>
-<td align="left">U+2184: LATIN SMALL LETTER REVERSED C</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- gravecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni0326
-
-- uni0327
-
-- uni0328
-</code></pre>
- [code: unattached-dotted-circle-marks]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nl_Latn (Dutch)</td>
-<td align="left">Shaper didn't attach acutecomb to J</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check for presence of an ARTICLE.en_us.html file <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.description.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>This is a Noto font but it lacks an ARTICLE.en_us.html file</p>
- [code: missing-article]
-
-
-
-* 🔥 **FAIL** <p>This is a Noto font but it lacks a DESCRIPTION.en_us.html file</p>
- [code: empty-description]
-
-
-
-</div>
-</details>
 </div>
 </details>
 
@@ -1106,8 +1026,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 4 | 7 | 97 | 7 | 134 | 0 | 
-| 0% | 0% | 2% | 3% | 39% | 3% | 54% | 0% | 
+| 0 | 0 | 3 | 6 | 97 | 7 | 138 | 0 | 
+| 0% | 0% | 1% | 2% | 39% | 3% | 55% | 0% | 
 
 
 
