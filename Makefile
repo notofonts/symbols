@@ -1,9 +1,7 @@
-SOURCES=$(shell python3 scripts/read-config.py --sources )
-FAMILY=$(shell python3 scripts/read-config.py --family )
-
+SOURCES=$(shell python3 scripts/read-config.py --sources | sed 's/[^a-zA-Z._\/ ]//')
 help:
 	@echo "###"
-	@echo "# Build targets for $(FAMILY)"
+	@echo "# Build targets"
 	@echo "###"
 	@echo
 	@echo "  make build:  Builds the fonts and places them in the fonts/ directory"
